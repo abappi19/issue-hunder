@@ -65,7 +65,6 @@ DEFAULT_TITLE = "Tracked Projects"
 # collect_top.py: the general (all-languages) top-repos collection
 TOP_DIR_NAME = "top-projects"
 TOP_OUTPUT_DIR = f"{OUTPUT_DIR}/{TOP_DIR_NAME}"
-TOP_SUMMARY_PATH = f"{TOP_OUTPUT_DIR}/README.md"
 TOP_TITLE = "Top Open-Source Projects"
 
 # Every collection drops one of these beside the pages it writes, recording

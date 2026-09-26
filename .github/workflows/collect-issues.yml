@@ -32,6 +32,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md output/projects/
+          # -A so pruned pages are staged as deletions: a plain `git add <dir>`
+          # misses a directory that no longer exists at all.
+          git add -A README.md output/projects
           git diff --cached --quiet || git commit -m "chore: weekly issue snapshot"
           git push

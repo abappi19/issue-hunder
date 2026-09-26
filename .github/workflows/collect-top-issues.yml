@@ -32,6 +32,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md output/top-*/
+          # -A on output/ as a whole, not the top-*/ glob: a collection dropped
+          # from languages.json is deleted outright, and the glob would no
+          # longer match it, leaving the deletion unstaged forever.
+          git add -A README.md output
           git diff --cached --quiet || git commit -m "chore: weekly top-repo issue snapshot"
           git push

@@ -11,19 +11,18 @@ from utils.prune_output import prune_stale_projects
 from utils.sort_key import is_lower_bound, unassigned_value
 from utils.write_project_readme import write_project_readme
 from utils.write_root_readme import write_root_readme
-from utils.write_summary_readme import write_summary_readme
 
 
-def run_collection(repos_path, output_dir, title, summary_path=None):
+def run_collection(repos_path, output_dir, title):
     """Collect one repo list into its pages and its index. Returns the repos
     that could not be fetched, so the caller can exit non-zero: a repo that
     has been renamed or made private drops out of the table silently
     otherwise, and nothing ever surfaces that it went stale.
 
-    `summary_path` adds a summary README for this collection alone. The
-    curated collection passes None -- the root README already lists it
-    alongside every other collection, so a second table of the same repos
-    would only be one more thing to keep in step.
+    No per-collection summary is written. The root README carries every
+    collection's table in full, so a second copy beside the pages would only
+    be another thing to keep in step -- the index left here is what that
+    rebuild reads.
 
     A rate limit is not survivable the way a single bad repo is, so it
     propagates instead -- every remaining repo would fail too, and the run
@@ -50,9 +49,6 @@ def run_collection(repos_path, output_dir, title, summary_path=None):
         summaries.append({"repo": repo, "unassigned": unassigned_count})
 
     write_collection_index(output_dir, title, generated_at, summaries)
-    if summary_path:
-        print(f"Writing summary to {summary_path}")
-        write_summary_readme(summaries, output_dir, summary_path, title, generated_at)
 
     if failed:
         # A pruning pass now would delete the pages of the repos just skipped,
@@ -67,13 +63,14 @@ def run_collection(repos_path, output_dir, title, summary_path=None):
     # soon as every repo came back bounded.
     total_unassigned = sum(unassigned_value(s["unassigned"]) for s in summaries)
     bounded = sum(1 for s in summaries if is_lower_bound(s["unassigned"]))
+    scope = f"{len(summaries)} repo{'' if len(summaries) == 1 else 's'}"
     if bounded:
         print(
-            f"Done. {total_unassigned}+ unassigned issues across {len(summaries)} repos "
+            f"Done. {total_unassigned}+ unassigned issues across {scope} "
             f"({bounded} repo(s) reported as a lower bound)."
         )
     else:
-        print(f"Done. {total_unassigned} unassigned issues across {len(summaries)} repos.")
+        print(f"Done. {total_unassigned} unassigned issues across {scope}.")
 
     if failed:
         print(f"{len(failed)} repo(s) could not be fetched: {', '.join(failed)}")
