@@ -1,0 +1,86 @@
+{
+  "title": "Top Open-Source Projects",
+  "generated_at": "2026-09-26T18:25:29.390915+00:00",
+  "repos": [
+    {
+      "repo": "codecrafters-io/build-your-own-x",
+      "unassigned": "15+"
+    },
+    {
+      "repo": "sindresorhus/awesome",
+      "unassigned": "9+"
+    },
+    {
+      "repo": "public-apis/public-apis",
+      "unassigned": "4+"
+    },
+    {
+      "repo": "freeCodeCamp/freeCodeCamp",
+      "unassigned": "36+"
+    },
+    {
+      "repo": "EbookFoundation/free-programming-books",
+      "unassigned": 37
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "unassigned": "44+"
+    },
+    {
+      "repo": "donnemartin/system-design-primer",
+      "unassigned": "35+"
+    },
+    {
+      "repo": "nilbuild/developer-roadmap",
+      "unassigned": 0
+    },
+    {
+      "repo": "jwasham/coding-interview-university",
+      "unassigned": "57+"
+    },
+    {
+      "repo": "vinta/awesome-python",
+      "unassigned": 0
+    },
+    {
+      "repo": "awesome-selfhosted/awesome-selfhosted",
+      "unassigned": 0
+    },
+    {
+      "repo": "practical-tutorials/project-based-learning",
+      "unassigned": "53+"
+    },
+    {
+      "repo": "996icu/996.ICU",
+      "unassigned": 0
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "unassigned": "35+"
+    },
+    {
+      "repo": "react/react",
+      "unassigned": "32+"
+    },
+    {
+      "repo": "NousResearch/hermes-agent",
+      "unassigned": "20+"
+    },
+    {
+      "repo": "trimstray/the-book-of-secret-knowledge",
+      "unassigned": "0+"
+    },
+    {
+      "repo": "TheAlgorithms/Python",
+      "unassigned": 8
+    },
+    {
+      "repo": "vuejs/vue",
+      "unassigned": "30+"
+    },
+    {
+      "repo": "anomalyco/opencode",
+      "unassigned": "30+"
+    }
+  ]
+}
