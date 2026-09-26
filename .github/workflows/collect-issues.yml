@@ -2,7 +2,9 @@ name: Collect open issues
 
 on:
   schedule:
-    - cron: "0 3 * * 4"
+    # Odd days of the month at 03:00 UTC, an hour after discovery. The hour
+    # gap keeps the three from pushing to the same branch at once.
+    - cron: "0 3 */2 * *"
   workflow_dispatch: {}
 
 permissions:
@@ -35,5 +37,5 @@ jobs:
           # -A so pruned pages are staged as deletions: a plain `git add <dir>`
           # misses a directory that no longer exists at all.
           git add -A README.md output/projects
-          git diff --cached --quiet || git commit -m "chore: weekly issue snapshot"
+          git diff --cached --quiet || git commit -m "chore: issue snapshot"
           git push

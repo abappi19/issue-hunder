@@ -11,11 +11,10 @@ listing its most recently opened unassigned issues.
 
 ## Want to add a repo?
 
-Open a pull request adding `"owner/repo"` to `data/repos.json`. A CI
-check automatically verifies that the repo clears our popularity bar
-(currently at least 10,000 stars and 10+ contributors)
-and is open to outside contributions -- not archived, with forking and
-issues both enabled -- before it can be merged.
+Open a pull request adding `"owner/repo"` to `data/repos.json`. A CI check
+automatically verifies that the repo clears our popularity bar (currently
+at least 1,000 stars) and is open to outside contributions -- not
+archived, with forking and issues both enabled -- before it can be merged.
 
 <!-- AUTO-GENERATED:START -->
 ## Tracked Projects

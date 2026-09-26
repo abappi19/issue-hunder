@@ -3,36 +3,36 @@
 # GitHub API base URL
 API_BASE_URL = "https://api.github.com"
 
-# Concurrency for the ThreadPoolExecutor used by discover_repos.py's
-# contributor-count lookups. Secondary rate limits do apply to the core API
-# (a concurrency ceiling plus roughly 900 points/min, one point per GET), so
-# this is the one burst in the codebase that could trip them -- raising it
-# buys little and moves discovery toward that ceiling.
-MAX_WORKERS = 10
-
-# "Popular" repo bar, used both by discover_repos.py (auto-discovery) and
-# check_new_repos.py (PR check on manually-added repos.json entries).
+# The one popularity bar, for every search discover_repos.py runs and for
+# check_new_repos.py's check on manually-added repos.json entries.
 #
-# Stars carry the popularity judgement; the contributor floor is only here to
-# rule out the one-person project, where an unassigned issue usually means the
-# author has not got to it rather than that help is wanted. A low floor keeps
-# the narrower topics from coming back near-empty -- at 50 most of what
-# `topic:expo` matches was cut, since a focused library can be busy and
-# well-used with a couple of dozen contributors.
-MIN_STARS = 10000
-MIN_CONTRIBUTORS = 10
-
-# discover_repos.py: how many top-starred candidates to pull per search,
-# and how many of the qualifying ones to keep.
+# Stars are the whole of it; a contributor floor used to sit beside this, but
+# it cost a request per candidate -- the only per-candidate request discovery
+# made -- and the blockers filter removes most of what it was really catching.
 #
-# Mind the budget here: the workflows authenticate with secrets.GITHUB_TOKEN,
-# which is capped at 1,000 requests/hour *per repository* -- not the 5,000 a
-# personal token gets. Discovery costs 1 + CANDIDATE_POOL_SIZE calls for each
-# entry in topics.json (plus one more pass for the unscoped list), so every
-# topic added is ~101 calls against that 1,000. Around nine topics the hourly
-# cap is in reach and discovery starts failing partway through.
+# The figure matters far less than it looks. Every search sorts by stars and
+# keeps only the leading TOP_N, so for a broad search the bar is never
+# approached: the top 20 of `stars:>1000` are the same repos as the top 20 of
+# `stars:>10000`. It binds only where a search has fewer matches than the
+# candidate pool holds, which is the narrow topics -- `topic:expo` matches 63
+# repos here against 3 at ten thousand, the difference between a collection
+# and an empty page.
+MIN_STARS = 1000
+
+# discover_repos.py: how far down the star ranking to look, and how many of
+# what comes back to keep. The pool is deliberately far wider than TOP_N so
+# that dropping repos closed to contributions still leaves plenty above the
+# cut. 100 is the Search API's page maximum, so widening it past here would
+# start costing a second request for no benefit.
 CANDIDATE_POOL_SIZE = 100
 TOP_N = 20
+
+# A note on budget, since this is where it used to be spent: the workflows
+# authenticate with secrets.GITHUB_TOKEN, capped at 1,000 requests/hour *per
+# repository* -- not the 5,000 a personal token gets. Discovery no longer
+# touches that allowance at all. It makes one Search API request per
+# collection, and search is metered separately (30/min), so the hourly cap now
+# constrains only the collection runs, at one request per repo listed.
 
 # discover_repos.py: refuse to overwrite an existing repo list with one that
 # has shrunk below this fraction of it. A partial result usually means the run
@@ -73,13 +73,6 @@ TOP_REPOS_FILE = f"{REPOS_DIR}/top_repos.json"
 # and reach libraries that rank too low by raw stars to survive a
 # language-wide cut, such as zustand under state-management.
 TOPICS_FILE = f"{REPOS_DIR}/topics.json"
-
-# A topic search draws from a far smaller pool than a language one, so it
-# needs a lower bar to fill a list: at 10,000 stars `topic:expo` matches three
-# repos in total, against sixty-three at this figure. It costs the bigger
-# topics nothing -- the top 20 kept from `topic:typescript` clear 10,000 stars
-# regardless of where the floor sits.
-TOPIC_MIN_STARS = 1000
 
 # main.py CLI defaults (the manually-curated repos.json collection)
 OUTPUT_DIR = "output"

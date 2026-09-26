@@ -3,9 +3,8 @@ import json
 import subprocess
 import sys
 
-from api.contributors import fetch_contributor_count
 from api.repo_info import fetch_repo_stats
-from constants import MIN_CONTRIBUTORS, MIN_STARS, REPOS_FILE
+from constants import MIN_STARS, REPOS_FILE
 
 
 def load_repos_at_ref(ref):
@@ -31,13 +30,12 @@ def load_repos_at_ref(ref):
 def check(repos):
     """Check each repo against the bar, returning the ones that fail it.
 
-    Contribution blockers are read off the same repo payload the star count
-    comes from, so enforcing them costs nothing extra."""
+    One request per repo: the star count and the contribution blockers both
+    come off the same repository payload."""
     failed = []
     for repo in repos:
         try:
             stats = fetch_repo_stats(repo)
-            contributors = fetch_contributor_count(repo)
         except Exception as e:
             print(f"  [FAIL] {repo}: could not fetch repo info ({e})")
             failed.append(repo)
@@ -45,15 +43,13 @@ def check(repos):
 
         reasons = list(stats["blockers"])
         if stats["stars"] < MIN_STARS:
-            reasons.append(f"{stats['stars']:,} stars")
-        if contributors < MIN_CONTRIBUTORS:
-            reasons.append(f"{contributors} contributors")
+            reasons.append(f"only {stats['stars']:,} stars")
 
         if reasons:
             failed.append(repo)
             print(f"  [FAIL] {repo}: {', '.join(reasons)}")
         else:
-            print(f"  [OK]   {repo}: {stats['stars']:,} stars, {contributors} contributors")
+            print(f"  [OK]   {repo}: {stats['stars']:,} stars")
     return failed
 
 
@@ -80,7 +76,7 @@ def main():
 
     print(
         f"Checking {len(to_check)} repo(s): >= {MIN_STARS:,} stars, "
-        f">= {MIN_CONTRIBUTORS} contributors, and open to outside contributions..."
+        "and open to outside contributions..."
     )
     failed = check(to_check)
 

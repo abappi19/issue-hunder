@@ -1,7 +1,6 @@
 import os
 
 from constants import (
-    MIN_CONTRIBUTORS,
     MIN_STARS,
     OUTPUT_DIR,
     README_END_MARKER,
@@ -24,11 +23,10 @@ unassigned issues waiting for someone to pick them up.
 
 ## Want to add a repo?
 
-Open a pull request adding `"owner/repo"` to `data/repos.json`. A CI
-check automatically verifies that the repo clears our popularity bar
-(currently at least {MIN_STARS:,} stars and {MIN_CONTRIBUTORS}+ contributors)
-and is open to outside contributions -- not archived, with forking and
-issues both enabled -- before it can be merged.
+Open a pull request adding `"owner/repo"` to `data/repos.json`. A CI check
+automatically verifies that the repo clears our popularity bar (currently
+at least {MIN_STARS:,} stars) and is open to outside contributions -- not
+archived, with forking and issues both enabled -- before it can be merged.
 
 """
 
