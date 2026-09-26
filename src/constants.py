@@ -12,8 +12,15 @@ MAX_WORKERS = 10
 
 # "Popular" repo bar, used both by discover_repos.py (auto-discovery) and
 # check_new_repos.py (PR check on manually-added repos.json entries).
+#
+# Stars carry the popularity judgement; the contributor floor is only here to
+# rule out the one-person project, where an unassigned issue usually means the
+# author has not got to it rather than that help is wanted. A low floor keeps
+# the narrower topics from coming back near-empty -- at 50 most of what
+# `topic:expo` matches was cut, since a focused library can be busy and
+# well-used with a couple of dozen contributors.
 MIN_STARS = 10000
-MIN_CONTRIBUTORS = 50
+MIN_CONTRIBUTORS = 10
 
 # discover_repos.py: how many top-starred candidates to pull per search,
 # and how many of the qualifying ones to keep.
