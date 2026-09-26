@@ -20,16 +20,22 @@ def fetch_top_starred_repos(limit=100, topic=None, min_stars=MIN_STARS):
     later: a search result is a full repository payload, so the flags come
     free with a search already being made, where checking them per candidate
     afterwards would cost a request each and double the discovery budget.
-    Dropped repos are backfilled from further down the ranking, so a list
-    still comes back `limit` long."""
+
+    `limit` counts results looked at, not results kept, so a page of 100
+    takes exactly one request however many repos it drops. Fetching a
+    further page to refill the pool would be wasted: results arrive sorted
+    by stars descending and the caller keeps only the leading TOP_N of them,
+    so anything on page two already ranks below what page one returned and
+    could never reach the list."""
     repos = []
     skipped = []
+    seen = 0
     per_page = 100
     page = 1
     query = f"stars:>{min_stars}"
     if topic:
         query += f" topic:{topic}"
-    while len(repos) < limit:
+    while seen < limit:
         SEARCH_LIMITER.acquire()
         resp = requests.get(
             f"{API}/search/repositories",
@@ -48,15 +54,16 @@ def fetch_top_starred_repos(limit=100, topic=None, min_stars=MIN_STARS):
         items = resp.json()["items"]
         if not items:
             break
+        seen += len(items)
         for item in items:
             blockers = contribution_blockers(item)
             if blockers:
                 skipped.append(f"{item['full_name']} ({', '.join(blockers)})")
                 continue
             repos.append({"repo": item["full_name"], "stars": item["stargazers_count"]})
-        page += 1
         if len(items) < per_page:
             break
+        page += 1
 
     if skipped:
         print(f"  Skipped {len(skipped)} repo(s) that cannot take contributions:")
