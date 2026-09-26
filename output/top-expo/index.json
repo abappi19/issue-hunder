@@ -1,0 +1,86 @@
+{
+  "title": "Top Expo Projects",
+  "generated_at": "2026-09-26T18:43:13.537385+00:00",
+  "repos": [
+    {
+      "repo": "expo/expo",
+      "unassigned": "11+"
+    },
+    {
+      "repo": "infinitered/ignite",
+      "unassigned": 27
+    },
+    {
+      "repo": "withspectrum/spectrum",
+      "unassigned": 0
+    },
+    {
+      "repo": "t3-oss/create-t3-turbo",
+      "unassigned": 36
+    },
+    {
+      "repo": "AmanVarshney01/create-better-t-stack",
+      "unassigned": "75+"
+    },
+    {
+      "repo": "callstack/agent-device",
+      "unassigned": "88+"
+    },
+    {
+      "repo": "expo/examples",
+      "unassigned": "72+"
+    },
+    {
+      "repo": "elie222/rakazo",
+      "unassigned": 10
+    },
+    {
+      "repo": "jpudysz/react-native-unistyles",
+      "unassigned": 29
+    },
+    {
+      "repo": "rnmapbox/maps",
+      "unassigned": "60+"
+    },
+    {
+      "repo": "microsoft/vscode-react-native",
+      "unassigned": 13
+    },
+    {
+      "repo": "expo/expo-cli",
+      "unassigned": 0
+    },
+    {
+      "repo": "clerk/javascript",
+      "unassigned": "12+"
+    },
+    {
+      "repo": "gronxb/hot-updater",
+      "unassigned": 21
+    },
+    {
+      "repo": "sysgears/apollo-universal-starter-kit",
+      "unassigned": 74
+    },
+    {
+      "repo": "expo/react-native-action-sheet",
+      "unassigned": 28
+    },
+    {
+      "repo": "react-native-community/directory",
+      "unassigned": 4
+    },
+    {
+      "repo": "expo/eas-cli",
+      "unassigned": "19+"
+    },
+    {
+      "repo": "storybookjs/react-native",
+      "unassigned": 20
+    },
+    {
+      "repo": "expo/fyi",
+      "unassigned": 25
+    }
+  ]
+}

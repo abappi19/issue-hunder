@@ -1,78 +1,34 @@
 {
   "title": "Top TypeScript Projects",
-  "generated_at": "2026-09-26T18:25:42.796415+00:00",
+  "generated_at": "2026-09-26T18:42:31.281046+00:00",
   "repos": [
-    {
-      "repo": "freeCodeCamp/freeCodeCamp",
-      "unassigned": "36+"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "unassigned": "44+"
-    },
-    {
-      "repo": "nilbuild/developer-roadmap",
-      "unassigned": 0
-    },
-    {
-      "repo": "vuejs/vue",
-      "unassigned": "30+"
-    },
-    {
-      "repo": "anomalyco/opencode",
-      "unassigned": "30+"
-    },
     {
       "repo": "n8n-io/n8n",
       "unassigned": "8+"
     },
     {
       "repo": "microsoft/vscode",
-      "unassigned": "67+"
+      "unassigned": "65+"
     },
     {
-      "repo": "firecrawl/firecrawl",
-      "unassigned": "19+"
+      "repo": "f/prompts.chat",
+      "unassigned": 26
     },
     {
-      "repo": "langgenius/dify",
-      "unassigned": "35+"
-    },
-    {
-      "repo": "anthropics/claude-code",
-      "unassigned": "100+"
-    },
-    {
-      "repo": "yangshun/tech-interview-handbook",
-      "unassigned": 37
-    },
-    {
-      "repo": "iptv-org/iptv",
-      "unassigned": "95+"
-    },
-    {
-      "repo": "excalidraw/excalidraw",
-      "unassigned": "29+"
-    },
-    {
-      "repo": "shadcn-ui/ui",
-      "unassigned": "11+"
+      "repo": "langchain-ai/langchain",
+      "unassigned": "79+"
     },
     {
       "repo": "immich-app/immich",
       "unassigned": "45+"
     },
     {
-      "repo": "supabase/supabase",
-      "unassigned": "9+"
+      "repo": "microsoft/TypeScript",
+      "unassigned": "42+"
     },
     {
-      "repo": "earendil-works/pi",
-      "unassigned": "74+"
-    },
-    {
-      "repo": "google-gemini/gemini-cli",
-      "unassigned": "31+"
+      "repo": "denoland/deno",
+      "unassigned": "52+"
     },
     {
       "repo": "angular/angular",
@@ -81,6 +37,50 @@
     {
       "repo": "ant-design/ant-design",
       "unassigned": "18+"
+    },
+    {
+      "repo": "oven-sh/bun",
+      "unassigned": "44+"
+    },
+    {
+      "repo": "storybookjs/storybook",
+      "unassigned": "29+"
+    },
+    {
+      "repo": "mermaid-js/mermaid",
+      "unassigned": "26+"
+    },
+    {
+      "repo": "bytedance/deer-flow",
+      "unassigned": "34+"
+    },
+    {
+      "repo": "nestjs/nest",
+      "unassigned": 6
+    },
+    {
+      "repo": "enaqx/awesome-react",
+      "unassigned": 1
+    },
+    {
+      "repo": "headroomlabs-ai/headroom",
+      "unassigned": "41+"
+    },
+    {
+      "repo": "strapi/strapi",
+      "unassigned": "19+"
+    },
+    {
+      "repo": "code-yeongyu/oh-my-openagent",
+      "unassigned": "58+"
+    },
+    {
+      "repo": "go-gitea/gitea",
+      "unassigned": "42+"
+    },
+    {
+      "repo": "twentyhq/twenty",
+      "unassigned": 21
     }
   ]
 }

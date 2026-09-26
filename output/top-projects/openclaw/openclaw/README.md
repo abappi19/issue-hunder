@@ -1,17 +1,17 @@
 # openclaw/openclaw
 
-Generated: 2026-09-26T18:25:29.390915+00:00
+Generated: 2026-09-26T18:42:16.002755+00:00
 
-- Unassigned: 44+
+- Unassigned: 45+
 - [View all unassigned issues](https://github.com/openclaw/openclaw/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#159094 [Bug]: 2026.9.6 Gateway owns state-lifecycle lease but internal workers report another OpenClaw process owns state-lifecycle](https://github.com/openclaw/openclaw/issues/159094) | 0 |
+| [#159094 [Bug]: 2026.9.6 Gateway owns state-lifecycle lease but internal workers report another OpenClaw process owns state-lifecycle](https://github.com/openclaw/openclaw/issues/159094) | 1 |
 | [#159089 [Bug]: contextPruning (cache-ttl) never prunes for OpenAI-compatible providers under a custom provider id](https://github.com/openclaw/openclaw/issues/159089) | 2 |
-| [#159080 [Bug]: Runtime-bound LINE conversations fail with AgentSelectionRequiredError on multi-agent installs](https://github.com/openclaw/openclaw/issues/159080) | 2 |
+| [#159080 [Bug]: Runtime-bound LINE conversations fail with AgentSelectionRequiredError on multi-agent installs](https://github.com/openclaw/openclaw/issues/159080) | 3 |
 | [#159075 [Bug]: Memory keyword search drops English terms written inside Chinese text without spaces](https://github.com/openclaw/openclaw/issues/159075) | 1 |
 | [#159070 [Feature]: Support ordered fallback chains for utilityModel](https://github.com/openclaw/openclaw/issues/159070) | 1 |
 | [#159059 Direct subagent result mirror written between a wake's keyed user and its reply triggers 'keyed user is outside the current turn' (2026.9.6)](https://github.com/openclaw/openclaw/issues/159059) | 2 |
@@ -53,3 +53,4 @@ Most recently opened:
 | [#158922 claude-cli models report `available: false` after Gateway restart on main, hiding the Control UI Effort picker (regression after #157459)](https://github.com/openclaw/openclaw/issues/158922) | 2 |
 | [#158921 [Feature]: Native contributor admission, lifecycle and stop contract](https://github.com/openclaw/openclaw/issues/158921) | 1 |
 | [#158920 [Feature]: Supported recovery coverage for opaque Workboard and native-harness state](https://github.com/openclaw/openclaw/issues/158920) | 1 |
+| [#158917 [Bug]: memory_search intermittently times out at 30s, returns late keyword-only partial results on Gemini](https://github.com/openclaw/openclaw/issues/158917) | 1 |
