@@ -1,0 +1,22 @@
+[
+  "f/prompts.chat",
+  "langgenius/dify",
+  "vercel/next.js",
+  "shadcn-ui/ui",
+  "supabase/supabase",
+  "ChatGPTNextWeb/NextChat",
+  "coollabsio/coolify",
+  "appwrite/appwrite",
+  "calcom/cal.diy",
+  "payloadcms/payload",
+  "trpc/trpc",
+  "CopilotKit/CopilotKit",
+  "Dokploy/dokploy",
+  "LAION-AI/Open-Assistant",
+  "gitroomhq/postiz-app",
+  "refinedev/refine",
+  "gethomepage/homepage",
+  "vercel/swr",
+  "onyx-dot-app/onyx",
+  "SigNoz/signoz"
+]

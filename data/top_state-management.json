@@ -1,0 +1,22 @@
+[
+  "mem0ai/mem0",
+  "pmndrs/zustand",
+  "statelyai/xstate",
+  "vuejs/vuex",
+  "dapr/dapr",
+  "TanStack/router",
+  "felangel/bloc",
+  "jonataslaw/getx",
+  "47ng/nuqs",
+  "rematch/rematch",
+  "ngrx/platform",
+  "final-form/react-final-form",
+  "rrousselGit/riverpod",
+  "mobxjs/mobx-state-tree",
+  "toeverything/blocksuite",
+  "rrousselGit/provider",
+  "ctrlplusb/easy-peasy",
+  "effector/effector",
+  "preactjs/signals",
+  "salesforce/akita"
+]

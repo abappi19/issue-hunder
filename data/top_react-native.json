@@ -1,0 +1,22 @@
+[
+  "react/react-native",
+  "justjavac/free-programming-books-zh_CN",
+  "storybookjs/storybook",
+  "enaqx/awesome-react",
+  "appwrite/appwrite",
+  "laurent22/joplin",
+  "expo/expo",
+  "dkhamsing/open-source-ios-apps",
+  "react-hook-form/react-hook-form",
+  "sudheerj/reactjs-interview-questions",
+  "mattermost/mattermost",
+  "NervJS/taro",
+  "jondot/awesome-react-native",
+  "jaredpalmer/formik",
+  "vercel/swr",
+  "karakeep-app/karakeep",
+  "zulip/zulip",
+  "react-native-elements/react-native-elements",
+  "react-navigation/react-navigation",
+  "pubkey/rxdb"
+]
