@@ -13,7 +13,7 @@ listing its most recently opened unassigned issues.
 
 Open a pull request adding `"owner/repo"` to `data/repos.json`. A CI
 check automatically verifies that the repo clears our popularity bar
-(currently at least 10,000 stars and 50+ contributors)
+(currently at least 10,000 stars and 10+ contributors)
 and is open to outside contributions -- not archived, with forking and
 issues both enabled -- before it can be merged.
 
