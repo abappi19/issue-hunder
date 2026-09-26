@@ -57,14 +57,22 @@ TOP_REPOS_FILE = f"{REPOS_DIR}/top_repos.json"
 
 # main.py CLI defaults (the manually-curated repos.json collection)
 OUTPUT_DIR = "output"
-DEFAULT_OUTPUT_DIR = f"{OUTPUT_DIR}/projects"
+CURATED_DIR_NAME = "projects"
+DEFAULT_OUTPUT_DIR = f"{OUTPUT_DIR}/{CURATED_DIR_NAME}"
 DEFAULT_SUMMARY_PATH = "README.md"
-DEFAULT_TITLE = "Issue Hunter"
+DEFAULT_TITLE = "Tracked Projects"
 
 # collect_top.py: the general (all-languages) top-repos collection
-TOP_OUTPUT_DIR = f"{OUTPUT_DIR}/top-projects"
-TOP_SUMMARY_PATH = f"{OUTPUT_DIR}/top-projects/README.md"
+TOP_DIR_NAME = "top-projects"
+TOP_OUTPUT_DIR = f"{OUTPUT_DIR}/{TOP_DIR_NAME}"
+TOP_SUMMARY_PATH = f"{TOP_OUTPUT_DIR}/README.md"
 TOP_TITLE = "Top Open-Source Projects"
+
+# Every collection drops one of these beside the pages it writes, recording
+# what it produced. The root README links every project in every collection,
+# but two workflows on different schedules fill those collections, so the
+# rebuild reads these instead of whatever one run happens to hold in memory.
+INDEX_FILENAME = "index.json"
 
 # utils/write_root_readme.py: markers bounding the section rewritten on
 # every run, so a static header above them survives untouched.

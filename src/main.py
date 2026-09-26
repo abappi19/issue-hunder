@@ -4,6 +4,7 @@ from datetime import datetime, timezone
 
 from api.errors import FetchError, RateLimitError
 from api.issues import fetch_unassigned_summary
+from utils.collection_index import write_collection_index
 from utils.file_util import load_file
 from utils.parse_args import parse_args
 from utils.prune_output import prune_stale_projects
@@ -13,11 +14,16 @@ from utils.write_root_readme import write_root_readme
 from utils.write_summary_readme import write_summary_readme
 
 
-def run_collection(repos_path, output_dir, summary_path, title, summary_writer=write_summary_readme):
-    """Collect one repo list into its pages and summary. Returns the repos
+def run_collection(repos_path, output_dir, title, summary_path=None):
+    """Collect one repo list into its pages and its index. Returns the repos
     that could not be fetched, so the caller can exit non-zero: a repo that
     has been renamed or made private drops out of the table silently
     otherwise, and nothing ever surfaces that it went stale.
+
+    `summary_path` adds a summary README for this collection alone. The
+    curated collection passes None -- the root README already lists it
+    alongside every other collection, so a second table of the same repos
+    would only be one more thing to keep in step.
 
     A rate limit is not survivable the way a single bad repo is, so it
     propagates instead -- every remaining repo would fail too, and the run
@@ -43,8 +49,10 @@ def run_collection(repos_path, output_dir, summary_path, title, summary_writer=w
         unassigned_count = write_project_readme(repo, summary, output_dir, generated_at)
         summaries.append({"repo": repo, "unassigned": unassigned_count})
 
-    print(f"Writing summary to {summary_path}")
-    summary_writer(summaries, output_dir, summary_path, title, generated_at)
+    write_collection_index(output_dir, title, generated_at, summaries)
+    if summary_path:
+        print(f"Writing summary to {summary_path}")
+        write_summary_readme(summaries, output_dir, summary_path, title, generated_at)
 
     if failed:
         # A pruning pass now would delete the pages of the repos just skipped,
@@ -75,12 +83,14 @@ def run_collection(repos_path, output_dir, summary_path, title, summary_writer=w
 def main():
     args = parse_args()
     try:
-        failed = run_collection(
-            args.repos, args.output, args.summary, args.title, summary_writer=write_root_readme
-        )
+        failed = run_collection(args.repos, args.output, args.title)
     except RateLimitError as e:
         print(f"Aborted: {e}", file=sys.stderr)
         sys.exit(1)
+
+    # Rebuilt from every collection's index, so the front page keeps linking
+    # the top-repo projects this run never touched.
+    write_root_readme(args.summary)
     if failed:
         sys.exit(1)
 
