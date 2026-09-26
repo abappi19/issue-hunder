@@ -1,6 +1,6 @@
 {
   "title": "Top Expo Projects",
-  "generated_at": "2026-09-26T18:43:13.537385+00:00",
+  "generated_at": "2026-09-26T18:56:30.974879+00:00",
   "repos": [
     {
       "repo": "expo/expo",
@@ -11,8 +11,8 @@
       "unassigned": 27
     },
     {
-      "repo": "withspectrum/spectrum",
-      "unassigned": 0
+      "repo": "founded-labs/react-native-reusables",
+      "unassigned": 15
     },
     {
       "repo": "t3-oss/create-t3-turbo",
@@ -27,8 +27,28 @@
       "unassigned": "88+"
     },
     {
+      "repo": "obytes/react-native-template-obytes",
+      "unassigned": 7
+    },
+    {
+      "repo": "CherryHQ/cherry-studio-app",
+      "unassigned": 17
+    },
+    {
       "repo": "expo/examples",
       "unassigned": "72+"
+    },
+    {
+      "repo": "heroui-inc/heroui-native",
+      "unassigned": 9
+    },
+    {
+      "repo": "galio-org/galio",
+      "unassigned": 35
+    },
+    {
+      "repo": "Jpisnice/shadcn-ui-mcp-server",
+      "unassigned": 3
     },
     {
       "repo": "elie222/rakazo",
@@ -47,40 +67,20 @@
       "unassigned": 13
     },
     {
-      "repo": "expo/expo-cli",
-      "unassigned": 0
+      "repo": "codedogQBY/ReadAny",
+      "unassigned": "68+"
     },
     {
-      "repo": "clerk/javascript",
-      "unassigned": "12+"
+      "repo": "roninoss/create-expo-stack",
+      "unassigned": 5
     },
     {
-      "repo": "gronxb/hot-updater",
-      "unassigned": 21
+      "repo": "flatlogic/react-native-starter",
+      "unassigned": 2
     },
     {
-      "repo": "sysgears/apollo-universal-starter-kit",
-      "unassigned": 74
-    },
-    {
-      "repo": "expo/react-native-action-sheet",
-      "unassigned": 28
-    },
-    {
-      "repo": "react-native-community/directory",
-      "unassigned": 4
-    },
-    {
-      "repo": "expo/eas-cli",
+      "repo": "OneKeyHQ/app-monorepo",
       "unassigned": "19+"
-    },
-    {
-      "repo": "storybookjs/react-native",
-      "unassigned": 20
-    },
-    {
-      "repo": "expo/fyi",
-      "unassigned": 25
     }
   ]
 }

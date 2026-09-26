@@ -1,6 +1,6 @@
 {
   "title": "Top Next.js Projects",
-  "generated_at": "2026-09-26T18:42:47.632966+00:00",
+  "generated_at": "2026-09-26T18:56:11.893061+00:00",
   "repos": [
     {
       "repo": "f/prompts.chat",
@@ -43,6 +43,10 @@
       "unassigned": "33+"
     },
     {
+      "repo": "AykutSarac/jsoncrack.com",
+      "unassigned": 27
+    },
+    {
       "repo": "trpc/trpc",
       "unassigned": "42+"
     },
@@ -67,20 +71,16 @@
       "unassigned": 18
     },
     {
+      "repo": "JCodesMore/ai-website-cloner-template",
+      "unassigned": 0
+    },
+    {
       "repo": "gethomepage/homepage",
       "unassigned": 0
     },
     {
       "repo": "vercel/swr",
       "unassigned": "47+"
-    },
-    {
-      "repo": "onyx-dot-app/onyx",
-      "unassigned": "22+"
-    },
-    {
-      "repo": "SigNoz/signoz",
-      "unassigned": "12+"
     }
   ]
 }

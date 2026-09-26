@@ -1,8 +1,8 @@
 # freeCodeCamp/freeCodeCamp
 
-Generated: 2026-09-26T18:42:16.002755+00:00
+Generated: 2026-09-26T18:55:48.107553+00:00
 
-- Unassigned: 36+
+- Unassigned: 37+
 - [View all unassigned issues](https://github.com/freeCodeCamp/freeCodeCamp/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -45,3 +45,4 @@ Most recently opened:
 | [#69534 Use of `const` vs `let` vs `var` in the Binary Search Workshop](https://github.com/freeCodeCamp/freeCodeCamp/issues/69534) | 13 |
 | [#69446 Clarify lack of support on archived course pages](https://github.com/freeCodeCamp/freeCodeCamp/issues/69446) | 7 |
 | [#69421 Trivia Bot lab hints hard-code console.log call indices, breaking valid solutions with extra logging](https://github.com/freeCodeCamp/freeCodeCamp/issues/69421) | 1 |
+| [#69158 Digital Pet Game - Step for says form shouldn't be "Visible" but test looks at existence](https://github.com/freeCodeCamp/freeCodeCamp/issues/69158) | 2 |

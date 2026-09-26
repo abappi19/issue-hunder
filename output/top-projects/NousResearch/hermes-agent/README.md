@@ -1,6 +1,6 @@
 # NousResearch/hermes-agent
 
-Generated: 2026-09-26T18:42:16.002755+00:00
+Generated: 2026-09-26T18:55:48.107553+00:00
 
 - Unassigned: 19+
 - [View all unassigned issues](https://github.com/NousResearch/hermes-agent/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,6 +9,8 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#124255 NVIDIA 580 SwiftShader fallback turns a known Chromium stuck-Button-observer defect into a silent 4-9 core CPU burn (laptop overheating)](https://github.com/NousResearch/hermes-agent/issues/124255) | 0 |
+| [#124248 [Bug]: cronjob(action='run') delivers through the launch profile's adapters under a multiplexed gateway](https://github.com/NousResearch/hermes-agent/issues/124248) | 1 |
 | [#124238 fix(gateway): filtered no-send result clears dead-target flag without a send](https://github.com/NousResearch/hermes-agent/issues/124238) | 0 |
 | [#124228 pm: environment builds ignore configured gateway platforms — a Telegram-configured home gets a venv without python-telegram-bot](https://github.com/NousResearch/hermes-agent/issues/124228) | 0 |
 | [#124222 [Bug]: a recurring cron job that has already run is deleted without firing when changed to a one-shot](https://github.com/NousResearch/hermes-agent/issues/124222) | 0 |
@@ -26,5 +28,3 @@ Most recently opened:
 | [#124169 [Bug]: Compaction truncates batch clarify answers to 199 characters, losing user authorizations](https://github.com/NousResearch/hermes-agent/issues/124169) | 0 |
 | [#124166 [Bug]: patch on a CRLF file mishandles an old_string ending in a newline (no match, partial replace_all, wrong copy edited)](https://github.com/NousResearch/hermes-agent/issues/124166) | 0 |
 | [#124152 [Question]: silk extra needs a C compiler on Python 3.14 (pilk has no wheel past cp311) — supported for source installs?](https://github.com/NousResearch/hermes-agent/issues/124152) | 0 |
-| [#124147 [Feature]: Add Google Antigravity (agy) as a model provider in `hermes model` with direct account login](https://github.com/NousResearch/hermes-agent/issues/124147) | 0 |
-| [#124140 [Bug]: Bare `custom` provider on the gateway: /model picker switch and a restarted session override pair the wrong key with the endpoint](https://github.com/NousResearch/hermes-agent/issues/124140) | 0 |

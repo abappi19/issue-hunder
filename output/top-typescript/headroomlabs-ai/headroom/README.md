@@ -1,6 +1,6 @@
 # headroomlabs-ai/headroom
 
-Generated: 2026-09-26T18:42:31.281046+00:00
+Generated: 2026-09-26T18:55:59.988302+00:00
 
 - Unassigned: 41+
 - [View all unassigned issues](https://github.com/headroomlabs-ai/headroom/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)

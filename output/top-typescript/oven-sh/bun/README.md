@@ -1,8 +1,8 @@
 # oven-sh/bun
 
-Generated: 2026-09-26T18:42:31.281046+00:00
+Generated: 2026-09-26T18:55:59.988302+00:00
 
-- Unassigned: 44+
+- Unassigned: 43+
 - [View all unassigned issues](https://github.com/oven-sh/bun/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -52,4 +52,3 @@ Most recently opened:
 | [#43932 fs.watch on macOS: three differences from libuv in how FSEvents events are filtered](https://github.com/oven-sh/bun/issues/43932) | 0 |
 | [#43931 APIs that read a Blob synchronously read an S3 file as empty](https://github.com/oven-sh/bun/issues/43931) | 0 |
 | [#43930 `new Response(s3file.slice(a, b))` redirects to the whole object](https://github.com/oven-sh/bun/issues/43930) | 0 |
-| [#43929 S3: a zero-length slice sends `Range: bytes=N-N` and reads one byte](https://github.com/oven-sh/bun/issues/43929) | 1 |

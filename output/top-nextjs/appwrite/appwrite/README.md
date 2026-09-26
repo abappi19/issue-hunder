@@ -1,6 +1,6 @@
 # appwrite/appwrite
 
-Generated: 2026-09-26T18:42:47.632966+00:00
+Generated: 2026-09-26T18:56:11.893061+00:00
 
 - Unassigned: 20+
 - [View all unassigned issues](https://github.com/appwrite/appwrite/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,7 +9,7 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#13920 Guvicorn/Hot Swap Issues in Local Functions Running Python](https://github.com/appwrite/appwrite/issues/13920) | 1 |
+| [#13920 Guvicorn/Hot Swap Issues in Local Functions Running Python](https://github.com/appwrite/appwrite/issues/13920) | 2 |
 | [#13919 🐛 Bug Report: gzip: invalid header](https://github.com/appwrite/appwrite/issues/13919) | 3 |
 | [#13916 Flutter web app redeploy not working, for it's size limitation](https://github.com/appwrite/appwrite/issues/13916) | 0 |
 | [#13912 detector: getAdapter() reports static for an SSR app that prerenders any route](https://github.com/appwrite/appwrite/issues/13912) | 0 |

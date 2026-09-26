@@ -1,6 +1,6 @@
 # pubkey/rxdb
 
-Generated: 2026-09-26T18:43:02.043062+00:00
+Generated: 2026-09-26T18:56:22.076237+00:00
 
 - Unassigned: 4
 - [View all unassigned issues](https://github.com/pubkey/rxdb/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
