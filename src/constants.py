@@ -4,7 +4,10 @@
 API_BASE_URL = "https://api.github.com"
 
 # Concurrency for the ThreadPoolExecutor used by discover_repos.py's
-# contributor-count lookups (core API, no secondary rate limit risk).
+# contributor-count lookups. Secondary rate limits do apply to the core API
+# (a concurrency ceiling plus roughly 900 points/min, one point per GET), so
+# this is the one burst in the codebase that could trip them -- raising it
+# buys little and moves discovery toward that ceiling.
 MAX_WORKERS = 10
 
 # "Popular" repo bar, used both by discover_repos.py (auto-discovery) and
@@ -14,14 +17,28 @@ MIN_CONTRIBUTORS = 50
 
 # discover_repos.py: how many top-starred candidates to pull per search,
 # and how many of the qualifying ones to keep.
+#
+# Mind the budget here: the workflows authenticate with secrets.GITHUB_TOKEN,
+# which is capped at 1,000 requests/hour *per repository* -- not the 5,000 a
+# personal token gets. Discovery costs 1 + CANDIDATE_POOL_SIZE calls for each
+# entry in languages.json (plus one more pass for the all-languages list), so
+# every language added is ~101 calls against that 1,000. Around nine languages
+# the hourly cap is in reach and discovery starts failing partway through.
 CANDIDATE_POOL_SIZE = 100
 TOP_N = 20
 
-# api/issues.py: how many recent unassigned issues to show per repo, and
-# the size of the single request used to determine the count (fewer than
-# this many results back means that's the exact count; exactly this many
-# means the count is reported as "<RECENT_COUNT>+").
-RECENT_COUNT = 5
+# discover_repos.py: refuse to overwrite an existing repo list with one that
+# has shrunk below this fraction of it. A partial result usually means the run
+# hit trouble midway rather than that the ecosystem moved, and the overwritten
+# file is what every later collection run reads.
+MIN_DISCOVERY_RATIO = 0.5
+
+# api/issues.py: how many recent unassigned issues to pull per repo -- the one
+# number controlling page size, with no second knob behind it. Every issue on
+# that page is both counted and listed on the repo's own page: one request
+# costs the same whatever the page size, so fetching fewer would only throw
+# away issues a contributor could have picked up. 100 is the endpoint maximum.
+RECENT_COUNT = 100
 
 # api/search_rate_limiter.py: pacing for the (now rare) Search API calls,
 # e.g. discover_repos.py's candidate search. GitHub's documented primary

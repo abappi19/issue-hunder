@@ -1,7 +1,7 @@
 import os
 
 from constants import MIN_CONTRIBUTORS, MIN_STARS, README_END_MARKER, README_START_MARKER
-from utils.github_links import unassigned_issues_url
+from utils.github_links import project_readme_link, unassigned_issues_url
 from utils.sort_key import unassigned_sort_key
 
 DEFAULT_HEADER = f"""# Issue Hunter
@@ -13,7 +13,7 @@ A GitHub Action re-scans every tracked repository on a schedule and rebuilds
 the table below with the current unassigned-issue count for each one. Click
 a repo's count to jump straight to its live, filtered issue list on GitHub.
 Each repo also gets its own page under `output/projects/<owner>/<repo>/README.md`
-with a few of the most recently opened unassigned issues.
+listing its most recently opened unassigned issues.
 
 ## Want to add a repo?
 
@@ -30,7 +30,7 @@ def write_root_readme(summaries, output_dir, summary_path, title, generated_at):
 
     table_lines = ["| Repository | Unassigned |", "|---|---|"]
     for s in summaries:
-        project_link = f"{output_dir}/{s['repo']}/README.md"
+        project_link = project_readme_link(s["repo"], output_dir, summary_path)
         issues_link = unassigned_issues_url(s["repo"])
         table_lines.append(f"| [{s['repo']}]({project_link}) | [{s['unassigned']}]({issues_link}) |")
 

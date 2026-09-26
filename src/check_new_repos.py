@@ -9,10 +9,21 @@ from constants import MIN_CONTRIBUTORS, MIN_STARS, REPOS_FILE
 
 
 def load_repos_at_ref(ref):
+    """The repo list as of `ref`, or [] if the file did not exist yet.
+
+    An unreadable ref is a different thing entirely and exits instead of
+    falling back to []: that fallback would mark every repo in the file as
+    newly added, re-checking all of them against the popularity bar and
+    failing the PR over a repo that was merged long ago."""
+    if subprocess.run(["git", "rev-parse", "--verify", f"{ref}^{{commit}}"]).returncode != 0:
+        print(f"Cannot resolve base ref {ref!r}; is the checkout shallow?", file=sys.stderr)
+        sys.exit(2)
+
     result = subprocess.run(
         ["git", "show", f"{ref}:{REPOS_FILE}"], capture_output=True, text=True
     )
     if result.returncode != 0:
+        print(f"{REPOS_FILE} did not exist at {ref}; treating every entry as new.")
         return []
     return json.loads(result.stdout)
 

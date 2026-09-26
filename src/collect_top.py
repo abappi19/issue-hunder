@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+import sys
+
+from api.errors import RateLimitError
 from constants import (
     LANGUAGES_FILE,
     OUTPUT_DIR,
@@ -10,22 +13,33 @@ from constants import (
 )
 from main import run_collection
 from utils.file_util import load_file
+from utils.slug import language_slug
 
 
 def main():
-    run_collection(TOP_REPOS_FILE, TOP_OUTPUT_DIR, TOP_SUMMARY_PATH, TOP_TITLE)
+    failed = []
+    try:
+        failed += run_collection(TOP_REPOS_FILE, TOP_OUTPUT_DIR, TOP_SUMMARY_PATH, TOP_TITLE)
 
-    languages = load_file(LANGUAGES_FILE)
-    print(f"Loaded {len(languages)} language(s) from {LANGUAGES_FILE}: {', '.join(languages)}")
+        languages = load_file(LANGUAGES_FILE)
+        print(f"Loaded {len(languages)} language(s) from {LANGUAGES_FILE}: {', '.join(languages)}")
 
-    for language in languages:
-        slug = language.lower()
-        run_collection(
-            f"{REPOS_DIR}/top_{slug}.json",
-            f"{OUTPUT_DIR}/top-{slug}",
-            f"{OUTPUT_DIR}/top-{slug}/README.md",
-            f"Top {language} Projects",
-        )
+        for language in languages:
+            slug = language_slug(language)
+            failed += run_collection(
+                f"{REPOS_DIR}/top_{slug}.json",
+                f"{OUTPUT_DIR}/top-{slug}",
+                f"{OUTPUT_DIR}/top-{slug}/README.md",
+                f"Top {language} Projects",
+            )
+    except RateLimitError as e:
+        # Later collections would only deepen the limit, so stop here and keep
+        # whatever earlier ones already wrote.
+        print(f"Aborted: {e}", file=sys.stderr)
+        sys.exit(1)
+
+    if failed:
+        sys.exit(1)
 
 
 if __name__ == "__main__":

@@ -1,6 +1,6 @@
 import os
 
-from utils.github_links import unassigned_issues_url
+from utils.github_links import project_readme_link, unassigned_issues_url
 from utils.sort_key import unassigned_sort_key
 
 
@@ -14,6 +14,6 @@ def write_summary_readme(summaries, output_dir, summary_path, title, generated_a
         f.write("| Repository | Unassigned |\n")
         f.write("|---|---|\n")
         for s in summaries:
-            project_link = f"{output_dir}/{s['repo']}/README.md"
+            project_link = project_readme_link(s["repo"], output_dir, summary_path)
             issues_link = unassigned_issues_url(s["repo"])
             f.write(f"| [{s['repo']}]({project_link}) | [{s['unassigned']}]({issues_link}) |\n")
