@@ -1,8 +1,8 @@
 # microsoft/vscode
 
-Generated: 2026-09-26T18:25:42.796415+00:00
+Generated: 2026-09-26T18:42:31.281046+00:00
 
-- Unassigned: 67+
+- Unassigned: 65+
 - [View all unassigned issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -74,5 +74,3 @@ Most recently opened:
 | [#330572 Expose peer-chat discovery and stable chat identifiers for agent-host sessions](https://github.com/microsoft/vscode/issues/330572) | 0 |
 | [#330470 t](https://github.com/microsoft/vscode/issues/330470) | 0 |
 | [#330444 [flaky test] URI file#toString (src/vs/base/test/common/uri.test.ts)](https://github.com/microsoft/vscode/issues/330444) | 0 |
-| [#330110 No indication in Customizations window that `strictPluginOnlyCustomization` is preventing workspace plugins from being usable.](https://github.com/microsoft/vscode/issues/330110) | 0 |
-| [#330053 cannot install from allowed marketplace](https://github.com/microsoft/vscode/issues/330053) | 1 |

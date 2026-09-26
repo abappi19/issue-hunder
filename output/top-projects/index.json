@@ -1,6 +1,6 @@
 {
   "title": "Top Open-Source Projects",
-  "generated_at": "2026-09-26T18:25:29.390915+00:00",
+  "generated_at": "2026-09-26T18:42:16.002755+00:00",
   "repos": [
     {
       "repo": "codecrafters-io/build-your-own-x",
@@ -24,7 +24,7 @@
     },
     {
       "repo": "openclaw/openclaw",
-      "unassigned": "44+"
+      "unassigned": "45+"
     },
     {
       "repo": "donnemartin/system-design-primer",
@@ -64,7 +64,7 @@
     },
     {
       "repo": "NousResearch/hermes-agent",
-      "unassigned": "20+"
+      "unassigned": "19+"
     },
     {
       "repo": "trimstray/the-book-of-secret-knowledge",
@@ -80,7 +80,7 @@
     },
     {
       "repo": "anomalyco/opencode",
-      "unassigned": "30+"
+      "unassigned": "29+"
     }
   ]
 }

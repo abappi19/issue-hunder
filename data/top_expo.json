@@ -1,0 +1,22 @@
+[
+  "expo/expo",
+  "infinitered/ignite",
+  "withspectrum/spectrum",
+  "t3-oss/create-t3-turbo",
+  "AmanVarshney01/create-better-t-stack",
+  "callstack/agent-device",
+  "expo/examples",
+  "elie222/rakazo",
+  "jpudysz/react-native-unistyles",
+  "rnmapbox/maps",
+  "microsoft/vscode-react-native",
+  "expo/expo-cli",
+  "clerk/javascript",
+  "gronxb/hot-updater",
+  "sysgears/apollo-universal-starter-kit",
+  "expo/react-native-action-sheet",
+  "react-native-community/directory",
+  "expo/eas-cli",
+  "storybookjs/react-native",
+  "expo/fyi"
+]
