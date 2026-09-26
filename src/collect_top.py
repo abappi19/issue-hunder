@@ -2,6 +2,7 @@
 import sys
 
 from api.errors import RateLimitError
+from collect import run_collection
 from constants import (
     DEFAULT_SUMMARY_PATH,
     OUTPUT_DIR,
@@ -12,11 +13,10 @@ from constants import (
     TOP_TITLE,
     TOPICS_FILE,
 )
-from main import run_collection
+from readme.root import write_root_readme
+from store.prune import prune_stale_collections
 from utils.file_util import load_file
-from utils.prune_output import prune_stale_collections
 from utils.slug import to_slug
-from utils.write_root_readme import write_root_readme
 
 
 def main():

@@ -7,9 +7,9 @@ from constants import (
     README_END_MARKER,
     README_START_MARKER,
 )
-from utils.collection_index import read_collection_indexes
-from utils.github_links import project_readme_link, unassigned_issues_url
-from utils.sort_key import unassigned_sort_key
+from readme.links import project_readme_link, unassigned_issues_url
+from readme.sort_key import unassigned_sort_key
+from store.index import read_collection_indexes
 
 DEFAULT_HEADER = f"""# Issue Hunter
 
@@ -24,7 +24,7 @@ unassigned issues waiting for someone to pick them up.
 
 ## Want to add a repo?
 
-Open a pull request adding `"owner/repo"` to `src/repos/repos.json`. A CI
+Open a pull request adding `"owner/repo"` to `data/repos.json`. A CI
 check automatically verifies the repo meets our popularity bar (currently
 at least {MIN_STARS:,} stars and {MIN_CONTRIBUTORS}+ contributors) before it
 can be merged.

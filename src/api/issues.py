@@ -2,8 +2,8 @@ from functools import lru_cache
 
 import requests
 
+from api.client import API, HEADERS
 from api.errors import FetchError, check_rate_limited
-from config.github import API, HEADERS
 from constants import RECENT_COUNT
 from utils.sanitize import sanitize_text
 

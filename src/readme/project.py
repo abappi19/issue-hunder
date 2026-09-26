@@ -1,6 +1,6 @@
 import os
 
-from utils.github_links import unassigned_issues_url
+from readme.links import unassigned_issues_url
 
 
 def write_project_readme(repo, summary, output_dir, generated_at):

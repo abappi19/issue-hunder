@@ -3,8 +3,8 @@ from functools import lru_cache
 
 import requests
 
+from api.client import API, HEADERS
 from api.errors import check_rate_limited
-from config.github import API, HEADERS
 
 
 @lru_cache(maxsize=None)

@@ -1,8 +1,8 @@
 import requests
 
+from api.client import API, HEADERS
 from api.errors import check_rate_limited
-from api.search_rate_limiter import SEARCH_LIMITER
-from config.github import API, HEADERS
+from api.rate_limit import SEARCH_LIMITER
 from constants import MIN_STARS
 
 

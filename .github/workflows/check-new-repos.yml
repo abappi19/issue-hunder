@@ -3,7 +3,7 @@ name: Check new repos
 on:
   pull_request:
     paths:
-      - "src/repos/repos.json"
+      - "data/repos.json"
 
 jobs:
   check:

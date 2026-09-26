@@ -1,7 +1,7 @@
 import requests
 
+from api.client import API, HEADERS
 from api.errors import check_rate_limited
-from config.github import API, HEADERS
 
 
 def fetch_repo_stats(repo):

@@ -49,8 +49,11 @@ SEARCH_MAX_CALLS = 25
 SEARCH_PERIOD_SECONDS = 60
 SEARCH_MIN_INTERVAL_SECONDS = 2
 
-# Repo-list data files (see src/repos/)
-REPOS_DIR = "src/repos"
+# Repo-list data files (see data/) -- both the hand-maintained inputs
+# (repos.json, topics.json) and the lists discovery regenerates (top_*.json).
+# Data, not source, so it sits beside output/ at the repo root rather than
+# under src/.
+REPOS_DIR = "data"
 REPOS_FILE = f"{REPOS_DIR}/repos.json"
 TOP_REPOS_FILE = f"{REPOS_DIR}/top_repos.json"
 
