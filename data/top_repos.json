@@ -8,15 +8,15 @@
   "donnemartin/system-design-primer",
   "nilbuild/developer-roadmap",
   "jwasham/coding-interview-university",
-  "vinta/awesome-python",
-  "awesome-selfhosted/awesome-selfhosted",
+  "obra/superpowers",
   "practical-tutorials/project-based-learning",
-  "996icu/996.ICU",
   "affaan-m/ECC",
   "react/react",
   "NousResearch/hermes-agent",
-  "trimstray/the-book-of-secret-knowledge",
   "TheAlgorithms/Python",
   "vuejs/vue",
-  "anomalyco/opencode"
+  "anomalyco/opencode",
+  "ossu/computer-science",
+  "n8n-io/n8n",
+  "tensorflow/tensorflow"
 ]

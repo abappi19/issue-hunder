@@ -1,6 +1,6 @@
 {
   "title": "Top State Management Projects",
-  "generated_at": "2026-09-26T18:43:26.230047+00:00",
+  "generated_at": "2026-09-26T18:56:39.594162+00:00",
   "repos": [
     {
       "repo": "mem0ai/mem0",
@@ -23,6 +23,10 @@
       "unassigned": "26+"
     },
     {
+      "repo": "MemoriLabs/Memori",
+      "unassigned": 12
+    },
+    {
       "repo": "TanStack/router",
       "unassigned": "21+"
     },
@@ -37,10 +41,6 @@
     {
       "repo": "47ng/nuqs",
       "unassigned": 18
-    },
-    {
-      "repo": "rematch/rematch",
-      "unassigned": 21
     },
     {
       "repo": "ngrx/platform",
@@ -79,8 +79,8 @@
       "unassigned": 28
     },
     {
-      "repo": "salesforce/akita",
-      "unassigned": 41
+      "repo": "Tencent/westore",
+      "unassigned": 60
     }
   ]
 }

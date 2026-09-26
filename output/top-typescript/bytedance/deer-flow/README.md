@@ -1,6 +1,6 @@
 # bytedance/deer-flow
 
-Generated: 2026-09-26T18:42:31.281046+00:00
+Generated: 2026-09-26T18:55:59.988302+00:00
 
 - Unassigned: 34+
 - [View all unassigned issues](https://github.com/bytedance/deer-flow/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,6 +9,7 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#5918 [bug] Boolean upload limits are coerced to 1](https://github.com/bytedance/deer-flow/issues/5918) | 0 |
 | [#5916 [bug] The agent is never shown the active /goal, so API and TUI goals are ignored and compaction can drop the rest](https://github.com/bytedance/deer-flow/issues/5916) | 0 |
 | [#5904 [bug] Local sandbox backend decodes docker CLI output with the platform locale: non-UTF-8 hosts lose stdout/stderr and crash JSON parsing](https://github.com/bytedance/deer-flow/issues/5904) | 1 |
 | [#5901 fix(tracing): tag Langfuse root traces with the effective model](https://github.com/bytedance/deer-flow/issues/5901) | 0 |
@@ -42,4 +43,3 @@ Most recently opened:
 | [#5240 [bug] Batch retry can overlap a still-running subagent after a bookkeeping error](https://github.com/bytedance/deer-flow/issues/5240) | 1 |
 | [#5237 RFC: Single-chat archive and restore](https://github.com/bytedance/deer-flow/issues/5237) | 0 |
 | [#5201 [feat] Add agent-scoped memory browsing and editing to Settings](https://github.com/bytedance/deer-flow/issues/5201) | 1 |
-| [#5188 [bug] Deleting a thread leaves its persistent MCP sessions alive](https://github.com/bytedance/deer-flow/issues/5188) | 6 |

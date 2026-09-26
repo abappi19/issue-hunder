@@ -1,6 +1,6 @@
 {
   "title": "Top Open-Source Projects",
-  "generated_at": "2026-09-26T18:42:16.002755+00:00",
+  "generated_at": "2026-09-26T18:55:48.107553+00:00",
   "repos": [
     {
       "repo": "codecrafters-io/build-your-own-x",
@@ -16,7 +16,7 @@
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
-      "unassigned": "36+"
+      "unassigned": "37+"
     },
     {
       "repo": "EbookFoundation/free-programming-books",
@@ -24,7 +24,7 @@
     },
     {
       "repo": "openclaw/openclaw",
-      "unassigned": "45+"
+      "unassigned": "47+"
     },
     {
       "repo": "donnemartin/system-design-primer",
@@ -39,20 +39,12 @@
       "unassigned": "57+"
     },
     {
-      "repo": "vinta/awesome-python",
-      "unassigned": 0
-    },
-    {
-      "repo": "awesome-selfhosted/awesome-selfhosted",
-      "unassigned": 0
+      "repo": "obra/superpowers",
+      "unassigned": "45+"
     },
     {
       "repo": "practical-tutorials/project-based-learning",
       "unassigned": "53+"
-    },
-    {
-      "repo": "996icu/996.ICU",
-      "unassigned": 0
     },
     {
       "repo": "affaan-m/ECC",
@@ -67,10 +59,6 @@
       "unassigned": "19+"
     },
     {
-      "repo": "trimstray/the-book-of-secret-knowledge",
-      "unassigned": "0+"
-    },
-    {
       "repo": "TheAlgorithms/Python",
       "unassigned": 8
     },
@@ -80,7 +68,19 @@
     },
     {
       "repo": "anomalyco/opencode",
-      "unassigned": "29+"
+      "unassigned": "28+"
+    },
+    {
+      "repo": "ossu/computer-science",
+      "unassigned": 17
+    },
+    {
+      "repo": "n8n-io/n8n",
+      "unassigned": "8+"
+    },
+    {
+      "repo": "tensorflow/tensorflow",
+      "unassigned": "0+"
     }
   ]
 }

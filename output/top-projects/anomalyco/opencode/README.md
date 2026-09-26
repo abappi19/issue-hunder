@@ -1,8 +1,8 @@
 # anomalyco/opencode
 
-Generated: 2026-09-26T18:42:16.002755+00:00
+Generated: 2026-09-26T18:55:48.107553+00:00
 
-- Unassigned: 29+
+- Unassigned: 28+
 - [View all unassigned issues](https://github.com/anomalyco/opencode/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -37,4 +37,3 @@ Most recently opened:
 | [#51213 Background service resumes sessions still running on another server that shares the database](https://github.com/anomalyco/opencode/issues/51213) | 0 |
 | [#51212 [Bug]: /models "OpenCode Go" section omits 10 models that the Go API and CLI return (incl. all DeepSeek)](https://github.com/anomalyco/opencode/issues/51212) | 0 |
 | [#51209 [FEATURE]: Expose the V2 TUI composer to plugins](https://github.com/anomalyco/opencode/issues/51209) | 2 |
-| [#51208 tui: crashes with ENOSPC when inotify watch limit is exhausted](https://github.com/anomalyco/opencode/issues/51208) | 0 |

@@ -1,14 +1,16 @@
 # openclaw/openclaw
 
-Generated: 2026-09-26T18:42:16.002755+00:00
+Generated: 2026-09-26T18:55:48.107553+00:00
 
-- Unassigned: 45+
+- Unassigned: 47+
 - [View all unassigned issues](https://github.com/openclaw/openclaw/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#159107 [Bug]: Code Mode crabbox exec fails with "Environment exec has no matching captured tool authority"](https://github.com/openclaw/openclaw/issues/159107) | 0 |
+| [#159104 Ambient webchat session resolves into a `kind: cron` session, failing with "session key does not match its placement"](https://github.com/openclaw/openclaw/issues/159104) | 2 |
 | [#159094 [Bug]: 2026.9.6 Gateway owns state-lifecycle lease but internal workers report another OpenClaw process owns state-lifecycle](https://github.com/openclaw/openclaw/issues/159094) | 1 |
 | [#159089 [Bug]: contextPruning (cache-ttl) never prunes for OpenAI-compatible providers under a custom provider id](https://github.com/openclaw/openclaw/issues/159089) | 2 |
 | [#159080 [Bug]: Runtime-bound LINE conversations fail with AgentSelectionRequiredError on multi-agent installs](https://github.com/openclaw/openclaw/issues/159080) | 3 |

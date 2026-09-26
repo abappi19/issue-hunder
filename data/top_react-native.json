@@ -1,6 +1,5 @@
 [
   "react/react-native",
-  "justjavac/free-programming-books-zh_CN",
   "storybookjs/storybook",
   "enaqx/awesome-react",
   "appwrite/appwrite",
@@ -18,5 +17,6 @@
   "zulip/zulip",
   "react-native-elements/react-native-elements",
   "react-navigation/react-navigation",
-  "pubkey/rxdb"
+  "pubkey/rxdb",
+  "necolas/react-native-web"
 ]
