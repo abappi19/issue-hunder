@@ -2,7 +2,9 @@ name: Collect top-repo issues
 
 on:
   schedule:
-    - cron: "0 4 * * 4"
+    # Odd days of the month at 04:00 UTC, after the lists it reads have been
+    # refreshed. Last of the three, so it has the final word on README.md.
+    - cron: "0 4 */2 * *"
   workflow_dispatch: {}
 
 permissions:
@@ -36,5 +38,5 @@ jobs:
           # from languages.json is deleted outright, and the glob would no
           # longer match it, leaving the deletion unstaged forever.
           git add -A README.md output
-          git diff --cached --quiet || git commit -m "chore: weekly top-repo issue snapshot"
+          git diff --cached --quiet || git commit -m "chore: top-repo issue snapshot"
           git push

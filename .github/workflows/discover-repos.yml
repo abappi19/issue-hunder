@@ -2,7 +2,10 @@ name: Discover top repos
 
 on:
   schedule:
-    - cron: "0 2 * * 4"
+    # Odd days of the month at 02:00 UTC. */2 counts days of the month, not a
+    # rolling 48 hours, so a 31-day month is followed by two runs in a row.
+    # Runs first: it writes the data/top_*.json that collect-top-issues reads.
+    - cron: "0 2 */2 * *"
   workflow_dispatch: {}
 
 permissions:
