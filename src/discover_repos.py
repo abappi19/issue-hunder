@@ -3,11 +3,10 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from api.contributors import fetch_contributor_count
 from api.search_repos import fetch_top_starred_repos
-from config.github import MAX_WORKERS
+from config.github import MAX_WORKERS, MIN_CONTRIBUTORS
 from utils.file_util import load_file, write_file
 
 CANDIDATE_POOL_SIZE = 100
-MIN_CONTRIBUTORS = 50
 TOP_N = 20
 LANGUAGES_FILE = "src/repos/languages.json"
 

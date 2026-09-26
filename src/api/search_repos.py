@@ -1,6 +1,6 @@
 import requests
 
-from config.github import API, HEADERS
+from config.github import API, HEADERS, MIN_STARS
 
 
 def fetch_top_starred_repos(limit=100, language=None):
@@ -10,7 +10,7 @@ def fetch_top_starred_repos(limit=100, language=None):
     repos = []
     per_page = 100
     page = 1
-    query = "stars:>10000"
+    query = f"stars:>{MIN_STARS}"
     if language:
         query += f" language:{language}"
     while len(repos) < limit:
