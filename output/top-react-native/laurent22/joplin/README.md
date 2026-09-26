@@ -1,6 +1,6 @@
 # laurent22/joplin
 
-Generated: 2026-09-26T18:56:22.076237+00:00
+Generated: 2026-09-26T19:33:00.328691+00:00
 
 - Unassigned: 90+
 - [View all unassigned issues](https://github.com/laurent22/joplin/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,6 +9,7 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#16671 iOS: Editor scrolls while typing](https://github.com/laurent22/joplin/issues/16671) | 0 |
 | [#16670 No Joplin icon in taskbar after update to 3.7.21 in Windows 11](https://github.com/laurent22/joplin/issues/16670) | 0 |
 | [#16669 2026-09-20 - Published notebook notes cannot be scrolled down on Android browsers](https://github.com/laurent22/joplin/issues/16669) | 0 |
 | [#16668 Apostrophe in Android version replaces preceding word](https://github.com/laurent22/joplin/issues/16668) | 1 |
@@ -98,4 +99,3 @@ Most recently opened:
 | [#16157 OneNote importer fails with WebAssembly.Instance(): Out of memory on Windows 10](https://github.com/laurent22/joplin/issues/16157) | 8 |
 | [#16140 Add locked note handling to export and import](https://github.com/laurent22/joplin/issues/16140) | 2 |
 | [#16130 Note.save silently accepts gated note lock data without the note lock option](https://github.com/laurent22/joplin/issues/16130) | 2 |
-| [#16129 iOS: Closing the find/replace dialog while the keyboard is open repeatedly closes and re-opens the keyboard](https://github.com/laurent22/joplin/issues/16129) | 2 |

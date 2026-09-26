@@ -1,6 +1,6 @@
 # freeCodeCamp/freeCodeCamp
 
-Generated: 2026-09-26T18:55:48.107553+00:00
+Generated: 2026-09-26T19:32:25.172353+00:00
 
 - Unassigned: 37+
 - [View all unassigned issues](https://github.com/freeCodeCamp/freeCodeCamp/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -18,10 +18,7 @@ Most recently opened:
 | [#70379 Fix the Discount Calculator lab objective and punctuation](https://github.com/freeCodeCamp/freeCodeCamp/issues/70379) | 1 |
 | [#70359 Preposing a change in guideline of python workshop-email-simulator/step-28](https://github.com/freeCodeCamp/freeCodeCamp/issues/70359) | 1 |
 | [#70358 A valid answer is not accepted](https://github.com/freeCodeCamp/freeCodeCamp/issues/70358) | 1 |
-| [#70350 Business Card portfolio text test should use textContent](https://github.com/freeCodeCamp/freeCodeCamp/issues/70350) | 2 |
-| [#70344 Inaccurate statement about Buffer module requiring explicit import in Buffer module lesson](https://github.com/freeCodeCamp/freeCodeCamp/issues/70344) | 1 |
 | [#70332 Implement a Queue - Unmentioned/Circular Dependencies Between Tests](https://github.com/freeCodeCamp/freeCodeCamp/issues/70332) | 1 |
-| [#70308 Clarify the rm -f flag in the Bash commands lecture](https://github.com/freeCodeCamp/freeCodeCamp/issues/70308) | 1 |
 | [#70306 Clarify int() input description in Python functions lecture](https://github.com/freeCodeCamp/freeCodeCamp/issues/70306) | 1 |
 | [#70303 Travel Weather Planner has incomplete and inaccurate tests and hints](https://github.com/freeCodeCamp/freeCodeCamp/issues/70303) | 0 |
 | [#70249 Reusable Mega Navbar workshop has test, instruction, accessibility, and code consistency problems](https://github.com/freeCodeCamp/freeCodeCamp/issues/70249) | 3 |
@@ -46,3 +43,6 @@ Most recently opened:
 | [#69446 Clarify lack of support on archived course pages](https://github.com/freeCodeCamp/freeCodeCamp/issues/69446) | 7 |
 | [#69421 Trivia Bot lab hints hard-code console.log call indices, breaking valid solutions with extra logging](https://github.com/freeCodeCamp/freeCodeCamp/issues/69421) | 1 |
 | [#69158 Digital Pet Game - Step for says form shouldn't be "Visible" but test looks at existence](https://github.com/freeCodeCamp/freeCodeCamp/issues/69158) | 2 |
+| [#68957 Monaco editor accessibility breaks with NVDA in later HTML lessons and becomes unusable starting with the first CSS lesson](https://github.com/freeCodeCamp/freeCodeCamp/issues/68957) | 4 |
+| [#68948 Tests on the last Front-End Dev certification project take three minutes to execute](https://github.com/freeCodeCamp/freeCodeCamp/issues/68948) | 2 |
+| [#68924 Mandatory tags for Curriculum help category on FCC forum](https://github.com/freeCodeCamp/freeCodeCamp/issues/68924) | 11 |

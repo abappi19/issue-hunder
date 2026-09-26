@@ -1,8 +1,8 @@
 # immich-app/immich
 
-Generated: 2026-09-26T18:55:59.988302+00:00
+Generated: 2026-09-26T19:32:38.075464+00:00
 
-- Unassigned: 45+
+- Unassigned: 44+
 - [View all unassigned issues](https://github.com/immich-app/immich/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -53,4 +53,3 @@ Most recently opened:
 | [#31289 Smart Switch-migrated Apple Live Photos (now Samsung Motion Photos) lack standard MicroVideo metadata and are not recognized by Immich](https://github.com/immich-app/immich/issues/31289) | 5 |
 | [#31267 UI: Favorite heart remains filled after removing favorite (first click shows toast but heart stays filled)](https://github.com/immich-app/immich/issues/31267) | 3 |
 | [#31203 Workflow “Add to Album” action displays stale album name after the album is renamed](https://github.com/immich-app/immich/issues/31203) | 2 |
-| [#31198 [Android] Sharing DNG uses application/octet-stream, preventing Lightroom from appearing in share sheet](https://github.com/immich-app/immich/issues/31198) | 0 |

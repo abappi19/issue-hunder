@@ -1,8 +1,8 @@
 # bytedance/deer-flow
 
-Generated: 2026-09-26T18:55:59.988302+00:00
+Generated: 2026-09-26T19:32:38.075464+00:00
 
-- Unassigned: 34+
+- Unassigned: 33+
 - [View all unassigned issues](https://github.com/bytedance/deer-flow/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -42,4 +42,3 @@ Most recently opened:
 | [#5285 [RFC] Preview CSV/TSV artifacts as tables](https://github.com/bytedance/deer-flow/issues/5285) | 0 |
 | [#5240 [bug] Batch retry can overlap a still-running subagent after a bookkeeping error](https://github.com/bytedance/deer-flow/issues/5240) | 1 |
 | [#5237 RFC: Single-chat archive and restore](https://github.com/bytedance/deer-flow/issues/5237) | 0 |
-| [#5201 [feat] Add agent-scoped memory browsing and editing to Settings](https://github.com/bytedance/deer-flow/issues/5201) | 1 |

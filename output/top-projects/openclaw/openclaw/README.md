@@ -1,20 +1,21 @@
 # openclaw/openclaw
 
-Generated: 2026-09-26T18:55:48.107553+00:00
+Generated: 2026-09-26T19:32:25.172353+00:00
 
-- Unassigned: 47+
+- Unassigned: 44+
 - [View all unassigned issues](https://github.com/openclaw/openclaw/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#159107 [Bug]: Code Mode crabbox exec fails with "Environment exec has no matching captured tool authority"](https://github.com/openclaw/openclaw/issues/159107) | 0 |
+| [#159118 Steady-state artifact-preserving config reads scale with unrelated shared-state audit ledger size](https://github.com/openclaw/openclaw/issues/159118) | 1 |
+| [#159112 [Bug]: Doctor legacy capture cleanup blocked by unreadable unrelated macOS root daemons](https://github.com/openclaw/openclaw/issues/159112) | 1 |
+| [#159107 [Bug]: Code Mode crabbox exec fails with "Environment exec has no matching captured tool authority"](https://github.com/openclaw/openclaw/issues/159107) | 2 |
 | [#159104 Ambient webchat session resolves into a `kind: cron` session, failing with "session key does not match its placement"](https://github.com/openclaw/openclaw/issues/159104) | 2 |
 | [#159094 [Bug]: 2026.9.6 Gateway owns state-lifecycle lease but internal workers report another OpenClaw process owns state-lifecycle](https://github.com/openclaw/openclaw/issues/159094) | 1 |
 | [#159089 [Bug]: contextPruning (cache-ttl) never prunes for OpenAI-compatible providers under a custom provider id](https://github.com/openclaw/openclaw/issues/159089) | 2 |
-| [#159080 [Bug]: Runtime-bound LINE conversations fail with AgentSelectionRequiredError on multi-agent installs](https://github.com/openclaw/openclaw/issues/159080) | 3 |
-| [#159075 [Bug]: Memory keyword search drops English terms written inside Chinese text without spaces](https://github.com/openclaw/openclaw/issues/159075) | 1 |
+| [#159080 [Bug]: Runtime-bound LINE conversations fail with AgentSelectionRequiredError on multi-agent installs](https://github.com/openclaw/openclaw/issues/159080) | 2 |
 | [#159070 [Feature]: Support ordered fallback chains for utilityModel](https://github.com/openclaw/openclaw/issues/159070) | 1 |
 | [#159059 Direct subagent result mirror written between a wake's keyed user and its reply triggers 'keyed user is outside the current turn' (2026.9.6)](https://github.com/openclaw/openclaw/issues/159059) | 2 |
 | [#159058 Feature request: ACP-only agent identities (deny native/embedded runs, preserve ACP spawn)](https://github.com/openclaw/openclaw/issues/159058) | 1 |
@@ -38,7 +39,6 @@ Most recently opened:
 | [#158990 [Bug]: Gateway temp log truncated on every CLI/gateway start destroys crash forensics (Windows)](https://github.com/openclaw/openclaw/issues/158990) | 1 |
 | [#158981 Model catalog inventories remain retained across neutral configuration reloads](https://github.com/openclaw/openclaw/issues/158981) | 1 |
 | [#158977 Update failure: reconcile:abandoned (2026.9.6)](https://github.com/openclaw/openclaw/issues/158977) | 1 |
-| [#158969 cron: startup catch-up write failure leaves the scheduler unarmed](https://github.com/openclaw/openclaw/issues/158969) | 2 |
 | [#158968 secrets: rotating a value without --kind converts protected entries to readable env entries](https://github.com/openclaw/openclaw/issues/158968) | 1 |
 | [#158967 media: attachment TTL cleanup deletes inbound files still referenced by transcripts](https://github.com/openclaw/openclaw/issues/158967) | 1 |
 | [#158966 browser: credentialed CDP WebSocket URLs reach model-facing tab results](https://github.com/openclaw/openclaw/issues/158966) | 0 |
@@ -53,6 +53,3 @@ Most recently opened:
 | [#158936 [Bug]: macOS app readiness watchdog SIGTERMs a slow-starting gateway, causing a restart loop until the app is quit](https://github.com/openclaw/openclaw/issues/158936) | 3 |
 | [#158924 [Bug]: Control UI sidebar agent card renders image avatar as a cropped sliver (image box overflows its 28x28 container)](https://github.com/openclaw/openclaw/issues/158924) | 1 |
 | [#158922 claude-cli models report `available: false` after Gateway restart on main, hiding the Control UI Effort picker (regression after #157459)](https://github.com/openclaw/openclaw/issues/158922) | 2 |
-| [#158921 [Feature]: Native contributor admission, lifecycle and stop contract](https://github.com/openclaw/openclaw/issues/158921) | 1 |
-| [#158920 [Feature]: Supported recovery coverage for opaque Workboard and native-harness state](https://github.com/openclaw/openclaw/issues/158920) | 1 |
-| [#158917 [Bug]: memory_search intermittently times out at 30s, returns late keyword-only partial results on Gemini](https://github.com/openclaw/openclaw/issues/158917) | 1 |

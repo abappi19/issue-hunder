@@ -1,6 +1,6 @@
 {
   "title": "Top TypeScript Projects",
-  "generated_at": "2026-09-26T18:55:59.988302+00:00",
+  "generated_at": "2026-09-26T19:32:38.075464+00:00",
   "repos": [
     {
       "repo": "n8n-io/n8n",
@@ -20,11 +20,11 @@
     },
     {
       "repo": "immich-app/immich",
-      "unassigned": "45+"
+      "unassigned": "44+"
     },
     {
       "repo": "microsoft/TypeScript",
-      "unassigned": "42+"
+      "unassigned": "41+"
     },
     {
       "repo": "denoland/deno",
@@ -56,7 +56,7 @@
     },
     {
       "repo": "bytedance/deer-flow",
-      "unassigned": "34+"
+      "unassigned": "33+"
     },
     {
       "repo": "nestjs/nest",
@@ -76,7 +76,7 @@
     },
     {
       "repo": "ruvnet/ruflo",
-      "unassigned": "39+"
+      "unassigned": "41+"
     },
     {
       "repo": "strapi/strapi",

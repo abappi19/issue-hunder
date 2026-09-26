@@ -1,6 +1,6 @@
 {
   "title": "Top Expo Projects",
-  "generated_at": "2026-09-26T18:56:30.974879+00:00",
+  "generated_at": "2026-09-26T19:33:09.684289+00:00",
   "repos": [
     {
       "repo": "expo/expo",
@@ -17,6 +17,10 @@
     {
       "repo": "t3-oss/create-t3-turbo",
       "unassigned": 36
+    },
+    {
+      "repo": "czy0729/Bangumi",
+      "unassigned": 27
     },
     {
       "repo": "AmanVarshney01/create-better-t-stack",
@@ -47,12 +51,16 @@
       "unassigned": 35
     },
     {
+      "repo": "enzomanuelmangano/demos",
+      "unassigned": 1
+    },
+    {
       "repo": "Jpisnice/shadcn-ui-mcp-server",
       "unassigned": 3
     },
     {
       "repo": "elie222/rakazo",
-      "unassigned": 10
+      "unassigned": 11
     },
     {
       "repo": "jpudysz/react-native-unistyles",
@@ -67,20 +75,12 @@
       "unassigned": 13
     },
     {
+      "repo": "BlackHatDevX/openspot-music-app",
+      "unassigned": 6
+    },
+    {
       "repo": "codedogQBY/ReadAny",
       "unassigned": "68+"
-    },
-    {
-      "repo": "roninoss/create-expo-stack",
-      "unassigned": 5
-    },
-    {
-      "repo": "flatlogic/react-native-starter",
-      "unassigned": 2
-    },
-    {
-      "repo": "OneKeyHQ/app-monorepo",
-      "unassigned": "19+"
     }
   ]
 }

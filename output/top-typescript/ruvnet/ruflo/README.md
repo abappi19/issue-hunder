@@ -1,14 +1,16 @@
 # ruvnet/ruflo
 
-Generated: 2026-09-26T18:55:59.988302+00:00
+Generated: 2026-09-26T19:32:38.075464+00:00
 
-- Unassigned: 39+
+- Unassigned: 41+
 - [View all unassigned issues](https://github.com/ruvnet/ruflo/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#3445 post-task skill promotion never runs: agentdb SkillLibrary has no promote()](https://github.com/ruvnet/ruflo/issues/3445) | 0 |
+| [#3444 agentdb_consolidate reports success:true for a no-op stub and ignores minAge/maxEntries](https://github.com/ruvnet/ruflo/issues/3444) | 0 |
 | [#3419 Question: do Codex plugin hook processes inherit the parent environment? (supported way to pass env vars to ruflo's Codex hooks)](https://github.com/ruvnet/ruflo/issues/3419) | 0 |
 | [#3418 Add ruflo doctor components for the MiniLM picker (CLAUDE_FLOW_ROUTER_EMBEDDER) and MCP governance (RUFLO_MCP_ENFORCE_POLICY)](https://github.com/ruvnet/ruflo/issues/3418) | 0 |
 | [#3417 Make the MCP tool-governance audit log path configurable and per-project, with rotation](https://github.com/ruvnet/ruflo/issues/3417) | 0 |

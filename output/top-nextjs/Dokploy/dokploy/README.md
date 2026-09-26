@@ -1,8 +1,8 @@
 # Dokploy/dokploy
 
-Generated: 2026-09-26T18:56:11.893061+00:00
+Generated: 2026-09-26T19:32:50.026310+00:00
 
-- Unassigned: 49+
+- Unassigned: 48+
 - [View all unassigned issues](https://github.com/Dokploy/dokploy/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -11,7 +11,7 @@ Most recently opened:
 |---|---|
 | [#5526 make .env be renamable to .env.local](https://github.com/Dokploy/dokploy/issues/5526) | 1 |
 | [#5524 Database backups require gzip/shell inside the DB container, breaking hardened images (e.g. Docker Hardened Images)](https://github.com/Dokploy/dokploy/issues/5524) | 1 |
-| [#5519 S3 credentials are logged in plaintext again: redactRcloneCredentials stopped matching after the shell-quote change](https://github.com/Dokploy/dokploy/issues/5519) | 1 |
+| [#5519 S3 credentials are logged in plaintext again: redactRcloneCredentials stopped matching after the shell-quote change](https://github.com/Dokploy/dokploy/issues/5519) | 2 |
 | [#5518 Orphaned deployment-log tail processes can exhaust inotify instances](https://github.com/Dokploy/dokploy/issues/5518) | 1 |
 | [#5514 Dokploy does not use HTTP_PROXY/HTTPS_PROXY for Node.js fetch requests](https://github.com/Dokploy/dokploy/issues/5514) | 1 |
 | [#5513 Block I/O on host monitoring counts each write up to 5x on RAID/LVM hosts (partitions and md/dm devices are summed)](https://github.com/Dokploy/dokploy/issues/5513) | 1 |
@@ -57,4 +57,3 @@ Most recently opened:
 | [#5366 Registry authentication for Compose services (project-scoped)](https://github.com/Dokploy/dokploy/issues/5366) | 1 |
 | [#5361 compose.search omits services missing from member accessedServices, even for owners/admins](https://github.com/Dokploy/dokploy/issues/5361) | 2 |
 | [#5359 BETTER_AUTH_SECRET migration script targets wrong container](https://github.com/Dokploy/dokploy/issues/5359) | 1 |
-| [#5355 SSH terminal permission vulnerability](https://github.com/Dokploy/dokploy/issues/5355) | 1 |

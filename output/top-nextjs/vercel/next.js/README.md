@@ -1,14 +1,16 @@
 # vercel/next.js
 
-Generated: 2026-09-26T18:56:11.893061+00:00
+Generated: 2026-09-26T19:32:50.026310+00:00
 
-- Unassigned: 9+
+- Unassigned: 11+
 - [View all unassigned issues](https://github.com/vercel/next.js/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#99288 Self-hosted, multiple instances: an ISR page served from a shared cacheHandler by an instance that did not render it has no Cache-Control](https://github.com/vercel/next.js/issues/99288) | 0 |
+| [#99287 notFound() serves an empty `__next_error__` document instead of not-found.tsx](https://github.com/vercel/next.js/issues/99287) | 0 |
 | [#99273 Socket rewrites fail after ECONNRESET](https://github.com/vercel/next.js/issues/99273) | 0 |
 | [#99248 next/jest loads the server runtime into Jest's own process, so process.on(…) in every test file adds listeners to the real process](https://github.com/vercel/next.js/issues/99248) | 1 |
 | [#99246 crypto/node:crypto wrappers stack up each time the server starts in a new realm, keeping every earlier realm alive](https://github.com/vercel/next.js/issues/99246) | 1 |

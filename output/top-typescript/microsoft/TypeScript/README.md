@@ -1,8 +1,8 @@
 # microsoft/TypeScript
 
-Generated: 2026-09-26T18:55:59.988302+00:00
+Generated: 2026-09-26T19:32:38.075464+00:00
 
-- Unassigned: 42+
+- Unassigned: 41+
 - [View all unassigned issues](https://github.com/microsoft/TypeScript/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -50,4 +50,3 @@ Most recently opened:
 | [#64094 typescript-language-server does not work with @typescript/typescript6](https://github.com/microsoft/TypeScript/issues/64094) | 0 |
 | [#64091 Feature request: Dependent contextual inference](https://github.com/microsoft/TypeScript/issues/64091) | 1 |
 | [#64087 Switching on a template literal expression does not narrow the interpolated union variable](https://github.com/microsoft/TypeScript/issues/64087) | 2 |
-| [#64058 TS7: `@extends` is ignored when the heritage is a call expression (Base.extend())](https://github.com/microsoft/TypeScript/issues/64058) | 0 |

@@ -1,14 +1,15 @@
 # obra/superpowers
 
-Generated: 2026-09-26T18:55:48.107553+00:00
+Generated: 2026-09-26T19:32:25.172353+00:00
 
-- Unassigned: 45+
+- Unassigned: 49+
 - [View all unassigned issues](https://github.com/obra/superpowers/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#2391 OpenCode V2 plugin: bootstrap is injected on the 'context' hook only, so every compaction request misses the prompt cache](https://github.com/obra/superpowers/issues/2391) | 0 |
 | [#2386 test-driven-development is not invoked for a plain "add a function" request, even with the using-superpowers injection present](https://github.com/obra/superpowers/issues/2386) | 0 |
 | [#2385 executing-plans: task-done aborts silently after a passing test command that prints nothing (grep exit 1 under pipefail)](https://github.com/obra/superpowers/issues/2385) | 0 |
 | [#2378 brainstorming: spec metadata renders as one line, and there's no design-doc template](https://github.com/obra/superpowers/issues/2378) | 0 |
@@ -54,3 +55,6 @@ Most recently opened:
 | [#2242 SDD scripts (task-brief/review-package) crash on greenfield Task 1 — no git repo yet](https://github.com/obra/superpowers/issues/2242) | 1 |
 | [#2241 skills/writing-plans + executing-plans: plans assume application code, and a verification can silently check a different object than the operation it guards](https://github.com/obra/superpowers/issues/2241) | 0 |
 | [#2240 skills/brainstorming: the one-question rule is a proxy for a quality property, and a named vendor is an unmarked claim](https://github.com/obra/superpowers/issues/2240) | 1 |
+| [#2234 skills/writing-plans + executing-plans: a guard a later plan should relax needs "narrow it", not "delete it"](https://github.com/obra/superpowers/issues/2234) | 1 |
+| [#2233 skills/writing-skills: moving content breaks relative links silently, and `Triggers on:` makes the frontmatter invalid YAML](https://github.com/obra/superpowers/issues/2233) | 2 |
+| [#2232 skills/systematic-debugging: sizing a probe for intermittent behaviour, and preserving evidence before reproducing](https://github.com/obra/superpowers/issues/2232) | 0 |
