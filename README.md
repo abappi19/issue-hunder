@@ -19,13 +19,13 @@ can be merged.
 <!-- AUTO-GENERATED:START -->
 ## Tracked Projects
 
-_16 repos · updated 2026-09-26T18:26:44.659614+00:00_
+_16 repos · updated 2026-09-26T18:44:14.972829+00:00_
 
 | Repository | Unassigned |
 |---|---|
 | [golang/go](output/projects/golang/go/README.md) | [83+](https://github.com/golang/go/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [rust-lang/rust](output/projects/rust-lang/rust/README.md) | [81+](https://github.com/rust-lang/rust/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [microsoft/vscode](output/projects/microsoft/vscode/README.md) | [67+](https://github.com/microsoft/vscode/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [microsoft/vscode](output/projects/microsoft/vscode/README.md) | [65+](https://github.com/microsoft/vscode/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [docker/compose](output/projects/docker/compose/README.md) | [45](https://github.com/docker/compose/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [facebook/react](output/projects/facebook/react/README.md) | [32+](https://github.com/facebook/react/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [python/cpython](output/projects/python/cpython/README.md) | [31+](https://github.com/python/cpython/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |

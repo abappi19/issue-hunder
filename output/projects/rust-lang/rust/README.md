@@ -1,6 +1,6 @@
 # rust-lang/rust
 
-Generated: 2026-09-26T18:26:44.659614+00:00
+Generated: 2026-09-26T18:44:14.972829+00:00
 
 - Unassigned: 81+
 - [View all unassigned issues](https://github.com/rust-lang/rust/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -11,7 +11,7 @@ Most recently opened:
 |---|---|
 | [#163382 Tracking issue for release notes of #98407: Tracking Issue for `SyncView`](https://github.com/rust-lang/rust/issues/163382) | 0 |
 | [#163381 Tracking issue for release notes of #163366: Stabilize SyncView](https://github.com/rust-lang/rust/issues/163381) | 0 |
-| [#163374 [ICE]: is not an owner](https://github.com/rust-lang/rust/issues/163374) | 3 |
+| [#163374 [ICE]: is not an owner](https://github.com/rust-lang/rust/issues/163374) | 4 |
 | [#163356 [ICE]: `encountered unexpected unsized field in layout of `](https://github.com/rust-lang/rust/issues/163356) | 3 |
 | [#163355 ICE no entry for node id `NodeId(19)` in owner DefId](https://github.com/rust-lang/rust/issues/163355) | 1 |
 | [#163354 Tracking issue for release notes of #129036: Additional NonZero conversions](https://github.com/rust-lang/rust/issues/163354) | 0 |
@@ -43,6 +43,7 @@ Most recently opened:
 | [#163248 Tracking issue for release notes of #158734: Update to LLVM 23](https://github.com/rust-lang/rust/issues/163248) | 0 |
 | [#163247 O3 SLP vectorization makes a mixed-width equality chain larger and slower](https://github.com/rust-lang/rust/issues/163247) | 0 |
 | [#163243 According to E0382, unwrapping a Result moves the Result...but does it?](https://github.com/rust-lang/rust/issues/163243) | 8 |
+| [#163233 rustc_public: stable `FnAbi` conversion ICEs on `extern "sysv64"` C-variadics](https://github.com/rust-lang/rust/issues/163233) | 3 |
 | [#163232 Missing examples for `Allocator`](https://github.com/rust-lang/rust/issues/163232) | 4 |
 | [#163231 `riscv-interrupt-m` saves unused caller-saved registers (`t0`–`t2`, …) in a bare-metal ISR](https://github.com/rust-lang/rust/issues/163231) | 2 |
 | [#163195 Nested async fn forwarding doubles future size per layer (16 MiB at depth 10); 2 MiB-stack overflow at depth 7](https://github.com/rust-lang/rust/issues/163195) | 1 |
@@ -89,4 +90,3 @@ Most recently opened:
 | [#162843 unused_must_use sometimes produces suggestions that then trigger let_underscore_lock](https://github.com/rust-lang/rust/issues/162843) | 1 |
 | [#162834 Missed optimization: bounds checks on slices](https://github.com/rust-lang/rust/issues/162834) | 1 |
 | [#162828 Xtensa esp32s3 targets do not work with upstream LLVM](https://github.com/rust-lang/rust/issues/162828) | 9 |
-| [#162814 [ICE]: generic_const_args with async and closure](https://github.com/rust-lang/rust/issues/162814) | 0 |
