@@ -7,14 +7,12 @@ from api.repo_info import contribution_blockers
 from constants import MIN_STARS
 
 
-def fetch_top_starred_repos(limit=100, topic=None, min_stars=MIN_STARS):
+def fetch_top_starred_repos(limit=100, topic=None):
     """Top starred public repos, via the Search API's stars-sort. Returns
     [{"repo": "owner/name", "stars": int}, ...] ordered by stars desc.
 
     Pass `topic` (e.g. "react-native") to restrict the search to repos
-    carrying that GitHub topic, and `min_stars` to set the floor -- a topic
-    draws from a much smaller pool than the whole of GitHub and needs a
-    lower one to fill a list.
+    carrying that GitHub topic.
 
     Repos nobody outside could contribute to are dropped here rather than
     later: a search result is a full repository payload, so the flags come
@@ -32,7 +30,7 @@ def fetch_top_starred_repos(limit=100, topic=None, min_stars=MIN_STARS):
     seen = 0
     per_page = 100
     page = 1
-    query = f"stars:>{min_stars}"
+    query = f"stars:>{MIN_STARS}"
     if topic:
         query += f" topic:{topic}"
     while seen < limit:

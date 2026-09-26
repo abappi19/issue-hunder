@@ -11,14 +11,13 @@ from constants import (
     REPOS_DIR,
     TOP_N,
     TOP_REPOS_FILE,
-    TOPIC_MIN_STARS,
     TOPICS_FILE,
 )
 from utils.file_util import load_file, write_file
 from utils.slug import to_slug
 
 
-def discover(topic=None, pool_size=CANDIDATE_POOL_SIZE, min_stars=MIN_STARS):
+def discover(topic=None, pool_size=CANDIDATE_POOL_SIZE):
     """The top TOP_N repos for a topic, from a single search.
 
     Candidates arrive sorted by stars descending and repos closed to
@@ -26,8 +25,8 @@ def discover(topic=None, pool_size=CANDIDATE_POOL_SIZE, min_stars=MIN_STARS):
     answer -- no re-sorting, and nothing to look up per candidate."""
     label = f"topic:{topic}" if topic else "all repos"
     print(f"=== Discovering: {label} ===")
-    print(f"Searching top {pool_size} starred repos ({label}, >{min_stars:,} stars)...")
-    candidates = fetch_top_starred_repos(limit=pool_size, topic=topic, min_stars=min_stars)
+    print(f"Searching top {pool_size} starred repos ({label}, >{MIN_STARS:,} stars)...")
+    candidates = fetch_top_starred_repos(limit=pool_size, topic=topic)
     top = [c["repo"] for c in candidates[:TOP_N]]
     print(f"{len(candidates)} candidate(s) open to contributions, keeping top {len(top)}:")
     for c in candidates[:TOP_N]:
@@ -63,7 +62,7 @@ def main():
 
         for topic in topics:
             path = f"{REPOS_DIR}/top_{to_slug(topic)}.json"
-            write_repo_list(path, discover(topic=topic, min_stars=TOPIC_MIN_STARS))
+            write_repo_list(path, discover(topic=topic))
     except RateLimitError as e:
         print(f"Aborted: {e}", file=sys.stderr)
         sys.exit(1)

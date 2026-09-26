@@ -3,14 +3,21 @@
 # GitHub API base URL
 API_BASE_URL = "https://api.github.com"
 
-# "Popular" repo bar, used both by discover_repos.py (auto-discovery) and
-# check_new_repos.py (PR check on manually-added repos.json entries).
+# The one popularity bar, for every search discover_repos.py runs and for
+# check_new_repos.py's check on manually-added repos.json entries.
 #
-# Stars are the whole bar. A contributor floor used to sit beside this, but it
-# cost a request per candidate -- the only per-candidate request discovery
-# made, and by far the largest draw on the hourly budget -- to rule out the
-# one-person project, which a five-figure star count already rules out.
-MIN_STARS = 10000
+# Stars are the whole of it; a contributor floor used to sit beside this, but
+# it cost a request per candidate -- the only per-candidate request discovery
+# made -- and the blockers filter removes most of what it was really catching.
+#
+# The figure matters far less than it looks. Every search sorts by stars and
+# keeps only the leading TOP_N, so for a broad search the bar is never
+# approached: the top 20 of `stars:>1000` are the same repos as the top 20 of
+# `stars:>10000`. It binds only where a search has fewer matches than the
+# candidate pool holds, which is the narrow topics -- `topic:expo` matches 63
+# repos here against 3 at ten thousand, the difference between a collection
+# and an empty page.
+MIN_STARS = 1000
 
 # discover_repos.py: how far down the star ranking to look, and how many of
 # what comes back to keep. The pool is deliberately far wider than TOP_N so
@@ -66,13 +73,6 @@ TOP_REPOS_FILE = f"{REPOS_DIR}/top_repos.json"
 # and reach libraries that rank too low by raw stars to survive a
 # language-wide cut, such as zustand under state-management.
 TOPICS_FILE = f"{REPOS_DIR}/topics.json"
-
-# A topic search draws from a far smaller pool than a language one, so it
-# needs a lower bar to fill a list: at 10,000 stars `topic:expo` matches three
-# repos in total, against sixty-three at this figure. It costs the bigger
-# topics nothing -- the top 20 kept from `topic:typescript` clear 10,000 stars
-# regardless of where the floor sits.
-TOPIC_MIN_STARS = 1000
 
 # main.py CLI defaults (the manually-curated repos.json collection)
 OUTPUT_DIR = "output"
