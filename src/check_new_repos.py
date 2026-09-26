@@ -28,48 +28,67 @@ def load_repos_at_ref(ref):
     return json.loads(result.stdout)
 
 
-def main():
-    if len(sys.argv) != 2:
-        print("Usage: check_new_repos.py <base-ref>", file=sys.stderr)
-        sys.exit(2)
-    base_ref = sys.argv[1]
+def check(repos):
+    """Check each repo against the bar, returning the ones that fail it.
 
-    print(f"=== Checking new repos against {REPOS_FILE} at {base_ref} ===")
-    old_repos = set(load_repos_at_ref(base_ref))
-    with open(REPOS_FILE) as f:
-        new_repos = set(json.load(f))
-    added = sorted(new_repos - old_repos)
-
-    if not added:
-        print("No new repos added to src/repos/repos.json.")
-        return
-
-    print(
-        f"Checking {len(added)} newly added repo(s) against the popularity bar "
-        f"(>= {MIN_STARS:,} stars, >= {MIN_CONTRIBUTORS} contributors)..."
-    )
-
+    Contribution blockers are read off the same repo payload the star count
+    comes from, so enforcing them costs nothing extra."""
     failed = []
-    for repo in added:
+    for repo in repos:
         try:
-            stars = fetch_repo_stats(repo)["stars"]
+            stats = fetch_repo_stats(repo)
             contributors = fetch_contributor_count(repo)
         except Exception as e:
             print(f"  [FAIL] {repo}: could not fetch repo info ({e})")
             failed.append(repo)
             continue
 
-        ok = stars >= MIN_STARS and contributors >= MIN_CONTRIBUTORS
-        status = "OK" if ok else "FAIL"
-        print(f"  [{status}] {repo}: {stars:,} stars, {contributors} contributors")
-        if not ok:
+        reasons = list(stats["blockers"])
+        if stats["stars"] < MIN_STARS:
+            reasons.append(f"{stats['stars']:,} stars")
+        if contributors < MIN_CONTRIBUTORS:
+            reasons.append(f"{contributors} contributors")
+
+        if reasons:
             failed.append(repo)
+            print(f"  [FAIL] {repo}: {', '.join(reasons)}")
+        else:
+            print(f"  [OK]   {repo}: {stats['stars']:,} stars, {contributors} contributors")
+    return failed
+
+
+def main():
+    if len(sys.argv) != 2:
+        print("Usage: check_new_repos.py <base-ref>|--all", file=sys.stderr)
+        sys.exit(2)
+    target = sys.argv[1]
+
+    with open(REPOS_FILE) as f:
+        current = set(json.load(f))
+
+    if target == "--all":
+        # For auditing entries added before a bar existed, rather than only
+        # what a pull request touches.
+        to_check = sorted(current)
+        print(f"=== Checking every repo in {REPOS_FILE} ===")
+    else:
+        print(f"=== Checking new repos against {REPOS_FILE} at {target} ===")
+        to_check = sorted(current - set(load_repos_at_ref(target)))
+        if not to_check:
+            print(f"No new repos added to {REPOS_FILE}.")
+            return
+
+    print(
+        f"Checking {len(to_check)} repo(s): >= {MIN_STARS:,} stars, "
+        f">= {MIN_CONTRIBUTORS} contributors, and open to outside contributions..."
+    )
+    failed = check(to_check)
 
     if failed:
-        print(f"\n{len(failed)} repo(s) do not meet the popularity bar: {', '.join(failed)}")
+        print(f"\n{len(failed)} repo(s) do not meet the bar: {', '.join(failed)}")
         sys.exit(1)
 
-    print("\nAll new repos meet the popularity bar.")
+    print("\nAll checked repos meet the bar.")
 
 
 if __name__ == "__main__":
