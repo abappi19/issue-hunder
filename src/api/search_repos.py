@@ -1,7 +1,8 @@
 import requests
 
 from api.search_rate_limiter import SEARCH_LIMITER
-from config.github import API, HEADERS, MIN_STARS
+from config.github import API, HEADERS
+from constants import MIN_STARS
 
 
 def fetch_top_starred_repos(limit=100, language=None):

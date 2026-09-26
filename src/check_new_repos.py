@@ -5,9 +5,7 @@ import sys
 
 from api.contributors import fetch_contributor_count
 from api.repo_info import fetch_repo_stats
-from config.github import MIN_CONTRIBUTORS, MIN_STARS
-
-REPOS_FILE = "src/repos/repos.json"
+from constants import MIN_CONTRIBUTORS, MIN_STARS, REPOS_FILE
 
 
 def load_repos_at_ref(ref):
@@ -25,6 +23,7 @@ def main():
         sys.exit(2)
     base_ref = sys.argv[1]
 
+    print(f"=== Checking new repos against {REPOS_FILE} at {base_ref} ===")
     old_repos = set(load_repos_at_ref(base_ref))
     with open(REPOS_FILE) as f:
         new_repos = set(json.load(f))

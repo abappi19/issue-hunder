@@ -10,16 +10,19 @@ from utils.write_summary_readme import write_summary_readme
 
 
 def run_collection(repos_path, output_dir, summary_path, title, summary_writer=write_summary_readme):
+    print(f"=== {title} ===")
     repos = load_file(repos_path)
+    print(f"Loaded {len(repos)} repo(s) from {repos_path}")
     generated_at = datetime.now(timezone.utc).isoformat()
     summaries = []
 
-    for repo in repos:
+    for i, repo in enumerate(repos, start=1):
         summary = fetch_unassigned_summary(repo)
-        print(f"{repo}: {summary['total_count']} unassigned")
+        print(f"  [{i}/{len(repos)}] {repo}: {summary['total_count']} unassigned")
         unassigned_count = write_project_readme(repo, summary, output_dir, generated_at)
         summaries.append({"repo": repo, "unassigned": unassigned_count})
 
+    print(f"Writing summary to {summary_path}")
     summary_writer(summaries, output_dir, summary_path, title, generated_at)
 
     exact = [s["unassigned"] for s in summaries if isinstance(s["unassigned"], int)]

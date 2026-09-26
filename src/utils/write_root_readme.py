@@ -1,11 +1,8 @@
 import os
 
-from config.github import MIN_CONTRIBUTORS, MIN_STARS
+from constants import MIN_CONTRIBUTORS, MIN_STARS, README_END_MARKER, README_START_MARKER
 from utils.github_links import unassigned_issues_url
 from utils.sort_key import unassigned_sort_key
-
-START_MARKER = "<!-- AUTO-GENERATED:START -->"
-END_MARKER = "<!-- AUTO-GENERATED:END -->"
 
 DEFAULT_HEADER = f"""# Issue Hunter
 
@@ -38,10 +35,10 @@ def write_root_readme(summaries, output_dir, summary_path, title, generated_at):
         table_lines.append(f"| [{s['repo']}]({project_link}) | [{s['unassigned']}]({issues_link}) |")
 
     generated_block = (
-        f"{START_MARKER}\n"
+        f"{README_START_MARKER}\n"
         f"_Last updated: {generated_at}_\n\n"
         + "\n".join(table_lines)
-        + f"\n{END_MARKER}\n"
+        + f"\n{README_END_MARKER}\n"
     )
 
     existing = None
@@ -49,9 +46,9 @@ def write_root_readme(summaries, output_dir, summary_path, title, generated_at):
         with open(summary_path) as f:
             existing = f.read()
 
-    if existing and START_MARKER in existing and END_MARKER in existing:
-        start = existing.index(START_MARKER)
-        end = existing.index(END_MARKER) + len(END_MARKER)
+    if existing and README_START_MARKER in existing and README_END_MARKER in existing:
+        start = existing.index(README_START_MARKER)
+        end = existing.index(README_END_MARKER) + len(README_END_MARKER)
         new_content = existing[:start] + generated_block.rstrip("\n") + existing[end:]
     else:
         new_content = DEFAULT_HEADER + generated_block

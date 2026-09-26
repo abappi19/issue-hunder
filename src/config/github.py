@@ -1,12 +1,8 @@
 import os
 
-API = "https://api.github.com"
-MAX_WORKERS = 10
+from constants import API_BASE_URL
 
-# "Popular" repo bar used both by discover_repos.py (auto-discovery) and
-# check_new_repos.py (PR check on manually-added repos.json entries).
-MIN_STARS = 10000
-MIN_CONTRIBUTORS = 50
+API = API_BASE_URL
 TOKEN = os.environ.get("GITHUB_TOKEN")
 HEADERS = {
     "Accept": "application/vnd.github+json",
