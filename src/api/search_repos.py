@@ -1,5 +1,6 @@
 import requests
 
+from api.search_rate_limiter import SEARCH_LIMITER
 from config.github import API, HEADERS, MIN_STARS
 
 
@@ -14,6 +15,7 @@ def fetch_top_starred_repos(limit=100, language=None):
     if language:
         query += f" language:{language}"
     while len(repos) < limit:
+        SEARCH_LIMITER.acquire()
         resp = requests.get(
             f"{API}/search/repositories",
             headers=HEADERS,
