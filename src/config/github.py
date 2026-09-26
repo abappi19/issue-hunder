@@ -1,6 +1,7 @@
 import os
 
 API = "https://api.github.com"
+MAX_WORKERS = 10
 TOKEN = os.environ.get("GITHUB_TOKEN")
 HEADERS = {
     "Accept": "application/vnd.github+json",

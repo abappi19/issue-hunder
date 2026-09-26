@@ -2,7 +2,7 @@ name: Collect top-repo issues
 
 on:
   schedule:
-    - cron: "0 4 * * *"
+    - cron: "0 4 * * 4"
   workflow_dispatch: {}
 
 permissions:
@@ -29,5 +29,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add output/top-*/
-          git diff --cached --quiet || git commit -m "chore: nightly top-repo issue snapshot"
+          git diff --cached --quiet || git commit -m "chore: weekly top-repo issue snapshot"
           git push

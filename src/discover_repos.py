@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
 from api.contributors import fetch_contributor_count
 from api.search_repos import fetch_top_starred_repos
+from config.github import MAX_WORKERS
 from utils.file_util import load_file, write_file
 
 CANDIDATE_POOL_SIZE = 100
@@ -15,11 +18,16 @@ def discover(language=None, pool_size=CANDIDATE_POOL_SIZE):
     candidates = fetch_top_starred_repos(limit=pool_size, language=language)
 
     qualified = []
-    for c in candidates:
-        contributors = fetch_contributor_count(c["repo"])
-        print(f"  {c['repo']}: {c['stars']} stars, {contributors} contributors")
-        if contributors >= MIN_CONTRIBUTORS:
-            qualified.append({**c, "contributors": contributors})
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        future_to_candidate = {
+            executor.submit(fetch_contributor_count, c["repo"]): c for c in candidates
+        }
+        for future in as_completed(future_to_candidate):
+            c = future_to_candidate[future]
+            contributors = future.result()
+            print(f"  {c['repo']}: {c['stars']} stars, {contributors} contributors")
+            if contributors >= MIN_CONTRIBUTORS:
+                qualified.append({**c, "contributors": contributors})
 
     qualified.sort(key=lambda c: c["stars"], reverse=True)
     return [c["repo"] for c in qualified[:TOP_N]]
