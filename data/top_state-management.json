@@ -4,11 +4,11 @@
   "statelyai/xstate",
   "vuejs/vuex",
   "dapr/dapr",
+  "MemoriLabs/Memori",
   "TanStack/router",
   "felangel/bloc",
   "jonataslaw/getx",
   "47ng/nuqs",
-  "rematch/rematch",
   "ngrx/platform",
   "final-form/react-final-form",
   "rrousselGit/riverpod",
@@ -18,5 +18,5 @@
   "ctrlplusb/easy-peasy",
   "effector/effector",
   "preactjs/signals",
-  "salesforce/akita"
+  "Tencent/westore"
 ]

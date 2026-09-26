@@ -9,14 +9,14 @@
   "appwrite/appwrite",
   "calcom/cal.diy",
   "payloadcms/payload",
+  "AykutSarac/jsoncrack.com",
   "trpc/trpc",
   "CopilotKit/CopilotKit",
   "Dokploy/dokploy",
   "LAION-AI/Open-Assistant",
   "gitroomhq/postiz-app",
   "refinedev/refine",
+  "JCodesMore/ai-website-cloner-template",
   "gethomepage/homepage",
-  "vercel/swr",
-  "onyx-dot-app/onyx",
-  "SigNoz/signoz"
+  "vercel/swr"
 ]

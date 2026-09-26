@@ -9,14 +9,14 @@
   "angular/angular",
   "ant-design/ant-design",
   "oven-sh/bun",
+  "ruvnet/RuView",
   "storybookjs/storybook",
   "mermaid-js/mermaid",
   "bytedance/deer-flow",
   "nestjs/nest",
   "enaqx/awesome-react",
   "headroomlabs-ai/headroom",
-  "strapi/strapi",
-  "code-yeongyu/oh-my-openagent",
-  "go-gitea/gitea",
-  "twentyhq/twenty"
+  "unionlabs/union",
+  "ruvnet/ruflo",
+  "strapi/strapi"
 ]
