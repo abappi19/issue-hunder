@@ -6,16 +6,20 @@ from config.github import API, HEADERS
 from constants import MIN_STARS
 
 
-def fetch_top_starred_repos(limit=100, language=None):
+def fetch_top_starred_repos(limit=100, topic=None, min_stars=MIN_STARS):
     """Top starred public repos, via the Search API's stars-sort. Returns
     [{"repo": "owner/name", "stars": int}, ...] ordered by stars desc.
-    Pass `language` (e.g. "TypeScript") to restrict the search to that language."""
+
+    Pass `topic` (e.g. "react-native") to restrict the search to repos
+    carrying that GitHub topic, and `min_stars` to set the floor -- a topic
+    draws from a much smaller pool than the whole of GitHub and needs a
+    lower one to fill a list."""
     repos = []
     per_page = 100
     page = 1
-    query = f"stars:>{MIN_STARS}"
-    if language:
-        query += f" language:{language}"
+    query = f"stars:>{min_stars}"
+    if topic:
+        query += f" topic:{topic}"
     while len(repos) < limit:
         SEARCH_LIMITER.acquire()
         resp = requests.get(

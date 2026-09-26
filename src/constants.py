@@ -21,9 +21,9 @@ MIN_CONTRIBUTORS = 50
 # Mind the budget here: the workflows authenticate with secrets.GITHUB_TOKEN,
 # which is capped at 1,000 requests/hour *per repository* -- not the 5,000 a
 # personal token gets. Discovery costs 1 + CANDIDATE_POOL_SIZE calls for each
-# entry in languages.json (plus one more pass for the all-languages list), so
-# every language added is ~101 calls against that 1,000. Around nine languages
-# the hourly cap is in reach and discovery starts failing partway through.
+# entry in topics.json (plus one more pass for the unscoped list), so every
+# topic added is ~101 calls against that 1,000. Around nine topics the hourly
+# cap is in reach and discovery starts failing partway through.
 CANDIDATE_POOL_SIZE = 100
 TOP_N = 20
 
@@ -52,8 +52,24 @@ SEARCH_MIN_INTERVAL_SECONDS = 2
 # Repo-list data files (see src/repos/)
 REPOS_DIR = "src/repos"
 REPOS_FILE = f"{REPOS_DIR}/repos.json"
-LANGUAGES_FILE = f"{REPOS_DIR}/languages.json"
 TOP_REPOS_FILE = f"{REPOS_DIR}/top_repos.json"
+
+# Per-ecosystem collections, as {"github-topic": "Display Title"} in file
+# order. Topics rather than languages: sorting `language:TypeScript` by stars
+# returns tutorials and awesome-lists (freeCodeCamp, developer-roadmap) far
+# above anything with a contributable issue, while `topic:typescript` returns
+# the actual tools and libraries (vscode, langchain, deno, angular). Topics
+# also express ecosystems a language cannot -- Next.js, Expo, React Native --
+# and reach libraries that rank too low by raw stars to survive a
+# language-wide cut, such as zustand under state-management.
+TOPICS_FILE = f"{REPOS_DIR}/topics.json"
+
+# A topic search draws from a far smaller pool than a language one, so it
+# needs a lower bar to fill a list: at 10,000 stars `topic:expo` matches three
+# repos in total, against sixty-three at this figure. It costs the bigger
+# topics nothing -- the top 20 kept from `topic:typescript` clear 10,000 stars
+# regardless of where the floor sits.
+TOPIC_MIN_STARS = 1000
 
 # main.py CLI defaults (the manually-curated repos.json collection)
 OUTPUT_DIR = "output"
@@ -62,7 +78,7 @@ DEFAULT_OUTPUT_DIR = f"{OUTPUT_DIR}/{CURATED_DIR_NAME}"
 DEFAULT_SUMMARY_PATH = "README.md"
 DEFAULT_TITLE = "Tracked Projects"
 
-# collect_top.py: the general (all-languages) top-repos collection
+# collect_top.py: the general top-repos collection, scoped to no topic
 TOP_DIR_NAME = "top-projects"
 TOP_OUTPUT_DIR = f"{OUTPUT_DIR}/{TOP_DIR_NAME}"
 TOP_TITLE = "Top Open-Source Projects"

@@ -23,7 +23,7 @@ def write_collection_index(output_dir, title, generated_at, summaries):
 
 
 def _section_order(dir_name):
-    """Curated picks first, then the general top list, then the per-language
+    """Curated picks first, then the general top list, then the per-topic
     lists alphabetically."""
     if dir_name == CURATED_DIR_NAME:
         return (0, dir_name)

@@ -7,23 +7,25 @@ from api.errors import RateLimitError
 from api.search_repos import fetch_top_starred_repos
 from constants import (
     CANDIDATE_POOL_SIZE,
-    LANGUAGES_FILE,
     MAX_WORKERS,
     MIN_CONTRIBUTORS,
     MIN_DISCOVERY_RATIO,
+    MIN_STARS,
     REPOS_DIR,
     TOP_N,
     TOP_REPOS_FILE,
+    TOPIC_MIN_STARS,
+    TOPICS_FILE,
 )
 from utils.file_util import load_file, write_file
-from utils.slug import language_slug
+from utils.slug import to_slug
 
 
-def discover(language=None, pool_size=CANDIDATE_POOL_SIZE):
-    label = language or "all languages"
+def discover(topic=None, pool_size=CANDIDATE_POOL_SIZE, min_stars=MIN_STARS):
+    label = f"topic:{topic}" if topic else "all repos"
     print(f"=== Discovering: {label} ===")
-    print(f"Searching top {pool_size} starred repos ({label})...")
-    candidates = fetch_top_starred_repos(limit=pool_size, language=language)
+    print(f"Searching top {pool_size} starred repos ({label}, >{min_stars:,} stars)...")
+    candidates = fetch_top_starred_repos(limit=pool_size, topic=topic, min_stars=min_stars)
     print(f"Found {len(candidates)} candidate(s), checking contributor counts...")
 
     qualified = []
@@ -73,12 +75,12 @@ def write_repo_list(path, repos):
 def main():
     write_repo_list(TOP_REPOS_FILE, discover())
 
-    languages = load_file(LANGUAGES_FILE)
-    print(f"Loaded {len(languages)} language(s) from {LANGUAGES_FILE}: {', '.join(languages)}")
+    topics = load_file(TOPICS_FILE)
+    print(f"Loaded {len(topics)} topic(s) from {TOPICS_FILE}: {', '.join(topics)}")
 
-    for language in languages:
-        path = f"{REPOS_DIR}/top_{language_slug(language)}.json"
-        write_repo_list(path, discover(language=language))
+    for topic in topics:
+        path = f"{REPOS_DIR}/top_{to_slug(topic)}.json"
+        write_repo_list(path, discover(topic=topic, min_stars=TOPIC_MIN_STARS))
 
 
 if __name__ == "__main__":

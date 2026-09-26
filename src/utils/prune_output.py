@@ -5,7 +5,7 @@ import shutil
 def prune_stale_collections(output_dir, keep_dir_names, prefix):
     """Delete whole collection directories no longer being produced.
 
-    Dropping a language from languages.json otherwise strands its pages and
+    Dropping a topic from topics.json otherwise strands its pages and
     its index, and the index is what the root README is rebuilt from -- so
     the front page would keep advertising a collection that no run refreshes
     any more.
