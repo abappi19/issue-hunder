@@ -6,7 +6,7 @@ from utils.file_util import load_file, write_file
 CANDIDATE_POOL_SIZE = 100
 MIN_CONTRIBUTORS = 50
 TOP_N = 20
-LANGUAGES_FILE = "repos/languages.json"
+LANGUAGES_FILE = "src/repos/languages.json"
 
 
 def discover(language=None, pool_size=CANDIDATE_POOL_SIZE):
@@ -26,16 +26,16 @@ def discover(language=None, pool_size=CANDIDATE_POOL_SIZE):
 
 
 def main():
-    write_file("repos/top_repos.json", discover())
-    print("Wrote repos/top_repos.json.")
+    write_file("src/repos/top_repos.json", discover())
+    print("Wrote src/repos/top_repos.json.")
 
     languages = load_file(LANGUAGES_FILE)
 
     for language in languages:
         slug = language.lower()
         repos = discover(language=language)
-        write_file(f"repos/top_{slug}.json", repos)
-        print(f"Wrote repos/top_{slug}.json.")
+        write_file(f"src/repos/top_{slug}.json", repos)
+        print(f"Wrote src/repos/top_{slug}.json.")
 
 
 if __name__ == "__main__":
