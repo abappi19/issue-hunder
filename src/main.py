@@ -14,18 +14,24 @@ def run_collection(repos_path, output_dir, summary_path, title, summary_writer=w
     generated_at = datetime.now(timezone.utc).isoformat()
     summaries = []
 
-    # GitHub's Search API (used here) must be called serially, not
-    # concurrently -- see api/issues.py for why.
     for repo in repos:
         summary = fetch_unassigned_summary(repo)
-        print(f"Fetched {summary['total_count']} unassigned issues for {repo}")
+        print(f"{repo}: {summary['total_count']} unassigned")
         unassigned_count = write_project_readme(repo, summary, output_dir, generated_at)
         summaries.append({"repo": repo, "unassigned": unassigned_count})
 
     summary_writer(summaries, output_dir, summary_path, title, generated_at)
 
-    total_unassigned = sum(s["unassigned"] for s in summaries)
-    print(f"Done. {total_unassigned} unassigned issues across {len(repos)} repos.")
+    exact = [s["unassigned"] for s in summaries if isinstance(s["unassigned"], int)]
+    capped = len(summaries) - len(exact)
+    total_unassigned = sum(exact)
+    if capped:
+        print(
+            f"Done. {total_unassigned}+ unassigned issues across {len(repos)} repos "
+            f"({capped} repo(s) capped at 100+)."
+        )
+    else:
+        print(f"Done. {total_unassigned} unassigned issues across {len(repos)} repos.")
 
 
 def main():

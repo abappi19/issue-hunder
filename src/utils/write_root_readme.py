@@ -2,6 +2,7 @@ import os
 
 from config.github import MIN_CONTRIBUTORS, MIN_STARS
 from utils.github_links import unassigned_issues_url
+from utils.sort_key import unassigned_sort_key
 
 START_MARKER = "<!-- AUTO-GENERATED:START -->"
 END_MARKER = "<!-- AUTO-GENERATED:END -->"
@@ -28,7 +29,7 @@ can be merged.
 
 
 def write_root_readme(summaries, output_dir, summary_path, title, generated_at):
-    summaries.sort(key=lambda s: s["unassigned"], reverse=True)
+    summaries.sort(key=lambda s: unassigned_sort_key(s["unassigned"]), reverse=True)
 
     table_lines = ["| Repository | Unassigned |", "|---|---|"]
     for s in summaries:

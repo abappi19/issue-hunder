@@ -1,10 +1,11 @@
 import os
 
 from utils.github_links import unassigned_issues_url
+from utils.sort_key import unassigned_sort_key
 
 
 def write_summary_readme(summaries, output_dir, summary_path, title, generated_at):
-    summaries.sort(key=lambda s: s["unassigned"], reverse=True)
+    summaries.sort(key=lambda s: unassigned_sort_key(s["unassigned"]), reverse=True)
     os.makedirs(os.path.dirname(summary_path) or ".", exist_ok=True)
     with open(summary_path, "w") as f:
         f.write(f"# {title}\n\n")
