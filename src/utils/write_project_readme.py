@@ -17,7 +17,7 @@ def write_project_readme(repo, summary, output_dir, generated_at):
         f.write(f"Generated: {generated_at}\n\n")
         f.write(f"- Unassigned: {total_count}\n")
         f.write(f"- [View all unassigned issues]({issues_url})\n\n")
-        f.write("Most recent:\n\n")
+        f.write("Most recently opened:\n\n")
         f.write("| Issue | Comments |\n")
         f.write("|---|---|\n")
         for i in recent:

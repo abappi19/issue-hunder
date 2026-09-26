@@ -7,7 +7,7 @@ A GitHub Action re-scans every tracked repository on a schedule and rebuilds
 the table below with the current unassigned-issue count for each one. Click
 a repo's count to jump straight to its live, filtered issue list on GitHub.
 Each repo also gets its own page under `output/projects/<owner>/<repo>/README.md`
-with a few of the most recently opened unassigned issues.
+listing its most recently opened unassigned issues.
 
 ## Want to add a repo?
 

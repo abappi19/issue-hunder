@@ -1,18 +1,22 @@
 #!/usr/bin/env python3
+import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from api.contributors import fetch_contributor_count
+from api.errors import RateLimitError
 from api.search_repos import fetch_top_starred_repos
 from constants import (
     CANDIDATE_POOL_SIZE,
     LANGUAGES_FILE,
     MAX_WORKERS,
     MIN_CONTRIBUTORS,
+    MIN_DISCOVERY_RATIO,
     REPOS_DIR,
     TOP_N,
     TOP_REPOS_FILE,
 )
 from utils.file_util import load_file, write_file
+from utils.slug import language_slug
 
 
 def discover(language=None, pool_size=CANDIDATE_POOL_SIZE):
@@ -27,12 +31,19 @@ def discover(language=None, pool_size=CANDIDATE_POOL_SIZE):
         future_to_candidate = {
             executor.submit(fetch_contributor_count, c["repo"]): c for c in candidates
         }
-        for future in as_completed(future_to_candidate):
-            c = future_to_candidate[future]
-            contributors = future.result()
-            print(f"  {c['repo']}: {c['stars']} stars, {contributors} contributors")
-            if contributors >= MIN_CONTRIBUTORS:
-                qualified.append({**c, "contributors": contributors})
+        try:
+            for future in as_completed(future_to_candidate):
+                c = future_to_candidate[future]
+                contributors = future.result()
+                print(f"  {c['repo']}: {c['stars']} stars, {contributors} contributors")
+                if contributors >= MIN_CONTRIBUTORS:
+                    qualified.append({**c, "contributors": contributors})
+        except RateLimitError:
+            # Drop the queued lookups instead of letting the pool work through
+            # them; they would all fail the same way and deepen the limit.
+            for future in future_to_candidate:
+                future.cancel()
+            raise
 
     qualified.sort(key=lambda c: c["stars"], reverse=True)
     top = [c["repo"] for c in qualified[:TOP_N]]
@@ -40,19 +51,34 @@ def discover(language=None, pool_size=CANDIDATE_POOL_SIZE):
     return top
 
 
+def write_repo_list(path, repos):
+    """Persist a discovered list, refusing to replace an existing one with a
+    result that has shrunk past MIN_DISCOVERY_RATIO -- that pattern means the
+    run lost candidates to errors, and this file is the input every later
+    collection run reads."""
+    if os.path.exists(path):
+        previous = load_file(path)
+        floor = len(previous) * MIN_DISCOVERY_RATIO
+        if previous and len(repos) < floor:
+            raise SystemExit(
+                f"Refusing to overwrite {path}: discovery returned {len(repos)} repo(s), "
+                f"down from {len(previous)} (floor is {floor:.0f}). "
+                "Re-run once the cause is understood, or delete the file to force a rebuild."
+            )
+
+    write_file(path, repos)
+    print(f"Wrote {path}.")
+
+
 def main():
-    write_file(TOP_REPOS_FILE, discover())
-    print(f"Wrote {TOP_REPOS_FILE}.")
+    write_repo_list(TOP_REPOS_FILE, discover())
 
     languages = load_file(LANGUAGES_FILE)
     print(f"Loaded {len(languages)} language(s) from {LANGUAGES_FILE}: {', '.join(languages)}")
 
     for language in languages:
-        slug = language.lower()
-        path = f"{REPOS_DIR}/top_{slug}.json"
-        repos = discover(language=language)
-        write_file(path, repos)
-        print(f"Wrote {path}.")
+        path = f"{REPOS_DIR}/top_{language_slug(language)}.json"
+        write_repo_list(path, discover(language=language))
 
 
 if __name__ == "__main__":

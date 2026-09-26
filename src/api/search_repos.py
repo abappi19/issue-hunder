@@ -1,5 +1,6 @@
 import requests
 
+from api.errors import check_rate_limited
 from api.search_rate_limiter import SEARCH_LIMITER
 from config.github import API, HEADERS
 from constants import MIN_STARS
@@ -29,6 +30,7 @@ def fetch_top_starred_repos(limit=100, language=None):
             },
             timeout=30,
         )
+        check_rate_limited(query, resp)
         resp.raise_for_status()
         items = resp.json()["items"]
         if not items:
