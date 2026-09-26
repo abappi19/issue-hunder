@@ -3,6 +3,7 @@
   "infinitered/ignite",
   "founded-labs/react-native-reusables",
   "t3-oss/create-t3-turbo",
+  "czy0729/Bangumi",
   "AmanVarshney01/create-better-t-stack",
   "callstack/agent-device",
   "obytes/react-native-template-obytes",
@@ -10,13 +11,12 @@
   "expo/examples",
   "heroui-inc/heroui-native",
   "galio-org/galio",
+  "enzomanuelmangano/demos",
   "Jpisnice/shadcn-ui-mcp-server",
   "elie222/rakazo",
   "jpudysz/react-native-unistyles",
   "rnmapbox/maps",
   "microsoft/vscode-react-native",
-  "codedogQBY/ReadAny",
-  "roninoss/create-expo-stack",
-  "flatlogic/react-native-starter",
-  "OneKeyHQ/app-monorepo"
+  "BlackHatDevX/openspot-music-app",
+  "codedogQBY/ReadAny"
 ]

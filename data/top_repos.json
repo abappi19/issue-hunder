@@ -10,6 +10,7 @@
   "jwasham/coding-interview-university",
   "obra/superpowers",
   "practical-tutorials/project-based-learning",
+  "mattpocock/skills",
   "affaan-m/ECC",
   "react/react",
   "NousResearch/hermes-agent",
@@ -17,6 +18,5 @@
   "vuejs/vue",
   "anomalyco/opencode",
   "ossu/computer-science",
-  "n8n-io/n8n",
-  "tensorflow/tensorflow"
+  "n8n-io/n8n"
 ]

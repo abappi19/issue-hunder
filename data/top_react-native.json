@@ -14,9 +14,9 @@
   "jaredpalmer/formik",
   "vercel/swr",
   "karakeep-app/karakeep",
+  "maotoumao/MusicFree",
   "zulip/zulip",
   "react-native-elements/react-native-elements",
   "react-navigation/react-navigation",
-  "pubkey/rxdb",
-  "necolas/react-native-web"
+  "pubkey/rxdb"
 ]
