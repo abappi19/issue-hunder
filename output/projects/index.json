@@ -1,11 +1,7 @@
 {
   "title": "Tracked Projects",
-  "generated_at": "2026-09-26T18:44:14.972829+00:00",
+  "generated_at": "2026-09-26T19:33:52.059136+00:00",
   "repos": [
-    {
-      "repo": "codecrafters-io/build-your-own-x",
-      "unassigned": "15+"
-    },
     {
       "repo": "facebook/react",
       "unassigned": "32+"
@@ -15,56 +11,12 @@
       "unassigned": "30+"
     },
     {
-      "repo": "torvalds/linux",
-      "unassigned": 0
-    },
-    {
-      "repo": "microsoft/vscode",
-      "unassigned": "65+"
-    },
-    {
-      "repo": "nodejs/node",
-      "unassigned": "19+"
-    },
-    {
-      "repo": "kubernetes/kubernetes",
-      "unassigned": "21+"
-    },
-    {
-      "repo": "tensorflow/tensorflow",
-      "unassigned": "0+"
-    },
-    {
-      "repo": "pytorch/pytorch",
-      "unassigned": "24+"
-    },
-    {
-      "repo": "rust-lang/rust",
-      "unassigned": "81+"
-    },
-    {
-      "repo": "golang/go",
-      "unassigned": "83+"
-    },
-    {
-      "repo": "django/django",
-      "unassigned": "0+"
-    },
-    {
-      "repo": "python/cpython",
-      "unassigned": "31+"
-    },
-    {
-      "repo": "ansible/ansible",
-      "unassigned": "18+"
-    },
-    {
       "repo": "docker/compose",
       "unassigned": 45
     },
     {
-      "repo": "grafana/grafana",
-      "unassigned": "22+"
+      "repo": "axonpack/axonpack",
+      "unassigned": 2
     }
   ]
 }

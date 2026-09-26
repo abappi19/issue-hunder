@@ -19,26 +19,14 @@ archived, with forking and issues both enabled -- before it can be merged.
 <!-- AUTO-GENERATED:START -->
 ## Tracked Projects
 
-_16 repos · updated 2026-09-26T18:44:14.972829+00:00_
+_4 repos · updated 2026-09-26T19:33:52.059136+00:00_
 
 | Repository | Unassigned |
 |---|---|
-| [golang/go](output/projects/golang/go/README.md) | [83+](https://github.com/golang/go/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [rust-lang/rust](output/projects/rust-lang/rust/README.md) | [81+](https://github.com/rust-lang/rust/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [microsoft/vscode](output/projects/microsoft/vscode/README.md) | [65+](https://github.com/microsoft/vscode/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [docker/compose](output/projects/docker/compose/README.md) | [45](https://github.com/docker/compose/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [facebook/react](output/projects/facebook/react/README.md) | [32+](https://github.com/facebook/react/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [python/cpython](output/projects/python/cpython/README.md) | [31+](https://github.com/python/cpython/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [vuejs/vue](output/projects/vuejs/vue/README.md) | [30+](https://github.com/vuejs/vue/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [pytorch/pytorch](output/projects/pytorch/pytorch/README.md) | [24+](https://github.com/pytorch/pytorch/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [grafana/grafana](output/projects/grafana/grafana/README.md) | [22+](https://github.com/grafana/grafana/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [kubernetes/kubernetes](output/projects/kubernetes/kubernetes/README.md) | [21+](https://github.com/kubernetes/kubernetes/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [nodejs/node](output/projects/nodejs/node/README.md) | [19+](https://github.com/nodejs/node/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [ansible/ansible](output/projects/ansible/ansible/README.md) | [18+](https://github.com/ansible/ansible/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [codecrafters-io/build-your-own-x](output/projects/codecrafters-io/build-your-own-x/README.md) | [15+](https://github.com/codecrafters-io/build-your-own-x/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [tensorflow/tensorflow](output/projects/tensorflow/tensorflow/README.md) | [0+](https://github.com/tensorflow/tensorflow/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [django/django](output/projects/django/django/README.md) | [0+](https://github.com/django/django/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [torvalds/linux](output/projects/torvalds/linux/README.md) | [0](https://github.com/torvalds/linux/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [axonpack/axonpack](output/projects/axonpack/axonpack/README.md) | [2](https://github.com/axonpack/axonpack/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 
 ## Top Open-Source Projects
 
