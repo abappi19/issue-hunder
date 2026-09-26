@@ -1,0 +1,18 @@
+[
+  "codecrafters-io/build-your-own-x",
+  "facebook/react",
+  "vuejs/vue",
+  "torvalds/linux",
+  "microsoft/vscode",
+  "nodejs/node",
+  "kubernetes/kubernetes",
+  "tensorflow/tensorflow",
+  "pytorch/pytorch",
+  "rust-lang/rust",
+  "golang/go",
+  "django/django",
+  "python/cpython",
+  "ansible/ansible",
+  "docker/compose",
+  "grafana/grafana"
+]
