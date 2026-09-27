@@ -1,14 +1,19 @@
 # langgenius/dify
 
-Generated: 2026-09-26T19:32:50.026310+00:00
+Generated: 2026-09-27T09:52:39.878654+00:00
 
-- Unassigned: 34+
+- Unassigned: 35+
 - [View all unassigned issues](https://github.com/langgenius/dify/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#43003 [Bug] Vector.create logs a wrong progress denominator (shows 1/2000 for 2 batches)](https://github.com/langgenius/dify/issues/43003) | 1 |
+| [#43002 Add ScreenContextAgent as an optional workflow context source](https://github.com/langgenius/dify/issues/43002) | 0 |
+| [#43000 Character fallback loses configured chunk overlap after the first boundary](https://github.com/langgenius/dify/issues/43000) | 1 |
+| [#42996 [Bug] Hybrid retrieval returns empty results with self-hosted Weaviate + local Ollama embeddings](https://github.com/langgenius/dify/issues/42996) | 1 |
+| [#42994 Custom tools ignore parameters declared on an OpenAPI path item](https://github.com/langgenius/dify/issues/42994) | 1 |
 | [#42987 Webhook file upload fails in async workflow because ToolFile owner differs from Trigger EndUser](https://github.com/langgenius/dify/issues/42987) | 3 |
 | [#42981 [Bug] Explicit top_k=0 in app/dataset config is silently replaced by 4 in the tool-based retrieval path](https://github.com/langgenius/dify/issues/42981) | 1 |
 | [#42961 [Refactor/Chore] Write Redis Lua scripts as typed Python functions](https://github.com/langgenius/dify/issues/42961) | 0 |
@@ -30,7 +35,7 @@ Most recently opened:
 | [#42892 [Bug] OceanBase vector: create_collection fails on SeekDB 1.4 — SHOW PARAMETERS column layout mismatch (IndexError / wrong value read)](https://github.com/langgenius/dify/issues/42892) | 0 |
 | [#42889 Agent V2: skills larger than 8 KB are silently truncated in the middle when the agent reads them via the shell](https://github.com/langgenius/dify/issues/42889) | 4 |
 | [#42887 remove mypy](https://github.com/langgenius/dify/issues/42887) | 1 |
-| [#42886 bump python version to 3.13](https://github.com/langgenius/dify/issues/42886) | 1 |
+| [#42886 bump python version to 3.13](https://github.com/langgenius/dify/issues/42886) | 2 |
 | [#42884 Knowledge document information shows a missing file size and an outdated last-update date](https://github.com/langgenius/dify/issues/42884) | 2 |
 | [#42875 [Bug] Legacy Function Calling Agent persists intermediate iteration content in message.answer](https://github.com/langgenius/dify/issues/42875) | 3 |
 | [#42868 [Bug] TTS response closure does not propagate to the underlying audio stream](https://github.com/langgenius/dify/issues/42868) | 1 |
@@ -39,7 +44,3 @@ Most recently opened:
 | [#42831 [Bug]: Word docx body paragraphs lose whitespace at run boundaries — bold/italic/hyperlink splits weld words together during knowledge base indexing](https://github.com/langgenius/dify/issues/42831) | 1 |
 | [#42807 [Bug] Starred Apps API returns empty permission_keys](https://github.com/langgenius/dify/issues/42807) | 4 |
 | [#42798 Word docx images inside nested tables are silently dropped during knowledge base indexing](https://github.com/langgenius/dify/issues/42798) | 1 |
-| [#42754 why there is a https://bot.ghfind.com/](https://github.com/langgenius/dify/issues/42754) | 1 |
-| [#42739 🐞 Dataset retrieval testing endpoints use inconsistent RBAC permissions](https://github.com/langgenius/dify/issues/42739) | 0 |
-| [#42722 Spurious "Workflow stream ended without a terminal event" error shown when annotation reply is hit in chatflow](https://github.com/langgenius/dify/issues/42722) | 3 |
-| [#42650 MCP tool loses browser context between calls — Playwright MCP navigate then snapshot returns about:blank](https://github.com/langgenius/dify/issues/42650) | 1 |

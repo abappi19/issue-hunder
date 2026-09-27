@@ -1,17 +1,15 @@
 # karakeep-app/karakeep
 
-Generated: 2026-09-26T19:33:00.328691+00:00
+Generated: 2026-09-27T09:52:54.664973+00:00
 
-- Unassigned: 47+
+- Unassigned: 51+
 - [View all unassigned issues](https://github.com/karakeep-app/karakeep/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#3123 Android 1.11.1 stays Offline with WARP while browser access and login work](https://github.com/karakeep-app/karakeep/issues/3123) | 0 |
 | [#3117 CLI: `bookmarks add` exits 0 when some links fail, and `--json` output is followed by non-JSON lines](https://github.com/karakeep-app/karakeep/issues/3117) | 0 |
-| [#3113 Running as non-root fails on Kubernetes — s6 preinit can't take ownership of /run](https://github.com/karakeep-app/karakeep/issues/3113) | 0 |
 | [#3107 BUG: AI tagging leaks prompt text into tags / produces run-away 90+ tag lists](https://github.com/karakeep-app/karakeep/issues/3107) | 0 |
 | [#3099 Add an action to disable/skip AI tagging in the Rule Engine](https://github.com/karakeep-app/karakeep/issues/3099) | 0 |
 | [#3098 [FR] Possibility to have multiple languages used for tags depending on content language](https://github.com/karakeep-app/karakeep/issues/3098) | 0 |
@@ -29,7 +27,6 @@ Most recently opened:
 | [#3041 Uploaded filenames lose all non-ASCII characters and the original is not preserved](https://github.com/karakeep-app/karakeep/issues/3041) | 0 |
 | [#3039 Issue for non utf8 website](https://github.com/karakeep-app/karakeep/issues/3039) | 0 |
 | [#3038 Enrich bookmarks with outside discussions and mentions](https://github.com/karakeep-app/karakeep/issues/3038) | 2 |
-| [#3035 "has:note" qualifier for the Search Query Language](https://github.com/karakeep-app/karakeep/issues/3035) | 3 |
 | [#3033 Back button in Mobile App broken](https://github.com/karakeep-app/karakeep/issues/3033) | 1 |
 | [#3032 FR: extended offline cache for reading](https://github.com/karakeep-app/karakeep/issues/3032) | 4 |
 | [#3031 -is:inlist smart list query does not exclude bookmarks added to another smart list (only works for manual lists)](https://github.com/karakeep-app/karakeep/issues/3031) | 0 |
@@ -56,3 +53,10 @@ Most recently opened:
 | [#2941 Proposal: contribute remaining MCP tools (feeds, assets, bookmark listing/relationships, create-tag)](https://github.com/karakeep-app/karakeep/issues/2941) | 5 |
 | [#2927 feat: Split Tag rule settings from global to specific static lists](https://github.com/karakeep-app/karakeep/issues/2927) | 0 |
 | [#2923 Bookmarks generate duplicate attachments](https://github.com/karakeep-app/karakeep/issues/2923) | 0 |
+| [#2922 The ability to change user email](https://github.com/karakeep-app/karakeep/issues/2922) | 2 |
+| [#2920 OAuth Sign-In Bypasses Mandatory Email Verification](https://github.com/karakeep-app/karakeep/issues/2920) | 0 |
+| [#2908 Video asset opens as a black page from Manage Assets and cannot be played](https://github.com/karakeep-app/karakeep/issues/2908) | 0 |
+| [#2907 Add automation or API to initiate Meilisearch Reindexing](https://github.com/karakeep-app/karakeep/issues/2907) | 0 |
+| [#2906 Deleting a bookmark fails with ENOTEMPTY when assets (video) are stored on NFS](https://github.com/karakeep-app/karakeep/issues/2906) | 0 |
+| [#2901 Unable to reset password: Reset password link redirects to sign in page](https://github.com/karakeep-app/karakeep/issues/2901) | 0 |
+| [#2898 Feature Request: Default to PDF asset when viewing local copy](https://github.com/karakeep-app/karakeep/issues/2898) | 1 |

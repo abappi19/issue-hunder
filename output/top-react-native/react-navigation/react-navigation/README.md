@@ -1,6 +1,6 @@
 # react-navigation/react-navigation
 
-Generated: 2026-09-26T19:33:00.328691+00:00
+Generated: 2026-09-27T09:52:54.664973+00:00
 
 - Unassigned: 59+
 - [View all unassigned issues](https://github.com/react-navigation/react-navigation/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -14,8 +14,8 @@ Most recently opened:
 | [#13250 react-navigation/core 7.20 decode-uri-component: Denial of service via exponential decoding of malformed percent-encoded input  from query-string](https://github.com/react-navigation/react-navigation/issues/13250) | 2 |
 | [#13234 core: `react` peer dependency fails strict installs for renderers that alias `react` (Lynx)](https://github.com/react-navigation/react-navigation/issues/13234) | 2 |
 | [#13231 Nested navigation params are ignored when reusing the same params object](https://github.com/react-navigation/react-navigation/issues/13231) | 4 |
-| [#13226 iOS 27 Beta 7 - Native header press scrolls list up](https://github.com/react-navigation/react-navigation/issues/13226) | 8 |
-| [#13219 Default background is not rgb(255, 255, 255)](https://github.com/react-navigation/react-navigation/issues/13219) | 5 |
+| [#13226 iOS 27 Beta 7 - Native header press scrolls list up](https://github.com/react-navigation/react-navigation/issues/13226) | 9 |
+| [#13219 Default background is not rgb(255, 255, 255)](https://github.com/react-navigation/react-navigation/issues/13219) | 6 |
 | [#13213 Second stacked modal skips its opening animation on Android](https://github.com/react-navigation/react-navigation/issues/13213) | 0 |
 | [#13210 Stack swipe-back release hitches on the new architecture: pop is dispatched 16ms into the close animation](https://github.com/react-navigation/react-navigation/issues/13210) | 3 |
 | [#13192 [Android] navigate reorder-on-getId leaves an rn-screens leak that freezes touches on an underlying nested-navigator screen](https://github.com/react-navigation/react-navigation/issues/13192) | 2 |

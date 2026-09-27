@@ -1,8 +1,8 @@
 # laurent22/joplin
 
-Generated: 2026-09-26T19:33:00.328691+00:00
+Generated: 2026-09-27T09:52:54.664973+00:00
 
-- Unassigned: 90+
+- Unassigned: 89+
 - [View all unassigned issues](https://github.com/laurent22/joplin/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -23,7 +23,7 @@ Most recently opened:
 | [#16638 Matched underscores disappear from note titles when typing the title](https://github.com/laurent22/joplin/issues/16638) | 2 |
 | [#16630 Vim mode: Cursor wraps to top when pressing "j" at the end of file](https://github.com/laurent22/joplin/issues/16630) | 0 |
 | [#16625 Mobile: Update appearance of notebook picker in note editor](https://github.com/laurent22/joplin/issues/16625) | 0 |
-| [#16615 Android: Can't access note body with screen reader](https://github.com/laurent22/joplin/issues/16615) | 1 |
+| [#16615 Android: Can't access note body with screen reader](https://github.com/laurent22/joplin/issues/16615) | 2 |
 | [#16610 Mobile: Note title is not displayed correctly, the top part is hidden](https://github.com/laurent22/joplin/issues/16610) | 8 |
 | [#16605 Duplicate clipboard entries when copying formatted text from WYSIWYG editor](https://github.com/laurent22/joplin/issues/16605) | 0 |
 | [#16603 Add documentation for auto-merge and Resolution UI](https://github.com/laurent22/joplin/issues/16603) | 0 |
@@ -98,4 +98,3 @@ Most recently opened:
 | [#16163 Mobile: Tapping attachments of a file type not associated with any app in the manage attachments screen does nothing](https://github.com/laurent22/joplin/issues/16163) | 2 |
 | [#16157 OneNote importer fails with WebAssembly.Instance(): Out of memory on Windows 10](https://github.com/laurent22/joplin/issues/16157) | 8 |
 | [#16140 Add locked note handling to export and import](https://github.com/laurent22/joplin/issues/16140) | 2 |
-| [#16130 Note.save silently accepts gated note lock data without the note lock option](https://github.com/laurent22/joplin/issues/16130) | 2 |

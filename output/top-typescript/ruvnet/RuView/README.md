@@ -1,14 +1,15 @@
 # ruvnet/RuView
 
-Generated: 2026-09-26T19:32:38.075464+00:00
+Generated: 2026-09-27T09:52:22.958112+00:00
 
-- Unassigned: 33+
+- Unassigned: 28+
 - [View all unassigned issues](https://github.com/ruvnet/RuView/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#2009 wifi-densepose-core uses `std` items without feature gate](https://github.com/ruvnet/RuView/issues/2009) | 0 |
 | [#1980 Research: packet level complex CIR coherence for communication native mmWave sensing](https://github.com/ruvnet/RuView/issues/1980) | 0 |
 | [#1952 Calibration qualification can accept an always-absent model without an occupied sensitivity control](https://github.com/ruvnet/RuView/issues/1952) | 0 |
 | [#1950 Qualify RAC1 CSI freshness, provenance, privacy, and retained physical evidence](https://github.com/ruvnet/RuView/issues/1950) | 0 |
@@ -36,9 +37,3 @@ Most recently opened:
 | [#1752 feat(multistatic): make phase evidence explicit and gate coherent versus noncoherent fusion](https://github.com/ruvnet/RuView/issues/1752) | 0 |
 | [#1751 experiment: benchmark subcarrier aware respiratory selection before weighted fusion](https://github.com/ruvnet/RuView/issues/1751) | 0 |
 | [#1750 feat: expose governed cohort freshness and aperture coverage on live multistatic sensing](https://github.com/ruvnet/RuView/issues/1750) | 0 |
-| [#1743 supply-chain: gate automated submodule bumps on upstream and consumer validation](https://github.com/ruvnet/RuView/issues/1743) | 2 |
-| [#1725 ESP32-S3 CSI UDP packets reach sensing-server but no data appears in Web UI](https://github.com/ruvnet/RuView/issues/1725) | 2 |
-| [#1710 Subject: Multistatic fusion can't hold a 60ms guard on 4x ESP32-S3 — mesh timestamps carry 0.28–1.5s residual error](https://github.com/ruvnet/RuView/issues/1710) | 1 |
-| [#1703 ESP32 recordings contain sensing_update events with empty CSI; dashboard training parses 0 frames and falls back to live history](https://github.com/ruvnet/RuView/issues/1703) | 7 |
-| [#1702 feat: connect iPhone LiDAR to RuView HAL, ground-truth, and uncertainty-aware RF fusion](https://github.com/ruvnet/RuView/issues/1702) | 0 |
-| [#1701 research: benchmark environment-level RF world embeddings against MERIDIAN site adaptation](https://github.com/ruvnet/RuView/issues/1701) | 1 |

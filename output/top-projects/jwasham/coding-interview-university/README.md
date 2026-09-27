@@ -1,8 +1,8 @@
 # jwasham/coding-interview-university
 
-Generated: 2026-09-26T19:32:25.172353+00:00
+Generated: 2026-09-27T09:52:05.335772+00:00
 
-- Unassigned: 57+
+- Unassigned: 56+
 - [View all unassigned issues](https://github.com/jwasham/coding-interview-university/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -66,4 +66,3 @@ Most recently opened:
 | [#1057 Nepali Translation](https://github.com/jwasham/coding-interview-university/issues/1057) | 4 |
 | [#1030 Translation: Italian](https://github.com/jwasham/coding-interview-university/issues/1030) | 11 |
 | [#1002 I want to translate to Marathi](https://github.com/jwasham/coding-interview-university/issues/1002) | 6 |
-| [#1000 I want to translate in hebrew](https://github.com/jwasham/coding-interview-university/issues/1000) | 18 |

@@ -1,14 +1,15 @@
 # calcom/cal.diy
 
-Generated: 2026-09-26T19:32:50.026310+00:00
+Generated: 2026-09-27T09:52:39.878654+00:00
 
-- Unassigned: 12+
+- Unassigned: 13+
 - [View all unassigned issues](https://github.com/calcom/cal.diy/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#30249 Align Column View with Monthly View for complete calendar weeks](https://github.com/calcom/cal.diy/issues/30249) | 0 |
 | [#30237 fix(lib): IP banlist bypass when reverse proxy sends comma-separated IPs in array header value](https://github.com/calcom/cal.diy/issues/30237) | 0 |
 | [#30236 Proposal: an optional feeless Nano (XNO) settle method for booking payment and no-show fees](https://github.com/calcom/cal.diy/issues/30236) | 0 |
 | [#30234 fix(security): redact standard OAuth access_token and refresh_token in redactSensitiveData](https://github.com/calcom/cal.diy/issues/30234) | 0 |

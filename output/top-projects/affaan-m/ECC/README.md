@@ -1,6 +1,6 @@
 # affaan-m/ECC
 
-Generated: 2026-09-26T19:32:25.172353+00:00
+Generated: 2026-09-27T09:52:05.335772+00:00
 
 - Unassigned: 35+
 - [View all unassigned issues](https://github.com/affaan-m/ECC/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,6 +9,7 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#3245 ECC Not installing](https://github.com/affaan-m/ECC/issues/3245) | 1 |
 | [#3242 [Copilot]](https://github.com/affaan-m/ECC/issues/3242) | 0 |
 | [#3238 [Idea] Replace FluentAssertions with AwesomeAssertions](https://github.com/affaan-m/ECC/issues/3238) | 0 |
 | [#3237 [Copilot] ](https://github.com/affaan-m/ECC/issues/3237) | 0 |
@@ -43,4 +44,3 @@ Most recently opened:
 | [#3056 fix: serialize Claude tool-use round trips with Anthropic message blocks](https://github.com/affaan-m/ECC/issues/3056) | 3 |
 | [#3053 hooks.json fails settings schema validation — "unknown keys" warning on every session start](https://github.com/affaan-m/ECC/issues/3053) | 5 |
 | [#3048 block-no-verify hook is pinned to 1.1.2, which blocks legitimate commits (fixed in 1.3.0)](https://github.com/affaan-m/ECC/issues/3048) | 2 |
-| [#3031 Add a skill quality validator for ECC contributions](https://github.com/affaan-m/ECC/issues/3031) | 3 |

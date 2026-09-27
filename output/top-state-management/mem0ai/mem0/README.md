@@ -1,6 +1,6 @@
 # mem0ai/mem0
 
-Generated: 2026-09-26T19:33:18.396268+00:00
+Generated: 2026-09-27T09:53:21.814221+00:00
 
 - Unassigned: 68+
 - [View all unassigned issues](https://github.com/mem0ai/mem0/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,12 +9,18 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#7473 Claude Code plugin (Windows): flush worker's git calls flash console windows — DETACHED_PROCESS should be CREATE_NO_WINDOW](https://github.com/mem0ai/mem0/issues/7473) | 0 |
+| [#7470 bug(cli): search --filter with a top-level AND/OR drops the -u/--agent-id/--app-id/--run-id scope](https://github.com/mem0ai/mem0/issues/7470) | 1 |
+| [#7469 bug(llms/openai): the OpenRouter models fallback option makes every LLM call raise TypeError](https://github.com/mem0ai/mem0/issues/7469) | 1 |
+| [#7468 bug(vector_stores/qdrant): two operators on one field apply only the first, so AND on one field returns excluded memories](https://github.com/mem0ai/mem0/issues/7468) | 0 |
+| [#7467 [Cloud API / MCP Regression] add_memory with infer=false saves to /v1/memories/ (Postgres) but fails to index into Turbopuffer (/v3/memories/) since 2026-09-25 15:49 UTC](https://github.com/mem0ai/mem0/issues/7467) | 0 |
+| [#7466 TS SDK: `pnpm run typecheck` is documented but missing, and `tsc --noEmit` fails on test helpers](https://github.com/mem0ai/mem0/issues/7466) | 0 |
 | [#7461 Langchain vector store: list() returns None for any non-Chroma VectorStore client (FAISS, Qdrant, PGVector, ...), crashing Memory.get_all() and Memory.delete_all() with TypeError](https://github.com/mem0ai/mem0/issues/7461) | 1 |
 | [#7458 Self-hosted server doesn't expose mem0 core's reranker config or rerank search param](https://github.com/mem0ai/mem0/issues/7458) | 0 |
 | [#7457 Self-hosted server can't point LLM and embedder at independent OpenAI-compatible endpoints](https://github.com/mem0ai/mem0/issues/7457) | 0 |
 | [#7454 bug(qdrant): entity-store operations silently truncate after 10k rows](https://github.com/mem0ai/mem0/issues/7454) | 1 |
-| [#7453 Request for review: open, matched memory benchmark protocol](https://github.com/mem0ai/mem0/issues/7453) | 0 |
-| [#7452 bug(memory): delete_all() leaves the scope's session messages, which are re-sent to the LLM on the next add()](https://github.com/mem0ai/mem0/issues/7452) | 4 |
+| [#7453 Request for review: open, matched memory benchmark protocol](https://github.com/mem0ai/mem0/issues/7453) | 2 |
+| [#7452 bug(memory): delete_all() leaves the scope's session messages, which are re-sent to the LLM on the next add()](https://github.com/mem0ai/mem0/issues/7452) | 5 |
 | [#7446 normalize_facts mishandles wrapped {facts: [...]} objects and bare strings](https://github.com/mem0ai/mem0/issues/7446) | 2 |
 | [#7443 [pgvector] Boolean values in operator filters (eq/ne/in/nin, list shorthand) never match stored booleans](https://github.com/mem0ai/mem0/issues/7443) | 1 |
 | [#7440 Memory.close() races in-flight writes: silent audit-history loss (db=None window)](https://github.com/mem0ai/mem0/issues/7440) | 3 |
@@ -35,7 +41,7 @@ Most recently opened:
 | [#7391 feat(vector-store): add NeuG as an optional vector store backend (native vector + full-text + graph)](https://github.com/mem0ai/mem0/issues/7391) | 0 |
 | [#7383 PGVector.list() has no ORDER BY, so getAll() silently returns an arbitrary subset past topK (TS OSS)](https://github.com/mem0ai/mem0/issues/7383) | 6 |
 | [#7377 feat(plugins): add native GitHub Copilot CLI integration](https://github.com/mem0ai/mem0/issues/7377) | 1 |
-| [#7376 RFC: memory export interop — portable bundles with proof and chain of custody](https://github.com/mem0ai/mem0/issues/7376) | 7 |
+| [#7376 RFC: memory export interop — portable bundles with proof and chain of custody](https://github.com/mem0ai/mem0/issues/7376) | 8 |
 | [#7360 AWS Bedrock: non-tool Amazon Nova path sends Converse but parses with the invoke_model parser, so generate_response returns "Error parsing response"](https://github.com/mem0ai/mem0/issues/7360) | 5 |
 | [#7356 Upgrade mem0-ts to OpenAI SDK v5](https://github.com/mem0ai/mem0/issues/7356) | 1 |
 | [#7355 mem0 TypeScript ignores env-specified proxy settings (http_proxy, HTTPS_PROXY) when talking to model providers](https://github.com/mem0ai/mem0/issues/7355) | 2 |
@@ -71,9 +77,3 @@ Most recently opened:
 | [#7206 bug(vector_stores/valkey): enhanced metadata filters silently become literal TAG matches](https://github.com/mem0ai/mem0/issues/7206) | 1 |
 | [#7202 Skill examples and LLM.md call search()/get_all() with top-level user_id, which raises ValueError](https://github.com/mem0ai/mem0/issues/7202) | 4 |
 | [#7201 Python V3 add returns failed fallback vector inserts as successful memories](https://github.com/mem0ai/mem0/issues/7201) | 4 |
-| [#7198 Empty '## Summary' section in extraction prompt triggers upstream content-filter empty responses](https://github.com/mem0ai/mem0/issues/7198) | 0 |
-| [#7197 OPENROUTER_API_KEY env var hijacks explicitly configured OpenAI-compatible endpoint](https://github.com/mem0ai/mem0/issues/7197) | 1 |
-| [#7196 SQLite 'database is locked' under concurrent sessions / heartbeat reads](https://github.com/mem0ai/mem0/issues/7196) | 1 |
-| [#7195 Message buffer FIFO eviction pollutes extraction context with stale cross-session content](https://github.com/mem0ai/mem0/issues/7195) | 1 |
-| [#7187 bug(vector_stores/supabase): advanced metadata filters are translated as equality](https://github.com/mem0ai/mem0/issues/7187) | 2 |
-| [#7186 [feature] opencode plugin: config knobs for startup context size (injection top_k / startup framing toggle)](https://github.com/mem0ai/mem0/issues/7186) | 0 |

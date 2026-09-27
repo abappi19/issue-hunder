@@ -1,21 +1,21 @@
 # freeCodeCamp/freeCodeCamp
 
-Generated: 2026-09-26T19:32:25.172353+00:00
+Generated: 2026-09-27T09:52:05.335772+00:00
 
-- Unassigned: 37+
+- Unassigned: 35+
 - [View all unassigned issues](https://github.com/freeCodeCamp/freeCodeCamp/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#70434 align-self: stretch fails to work in Flexbox example due to overriding fixed height](https://github.com/freeCodeCamp/freeCodeCamp/issues/70434) | 0 |
 | [#70425 Bad German translations](https://github.com/freeCodeCamp/freeCodeCamp/issues/70425) | 0 |
 | [#70415 Step 12 Build a space mission roster is passing code with errors](https://github.com/freeCodeCamp/freeCodeCamp/issues/70415) | 0 |
 | [#70414 Python daily challenge 39 (Fill The Tank): description uses camelCase parameter names instead of snake_case](https://github.com/freeCodeCamp/freeCodeCamp/issues/70414) | 1 |
 | [#70412 fix(a11y): Python terminal: screen reader output only contains the last print statement](https://github.com/freeCodeCamp/freeCodeCamp/issues/70412) | 0 |
 | [#70390 Ambiguous phrasing in Node `fs` module second quiz question](https://github.com/freeCodeCamp/freeCodeCamp/issues/70390) | 3 |
-| [#70389 Node.js REPL lesson 8 rejects valid console.log calls](https://github.com/freeCodeCamp/freeCodeCamp/issues/70389) | 2 |
-| [#70379 Fix the Discount Calculator lab objective and punctuation](https://github.com/freeCodeCamp/freeCodeCamp/issues/70379) | 1 |
+| [#70389 Node.js REPL lesson 8 rejects valid console.log calls](https://github.com/freeCodeCamp/freeCodeCamp/issues/70389) | 3 |
 | [#70359 Preposing a change in guideline of python workshop-email-simulator/step-28](https://github.com/freeCodeCamp/freeCodeCamp/issues/70359) | 1 |
 | [#70358 A valid answer is not accepted](https://github.com/freeCodeCamp/freeCodeCamp/issues/70358) | 1 |
 | [#70332 Implement a Queue - Unmentioned/Circular Dependencies Between Tests](https://github.com/freeCodeCamp/freeCodeCamp/issues/70332) | 1 |
@@ -24,13 +24,11 @@ Most recently opened:
 | [#70249 Reusable Mega Navbar workshop has test, instruction, accessibility, and code consistency problems](https://github.com/freeCodeCamp/freeCodeCamp/issues/70249) | 3 |
 | [#70248 Understanding Code Clarity lectures contain inaccurate explanations and wording problems](https://github.com/freeCodeCamp/freeCodeCamp/issues/70248) | 0 |
 | [#70200 "Build a Bookmark Manager App" Example Project Not Working: `iframe` `sandbox` Missing `allow-same-origin` Flag](https://github.com/freeCodeCamp/freeCodeCamp/issues/70200) | 0 |
-| [#70161 Correct explanations and examples in the Python augmented assignments lesson](https://github.com/freeCodeCamp/freeCodeCamp/issues/70161) | 1 |
 | [#70139 /settings urls with fragments do not scroll correctly](https://github.com/freeCodeCamp/freeCodeCamp/issues/70139) | 0 |
 | [#70127 [Naomi's Sprint] Add Section Headers to Long Lessons](https://github.com/freeCodeCamp/freeCodeCamp/issues/70127) | 5 |
 | [#70117 Add images to the effective web search lesson](https://github.com/freeCodeCamp/freeCodeCamp/issues/70117) | 0 |
 | [#70116 Add the README image to the common file types lesson](https://github.com/freeCodeCamp/freeCodeCamp/issues/70116) | 0 |
 | [#70115 Add images to the file search lesson](https://github.com/freeCodeCamp/freeCodeCamp/issues/70115) | 2 |
-| [#70114 Add images to the Explorer/Finder file management lesson](https://github.com/freeCodeCamp/freeCodeCamp/issues/70114) | 0 |
 | [#70107 Suggestion: add a diagram to the "What Is the CSS Box Model" lesson](https://github.com/freeCodeCamp/freeCodeCamp/issues/70107) | 4 |
 | [#70025 Screen reader focus issue when editing HTML closing tags in the editor](https://github.com/freeCodeCamp/freeCodeCamp/issues/70025) | 1 |
 | [#70006 Build a Flashcard Quiz App - test 9](https://github.com/freeCodeCamp/freeCodeCamp/issues/70006) | 3 |

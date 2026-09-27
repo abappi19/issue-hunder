@@ -1,19 +1,21 @@
 # bytedance/deer-flow
 
-Generated: 2026-09-26T19:32:38.075464+00:00
+Generated: 2026-09-27T09:52:22.958112+00:00
 
-- Unassigned: 33+
+- Unassigned: 34+
 - [View all unassigned issues](https://github.com/bytedance/deer-flow/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#5953 [bug] Parallel task_note calls can silently evict existing notes after reporting success](https://github.com/bytedance/deer-flow/issues/5953) | 0 |
+| [#5946 [feat] Add bounded JSON syntax acceptance for subagent deliverables](https://github.com/bytedance/deer-flow/issues/5946) | 0 |
+| [#5932 [bug] TestInboundFileSandboxPerms: 4 tests fail on Windows (exact POSIX mode assertions, chmod is a no-op approximation)](https://github.com/bytedance/deer-flow/issues/5932) | 0 |
+| [#5924 [bug] test_upload_files_deduplicates_max_length_filenames_without_failing_the_batch fails on Windows (MAX_PATH exceeded)](https://github.com/bytedance/deer-flow/issues/5924) | 0 |
+| [#5922 [bug] Two local-sandbox tests fail on Windows: incomplete platform mocking spawns a nonexistent /bin/sh](https://github.com/bytedance/deer-flow/issues/5922) | 0 |
 | [#5918 [bug] Boolean upload limits are coerced to 1](https://github.com/bytedance/deer-flow/issues/5918) | 0 |
-| [#5916 [bug] The agent is never shown the active /goal, so API and TUI goals are ignored and compaction can drop the rest](https://github.com/bytedance/deer-flow/issues/5916) | 0 |
 | [#5904 [bug] Local sandbox backend decodes docker CLI output with the platform locale: non-UTF-8 hosts lose stdout/stderr and crash JSON parsing](https://github.com/bytedance/deer-flow/issues/5904) | 1 |
-| [#5901 fix(tracing): tag Langfuse root traces with the effective model](https://github.com/bytedance/deer-flow/issues/5901) | 0 |
-| [#5891 [bug] ClaudeChatModel prompt caching writes cache_control into thread messages, breaking the thread from its third turn](https://github.com/bytedance/deer-flow/issues/5891) | 0 |
 | [#5877 [feat] Add an optional Decision Gate to speed up routine agent decisions](https://github.com/bytedance/deer-flow/issues/5877) | 1 |
 | [#5871 [bug] Loop detection hard-stops paginated and content-varying tool calls: the generic call key drops every non-salient argument](https://github.com/bytedance/deer-flow/issues/5871) | 0 |
 | [#5865 bug: bool / fractional / .inf max_results silently mis-coerce or crash in tavily, searxng, brave, groundroute, serper, serply, sofya](https://github.com/bytedance/deer-flow/issues/5865) | 0 |
@@ -21,7 +23,6 @@ Most recently opened:
 | [#5789 [feat] Cache MCP tool discovery per server across configuration changes](https://github.com/bytedance/deer-flow/issues/5789) | 0 |
 | [#5770 [feat] Preserve unaffected stdio MCP sessions across server configuration changes](https://github.com/bytedance/deer-flow/issues/5770) | 1 |
 | [#5737 [RFC] Screening fetched content for assistant-directed instructions: a matched Jev/LLM measurement and an opt-in extension](https://github.com/bytedance/deer-flow/issues/5737) | 2 |
-| [#5714 [bug] skill review is quadratic in unmatched markdown brackets: a 64 KiB file of '[' takes 9.2 s](https://github.com/bytedance/deer-flow/issues/5714) | 1 |
 | [#5672 [bug] Converted Markdown companions are identified by guessing, so the wrong file is deleted and the wrong outline reaches the agent](https://github.com/bytedance/deer-flow/issues/5672) | 1 |
 | [#5666 Sandbox glob/grep return empty when the search root matches an ignore pattern](https://github.com/bytedance/deer-flow/issues/5666) | 0 |
 | [#5646 RFC: Skill Evolution Host APIs / Skill 自演进宿主接口](https://github.com/bytedance/deer-flow/issues/5646) | 2 |

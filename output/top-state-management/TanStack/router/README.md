@@ -1,14 +1,18 @@
 # TanStack/router
 
-Generated: 2026-09-26T19:33:18.396268+00:00
+Generated: 2026-09-27T09:53:21.814221+00:00
 
-- Unassigned: 21+
+- Unassigned: 24+
 - [View all unassigned issues](https://github.com/TanStack/router/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#8516 Start prerender: in-page fragment links (`/#section`) are crawled as separate pages and listed in sitemap.xml](https://github.com/TanStack/router/issues/8516) | 0 |
+| [#8514 Start: symlinked route files skip the client-side `server.handlers` strip — server code and node-only imports ship in the client bundle](https://github.com/TanStack/router/issues/8514) | 0 |
+| [#8512 start-plugin-core: sitemap lastmod and pages.json lastBuilt are stamped with the build's wall clock (no SOURCE_DATE_EPOCH support)](https://github.com/TanStack/router/issues/8512) | 0 |
+| [#8511 [Start] With Vite 8 (Rolldown), route preloads only include direct chunk imports, so second-level chunks load as a request waterfall](https://github.com/TanStack/router/issues/8511) | 1 |
 | [#8505 Compiler correctness: split-route exports and distinct re-export aliases](https://github.com/TanStack/router/issues/8505) | 0 |
 | [#8502 Page briefly jumps to the top before restoring scroll on reload](https://github.com/TanStack/router/issues/8502) | 0 |
 | [#8491 Blocked Back/go() across a browser-created fragment entry is undone to the wrong entry](https://github.com/TanStack/router/issues/8491) | 0 |
@@ -29,4 +33,3 @@ Most recently opened:
 | [#8331 lazyRouteComponent reload guard key collides on Safari, capping stale-deploy recovery at one per tab](https://github.com/TanStack/router/issues/8331) | 1 |
 | [#8309 Links don't fully follow `retainSearchParams` and `stripSearchParams`](https://github.com/TanStack/router/issues/8309) | 0 |
 | [#8306 Hydration error thrown during a client-side navigation while a nested route is still hydrating](https://github.com/TanStack/router/issues/8306) | 0 |
-| [#8280 Start: non-OK application/json response makes a server function resolve undefined instead of rejecting](https://github.com/TanStack/router/issues/8280) | 3 |

@@ -1,14 +1,19 @@
 # headroomlabs-ai/headroom
 
-Generated: 2026-09-26T19:32:38.075464+00:00
+Generated: 2026-09-27T09:52:22.958112+00:00
 
-- Unassigned: 41+
+- Unassigned: 42+
 - [View all unassigned issues](https://github.com/headroomlabs-ai/headroom/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#3818 [BUG] headroom-ai[proxy]/[all] unresolvable on Intel macOS with Python ≥3.11 (onnxruntime>=1.24.0 has no x86_64 macOS wheels)](https://github.com/headroomlabs-ai/headroom/issues/3818) | 0 |
+| [#3815 CCR retrieval is unavailable on OpenAI chat-completions streaming, and toggles the tools cache in mixed-mode sessions](https://github.com/headroomlabs-ai/headroom/issues/3815) | 1 |
+| [#3814 LogCompressor silently drops middle FAILED lines from pytest's short test summary](https://github.com/headroomlabs-ai/headroom/issues/3814) | 0 |
+| [#3812 Per-session savings attribution (x-claude-code-session-id)](https://github.com/headroomlabs-ai/headroom/issues/3812) | 0 |
+| [#3809 openclaw plugin: assemble() rebuilds every history message when anything is compressed, invalidating the provider prompt cache](https://github.com/headroomlabs-ai/headroom/issues/3809) | 1 |
 | [#3798 [BUG] Vertex us multi-region is forwarded to incorrect upstream hostname](https://github.com/headroomlabs-ai/headroom/issues/3798) | 0 |
 | [#3777 HEADROOM_OFFLINE=1 does not prevent the HuggingFace tokenizer download](https://github.com/headroomlabs-ai/headroom/issues/3777) | 0 |
 | [#3775 HTMLExtractor replaces tool results with unrecoverable output: CompressionStrategy.HTML is missing from LOSSY_UNMARKED_STRATEGIES](https://github.com/headroomlabs-ai/headroom/issues/3775) | 0 |
@@ -46,7 +51,3 @@ Most recently opened:
 | [#3563 [BUG] CCR recovery JSON re-offloaded through Codex functions.exec wrapper; named retrieval exemption passes](https://github.com/headroomlabs-ai/headroom/issues/3563) | 1 |
 | [#3561 [BUG] No content compressor runs in proxy mode on the Anthropic /v1/messages path (0.30.0 through 0.37.0)](https://github.com/headroomlabs-ai/headroom/issues/3561) | 2 |
 | [#3560 [BUG] CCR makes Jira MCP issue descriptions inaccessible in GitHub Copilot](https://github.com/headroomlabs-ai/headroom/issues/3560) | 0 |
-| [#3554 [BUG] Prompt caching gate uses wrong LiteLLM API](https://github.com/headroomlabs-ai/headroom/issues/3554) | 1 |
-| [#3549 [BUG] Shared ContentRouter request state can be overwritten by concurrent compression requests](https://github.com/headroomlabs-ai/headroom/issues/3549) | 0 |
-| [#3545 [BUG] Search/grep compressor fuses matches into single lines, manufacturing false line↔content associations](https://github.com/headroomlabs-ai/headroom/issues/3545) | 2 |
-| [#3544 [BUG] CCR markers spliced into small fields invalidate JSON containers and inject a headroom_retrieve tool non-MCP clients cannot execute](https://github.com/headroomlabs-ai/headroom/issues/3544) | 0 |

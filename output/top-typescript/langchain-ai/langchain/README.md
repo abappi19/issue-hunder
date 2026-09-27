@@ -1,14 +1,17 @@
 # langchain-ai/langchain
 
-Generated: 2026-09-26T19:32:38.075464+00:00
+Generated: 2026-09-27T09:52:22.958112+00:00
 
-- Unassigned: 79+
+- Unassigned: 80+
 - [View all unassigned issues](https://github.com/langchain-ai/langchain/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#40858 Output parsers drop tool calls when a chat model falls back to invoke inside stream(), so structured output streams nothing](https://github.com/langchain-ai/langchain/issues/40858) | 3 |
+| [#40853 create_agent invalid-tool-call repair emits a tool_result with no matching tool_use, so Anthropic threads fail with a 400 after any invalid tool call](https://github.com/langchain-ai/langchain/issues/40853) | 2 |
+| [#40852 Many tests fail](https://github.com/langchain-ai/langchain/issues/40852) | 1 |
 | [#40840 SummarizationMiddleware: _get_approximate_token_counter doesn't recognize Claude on Bedrock (ChatBedrockConverse), so summarization triggers late](https://github.com/langchain-ai/langchain/issues/40840) | 1 |
 | [#40830 ChatPerplexity.stream() crashes with TypeError when `stop` sequences are passed](https://github.com/langchain-ai/langchain/issues/40830) | 4 |
 | [#40826 Streaming a large tool call re-parses its arguments in pure Python on every chunk](https://github.com/langchain-ai/langchain/issues/40826) | 3 |
@@ -16,11 +19,11 @@ Most recently opened:
 | [#40819 RunnableWithFallbacks.batch/abatch never close root runs when an input raises an exception not in exceptions_to_handle](https://github.com/langchain-ai/langchain/issues/40819) | 8 |
 | [#40809 Bedrock Converse `content_blocks` drops redacted reasoning, so it is not sent back with `output_version="v1"` (found with GPT-6 Sol/Luna/Astra)](https://github.com/langchain-ai/langchain/issues/40809) | 1 |
 | [#40802 langchain-typesafe: TypeSafeClassifier declares serialization support but cannot round-trip through built-in deserialization](https://github.com/langchain-ai/langchain/issues/40802) | 1 |
-| [#40796 langchain-typesafe: validate ModelRouterMiddleware classifier routes](https://github.com/langchain-ai/langchain/issues/40796) | 0 |
+| [#40796 langchain-typesafe: validate ModelRouterMiddleware classifier routes](https://github.com/langchain-ai/langchain/issues/40796) | 1 |
 | [#40788 message_to_events drops AIMessage.additional_kwargs during replay](https://github.com/langchain-ai/langchain/issues/40788) | 6 |
 | [#40782 `ChatOpenAI.bind_tools()` rejects GPT-6 shell / Programmatic Tool Calling and lacks Responses round-trip support](https://github.com/langchain-ai/langchain/issues/40782) | 1 |
 | [#40777 `ChatAnthropic` sends unsupported tool choice and thinking configurations for Claude Opus 5.5](https://github.com/langchain-ai/langchain/issues/40777) | 1 |
-| [#40771 [langchain-groq] bind_tools ignores a known tool_calling=False model profile and sends a request that Groq rejects](https://github.com/langchain-ai/langchain/issues/40771) | 6 |
+| [#40771 [langchain-groq] bind_tools ignores a known tool_calling=False model profile and sends a request that Groq rejects](https://github.com/langchain-ai/langchain/issues/40771) | 7 |
 | [#40770 [langchain-anthropic] Manual thinking validation misses Claude Opus 4.7/4.8 and Sonnet 5](https://github.com/langchain-ai/langchain/issues/40770) | 3 |
 | [#40769 [langchain-deepseek] bind_tools(tool_choice="any") produces an invalid request with DeepSeek's default thinking mode`](https://github.com/langchain-ai/langchain/issues/40769) | 2 |
 | [#40768 [langchain-anthropic] Call-time thinking bypasses bind_tools forced-tool-choice guard](https://github.com/langchain-ai/langchain/issues/40768) | 1 |
@@ -40,7 +43,7 @@ Most recently opened:
 | [#40704 PIIMiddleware inspects only the newest message of each kind, so PII in supplied history reaches the model and block does not raise](https://github.com/langchain-ai/langchain/issues/40704) | 4 |
 | [#40700 langchain-typesafe: ModelRouterMiddleware overrides ModelFallbackMiddleware fallback models](https://github.com/langchain-ai/langchain/issues/40700) | 2 |
 | [#40694 langchain-typesafe: AutoModeMiddleware classifies a tool call that inner middleware can replace before execution](https://github.com/langchain-ai/langchain/issues/40694) | 3 |
-| [#40688 `ToolRetryMiddleware`: default settings retry non-idempotent tools on ambiguous transport errors, then ask the model to retry again](https://github.com/langchain-ai/langchain/issues/40688) | 8 |
+| [#40688 `ToolRetryMiddleware`: default settings retry non-idempotent tools on ambiguous transport errors, then ask the model to retry again](https://github.com/langchain-ai/langchain/issues/40688) | 9 |
 | [#40678 core: Responses file-URL test overwrites its expected result without asserting it](https://github.com/langchain-ai/langchain/issues/40678) | 4 |
 | [#40677 core: Message chunk addition drops 'name' and fallback 'id', breaking streaming multi-agent metadata and merge_message_runs](https://github.com/langchain-ai/langchain/issues/40677) | 3 |
 | [#40675 anthropic: `FilesystemClaudeTextEditorMiddleware` reads and writes files with the locale encoding so non ascii content breaks on non utf8 systems](https://github.com/langchain-ai/langchain/issues/40675) | 5 |
@@ -86,5 +89,3 @@ Most recently opened:
 | [#40314 MarkdownHeaderTextSplitter becomes very slow with many paragraphs under the same header](https://github.com/langchain-ai/langchain/issues/40314) | 2 |
 | [#40311 `AnthropicPromptCachingMiddleware` silently drops the system prompt when the last content block is a string](https://github.com/langchain-ai/langchain/issues/40311) | 2 |
 | [#40299 text-splitters: `RecursiveCharacterTextSplitter` skips `strip_whitespace` for pieces it cannot split further](https://github.com/langchain-ai/langchain/issues/40299) | 3 |
-| [#40298 text-splitters: `MarkdownHeaderTextSplitter` keeps the closing `##` sequence in header metadata](https://github.com/langchain-ai/langchain/issues/40298) | 4 |
-| [#40297 core: `parse_json_markdown` fails on a fence tagged `JSON` instead of `json`](https://github.com/langchain-ai/langchain/issues/40297) | 4 |

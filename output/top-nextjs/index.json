@@ -1,6 +1,6 @@
 {
   "title": "Top Next.js Projects",
-  "generated_at": "2026-09-26T19:32:50.026310+00:00",
+  "generated_at": "2026-09-27T09:52:39.878654+00:00",
   "repos": [
     {
       "repo": "f/prompts.chat",
@@ -8,11 +8,11 @@
     },
     {
       "repo": "langgenius/dify",
-      "unassigned": "34+"
+      "unassigned": "35+"
     },
     {
       "repo": "vercel/next.js",
-      "unassigned": "11+"
+      "unassigned": "14+"
     },
     {
       "repo": "shadcn-ui/ui",
@@ -20,7 +20,7 @@
     },
     {
       "repo": "supabase/supabase",
-      "unassigned": "9+"
+      "unassigned": "12+"
     },
     {
       "repo": "ChatGPTNextWeb/NextChat",
@@ -28,7 +28,7 @@
     },
     {
       "repo": "coollabsio/coolify",
-      "unassigned": "42+"
+      "unassigned": "43+"
     },
     {
       "repo": "appwrite/appwrite",
@@ -36,11 +36,11 @@
     },
     {
       "repo": "calcom/cal.diy",
-      "unassigned": "12+"
+      "unassigned": "13+"
     },
     {
       "repo": "payloadcms/payload",
-      "unassigned": "33+"
+      "unassigned": "34+"
     },
     {
       "repo": "AykutSarac/jsoncrack.com",
@@ -52,7 +52,7 @@
     },
     {
       "repo": "CopilotKit/CopilotKit",
-      "unassigned": "29+"
+      "unassigned": "23+"
     },
     {
       "repo": "Dokploy/dokploy",
@@ -68,7 +68,7 @@
     },
     {
       "repo": "refinedev/refine",
-      "unassigned": 18
+      "unassigned": 21
     },
     {
       "repo": "JCodesMore/ai-website-cloner-template",

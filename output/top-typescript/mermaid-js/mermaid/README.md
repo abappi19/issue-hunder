@@ -1,14 +1,15 @@
 # mermaid-js/mermaid
 
-Generated: 2026-09-26T19:32:38.075464+00:00
+Generated: 2026-09-27T09:52:22.958112+00:00
 
-- Unassigned: 26+
+- Unassigned: 27+
 - [View all unassigned issues](https://github.com/mermaid-js/mermaid/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#8326 ELK layout (12.0.0 default): repeated subgraph id renders with NaN geometry; dagre merges it](https://github.com/mermaid-js/mermaid/issues/8326) | 0 |
 | [#8319 Title in multiple lines](https://github.com/mermaid-js/mermaid/issues/8319) | 0 |
 | [#8308 `viewBox` computed from un-settled `foreignObject` geometry when the host page has a CSS transition on `width`/`height` — diagram renders in a box ~2000 units square](https://github.com/mermaid-js/mermaid/issues/8308) | 1 |
 | [#8302 ELK layout: spacing and feedback-edge routing cannot be configured, and edges back into a subgraph go around it](https://github.com/mermaid-js/mermaid/issues/8302) | 0 |

@@ -1,6 +1,6 @@
 # NousResearch/hermes-agent
 
-Generated: 2026-09-26T19:32:25.172353+00:00
+Generated: 2026-09-27T09:52:05.335772+00:00
 
 - Unassigned: 28+
 - [View all unassigned issues](https://github.com/NousResearch/hermes-agent/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,31 +9,31 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#124289 [Bug]: a named custom provider's extra_body is dropped on /model --provider <name> and on bare-named fallback entries, and leaks onto the next fallback](https://github.com/NousResearch/hermes-agent/issues/124289) | 0 |
-| [#124287 [Bug]: CLI /reload-mcp note is marked persisted but never written to state.db](https://github.com/NousResearch/hermes-agent/issues/124287) | 0 |
-| [#124285 [Bug]: gateway scoped lock can be owned by two gateways (empty-file window, and a stale read in acquire_scoped_lock)](https://github.com/NousResearch/hermes-agent/issues/124285) | 0 |
-| [#124283 [Bug]: dashboard /api/model/recommended-default?provider=nous ignores ?profile= (launch profile's tier; unknown profile answers 200)](https://github.com/NousResearch/hermes-agent/issues/124283) | 0 |
-| [#124279 Cron external worker uses raw interpreter and loses runtime dependencies](https://github.com/NousResearch/hermes-agent/issues/124279) | 0 |
-| [#124272 git fetch crashes on tree:0 partial clones: BUG pack-objects.c:4842 should_include_obj - breaks hermes update/bootstrap](https://github.com/NousResearch/hermes-agent/issues/124272) | 0 |
-| [#124268 Windows: uv bytecode-compile fails with os error 1224 under real-time AV - breaks pm repair/bootstrap](https://github.com/NousResearch/hermes-agent/issues/124268) | 0 |
-| [#124267 [Bug]: Anthropic usage card: 1% session shown as 100% used, extra usage shown 100x (cents printed as dollars)](https://github.com/NousResearch/hermes-agent/issues/124267) | 1 |
-| [#124265 Desktop: clicking "+" on a project while a chat is open still routes session.create to the wrong profile (incomplete fix for #79005)](https://github.com/NousResearch/hermes-agent/issues/124265) | 1 |
-| [#124264 hermes update installs a managed Node and prepends it to MCP child PATH, breaking npm MCP servers with native addons](https://github.com/NousResearch/hermes-agent/issues/124264) | 0 |
-| [#124255 NVIDIA 580 SwiftShader fallback turns a known Chromium stuck-Button-observer defect into a silent 4-9 core CPU burn (laptop overheating)](https://github.com/NousResearch/hermes-agent/issues/124255) | 1 |
-| [#124248 [Bug]: cronjob(action='run') delivers through the launch profile's adapters under a multiplexed gateway](https://github.com/NousResearch/hermes-agent/issues/124248) | 1 |
-| [#124238 fix(gateway): filtered no-send result clears dead-target flag without a send](https://github.com/NousResearch/hermes-agent/issues/124238) | 0 |
-| [#124228 pm: environment builds ignore configured gateway platforms — a Telegram-configured home gets a venv without python-telegram-bot](https://github.com/NousResearch/hermes-agent/issues/124228) | 0 |
-| [#124222 [Bug]: a recurring cron job that has already run is deleted without firing when changed to a one-shot](https://github.com/NousResearch/hermes-agent/issues/124222) | 0 |
-| [#124219 [Bug]: Slack stream reopened after a server-side seal resumes mid-word (a word is split across two messages)](https://github.com/NousResearch/hermes-agent/issues/124219) | 0 |
-| [#124214 [doctor] web-extra dependency drift is invisible: dashboard dies at import (Router.__init__ 'on_startup') and doctor reports no issue](https://github.com/NousResearch/hermes-agent/issues/124214) | 2 |
-| [#124213 `hermes browser close-profile` reports success but does not terminate the browser process](https://github.com/NousResearch/hermes-agent/issues/124213) | 0 |
-| [#124212 [Bug]: Windows Desktop setup fail](https://github.com/NousResearch/hermes-agent/issues/124212) | 2 |
-| [#124211 [Bug]: Toolset changes can never reach a canonical Bot Chat (apply-at-creation × never-fork = permanent drift)](https://github.com/NousResearch/hermes-agent/issues/124211) | 0 |
-| [#124205 [Bug]: TUI writes raw escapes from heartbeat/watch_match notification text to the terminal — a Go CLI's CSI ?9001h (Win32 input mode) leaves the TUI's keyboard broken](https://github.com/NousResearch/hermes-agent/issues/124205) | 1 |
-| [#124202 [Feature]: Mem0AI should be the next memory provider de-vendored, as it actively blocks `hindsight-all` from the hindsight plugin from installing.](https://github.com/NousResearch/hermes-agent/issues/124202) | 0 |
-| [#124178 [Bug]: browser page guard reports about:blank as a private/internal address, sending agents into a navigate-retry loop](https://github.com/NousResearch/hermes-agent/issues/124178) | 1 |
-| [#124172 [Bug]: Smart approval auto-approves commands Tirith rates HIGH or CRITICAL](https://github.com/NousResearch/hermes-agent/issues/124172) | 0 |
-| [#124171 [Bug]: Background processes run in an interactive shell (-lic), so zsh rc noise and aliases leak into every job](https://github.com/NousResearch/hermes-agent/issues/124171) | 0 |
-| [#124170 [Bug]: One-turn /model switch note is restated after every compaction](https://github.com/NousResearch/hermes-agent/issues/124170) | 0 |
-| [#124169 [Bug]: Compaction truncates batch clarify answers to 199 characters, losing user authorizations](https://github.com/NousResearch/hermes-agent/issues/124169) | 0 |
-| [#124166 [Bug]: patch on a CRLF file mishandles an old_string ending in a newline (no match, partial replace_all, wrong copy edited)](https://github.com/NousResearch/hermes-agent/issues/124166) | 0 |
+| [#125062 pm doctor fails: uv.lock needs to be updated but --locked is provided](https://github.com/NousResearch/hermes-agent/issues/125062) | 0 |
+| [#125060 [Bug]: Desktop SSH bootstrap fails with 'Could not prove that the remote Hermes install is clear' while the previous session's serve still holds the lock (self-heals only via the next spawn's orphan reap)](https://github.com/NousResearch/hermes-agent/issues/125060) | 0 |
+| [#125058 [Bug]: A 403 from a policy gateway in front of a custom endpoint is reported as "rejected your API key"](https://github.com/NousResearch/hermes-agent/issues/125058) | 0 |
+| [#125057 [Feature]: Web dashboard should default to the configured language instead of always English](https://github.com/NousResearch/hermes-agent/issues/125057) | 0 |
+| [#125047 Exit-time orphan sweep deletes Singularity persistent overlays — persistent_filesystem defeated on every process exit](https://github.com/NousResearch/hermes-agent/issues/125047) | 0 |
+| [#125043 PM-copy `gateway install`/`start` writes a launchd plist whose launcher does not exist (macOS), deferred + silent](https://github.com/NousResearch/hermes-agent/issues/125043) | 0 |
+| [#125041 Desktop: 圧縮 lineage 中間 id の検索/再開が tip に届かず壊れる（CLI は tip 追従する）](https://github.com/NousResearch/hermes-agent/issues/125041) | 0 |
+| [#125040 [Bug]: Terminal tool resolves PM tool Python before the dependency venv, breaking Python skill scripts](https://github.com/NousResearch/hermes-agent/issues/125040) | 0 |
+| [#125032 [Bug]: Curator's LLM pass runs unscoped on a multiplexed gateway — UnscopedSecretError, and it reads/writes the root home's skills, report and state instead of the profile's](https://github.com/NousResearch/hermes-agent/issues/125032) | 0 |
+| [#125025 [Bug]: Dashboard "Manage skills & tools" opens Skills on the old profile instead of the one you clicked](https://github.com/NousResearch/hermes-agent/issues/125025) | 0 |
+| [#125023 [Bug]: Desktop Settings > Model and the Bot Mode picker don't recognize a saved custom:<key> provider](https://github.com/NousResearch/hermes-agent/issues/125023) | 0 |
+| [#125021 [Bug]: Kanban dashboard bulk "Complete" fails for every card because it never asks for a summary](https://github.com/NousResearch/hermes-agent/issues/125021) | 0 |
+| [#125019 [Bug]: Context from a fallback compaction summary is lost at the next compaction](https://github.com/NousResearch/hermes-agent/issues/125019) | 0 |
+| [#125017 [Bug]: Interrupting a command on the Modal backend destroys the sandbox and breaks every later command](https://github.com/NousResearch/hermes-agent/issues/125017) | 0 |
+| [#125015 [Bug]: WeCom stream stays open after /stop or /new mid-reply](https://github.com/NousResearch/hermes-agent/issues/125015) | 0 |
+| [#125013 [Bug]: browser_console returns success with empty lists when the browser command fails or is refused](https://github.com/NousResearch/hermes-agent/issues/125013) | 0 |
+| [#125011 [Bug]: "Delete empty" sessions leaves the session files on disk](https://github.com/NousResearch/hermes-agent/issues/125011) | 0 |
+| [#125009 [Bug]: ACP prompt with only an attached file gets no reply](https://github.com/NousResearch/hermes-agent/issues/125009) | 0 |
+| [#125007 [Bug]: MoA drops the provider's extra_body after the first aggregator call (cached slot runtime is mutated)](https://github.com/NousResearch/hermes-agent/issues/125007) | 0 |
+| [#125005 [Bug]: provider: openai ignores model.base_url and model.key_env](https://github.com/NousResearch/hermes-agent/issues/125005) | 0 |
+| [#125003 [Bug]: Killing a background process on a remote backend leaves the command running](https://github.com/NousResearch/hermes-agent/issues/125003) | 0 |
+| [#125001 [Bug]: list_gateway_sessions drops or misreports a routing key after /resume](https://github.com/NousResearch/hermes-agent/issues/125001) | 0 |
+| [#124999 [Bug]: read_file and terminal cat show secrets from ~/.aws/credentials, .netrc, .pgpass and other credential files](https://github.com/NousResearch/hermes-agent/issues/124999) | 0 |
+| [#124995 [Bug]: Platform settings in config.yaml are reset when the credentials are in .env](https://github.com/NousResearch/hermes-agent/issues/124995) | 0 |
+| [#124974 Native button approvals resolve the FIFO-oldest request, not the one the user tapped](https://github.com/NousResearch/hermes-agent/issues/124974) | 1 |
+| [#124972 [Bug]: Desktop update state.db pre-flight times out in resolved Python (spawnSync ETIMEDOUT) on macOS](https://github.com/NousResearch/hermes-agent/issues/124972) | 0 |
+| [#124971 [Bug]: Desktop update launch ignores healthy install and starts concurrent bootstrap runs](https://github.com/NousResearch/hermes-agent/issues/124971) | 0 |
+| [#124960 todo_list tool: created todos intermittently lost (read returns empty after creating 11 items)](https://github.com/NousResearch/hermes-agent/issues/124960) | 0 |

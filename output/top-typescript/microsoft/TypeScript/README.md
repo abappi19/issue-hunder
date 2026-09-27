@@ -1,14 +1,16 @@
 # microsoft/TypeScript
 
-Generated: 2026-09-26T19:32:38.075464+00:00
+Generated: 2026-09-27T09:52:22.958112+00:00
 
-- Unassigned: 41+
+- Unassigned: 42+
 - [View all unassigned issues](https://github.com/microsoft/TypeScript/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#64477 TS6059 error count flakes between runs unless --singleThreaded](https://github.com/microsoft/TypeScript/issues/64477) | 0 |
+| [#64474 checker builds member tables and intersection props it never uses](https://github.com/microsoft/TypeScript/issues/64474) | 1 |
 | [#64467 getTypeAtLocation crashes on the ImportClause of a type-only import](https://github.com/microsoft/TypeScript/issues/64467) | 0 |
 | [#64465 Language server retains the pre-edit program and its checkers for the rest of the session after the first edit](https://github.com/microsoft/TypeScript/issues/64465) | 0 |
 | [#64464 First incremental rebuild after a clean build is up to 75× slower than a full check](https://github.com/microsoft/TypeScript/issues/64464) | 0 |
@@ -49,4 +51,3 @@ Most recently opened:
 | [#64102 Proposal: Expose LSP/Language Service capabilities (e.g., rename) via a tsc subcommand](https://github.com/microsoft/TypeScript/issues/64102) | 3 |
 | [#64094 typescript-language-server does not work with @typescript/typescript6](https://github.com/microsoft/TypeScript/issues/64094) | 0 |
 | [#64091 Feature request: Dependent contextual inference](https://github.com/microsoft/TypeScript/issues/64091) | 1 |
-| [#64087 Switching on a template literal expression does not narrow the interpolated union variable](https://github.com/microsoft/TypeScript/issues/64087) | 2 |

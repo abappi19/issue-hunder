@@ -1,14 +1,16 @@
 # angular/angular
 
-Generated: 2026-09-26T19:32:38.075464+00:00
+Generated: 2026-09-27T09:52:22.958112+00:00
 
-- Unassigned: 32+
+- Unassigned: 33+
 - [View all unassigned issues](https://github.com/angular/angular/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#70979 reportProgress in https://angular.dev/guide/http/making-requests#receiving-raw-progress-events](https://github.com/angular/angular/issues/70979) | 0 |
+| [#70974 router: blocking route resource bound to a required input throws NG0950 on first render](https://github.com/angular/angular/issues/70974) | 0 |
 | [#70965 canDeactivate and resolvers are skipped when a RouteReuseStrategy recreates the component](https://github.com/angular/angular/issues/70965) | 2 |
 | [#70949 Failed to remove breakpoint after detaching](https://github.com/angular/angular/issues/70949) | 0 |
 | [#70948 Can't unwatch signal in DevTools](https://github.com/angular/angular/issues/70948) | 2 |
@@ -17,7 +19,7 @@ Most recently opened:
 | [#70937 perf(missingStructuralDirective): slow build performance with check](https://github.com/angular/angular/issues/70937) | 0 |
 | [#70934 Signal Forms: NG01904 from `provideSignalFormsConfig({ classes })` when an array is replaced while the form's view is detached (RouteReuseStrategy)](https://github.com/angular/angular/issues/70934) | 1 |
 | [#70932 Angular Router auxiliary outlets can exhaust memory during SSR](https://github.com/angular/angular/issues/70932) | 0 |
-| [#70927 Expose template source locations in dev mode to jump from the DOM to the template](https://github.com/angular/angular/issues/70927) | 0 |
+| [#70927 Expose template source locations in dev mode to jump from the DOM to the template](https://github.com/angular/angular/issues/70927) | 1 |
 | [#70926 Angular SSR: Domino active formatting reconstruction can cause heap exhaustion](https://github.com/angular/angular/issues/70926) | 2 |
 | [#70923 Destroying a transplanted view twice removes another live view from change detection](https://github.com/angular/angular/issues/70923) | 0 |
 | [#70919 Route-level resources: feedback on previous-value semantics, parallel loads, typed errors, and input type safety](https://github.com/angular/angular/issues/70919) | 1 |
@@ -40,4 +42,3 @@ Most recently opened:
 | [#70721 forms: validator directives (required, minlength, …) are not applied to a custom control bound with ngModel / formControl](https://github.com/angular/angular/issues/70721) | 0 |
 | [#70678 Angular Language Service does not activate in multi-root workspaces (npm workspaces monorepo)](https://github.com/angular/angular/issues/70678) | 1 |
 | [#70627 Signal form children initialization is not really lazy](https://github.com/angular/angular/issues/70627) | 0 |
-| [#70600 Signal Forms should not enforce native `min` / `max` / `minLength` / `maxLength` types on custom controls](https://github.com/angular/angular/issues/70600) | 1 |

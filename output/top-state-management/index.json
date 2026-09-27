@@ -1,6 +1,6 @@
 {
   "title": "Top State Management Projects",
-  "generated_at": "2026-09-26T19:33:18.396268+00:00",
+  "generated_at": "2026-09-27T09:53:21.814221+00:00",
   "repos": [
     {
       "repo": "mem0ai/mem0",
@@ -12,7 +12,7 @@
     },
     {
       "repo": "statelyai/xstate",
-      "unassigned": "59+"
+      "unassigned": "68+"
     },
     {
       "repo": "vuejs/vuex",
@@ -28,7 +28,7 @@
     },
     {
       "repo": "TanStack/router",
-      "unassigned": "21+"
+      "unassigned": "24+"
     },
     {
       "repo": "felangel/bloc",
@@ -76,7 +76,7 @@
     },
     {
       "repo": "preactjs/signals",
-      "unassigned": 28
+      "unassigned": 29
     },
     {
       "repo": "Tencent/westore",

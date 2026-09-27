@@ -1,14 +1,15 @@
 # preactjs/signals
 
-Generated: 2026-09-26T19:33:18.396268+00:00
+Generated: 2026-09-27T09:53:21.814221+00:00
 
-- Unassigned: 28
+- Unassigned: 29
 - [View all unassigned issues](https://github.com/preactjs/signals/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#989 Add Babel 8 support to @preact/signals-react-transform](https://github.com/preactjs/signals/issues/989) | 0 |
 | [#986 bug:createModel leaves effects subscribed when the factory throws](https://github.com/preactjs/signals/issues/986) | 0 |
 | [#983 createModel: class prototype methods are not wrapped as actions (and getters crash construction)](https://github.com/preactjs/signals/issues/983) | 0 |
 | [#930 Accessing a Signal value from a preact PureComponent should error in development mode](https://github.com/preactjs/signals/issues/930) | 1 |

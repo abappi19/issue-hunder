@@ -1,6 +1,6 @@
 {
   "title": "Top Open-Source Projects",
-  "generated_at": "2026-09-26T19:32:25.172353+00:00",
+  "generated_at": "2026-09-27T09:52:05.335772+00:00",
   "repos": [
     {
       "repo": "codecrafters-io/build-your-own-x",
@@ -12,11 +12,11 @@
     },
     {
       "repo": "public-apis/public-apis",
-      "unassigned": "4+"
+      "unassigned": "5+"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
-      "unassigned": "37+"
+      "unassigned": "35+"
     },
     {
       "repo": "EbookFoundation/free-programming-books",
@@ -24,7 +24,7 @@
     },
     {
       "repo": "openclaw/openclaw",
-      "unassigned": "44+"
+      "unassigned": "24+"
     },
     {
       "repo": "donnemartin/system-design-primer",
@@ -36,15 +36,15 @@
     },
     {
       "repo": "jwasham/coding-interview-university",
-      "unassigned": "57+"
+      "unassigned": "56+"
     },
     {
       "repo": "obra/superpowers",
-      "unassigned": "49+"
+      "unassigned": "47+"
     },
     {
       "repo": "practical-tutorials/project-based-learning",
-      "unassigned": "53+"
+      "unassigned": "52+"
     },
     {
       "repo": "mattpocock/skills",
@@ -72,7 +72,7 @@
     },
     {
       "repo": "anomalyco/opencode",
-      "unassigned": "28+"
+      "unassigned": "6+"
     },
     {
       "repo": "ossu/computer-science",

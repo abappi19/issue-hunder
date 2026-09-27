@@ -1,55 +1,35 @@
 # openclaw/openclaw
 
-Generated: 2026-09-26T19:32:25.172353+00:00
+Generated: 2026-09-27T09:52:05.335772+00:00
 
-- Unassigned: 44+
+- Unassigned: 24+
 - [View all unassigned issues](https://github.com/openclaw/openclaw/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#159118 Steady-state artifact-preserving config reads scale with unrelated shared-state audit ledger size](https://github.com/openclaw/openclaw/issues/159118) | 1 |
-| [#159112 [Bug]: Doctor legacy capture cleanup blocked by unreadable unrelated macOS root daemons](https://github.com/openclaw/openclaw/issues/159112) | 1 |
-| [#159107 [Bug]: Code Mode crabbox exec fails with "Environment exec has no matching captured tool authority"](https://github.com/openclaw/openclaw/issues/159107) | 2 |
-| [#159104 Ambient webchat session resolves into a `kind: cron` session, failing with "session key does not match its placement"](https://github.com/openclaw/openclaw/issues/159104) | 2 |
-| [#159094 [Bug]: 2026.9.6 Gateway owns state-lifecycle lease but internal workers report another OpenClaw process owns state-lifecycle](https://github.com/openclaw/openclaw/issues/159094) | 1 |
-| [#159089 [Bug]: contextPruning (cache-ttl) never prunes for OpenAI-compatible providers under a custom provider id](https://github.com/openclaw/openclaw/issues/159089) | 2 |
-| [#159080 [Bug]: Runtime-bound LINE conversations fail with AgentSelectionRequiredError on multi-agent installs](https://github.com/openclaw/openclaw/issues/159080) | 2 |
-| [#159070 [Feature]: Support ordered fallback chains for utilityModel](https://github.com/openclaw/openclaw/issues/159070) | 1 |
-| [#159059 Direct subagent result mirror written between a wake's keyed user and its reply triggers 'keyed user is outside the current turn' (2026.9.6)](https://github.com/openclaw/openclaw/issues/159059) | 2 |
-| [#159058 Feature request: ACP-only agent identities (deny native/embedded runs, preserve ACP spawn)](https://github.com/openclaw/openclaw/issues/159058) | 1 |
-| [#159057 ACP: task-maintenance cleanup re-ensures a completed oneshot, creating a duplicate no-prompt runtime session](https://github.com/openclaw/openclaw/issues/159057) | 2 |
-| [#159048 [Bug]: Linux companion Control UI pages fail with `Importing a module script failed` against 2026.9.6 Gateway](https://github.com/openclaw/openclaw/issues/159048) | 3 |
-| [#159043 apple-fm host model: tool schemas with literal or patternProperties crash the bundled AppleFoundationModels bridge](https://github.com/openclaw/openclaw/issues/159043) | 1 |
-| [#159029 config validate and setup commands call an unreadable config invalid and suggest doctor --fix](https://github.com/openclaw/openclaw/issues/159029) | 1 |
-| [#159028 [Bug]: Talk on Watch fails on Start with AVAudioSession '!ses' (561210739) / avfaudio -308 before any Gateway call (watchOS 26.6)](https://github.com/openclaw/openclaw/issues/159028) | 1 |
-| [#159025 [Feature]: optional pluggable LLM noise gate on the promotion apply path (fail-open)](https://github.com/openclaw/openclaw/issues/159025) | 1 |
-| [#159024 [Feature]: configurable auto-recall minimum score and shared recall groups](https://github.com/openclaw/openclaw/issues/159024) | 1 |
-| [#159022 perf(state): cache agent database path identity with stat revalidation instead of realpath walk on every call](https://github.com/openclaw/openclaw/issues/159022) | 1 |
-| [#159021 perf(agents): coalesce queued file writer line appends into a single append when no byte cap is configured](https://github.com/openclaw/openclaw/issues/159021) | 2 |
-| [#159020 perf(infra): default PRAGMA synchronous to NORMAL for WAL databases (keep FULL for rollback journal)](https://github.com/openclaw/openclaw/issues/159020) | 1 |
-| [#159019 perf(memory-lancedb): cache embeddings on the memory_store write path (dedup-check) while keeping recall uncached](https://github.com/openclaw/openclaw/issues/159019) | 1 |
-| [#159018 [Bug]: chat history: stale older-page flights land after the reader leaves the boundary, and the loading flag can stick](https://github.com/openclaw/openclaw/issues/159018) | 2 |
-| [#159007 Deleted agents retain model and auth database readers](https://github.com/openclaw/openclaw/issues/159007) | 1 |
-| [#159005 Update failure: managed-service-preflight (2026.9.4)](https://github.com/openclaw/openclaw/issues/159005) | 1 |
-| [#159001 Config-wide Gateway metadata triggers redundant inbound plugin registration](https://github.com/openclaw/openclaw/issues/159001) | 1 |
-| [#158997 Process ownership fixture races zombie reaping before PID reuse](https://github.com/openclaw/openclaw/issues/158997) | 2 |
-| [#158991 [Bug]: Update on non-default OPENCLAW_STATE_DIR leaves gateway down - 'service management skipped' with no restart fallback (Windows)](https://github.com/openclaw/openclaw/issues/158991) | 1 |
-| [#158990 [Bug]: Gateway temp log truncated on every CLI/gateway start destroys crash forensics (Windows)](https://github.com/openclaw/openclaw/issues/158990) | 1 |
-| [#158981 Model catalog inventories remain retained across neutral configuration reloads](https://github.com/openclaw/openclaw/issues/158981) | 1 |
-| [#158977 Update failure: reconcile:abandoned (2026.9.6)](https://github.com/openclaw/openclaw/issues/158977) | 1 |
-| [#158968 secrets: rotating a value without --kind converts protected entries to readable env entries](https://github.com/openclaw/openclaw/issues/158968) | 1 |
-| [#158967 media: attachment TTL cleanup deletes inbound files still referenced by transcripts](https://github.com/openclaw/openclaw/issues/158967) | 1 |
-| [#158966 browser: credentialed CDP WebSocket URLs reach model-facing tab results](https://github.com/openclaw/openclaw/issues/158966) | 0 |
-| [#158957 Gateway fixture startup times out under concurrent full-suite load](https://github.com/openclaw/openclaw/issues/158957) | 1 |
-| [#158956 Update failure: reconcile:abandoned (2026.9.5)](https://github.com/openclaw/openclaw/issues/158956) | 1 |
-| [#158952 Windows regression: gateway startup increased from ~3s to 90–337s after upgrading 2026.7.1-2 → 2026.9.6](https://github.com/openclaw/openclaw/issues/158952) | 1 |
-| [#158951 [Bug]: Gateway restart permanently breaks MCP for running CLI agent sessions (401 AUTH_HEADER_REJECTED, --strict-mcp-config cannot recover)](https://github.com/openclaw/openclaw/issues/158951) | 1 |
-| [#158947 [Feature]: Separate operator-owned heartbeat scratch from model notes, and keep scratch history](https://github.com/openclaw/openclaw/issues/158947) | 1 |
-| [#158946 [Bug]: memory-core watcher reindexes on deleted/renamed non-matching paths, and each pass walks every extraPaths root in full](https://github.com/openclaw/openclaw/issues/158946) | 2 |
-| [#158945 [Bug]: sessions_spawn thread:true fails from claude-cli sessions while threadbound-subagent-spawn is advertised](https://github.com/openclaw/openclaw/issues/158945) | 2 |
-| [#158944 [Bug]: Expired (and cancelled) plugin approvals render as "Denied" in native channel approval cards](https://github.com/openclaw/openclaw/issues/158944) | 2 |
-| [#158936 [Bug]: macOS app readiness watchdog SIGTERMs a slow-starting gateway, causing a restart loop until the app is quit](https://github.com/openclaw/openclaw/issues/158936) | 3 |
-| [#158924 [Bug]: Control UI sidebar agent card renders image avatar as a cropped sliver (image box overflows its 28x28 container)](https://github.com/openclaw/openclaw/issues/158924) | 1 |
-| [#158922 claude-cli models report `available: false` after Gateway restart on main, hiding the Control UI Effort picker (regression after #157459)](https://github.com/openclaw/openclaw/issues/158922) | 2 |
+| [#159575 [Feature]: Add a host-owned quiet-period progress supervisor](https://github.com/openclaw/openclaw/issues/159575) | 1 |
+| [#159570 [Feature]: Opt-in Skill Workshop experience review for persistent agentTurn automations](https://github.com/openclaw/openclaw/issues/159570) | 1 |
+| [#159551 [Bug/Regression] Gateway event loop freezes and WebUI becomes intermittently unavailable on 1 GB OCI VM after upgrading to 2026.9.6](https://github.com/openclaw/openclaw/issues/159551) | 2 |
+| [#159542 [Bug]: pdf tool resolves no model for an agent on OpenRouter although the agent's own model reads PDFs once named — the tool is exposed and fails "No PDF model configured."](https://github.com/openclaw/openclaw/issues/159542) | 2 |
+| [#159541 [Bug]: Removing an automation while its run is in progress cancels the run, and the removal reply and docs don't say so](https://github.com/openclaw/openclaw/issues/159541) | 2 |
+| [#159540 [Bug]: Secret egress proxy's traffic-allowlist refusal never reaches HTTPS clients — curl, git, pip, npm and uv show a bare 403, never the host or the setting](https://github.com/openclaw/openclaw/issues/159540) | 1 |
+| [#159539 [Bug]: After an in-process restart fails on a refused setting, automatic triage removes the setting but the Gateway is never started again and stays down](https://github.com/openclaw/openclaw/issues/159539) | 1 |
+| [#159538 [Bug]: sessions tool patch with model "default" pins a nonexistent model instead of clearing the session override, unlike /model default and session_status](https://github.com/openclaw/openclaw/issues/159538) | 2 |
+| [#159531 Subagent completion handoff rotates an idle requester session to a new empty transcript after SessionTranscriptWriterClaimReboundError (2026.9.6)](https://github.com/openclaw/openclaw/issues/159531) | 1 |
+| [#159523 WebChat: difficult to select and copy text from chat messages](https://github.com/openclaw/openclaw/issues/159523) | 2 |
+| [#159522 [Bug]: Compaction drops an active project and Hindsight recall cannot recover it (`Upstream Hindsight request failed`)](https://github.com/openclaw/openclaw/issues/159522) | 1 |
+| [#159515 Update failure: runtime-verification-failed (2026.9.4)](https://github.com/openclaw/openclaw/issues/159515) | 1 |
+| [#159514 [Bug]: 2026.9.6 / release/2026.9.7: catalog worker rebuilds its discovery registry on nearly every request (≈8 MB of unreleasable modules per request)](https://github.com/openclaw/openclaw/issues/159514) | 1 |
+| [#159512 [Bug]: claude-cli: every subagent completion invalidates the requester CLI session twice (reason=mcp) because the resume hash includes the per-turn tool cap](https://github.com/openclaw/openclaw/issues/159512) | 1 |
+| [#159509 voicecall and googlemeet CLIs answer from local state when the remote Gateway is unreachable](https://github.com/openclaw/openclaw/issues/159509) | 1 |
+| [#159499 [Bug]: 2026.9.6 Windows - `ready` ~220s: two sequential plugin-registry phases are 175s of it; `sidecars.control-ui-assets` (196s) blocks the event loop up to 60s after ready](https://github.com/openclaw/openclaw/issues/159499) | 1 |
+| [#159497 [Bug]: Android node: sms.send fails with SMS_PERMISSION_REQUIRED: getGroupIdLevel1 on messages >160 chars (Samsung + Optus, missing READ_PHONE_STATE)](https://github.com/openclaw/openclaw/issues/159497) | 1 |
+| [#159488 devices commands with --json print nothing on stdout when they refuse](https://github.com/openclaw/openclaw/issues/159488) | 1 |
+| [#159485 Update failure: global-install-failed (2026.9.3)](https://github.com/openclaw/openclaw/issues/159485) | 2 |
+| [#159477 [Bug]: Update recovery requires multiple offline repair passes after plugin compatibility failure on macOS](https://github.com/openclaw/openclaw/issues/159477) | 1 |
+| [#159470 exec-policy preset and set --json print nothing on stdout when they fail](https://github.com/openclaw/openclaw/issues/159470) | 1 |
+| [#159452 [Bug]: Automatic daily/idle session reset drops `worktree` from the session entry — worker-placed session then fails every turn with "dispatch requires a session-owned workspace"](https://github.com/openclaw/openclaw/issues/159452) | 3 |
+| [#159424 [Bug]: In-run auto-compaction ignores `compaction.thinkingLevel` and its `low` default, summarizing at the session thinking level](https://github.com/openclaw/openclaw/issues/159424) | 4 |
+| [#159420 [Bug]: Misleading SQLite lock-wait diagnostics, unindexed scans on the 60s cron cleanup path, and a read-only worker that never self-exits (2026.9.6)](https://github.com/openclaw/openclaw/issues/159420) | 1 |

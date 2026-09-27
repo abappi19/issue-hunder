@@ -1,14 +1,17 @@
 # payloadcms/payload
 
-Generated: 2026-09-26T19:32:50.026310+00:00
+Generated: 2026-09-27T09:52:39.878654+00:00
 
-- Unassigned: 33+
+- Unassigned: 34+
 - [View all unassigned issues](https://github.com/payloadcms/payload/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#18335 3.90: apiKey/enableAPIKey render as stray editable fields after generate, regenerate or revoke (website template)](https://github.com/payloadcms/payload/issues/18335) | 0 |
+| [#18334 slugField: creating a published doc without a slug fails "Slug is required" since 3.90.2 (regression from #18181)](https://github.com/payloadcms/payload/issues/18334) | 0 |
+| [#18333 storage-vercel-blob: clientUploads stores WebP, GIF and cropped uploads as 0-byte objects](https://github.com/payloadcms/payload/issues/18333) | 0 |
 | [#18332 Polymorphic join: one target collection's read access disables or filters the whole join (folder view shows "No Results")](https://github.com/payloadcms/payload/issues/18332) | 0 |
 | [#18331 Field afterRead hooks run even when field read access is denied](https://github.com/payloadcms/payload/issues/18331) | 0 |
 | [#18330 plugin-cloud-storage: _objectKey field shows up in list filters, columns and bulk edit](https://github.com/payloadcms/payload/issues/18330) | 0 |
@@ -18,7 +21,7 @@ Most recently opened:
 | [#18317 GraphQL select projection drops fields from polymorphic upload values](https://github.com/payloadcms/payload/issues/18317) | 1 |
 | [#18316 Folders(v3): Changing folder on draft documents does not reflect in folder view until published](https://github.com/payloadcms/payload/issues/18316) | 0 |
 | [#18312 db-postgres: querying a field of a block nested in an array throws "Cannot read properties of undefined (reading '_parentID')"](https://github.com/payloadcms/payload/issues/18312) | 0 |
-| [#18311 plugin-seo 3.90.0: generate endpoints return 403 for collections not listed in `collections`, breaking Auto-generate (and erasing titles) in the website template](https://github.com/payloadcms/payload/issues/18311) | 1 |
+| [#18311 plugin-seo 3.90.0: generate endpoints return 403 for collections not listed in `collections`, breaking Auto-generate (and erasing titles) in the website template](https://github.com/payloadcms/payload/issues/18311) | 2 |
 | [#18300 Successful autosave clears validation error state after a failed publish (setSubmitted(false) on skipValidation submits)](https://github.com/payloadcms/payload/issues/18300) | 0 |
 | [#18294 db-postgres: every update takes FOR UPDATE (via `INSERT … ON CONFLICT ("id") DO UPDATE SET "id" = …`), blocking concurrent inserts of rows that reference the document](https://github.com/payloadcms/payload/issues/18294) | 1 |
 | [#18288 [plugin-ecommerce] inventory.fieldName is documented but never used; stock field, check and decrement are hardcoded to inventory](https://github.com/payloadcms/payload/issues/18288) | 0 |
@@ -40,5 +43,3 @@ Most recently opened:
 | [#18215 filterOptions on a virtual: 'path.to.field' relationship/upload field is never applied in the list view's Where Builder filter dropdown](https://github.com/payloadcms/payload/issues/18215) | 2 |
 | [#18201 listSearchableFields: a nested array path searches correctly but the box says "Search by ID" (3.x)](https://github.com/payloadcms/payload/issues/18201) | 0 |
 | [#18200 Deleting a user leaves their document locks and preferences behind (Postgres): an ownerless lock crashes the edit view](https://github.com/payloadcms/payload/issues/18200) | 0 |
-| [#18192 Product documents are not appearing in Admin Trash view when trash: true is enabled](https://github.com/payloadcms/payload/issues/18192) | 2 |
-| [#18191 plugin-cloud-storage: afterChange mutates the caller's `context` object and deletes `skipCloudStorage` from a copy — every following Local API upload with a reused `context` is silently skipped](https://github.com/payloadcms/payload/issues/18191) | 2 |

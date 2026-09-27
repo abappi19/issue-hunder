@@ -1,8 +1,8 @@
 # elie222/rakazo
 
-Generated: 2026-09-26T19:33:09.684289+00:00
+Generated: 2026-09-27T09:53:07.820802+00:00
 
-- Unassigned: 11
+- Unassigned: 10
 - [View all unassigned issues](https://github.com/elie222/rakazo/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -10,7 +10,6 @@ Most recently opened:
 | Issue | Comments |
 |---|---|
 | [#1027 Gmail signs out in a running Team Computer after #1002](https://github.com/elie222/rakazo/issues/1027) | 0 |
-| [#1025 [Bug]: Archiving a group never stops its runs' computer work or releases their screens](https://github.com/elie222/rakazo/issues/1025) | 0 |
 | [#1021 [Bug]: Deleting a Team bot leaves its browser running and its browser profile on disk](https://github.com/elie222/rakazo/issues/1021) | 0 |
 | [#993 No aging limit or notification for stuck queued tasks and waiting_takeover runs](https://github.com/elie222/rakazo/issues/993) | 0 |
 | [#948 [Bug]: Built-in tools cannot be disabled; instructions are the only lever and do not hold](https://github.com/elie222/rakazo/issues/948) | 0 |

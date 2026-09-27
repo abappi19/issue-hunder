@@ -1,14 +1,16 @@
 # callstack/agent-device
 
-Generated: 2026-09-26T19:33:09.684289+00:00
+Generated: 2026-09-27T09:53:07.820802+00:00
 
-- Unassigned: 88+
+- Unassigned: 89+
 - [View all unassigned issues](https://github.com/callstack/agent-device/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#2996 iOS: `_UIFloatingBarContainerView` counts as an occluder, so press/fill refuse everything above the tab bar](https://github.com/callstack/agent-device/issues/2996) | 1 |
+| [#2995 iOS: resolveRunnerWindow fails when an unused trailing window disappears](https://github.com/callstack/agent-device/issues/2995) | 0 |
 | [#2976 investigate(apple-runner): compare a command-control actor with concrete ownership after the first cleanup wave](https://github.com/callstack/agent-device/issues/2976) | 0 |
 | [#2974 test(ios-snapshot): cover the runner-presented interactive pipeline](https://github.com/callstack/agent-device/issues/2974) | 0 |
 | [#2973 refactor(apple-runner): encapsulate XCTest-channel penalty state](https://github.com/callstack/agent-device/issues/2973) | 0 |
@@ -96,4 +98,3 @@ Most recently opened:
 | [#1599 investigate(ios): confirm historical XCTest tap-failure storm root cause](https://github.com/callstack/agent-device/issues/1599) | 0 |
 | [#1585 WebDriver endpoint-plan lowering has never been executed by a real driver](https://github.com/callstack/agent-device/issues/1585) | 0 |
 | [#1296 iOS: first-class widget and Live Activity testing through a system UI target](https://github.com/callstack/agent-device/issues/1296) | 1 |
-| [#1255 Test-fixture gaps for divergence chrome-filter over-filtering live evidence (short-form screen, native inputAccessoryView, runtime-permission action)](https://github.com/callstack/agent-device/issues/1255) | 0 |

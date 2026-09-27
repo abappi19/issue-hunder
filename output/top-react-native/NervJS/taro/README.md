@@ -1,8 +1,8 @@
 # NervJS/taro
 
-Generated: 2026-09-26T19:33:00.328691+00:00
+Generated: 2026-09-27T09:52:54.664973+00:00
 
-- Unassigned: 79+
+- Unassigned: 78+
 - [View all unassigned issues](https://github.com/NervJS/taro/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -87,4 +87,3 @@ Most recently opened:
 | [#18602 微信小程序鸿蒙环境，状态更新时长显著长于android/ios](https://github.com/NervJS/taro/issues/18602) | 0 |
 | [#18574 CI: nodejs.yml workflow 缺少 aarch64-apple-darwin target 映射](https://github.com/NervJS/taro/issues/18574) | 0 |
 | [#18571 模板选择为 react nutui, 使用 vite作为构建工具，在小程序开发模式启动时nutui引入的Button组件未显示，所有组件样式未按需引入](https://github.com/NervJS/taro/issues/18571) | 1 |
-| [#18566 官方提供的模版项目什么时候能够同步更新？](https://github.com/NervJS/taro/issues/18566) | 4 |

@@ -1,14 +1,28 @@
 # oven-sh/bun
 
-Generated: 2026-09-26T19:32:38.075464+00:00
+Generated: 2026-09-27T09:52:22.958112+00:00
 
-- Unassigned: 43+
+- Unassigned: 47+
 - [View all unassigned issues](https://github.com/oven-sh/bun/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#44109 sharp file I/O crashes Bun with mprotect failed: 487 / Illegal instruction on Windows (WASM path)](https://github.com/oven-sh/bun/issues/44109) | 0 |
+| [#44108 `ws`: differences from npm ws that remain on the built-in client and server sockets](https://github.com/oven-sh/bun/issues/44108) | 0 |
+| [#44101 bun build --compile: a bare specifier required from an embedded module never resolves inside $bunfs](https://github.com/oven-sh/bun/issues/44101) | 0 |
+| [#44098 ws: a finishRequest that calls req.end() later opens two connections](https://github.com/oven-sh/bun/issues/44098) | 0 |
+| [#44096 naming.asset: "[dir]/[name].[ext]" embeds an extensionless file with a trailing dot](https://github.com/oven-sh/bun/issues/44096) | 1 |
+| [#44095 bun build --compile: require() of an embedded JSON file asset evaluates it as JavaScript](https://github.com/oven-sh/bun/issues/44095) | 1 |
+| [#44094 Bun.SQL (MySQL): two query texts get one statement cache key, and the second query runs the statement of the first](https://github.com/oven-sh/bun/issues/44094) | 0 |
+| [#44092 test(sql): the fixture of "process should exit when idle" does not set allowPublicKeyRetrieval](https://github.com/oven-sh/bun/issues/44092) | 0 |
+| [#44090 Windows: stable install-scoped aliases for --bun and run.bun](https://github.com/oven-sh/bun/issues/44090) | 1 |
+| [#44088 bun:sqlite: fileControl items that #44089 leaves open](https://github.com/oven-sh/bun/issues/44088) | 0 |
+| [#44084 node:sqlite StatementSync.get() ~1.5x slower than Node when returning table columns](https://github.com/oven-sh/bun/issues/44084) | 1 |
+| [#44077 --cpu-prof and --cpu-prof-md count event-loop idle time as JavaScript self time](https://github.com/oven-sh/bun/issues/44077) | 1 |
+| [#44075 macOS: dns.lookup/fetch ENOTFOUND for split-DNS names — DNSServiceGetAddrInfoEx ignores kDNSServiceAttrAllowFailover (follow-up to #40573)](https://github.com/oven-sh/bun/issues/44075) | 0 |
+| [#44068 bun build --compile: __dirname/__filename in an included CommonJS entrypoint are inlined as the build directory, not the $bunfs path](https://github.com/oven-sh/bun/issues/44068) | 1 |
 | [#44064 Bun.serve sends an empty body for a file on procfs or cgroupfs (st_size 0)](https://github.com/oven-sh/bun/issues/44064) | 0 |
 | [#44063 bun build --compile: an embedded native addon is extracted alone, so a shared library next to it is not found (Library not loaded: @rpath/...)](https://github.com/oven-sh/bun/issues/44063) | 1 |
 | [#44062 bun build --compile --asset keeps only the last path segment, but --help says it preserves the relative path](https://github.com/oven-sh/bun/issues/44062) | 1 |
@@ -30,25 +44,15 @@ Most recently opened:
 | [#44019 A default-mode unhandled rejection does not reach an `uncaughtException` listener](https://github.com/oven-sh/bun/issues/44019) | 0 |
 | [#44018 An `exit` listener that throws replaces the exit code with 1](https://github.com/oven-sh/bun/issues/44018) | 0 |
 | [#44009 Segfault in JSC GC marking (JSScope::visitChildren) in standalone executable (Claude Code), Bun v1.4.3 Linux x64](https://github.com/oven-sh/bun/issues/44009) | 2 |
-| [#44005 fs.watch reports one 'rename' when an entry is removed and created again (Node reports two)](https://github.com/oven-sh/bun/issues/44005) | 1 |
+| [#44005 fs.watch reports one 'rename' when an entry is removed and created again (Node reports two)](https://github.com/oven-sh/bun/issues/44005) | 2 |
 | [#44002 `bun test` exits 0 and silently skips a nonexistent `./`-prefixed path when another path matches](https://github.com/oven-sh/bun/issues/44002) | 1 |
 | [#44000 bun update <name> keeps the old lockfile row for URL/local tarball deps (stale integrity and dependency list)](https://github.com/oven-sh/bun/issues/44000) | 0 |
 | [#43999 node:tls: a client that refuses the server still sends its TLS 1.3 client certificate while another TLS socket has unsent data](https://github.com/oven-sh/bun/issues/43999) | 0 |
 | [#43998 fetch: the TLS 1.3 client certificate reaches a server that `checkServerIdentity` then refuses](https://github.com/oven-sh/bun/issues/43998) | 0 |
 | [#43996 `Bun.write` stringifies input it does not support, so `Bun.write(path, img.png())` writes "[object Image]" and reports success](https://github.com/oven-sh/bun/issues/43996) | 1 |
-| [#43993 sql(mysql): a statement text of 16 MiB or more rejects with no `code`](https://github.com/oven-sh/bun/issues/43993) | 0 |
+| [#43993 sql(mysql): a statement text of 16 MiB or more rejects with no `code`](https://github.com/oven-sh/bun/issues/43993) | 1 |
 | [#43992 Bun.SQL: a query that fails on the client rejects with a different value on each path](https://github.com/oven-sh/bun/issues/43992) | 0 |
 | [#43983 prompt() returns null on a bare Enter when no default is given, so it cannot be told apart from end of input](https://github.com/oven-sh/bun/issues/43983) | 1 |
 | [#43980 URL with path wrapped in ** renders to broken link](https://github.com/oven-sh/bun/issues/43980) | 1 |
 | [#43977 Auto-install ignores the version pinned in package.json and bun.lock, loading the latest tag](https://github.com/oven-sh/bun/issues/43977) | 1 |
 | [#43975 `bun update <pkg>` does not re-resolve packages whose `$pkg` override changed; lock stays stale and `bun install` / `--frozen-lockfile` do not notice](https://github.com/oven-sh/bun/issues/43975) | 2 |
-| [#43971 Bun.serve: a request that ends in the checkpoint of an `error()` Response ends a stream that another reader holds](https://github.com/oven-sh/bun/issues/43971) | 1 |
-| [#43970 Bun.serve: HEAD of a proxied `fetch()` Response holds the upstream request open, and `fetch()` stops after 256 requests](https://github.com/oven-sh/bun/issues/43970) | 0 |
-| [#43961 `expect()`: `not.toHaveLength()` and `not.toBeEmpty()` pass for a `Blob` with no known size](https://github.com/oven-sh/bun/issues/43961) | 0 |
-| [#43960 S3: a write of a sliced in-memory `Blob` uploads the whole `Blob`](https://github.com/oven-sh/bun/issues/43960) | 0 |
-| [#43949 node:http2: stream.state.localWindowSize never changes](https://github.com/oven-sh/bun/issues/43949) | 0 |
-| [#43939 `Bun.inspect()` prints `0.0 ZB` for a Request or Response whose file body is a slice or has no known size](https://github.com/oven-sh/bun/issues/43939) | 0 |
-| [#43938 S3: `slice(-n)` fails with InvalidRange, and `slice(a)` sends a last byte position of 4503599627370494](https://github.com/oven-sh/bun/issues/43938) | 0 |
-| [#43932 fs.watch on macOS: three differences from libuv in how FSEvents events are filtered](https://github.com/oven-sh/bun/issues/43932) | 0 |
-| [#43931 APIs that read a Blob synchronously read an S3 file as empty](https://github.com/oven-sh/bun/issues/43931) | 0 |
-| [#43930 `new Response(s3file.slice(a, b))` redirects to the whole object](https://github.com/oven-sh/bun/issues/43930) | 0 |

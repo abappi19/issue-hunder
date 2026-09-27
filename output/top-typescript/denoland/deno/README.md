@@ -1,8 +1,8 @@
 # denoland/deno
 
-Generated: 2026-09-26T19:32:38.075464+00:00
+Generated: 2026-09-27T09:52:22.958112+00:00
 
-- Unassigned: 52+
+- Unassigned: 51+
 - [View all unassigned issues](https://github.com/denoland/deno/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -10,7 +10,7 @@ Most recently opened:
 | Issue | Comments |
 |---|---|
 | [#36910 deno_core: snapshotting a JsRuntimeForSnapshot restored from a snapshot drops inherited extension sources; the next restore segfaults](https://github.com/denoland/deno/issues/36910) | 0 |
-| [#36904 `Headers` does not reject values containing CR / LF and leading / trailing whitespace](https://github.com/denoland/deno/issues/36904) | 0 |
+| [#36904 `Headers` does not reject values containing CR / LF and leading / trailing whitespace](https://github.com/denoland/deno/issues/36904) | 2 |
 | [#36899 `deno bundle` gives confusing error message when dependency is newer than `min-dep-age`](https://github.com/denoland/deno/issues/36899) | 0 |
 | [#36898 v2.9.7 is not published on npm](https://github.com/denoland/deno/issues/36898) | 0 |
 | [#36897 desktop: allow to bundle additional files in the installer](https://github.com/denoland/deno/issues/36897) | 1 |
@@ -60,4 +60,3 @@ Most recently opened:
 | [#36777 deno desktop - Mac bundle About menu short version incorrect since 2.9.6](https://github.com/denoland/deno/issues/36777) | 0 |
 | [#36776 `desktop.app.name` is ignored for Linux .desktop Name= when an explicit output path is configured](https://github.com/denoland/deno/issues/36776) | 0 |
 | [#36775 feature(desktop): native support for OS-package-manager update channels (repo metadata + signing) for .rpm/.deb output](https://github.com/denoland/deno/issues/36775) | 0 |
-| [#36773 Feature request: per-async-context current working directory (AsyncLocalStorage-aware chdir/cwd)](https://github.com/denoland/deno/issues/36773) | 4 |

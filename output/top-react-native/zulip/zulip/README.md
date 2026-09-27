@@ -1,8 +1,8 @@
 # zulip/zulip
 
-Generated: 2026-09-26T19:33:00.328691+00:00
+Generated: 2026-09-27T09:52:54.664973+00:00
 
-- Unassigned: 23+
+- Unassigned: 22+
 - [View all unassigned issues](https://github.com/zulip/zulip/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -24,7 +24,6 @@ Most recently opened:
 | [#40074 Add `Who can be subscribed to this channel` group setting.](https://github.com/zulip/zulip/issues/40074) | 5 |
 | [#40051 Edit email button horizontally overflows viewport on vertical mobile view](https://github.com/zulip/zulip/issues/40051) | 11 |
 | [#40043 # UI Consistency: Move Code Playground creation form to a modal](https://github.com/zulip/zulip/issues/40043) | 9 |
-| [#40017 Fix momentary red 'invalid' outline on channel subscribers box](https://github.com/zulip/zulip/issues/40017) | 8 |
 | [#39990 Message edit textbox jumps when expanding with Enter.](https://github.com/zulip/zulip/issues/39990) | 6 |
 | [#39974 Allow sending DMs using delivery email when sender can access email.](https://github.com/zulip/zulip/issues/39974) | 10 |
 | [#39969 Improve setting custom time limit for time based organization settings.](https://github.com/zulip/zulip/issues/39969) | 6 |

@@ -1,14 +1,15 @@
 # mattermost/mattermost
 
-Generated: 2026-09-26T19:33:00.328691+00:00
+Generated: 2026-09-27T09:52:54.664973+00:00
 
-- Unassigned: 14+
+- Unassigned: 15+
 - [View all unassigned issues](https://github.com/mattermost/mattermost/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#38805 Burn-on-read: attachments stay downloadable after a recipient burns/expires (file endpoints don't check the receipt)](https://github.com/mattermost/mattermost/issues/38805) | 0 |
 | [#38803 Server crashes with stack overflow when disabling a bot that owns itself](https://github.com/mattermost/mattermost/issues/38803) | 0 |
 | [#38791 Feature request: persistent/pinned thread panel that survives channel switches](https://github.com/mattermost/mattermost/issues/38791) | 1 |
 | [#38767 [Bug]: Invisible text cursor in light theme on Windows desktop app (OS dark mode conflict)](https://github.com/mattermost/mattermost/issues/38767) | 0 |

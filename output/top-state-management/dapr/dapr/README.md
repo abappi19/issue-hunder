@@ -1,6 +1,6 @@
 # dapr/dapr
 
-Generated: 2026-09-26T19:33:18.396268+00:00
+Generated: 2026-09-27T09:53:21.814221+00:00
 
 - Unassigned: 26+
 - [View all unassigned issues](https://github.com/dapr/dapr/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)

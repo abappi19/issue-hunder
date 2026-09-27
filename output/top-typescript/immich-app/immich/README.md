@@ -1,15 +1,19 @@
 # immich-app/immich
 
-Generated: 2026-09-26T19:32:38.075464+00:00
+Generated: 2026-09-27T09:52:22.958112+00:00
 
-- Unassigned: 44+
+- Unassigned: 47+
 - [View all unassigned issues](https://github.com/immich-app/immich/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#31821 Wrong people order](https://github.com/immich-app/immich/issues/31821) | 3 |
+| [#31829 Samsung DNG 1.7 (JPEG XL) RAW previews render dark/green — PreviewJXL read as the finished preview](https://github.com/immich-app/immich/issues/31829) | 0 |
+| [#31827 [Documentation] PUT /assets is deprecated, long live PUT /assets](https://github.com/immich-app/immich/issues/31827) | 0 |
+| [#31826 Filtered Facial Recognition query stops using face_index after VectorChord 0.5.3 -> 1.1.1](https://github.com/immich-app/immich/issues/31826) | 1 |
+| [#31825 Partial GPano panorama renders as a black screen in the web viewer](https://github.com/immich-app/immich/issues/31825) | 2 |
+| [#31821 People list ordering doesn't count shared assets](https://github.com/immich-app/immich/issues/31821) | 3 |
 | [#31817 `language` sent as BCP-47 locale (e.g. `de-DE`) fails exact-match lookup in `WEBLATE_TO_FLORES200`, silently falls back to English](https://github.com/immich-app/immich/issues/31817) | 0 |
 | [#31807 `/api/search/metadata` with `withStacked: true` never includes `stack` field in asset response](https://github.com/immich-app/immich/issues/31807) | 0 |
 | [#31803 Face editor bounding box cannot be moved or resized using touch on iOS/iPadOS](https://github.com/immich-app/immich/issues/31803) | 3 |
@@ -52,4 +56,3 @@ Most recently opened:
 | [#31291 Workflow album selector displays album description alongside album name](https://github.com/immich-app/immich/issues/31291) | 0 |
 | [#31289 Smart Switch-migrated Apple Live Photos (now Samsung Motion Photos) lack standard MicroVideo metadata and are not recognized by Immich](https://github.com/immich-app/immich/issues/31289) | 5 |
 | [#31267 UI: Favorite heart remains filled after removing favorite (first click shows toast but heart stays filled)](https://github.com/immich-app/immich/issues/31267) | 3 |
-| [#31203 Workflow “Add to Album” action displays stale album name after the album is renamed](https://github.com/immich-app/immich/issues/31203) | 2 |

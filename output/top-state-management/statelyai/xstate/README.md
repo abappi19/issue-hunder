@@ -1,8 +1,8 @@
 # statelyai/xstate
 
-Generated: 2026-09-26T19:33:18.396268+00:00
+Generated: 2026-09-27T09:53:21.814221+00:00
 
-- Unassigned: 59+
+- Unassigned: 68+
 - [View all unassigned issues](https://github.com/statelyai/xstate/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -68,3 +68,12 @@ Most recently opened:
 | [#4583 rehydrating stopped actors fail to subscribe](https://github.com/statelyai/xstate/issues/4583) | 2 |
 | [#4508 Bug: Actor System v5 sentTo actions types are not working in provide](https://github.com/statelyai/xstate/issues/4508) | 4 |
 | [#4485 Bug: Snapshot seems to missing context type](https://github.com/statelyai/xstate/issues/4485) | 9 |
+| [#4267 Bug: Peer dependencies - Beta 5 related packages @xstate/vue. @xstate/inspect have peer dependency on xstate ^4.38.2](https://github.com/statelyai/xstate/issues/4267) | 6 |
+| [#4166 Bug: Meta Data Not Rehydrated when using persist and rehydrate state](https://github.com/statelyai/xstate/issues/4166) | 3 |
+| [#4146 Bug: @xstate/test ignores guards on taking a transition](https://github.com/statelyai/xstate/issues/4146) | 0 |
+| [#3960 Bug: when using invoked actors in a top-level final state, error should be shown](https://github.com/statelyai/xstate/issues/3960) | 1 |
+| [#3786 Bug: State from useActor (Vue) not fully reactive](https://github.com/statelyai/xstate/issues/3786) | 5 |
+| [#3695 Bug: useMachine's state initialization doesn't trigger `always` transitions  ](https://github.com/statelyai/xstate/issues/3695) | 10 |
+| [#3405 Bug: No TS error for missing actions on spawned machine](https://github.com/statelyai/xstate/issues/3405) | 0 |
+| [#3270 Bug: Old state rendered after React 18 Strict Mode re-mounting in spite of state update event in callback ref](https://github.com/statelyai/xstate/issues/3270) | 0 |
+| [#2419 Delay function can't access current state where it is referenced](https://github.com/statelyai/xstate/issues/2419) | 10 |

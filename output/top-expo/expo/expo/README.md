@@ -1,8 +1,8 @@
 # expo/expo
 
-Generated: 2026-09-26T19:33:09.684289+00:00
+Generated: 2026-09-27T09:53:07.820802+00:00
 
-- Unassigned: 11+
+- Unassigned: 10+
 - [View all unassigned issues](https://github.com/expo/expo/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -19,4 +19,3 @@ Most recently opened:
 | [#50506 [audio] iOS: play() on a remote/live stream waits for AVPlayer to minimize stalling, with no way to opt out](https://github.com/expo/expo/issues/50506) | 1 |
 | [#50481 [expo-video][Android] Cached HLS fails offline when ABR picks an uncached rendition (no track fallback on UnknownHostException)](https://github.com/expo/expo/issues/50481) | 0 |
 | [#50448 [SDK 58 beta][jest-expo] web and node presets drop the base moduleNameMapper (tsconfig paths unresolvable on web)](https://github.com/expo/expo/issues/50448) | 2 |
-| [#50429 expo-image (Android): allowDownscaling={false} skips SafeDownsampleStrategy — fatal "Canvas: trying to draw too large bitmap" for images over the hardware canvas limit](https://github.com/expo/expo/issues/50429) | 0 |

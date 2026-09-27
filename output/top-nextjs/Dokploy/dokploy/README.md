@@ -1,6 +1,6 @@
 # Dokploy/dokploy
 
-Generated: 2026-09-26T19:32:50.026310+00:00
+Generated: 2026-09-27T09:52:39.878654+00:00
 
 - Unassigned: 48+
 - [View all unassigned issues](https://github.com/Dokploy/dokploy/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,6 +9,7 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#5528 Login fails via Cloudflare Tunnel custom domain with “invalid email address or password” while server IP works — Dokploy v0.30.7](https://github.com/Dokploy/dokploy/issues/5528) | 1 |
 | [#5526 make .env be renamable to .env.local](https://github.com/Dokploy/dokploy/issues/5526) | 1 |
 | [#5524 Database backups require gzip/shell inside the DB container, breaking hardened images (e.g. Docker Hardened Images)](https://github.com/Dokploy/dokploy/issues/5524) | 1 |
 | [#5519 S3 credentials are logged in plaintext again: redactRcloneCredentials stopped matching after the shell-quote change](https://github.com/Dokploy/dokploy/issues/5519) | 2 |
@@ -56,4 +57,3 @@ Most recently opened:
 | [#5385 Disk stats in Monitoring counts each byte twice](https://github.com/Dokploy/dokploy/issues/5385) | 2 |
 | [#5366 Registry authentication for Compose services (project-scoped)](https://github.com/Dokploy/dokploy/issues/5366) | 1 |
 | [#5361 compose.search omits services missing from member accessedServices, even for owners/admins](https://github.com/Dokploy/dokploy/issues/5361) | 2 |
-| [#5359 BETTER_AUTH_SECRET migration script targets wrong container](https://github.com/Dokploy/dokploy/issues/5359) | 1 |

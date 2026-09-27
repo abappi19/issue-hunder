@@ -1,6 +1,6 @@
 # gitroomhq/postiz-app
 
-Generated: 2026-09-26T19:32:50.026310+00:00
+Generated: 2026-09-27T09:52:39.878654+00:00
 
 - Unassigned: 35+
 - [View all unassigned issues](https://github.com/gitroomhq/postiz-app/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,6 +9,7 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#2157 stripe.js is loaded and makes fingerprinting requests when Stripe is disabled](https://github.com/gitroomhq/postiz-app/issues/2157) | 0 |
 | [#2135 Login loop: custom fetch reads the first cookie containing "auth=" (e.g. _pin_unauth) instead of the auth cookie](https://github.com/gitroomhq/postiz-app/issues/2135) | 0 |
 | [#2120 Support multiple provider app credentials per instance (bindable to a Customer)](https://github.com/gitroomhq/postiz-app/issues/2120) | 0 |
 | [#2106 Improve Nostr integration: identifier detection, Blossom media storage and multi-account auto-reposts](https://github.com/gitroomhq/postiz-app/issues/2106) | 0 |
@@ -43,4 +44,3 @@ Most recently opened:
 | [#1891 Nostr provider fails to publish HEX private keys: expected Uint8Array, got type=string](https://github.com/gitroomhq/postiz-app/issues/1891) | 0 |
 | [#1888 WhatsApp Channel support](https://github.com/gitroomhq/postiz-app/issues/1888) | 0 |
 | [#1867 Short-linking corrupts Markdown links and images](https://github.com/gitroomhq/postiz-app/issues/1867) | 0 |
-| [#1863 bug: Copilot requests hang when OPENAI_API_KEY is unset](https://github.com/gitroomhq/postiz-app/issues/1863) | 0 |

@@ -1,15 +1,15 @@
 # react/react-native
 
-Generated: 2026-09-26T19:33:00.328691+00:00
+Generated: 2026-09-27T09:52:54.664973+00:00
 
-- Unassigned: 24+
+- Unassigned: 23+
 - [View all unassigned issues](https://github.com/react/react-native/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#58659 [Android] Image drops `source.headers` for a single-object source since 0.86 (only array sources forward headers)](https://github.com/react/react-native/issues/58659) | 1 |
+| [#58659 [Android] Image drops `source.headers` for a single-object source since 0.86 (only array sources forward headers)](https://github.com/react/react-native/issues/58659) | 2 |
 | [#58652 Android: textAlign: "justify" is silently ignored on ColorOS 15 (Realme/OPPO) — RN sets JUSTIFICATION_MODE_INTER_WORD but the OEM discards it](https://github.com/react/react-native/issues/58652) | 0 |
 | [#58630 [iOS][New Architecture] onAccessibilityAction with "activate" does not reliably fire VoiceOver double-tap without onAccessibilityTap](https://github.com/react/react-native/issues/58630) | 0 |
 | [#58621 Codegen: app codegenConfig with no spec files emits "${PODS_ROOT}/.." as Generate Specs input and causes an Xcode dependency cycle](https://github.com/react/react-native/issues/58621) | 1 |
@@ -32,4 +32,3 @@ Most recently opened:
 | [#58445 TextInput claims the responder on every selection change, even with no active touch](https://github.com/react/react-native/issues/58445) | 3 |
 | [#58441 RCTIdentifierPool::dequeue() spins forever when the pool is exhausted, hanging the main thread and freezing the device](https://github.com/react/react-native/issues/58441) | 2 |
 | [#58407 [Android] BackHandler receives no events on API 35 with predictive Back enabled](https://github.com/react/react-native/issues/58407) | 0 |
-| [#58367 [Android] Idle apps keep the Choreographer running at ~60 doFrames/s (zero work, zero frames rendered) — four frame callbacks re-arm unconditionally](https://github.com/react/react-native/issues/58367) | 5 |

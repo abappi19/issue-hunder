@@ -1,14 +1,21 @@
 # microsoft/vscode
 
-Generated: 2026-09-26T19:32:38.075464+00:00
+Generated: 2026-09-27T09:52:22.958112+00:00
 
-- Unassigned: 65+
+- Unassigned: 67+
 - [View all unassigned issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#338177 Test: Plugin custom-agent hook root expansion](https://github.com/microsoft/vscode/issues/338177) | 0 |
+| [#338176 Test: Copilot Connectors discovery, consent, and fresh-session tools](https://github.com/microsoft/vscode/issues/338176) | 0 |
+| [#338175 Test: Customization Marketplace installation identity, repair, and uninstall](https://github.com/microsoft/vscode/issues/338175) | 0 |
+| [#338174 Test: Customization Marketplace Discover gating and source composition](https://github.com/microsoft/vscode/issues/338174) | 0 |
+| [#338162 Test: MCP compatibility and migration diagnostics](https://github.com/microsoft/vscode/issues/338162) | 0 |
+| [#338161 Test: Workspace-root MCP configuration entry points](https://github.com/microsoft/vscode/issues/338161) | 0 |
+| [#338160 Test: Manual and assisted Copilot Global MCP setup](https://github.com/microsoft/vscode/issues/338160) | 0 |
 | [#338106 [chat-perf] TTFT/layoutDurationMs regressed 29–45% in large-codeblock, long-prose, file-links, thinking-response scenarios](https://github.com/microsoft/vscode/issues/338106) | 0 |
 | [#338070 Don,t show at my code](https://github.com/microsoft/vscode/issues/338070) | 1 |
 | [#338068 Test: Private GitHub plugin marketplaces with VS Code GitHub authentication](https://github.com/microsoft/vscode/issues/338068) | 0 |
@@ -29,6 +36,7 @@ Most recently opened:
 | [#336473 Agents Window in PWA: 'Work in Repository...' does nothing](https://github.com/microsoft/vscode/issues/336473) | 0 |
 | [#336208 When session groups are minimized, I can't tell where the notification badge comes from](https://github.com/microsoft/vscode/issues/336208) | 0 |
 | [#336170 Agents Web: Active Agent Host omitted when Dev Tunnels account contains more than five tunnels](https://github.com/microsoft/vscode/issues/336170) | 0 |
+| [#336018 1](https://github.com/microsoft/vscode/issues/336018) | 1 |
 | [#335708 Web: Use AI Features fails because chat setup command is not registered](https://github.com/microsoft/vscode/issues/335708) | 0 |
 | [#335704 Allow custom editors and editor defaults to target language IDs](https://github.com/microsoft/vscode/issues/335704) | 0 |
 | [#335623 Copilot SDK tool telemetry: result_token_count missing on successful tool calls](https://github.com/microsoft/vscode/issues/335623) | 0 |
@@ -68,9 +76,3 @@ Most recently opened:
 | [#331546 Remote tunnel service status client can take over tunnel ownership](https://github.com/microsoft/vscode/issues/331546) | 0 |
 | [#331229 Chat session renaming](https://github.com/microsoft/vscode/issues/331229) | 3 |
 | [#331039 Agent Host "Allow remote session access" hangs and triggers Unexpected end of JSON input on VS Code 1.133.0](https://github.com/microsoft/vscode/issues/331039) | 0 |
-| [#331006 Opening editor Chat destroys standalone Agent session and creates phantom copilotcli session](https://github.com/microsoft/vscode/issues/331006) | 3 |
-| [#330979 Sessions are filtered out of the list in a remote window: working directories are compared without unwrapping their agent-host URIs](https://github.com/microsoft/vscode/issues/330979) | 4 |
-| [#330850 Option to download vscode server remote dev from host connected internet](https://github.com/microsoft/vscode/issues/330850) | 0 |
-| [#330572 Expose peer-chat discovery and stable chat identifiers for agent-host sessions](https://github.com/microsoft/vscode/issues/330572) | 0 |
-| [#330470 t](https://github.com/microsoft/vscode/issues/330470) | 0 |
-| [#330444 [flaky test] URI file#toString (src/vs/base/test/common/uri.test.ts)](https://github.com/microsoft/vscode/issues/330444) | 0 |

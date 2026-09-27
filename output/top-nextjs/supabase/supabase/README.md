@@ -1,14 +1,17 @@
 # supabase/supabase
 
-Generated: 2026-09-26T19:32:50.026310+00:00
+Generated: 2026-09-27T09:52:39.878654+00:00
 
-- Unassigned: 9+
+- Unassigned: 12+
 - [View all unassigned issues](https://github.com/supabase/supabase/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#50943 Log Ingestion More information](https://github.com/supabase/supabase/issues/50943) | 0 |
+| [#50940 I can;t access my project in Supabase](https://github.com/supabase/supabase/issues/50940) | 0 |
+| [#50939 My Supabase account got disconnected](https://github.com/supabase/supabase/issues/50939) | 0 |
 | [#50927 https://supabase.com/docs/guides/platform/manage-your-usage/log-ingest 404: We couldn't find that page](https://github.com/supabase/supabase/issues/50927) | 0 |
 | [#50907 Restarting Loop in My Account](https://github.com/supabase/supabase/issues/50907) | 0 |
 | [#50900 Postgres crashes on permission-denied for RPC functions (v17.6.1.111)](https://github.com/supabase/supabase/issues/50900) | 0 |

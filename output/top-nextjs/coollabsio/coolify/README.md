@@ -1,14 +1,15 @@
 # coollabsio/coolify
 
-Generated: 2026-09-26T19:32:50.026310+00:00
+Generated: 2026-09-27T09:52:39.878654+00:00
 
-- Unassigned: 42+
+- Unassigned: 43+
 - [View all unassigned issues](https://github.com/coollabsio/coolify/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#12036 Long-form bind mappings lose read_only and bind options during application parsing](https://github.com/coollabsio/coolify/issues/12036) | 0 |
 | [#12034 Server validation rejects Arch-derived distros: validateOS() reads ID and ignores ID_LIKE](https://github.com/coollabsio/coolify/issues/12034) | 0 |
 | [#12033 Server validation rejects Arch-derived distros: validateOS() reads ID and ignores ID_LIKE](https://github.com/coollabsio/coolify/issues/12033) | 0 |
 | [#12031 [Bug]: force_domain_override is ignored for docker_compose_domains when creating an application via the API](https://github.com/coollabsio/coolify/issues/12031) | 0 |

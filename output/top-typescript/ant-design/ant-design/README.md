@@ -1,6 +1,6 @@
 # ant-design/ant-design
 
-Generated: 2026-09-26T19:32:38.075464+00:00
+Generated: 2026-09-27T09:52:22.958112+00:00
 
 - Unassigned: 18+
 - [View all unassigned issues](https://github.com/ant-design/ant-design/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,6 +9,7 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#59403 docs: replace deprecated components in demos](https://github.com/ant-design/ant-design/issues/59403) | 0 |
 | [#59350 DatePicker allow to select date before minDate](https://github.com/ant-design/ant-design/issues/59350) | 3 |
 | [#59349 表格滚动条](https://github.com/ant-design/ant-design/issues/59349) | 2 |
 | [#59292 Fluid hover interaction for interactive components](https://github.com/ant-design/ant-design/issues/59292) | 2 |
@@ -26,4 +27,3 @@ Most recently opened:
 | [#58295 Add support for JavaScript Temporal in DatePicker, TimePicker, Calendar and related date components](https://github.com/ant-design/ant-design/issues/58295) | 4 |
 | [#58281 [Suggestion]Mentions提及 默认样式为单行文本，却支持换行，在狭小的高度内应用滚动条](https://github.com/ant-design/ant-design/issues/58281) | 5 |
 | [#58273 @ant-design/compatible Form 结合 antd Input，如果存在同名，则丢失值](https://github.com/ant-design/ant-design/issues/58273) | 0 |
-| [#58268 [Feature]面包屑Breadcumb折叠功能的一种方案](https://github.com/ant-design/ant-design/issues/58268) | 0 |

@@ -1,8 +1,8 @@
 # CopilotKit/CopilotKit
 
-Generated: 2026-09-26T19:32:50.026310+00:00
+Generated: 2026-09-27T09:52:39.878654+00:00
 
-- Unassigned: 29+
+- Unassigned: 23+
 - [View all unassigned issues](https://github.com/CopilotKit/CopilotKit/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -32,9 +32,3 @@ Most recently opened:
 | [#7166 pnpm.overrides: 13 security floors no longer exclude the versions their advisories cover](https://github.com/CopilotKit/CopilotKit/issues/7166) | 1 |
 | [#7158 🐛 Bug: input and header slots reject plain FCs (same defect as #7126)](https://github.com/CopilotKit/CopilotKit/issues/7158) | 2 |
 | [#7119 MCP Apps examples: serve the sandbox proxy from a real second origin](https://github.com/CopilotKit/CopilotKit/issues/7119) | 1 |
-| [#7100 BuiltInAgent Channel: unanswered tool call leaves subsequent turns failing with MissingToolResultsError](https://github.com/CopilotKit/CopilotKit/issues/7100) | 2 |
-| [#7077 🐛 Bug: LangGraph CopilotKit middleware: Adds `runtime.context` to system prompt by default](https://github.com/CopilotKit/CopilotKit/issues/7077) | 1 |
-| [#7016 Switching between multiple runtime-registered agents does not work](https://github.com/CopilotKit/CopilotKit/issues/7016) | 1 |
-| [#7015 Example: runnable app on the self-managed path (no Node runtime)](https://github.com/CopilotKit/CopilotKit/issues/7015) | 3 |
-| [#6937 🐛 Bug: second send pre-empts an in-flight run during the `await onInitialize` window (serialization guards fail open)](https://github.com/CopilotKit/CopilotKit/issues/6937) | 0 |
-| [#6936 showcase: dynamic-A2UI demo runs three different system prompts across integrations](https://github.com/CopilotKit/CopilotKit/issues/6936) | 1 |

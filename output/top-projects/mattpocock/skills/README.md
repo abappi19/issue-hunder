@@ -1,6 +1,6 @@
 # mattpocock/skills
 
-Generated: 2026-09-26T19:32:25.172353+00:00
+Generated: 2026-09-27T09:52:05.335772+00:00
 
 - Unassigned: 98+
 - [View all unassigned issues](https://github.com/mattpocock/skills/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,7 +9,7 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#1130 Proposa：grill-with-docs does not support an iterative workflow starting with initial documentation](https://github.com/mattpocock/skills/issues/1130) | 0 |
+| [#1131 [FYI] OpenAI-curated Codex package adds unsupported CHAT product metadata](https://github.com/mattpocock/skills/issues/1131) | 0 |
 | [#1129 Proposal: Make User Stories optional in to-spec](https://github.com/mattpocock/skills/issues/1129) | 0 |
 | [#1128 Proposal: ping-pong skill for short, direct back-and-forth](https://github.com/mattpocock/skills/issues/1128) | 0 |
 | [#1125 Proposal: grilling puts visual options in front of the user as wireframes](https://github.com/mattpocock/skills/issues/1125) | 0 |

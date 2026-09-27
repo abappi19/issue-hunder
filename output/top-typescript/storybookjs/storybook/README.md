@@ -1,17 +1,18 @@
 # storybookjs/storybook
 
-Generated: 2026-09-26T19:32:38.075464+00:00
+Generated: 2026-09-27T09:52:22.958112+00:00
 
-- Unassigned: 29+
+- Unassigned: 30+
 - [View all unassigned issues](https://github.com/storybookjs/storybook/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#36469 [Bug]: CSF Factories `story.extend({ tags })` drops negated tags, so `!autodocs` / `!dev` have no effect](https://github.com/storybookjs/storybook/issues/36469) | 0 |
 | [#36456 [Feature Request] Integrate with `ember-storybook`](https://github.com/storybookjs/storybook/issues/36456) | 0 |
-| [#36453 [Bug]: @storybook/angular-vite accepts @analogjs/vite-plugin-angular versions that break build-storybook on Angular 22.2](https://github.com/storybookjs/storybook/issues/36453) | 0 |
-| [#36452 [Bug]: Typescript error when skipLibChecks: false](https://github.com/storybookjs/storybook/issues/36452) | 0 |
+| [#36453 [Bug]: @storybook/angular-vite accepts @analogjs/vite-plugin-angular versions that break build-storybook on Angular 22.2](https://github.com/storybookjs/storybook/issues/36453) | 1 |
+| [#36452 [Bug]: Typescript error when skipLibChecks: false](https://github.com/storybookjs/storybook/issues/36452) | 1 |
 | [#36441 [Bug]: Angular-Vite: Description omits JSDoc @example content](https://github.com/storybookjs/storybook/issues/36441) | 0 |
 | [#36438 Controls: radio, radioWithLabels and inlineRadio render as "-" in the core template stories](https://github.com/storybookjs/storybook/issues/36438) | 0 |
 | [#36437 [Bug]: addon-vitest reports wrong source lines for story files in 10.6.0 (CSF plugin maps to the original file, then Vite maps again)](https://github.com/storybookjs/storybook/issues/36437) | 0 |
@@ -31,7 +32,7 @@ Most recently opened:
 | [#36267 [Bug]: MCP does not include subcomponents in Vue](https://github.com/storybookjs/storybook/issues/36267) | 1 |
 | [#36266 [Bug]: Vue docgen server is missing slot support](https://github.com/storybookjs/storybook/issues/36266) | 2 |
 | [#36233 [Documentation]: Explain `QueryClient` isolation with parallel story tests with `Vitest`](https://github.com/storybookjs/storybook/issues/36233) | 1 |
-| [#36228 Builder Vite: `storybook/internal/preview/runtime` served with 1Mb inline source map when used with Vite 8](https://github.com/storybookjs/storybook/issues/36228) | 0 |
+| [#36228 Builder Vite: `storybook/internal/preview/runtime` served with 1Mb inline source map when used with Vite 8](https://github.com/storybookjs/storybook/issues/36228) | 1 |
 | [#36215 Addon Vitest: Use `enableCoverage` API instead of re-creating Vitest instance](https://github.com/storybookjs/storybook/issues/36215) | 0 |
 | [#36176 [Bug]: Fresh @storybook/nextjs Webpack project fails to compile because ajv-keywords resolves ajv 6](https://github.com/storybookjs/storybook/issues/36176) | 1 |
 | [#36175 [Bug]: storybook tools docs list omits stories when CSF files share a component ID](https://github.com/storybookjs/storybook/issues/36175) | 0 |
