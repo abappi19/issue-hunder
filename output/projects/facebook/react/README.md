@@ -1,6 +1,6 @@
 # facebook/react
 
-Generated: 2026-09-26T19:33:52.059136+00:00
+Generated: 2026-09-27T08:58:39.997669+00:00
 
 - Unassigned: 32+
 - [View all unassigned issues](https://github.com/facebook/react/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,6 +9,8 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#37697 Bug: `useTransition` updates state ~17 seconds after File System API promise resolves](https://github.com/react/react/issues/37697) | 0 |
+| [#37695 Bug: document roots never get the selectionchange listener, and lose all events if another root was created first](https://github.com/react/react/issues/37695) | 0 |
 | [#37691 Feature Request: Expose a public API for creating synthetic events (or programmatically dispatching change events)](https://github.com/react/react/issues/37691) | 0 |
 | [#37682 Bug: hydration restart storm — a root that suspends during hydration re-renders thousands of times when `useDeferredValue(value, initialValue)` is mounted](https://github.com/react/react/issues/37682) | 2 |
 | [#37678 Bug: https://supabase.com/dashboard/project/ovrvvpvdgreqqhdpsmaf](https://github.com/react/react/issues/37678) | 0 |
@@ -39,5 +41,3 @@ Most recently opened:
 | [#37596 Bug: Flight Node clients leave models pending when a readable closes without end or error](https://github.com/react/react/issues/37596) | 0 |
 | [#37585 [Compiler Bug]: Moving an unreachable early return changes child rendering](https://github.com/react/react/issues/37585) | 0 |
 | [#37571 Bug: ResponderEventPlugin counts touch events, not touches, so a coalesced multi-touch cancel leaves trackedTouchCount stuck](https://github.com/react/react/issues/37571) | 2 |
-| [#37561 Bug: RSC performance track measures negative end time for aborted or errored components](https://github.com/react/react/issues/37561) | 0 |
-| [#37560 [Flight] decodeReply, decodeReplyFromBusboy and decodeReplyFromAsyncIterable return different results for the same bytes](https://github.com/react/react/issues/37560) | 4 |

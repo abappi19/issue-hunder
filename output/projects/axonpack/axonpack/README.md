@@ -1,6 +1,6 @@
 # axonpack/axonpack
 
-Generated: 2026-09-26T19:33:52.059136+00:00
+Generated: 2026-09-27T08:58:39.997669+00:00
 
 - Unassigned: 2
 - [View all unassigned issues](https://github.com/axonpack/axonpack/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
