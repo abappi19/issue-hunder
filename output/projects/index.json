@@ -1,10 +1,10 @@
 {
   "title": "Tracked Projects",
-  "generated_at": "2026-09-27T08:58:39.997669+00:00",
+  "generated_at": "2026-09-28T16:02:57.436562+00:00",
   "repos": [
     {
       "repo": "facebook/react",
-      "unassigned": "32+"
+      "unassigned": "34+"
     },
     {
       "repo": "vuejs/vue",
@@ -16,7 +16,47 @@
     },
     {
       "repo": "axonpack/axonpack",
-      "unassigned": 2
+      "unassigned": 1
+    },
+    {
+      "repo": "formbricks/formbricks",
+      "unassigned": "80+"
+    },
+    {
+      "repo": "calcom/cal.diy",
+      "unassigned": "16+"
+    },
+    {
+      "repo": "kirillzyusko/react-native-keyboard-controller",
+      "unassigned": 0
+    },
+    {
+      "repo": "react-native-async-storage/async-storage",
+      "unassigned": 11
+    },
+    {
+      "repo": "margelo/react-native-vision-camera",
+      "unassigned": 25
+    },
+    {
+      "repo": "software-mansion/react-native-reanimated",
+      "unassigned": "22+"
+    },
+    {
+      "repo": "software-mansion/react-native-gesture-handler",
+      "unassigned": 9
+    },
+    {
+      "repo": "software-mansion/react-native-screens",
+      "unassigned": "23+"
+    },
+    {
+      "repo": "software-mansion/react-native-executorch",
+      "unassigned": 20
+    },
+    {
+      "repo": "software-mansion/react-native-svg",
+      "unassigned": "21+"
     }
   ]
 }

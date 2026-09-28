@@ -1,6 +1,6 @@
 # docker/compose
 
-Generated: 2026-09-27T08:58:39.997669+00:00
+Generated: 2026-09-28T16:02:57.436562+00:00
 
 - Unassigned: 45
 - [View all unassigned issues](https://github.com/docker/compose/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)

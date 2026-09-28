@@ -19,14 +19,24 @@ archived, with forking and issues both enabled -- before it can be merged.
 <!-- AUTO-GENERATED:START -->
 ## Tracked Projects
 
-_4 repos · updated 2026-09-27T08:58:39.997669+00:00_
+_14 repos · updated 2026-09-28T16:02:57.436562+00:00_
 
 | Repository | Unassigned |
 |---|---|
+| [formbricks/formbricks](output/projects/formbricks/formbricks/README.md) | [80+](https://github.com/formbricks/formbricks/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [docker/compose](output/projects/docker/compose/README.md) | [45](https://github.com/docker/compose/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [facebook/react](output/projects/facebook/react/README.md) | [32+](https://github.com/facebook/react/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [facebook/react](output/projects/facebook/react/README.md) | [34+](https://github.com/facebook/react/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [vuejs/vue](output/projects/vuejs/vue/README.md) | [30+](https://github.com/vuejs/vue/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [axonpack/axonpack](output/projects/axonpack/axonpack/README.md) | [2](https://github.com/axonpack/axonpack/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [margelo/react-native-vision-camera](output/projects/margelo/react-native-vision-camera/README.md) | [25](https://github.com/margelo/react-native-vision-camera/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [software-mansion/react-native-screens](output/projects/software-mansion/react-native-screens/README.md) | [23+](https://github.com/software-mansion/react-native-screens/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [software-mansion/react-native-reanimated](output/projects/software-mansion/react-native-reanimated/README.md) | [22+](https://github.com/software-mansion/react-native-reanimated/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [software-mansion/react-native-svg](output/projects/software-mansion/react-native-svg/README.md) | [21+](https://github.com/software-mansion/react-native-svg/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [software-mansion/react-native-executorch](output/projects/software-mansion/react-native-executorch/README.md) | [20](https://github.com/software-mansion/react-native-executorch/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [calcom/cal.diy](output/projects/calcom/cal.diy/README.md) | [16+](https://github.com/calcom/cal.diy/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [react-native-async-storage/async-storage](output/projects/react-native-async-storage/async-storage/README.md) | [11](https://github.com/react-native-async-storage/async-storage/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [software-mansion/react-native-gesture-handler](output/projects/software-mansion/react-native-gesture-handler/README.md) | [9](https://github.com/software-mansion/react-native-gesture-handler/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [axonpack/axonpack](output/projects/axonpack/axonpack/README.md) | [1](https://github.com/axonpack/axonpack/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [kirillzyusko/react-native-keyboard-controller](output/projects/kirillzyusko/react-native-keyboard-controller/README.md) | [0](https://github.com/kirillzyusko/react-native-keyboard-controller/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 
 ## Top Open-Source Projects
 

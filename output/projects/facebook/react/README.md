@@ -1,15 +1,17 @@
 # facebook/react
 
-Generated: 2026-09-27T08:58:39.997669+00:00
+Generated: 2026-09-28T16:02:57.436562+00:00
 
-- Unassigned: 32+
+- Unassigned: 34+
 - [View all unassigned issues](https://github.com/facebook/react/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#37697 Bug: `useTransition` updates state ~17 seconds after File System API promise resolves](https://github.com/react/react/issues/37697) | 0 |
+| [#37704 [DevTools Bug] Cannot add child "424" to parent "423" because parent node was not found in the Store.](https://github.com/react/react/issues/37704) | 0 |
+| [#37703 Bug:](https://github.com/react/react/issues/37703) | 0 |
+| [#37697 Bug: `useTransition` updates state ~17 seconds after File System API promise resolves](https://github.com/react/react/issues/37697) | 1 |
 | [#37695 Bug: document roots never get the selectionchange listener, and lose all events if another root was created first](https://github.com/react/react/issues/37695) | 0 |
 | [#37691 Feature Request: Expose a public API for creating synthetic events (or programmatically dispatching change events)](https://github.com/react/react/issues/37691) | 0 |
 | [#37682 Bug: hydration restart storm — a root that suspends during hydration re-renders thousands of times when `useDeferredValue(value, initialValue)` is mounted](https://github.com/react/react/issues/37682) | 2 |
@@ -40,4 +42,4 @@ Most recently opened:
 | [#37598 Bug: Mutating Fragment listener options breaks removal, once and abort cleanup](https://github.com/react/react/issues/37598) | 0 |
 | [#37596 Bug: Flight Node clients leave models pending when a readable closes without end or error](https://github.com/react/react/issues/37596) | 0 |
 | [#37585 [Compiler Bug]: Moving an unreachable early return changes child rendering](https://github.com/react/react/issues/37585) | 0 |
-| [#37571 Bug: ResponderEventPlugin counts touch events, not touches, so a coalesced multi-touch cancel leaves trackedTouchCount stuck](https://github.com/react/react/issues/37571) | 2 |
+| [#37571 Bug: ResponderEventPlugin counts touch events, not touches, so a coalesced multi-touch cancel leaves trackedTouchCount stuck](https://github.com/react/react/issues/37571) | 3 |
