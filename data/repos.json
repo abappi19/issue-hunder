@@ -2,5 +2,15 @@
   "facebook/react",
   "vuejs/vue",
   "docker/compose",
-  "axonpack/axonpack"
+  "axonpack/axonpack",
+  "formbricks/formbricks",
+  "calcom/cal.diy",
+  "kirillzyusko/react-native-keyboard-controller",
+  "react-native-async-storage/async-storage",
+  "margelo/react-native-vision-camera",
+  "software-mansion/react-native-reanimated",
+  "software-mansion/react-native-gesture-handler",
+  "software-mansion/react-native-screens",
+  "software-mansion/react-native-executorch",
+  "software-mansion/react-native-svg"
 ]
