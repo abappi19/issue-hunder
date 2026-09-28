@@ -12,5 +12,6 @@
   "software-mansion/react-native-gesture-handler",
   "software-mansion/react-native-screens",
   "software-mansion/react-native-executorch",
-  "software-mansion/react-native-svg"
+  "software-mansion/react-native-svg",
+  "getsentry/sentry-react-native"
 ]
