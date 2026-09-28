@@ -2,5 +2,7 @@
   "facebook/react",
   "vuejs/vue",
   "docker/compose",
-  "axonpack/axonpack"
+  "axonpack/axonpack",
+  "formbricks/formbricks",
+  "calcom/cal.diy"
 ]
