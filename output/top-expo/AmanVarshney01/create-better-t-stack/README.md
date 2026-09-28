@@ -1,8 +1,8 @@
 # AmanVarshney01/create-better-t-stack
 
-Generated: 2026-09-27T09:53:07.820802+00:00
+Generated: 2026-09-28T16:05:25.841460+00:00
 
-- Unassigned: 75+
+- Unassigned: 76+
 - [View all unassigned issues](https://github.com/AmanVarshney01/create-better-t-stack/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -84,3 +84,4 @@ Most recently opened:
 | [#708 feat(web) Add Japanese translation of documentation](https://github.com/AmanVarshney01/create-better-t-stack/issues/708) | 1 |
 | [#707 An error occurred when accessing the protected /dashboard page](https://github.com/AmanVarshney01/create-better-t-stack/issues/707) | 2 |
 | [#698 README instructions for starting local SQLite database are incorrect](https://github.com/AmanVarshney01/create-better-t-stack/issues/698) | 2 |
+| [#697 Alchemy + Better Auth not reading in env + minor type issue](https://github.com/AmanVarshney01/create-better-t-stack/issues/697) | 9 |

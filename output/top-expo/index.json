@@ -1,10 +1,10 @@
 {
   "title": "Top Expo Projects",
-  "generated_at": "2026-09-27T09:53:07.820802+00:00",
+  "generated_at": "2026-09-28T16:05:25.841460+00:00",
   "repos": [
     {
       "repo": "expo/expo",
-      "unassigned": "10+"
+      "unassigned": "9+"
     },
     {
       "repo": "infinitered/ignite",
@@ -24,11 +24,11 @@
     },
     {
       "repo": "AmanVarshney01/create-better-t-stack",
-      "unassigned": "75+"
+      "unassigned": "76+"
     },
     {
       "repo": "callstack/agent-device",
-      "unassigned": "89+"
+      "unassigned": "61+"
     },
     {
       "repo": "obytes/react-native-template-obytes",
@@ -36,7 +36,7 @@
     },
     {
       "repo": "CherryHQ/cherry-studio-app",
-      "unassigned": 17
+      "unassigned": 13
     },
     {
       "repo": "expo/examples",
@@ -55,16 +55,16 @@
       "unassigned": 1
     },
     {
+      "repo": "elie222/rakazo",
+      "unassigned": 13
+    },
+    {
       "repo": "Jpisnice/shadcn-ui-mcp-server",
       "unassigned": 3
     },
     {
-      "repo": "elie222/rakazo",
-      "unassigned": 10
-    },
-    {
       "repo": "jpudysz/react-native-unistyles",
-      "unassigned": 29
+      "unassigned": 28
     },
     {
       "repo": "rnmapbox/maps",
@@ -75,12 +75,12 @@
       "unassigned": 13
     },
     {
-      "repo": "BlackHatDevX/openspot-music-app",
-      "unassigned": 6
+      "repo": "codedogQBY/ReadAny",
+      "unassigned": "67+"
     },
     {
-      "repo": "codedogQBY/ReadAny",
-      "unassigned": "68+"
+      "repo": "BlackHatDevX/openspot-music-app",
+      "unassigned": 6
     }
   ]
 }

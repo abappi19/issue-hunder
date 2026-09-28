@@ -1,14 +1,15 @@
 # gitroomhq/postiz-app
 
-Generated: 2026-09-27T09:52:39.878654+00:00
+Generated: 2026-09-28T16:04:59.586367+00:00
 
-- Unassigned: 35+
+- Unassigned: 36+
 - [View all unassigned issues](https://github.com/gitroomhq/postiz-app/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#2168 YouTube provider requests unused youtubepartner scope, blocks clean OAuth verification](https://github.com/gitroomhq/postiz-app/issues/2168) | 0 |
 | [#2157 stripe.js is loaded and makes fingerprinting requests when Stripe is disabled](https://github.com/gitroomhq/postiz-app/issues/2157) | 0 |
 | [#2135 Login loop: custom fetch reads the first cookie containing "auth=" (e.g. _pin_unauth) instead of the auth cookie](https://github.com/gitroomhq/postiz-app/issues/2135) | 0 |
 | [#2120 Support multiple provider app credentials per instance (bindable to a Customer)](https://github.com/gitroomhq/postiz-app/issues/2120) | 0 |

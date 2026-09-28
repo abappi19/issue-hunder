@@ -1,14 +1,17 @@
 # ossu/computer-science
 
-Generated: 2026-09-27T09:52:05.335772+00:00
+Generated: 2026-09-28T16:04:27.044601+00:00
 
-- Unassigned: 17
+- Unassigned: 20
 - [View all unassigned issues](https://github.com/ossu/computer-science/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#1466 Stale Course Links](https://github.com/ossu/computer-science/issues/1466) | 0 |
+| [#1465 Add Deep Learning / Modern AI Elective to Advanced CS](https://github.com/ossu/computer-science/issues/1465) | 0 |
+| [#1464 Add a Distributed Systems Course to the Curriculum](https://github.com/ossu/computer-science/issues/1464) | 0 |
 | [#1458 Create computer-science-ja](https://github.com/ossu/computer-science/issues/1458) | 1 |
 | [#1441 2 errors in the class based programming course](https://github.com/ossu/computer-science/issues/1441) | 4 |
 | [#1427 RFC: Replace Software Architecture with Freely Available Alternative](https://github.com/ossu/computer-science/issues/1427) | 1 |

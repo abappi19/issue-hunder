@@ -1,14 +1,26 @@
 # obra/superpowers
 
-Generated: 2026-09-27T09:52:05.335772+00:00
+Generated: 2026-09-28T16:04:27.044601+00:00
 
-- Unassigned: 47+
+- Unassigned: 53+
 - [View all unassigned issues](https://github.com/obra/superpowers/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#2419 0919898048483](https://github.com/obra/superpowers/issues/2419) | 2 |
+| [#2418 0919898048483](https://github.com/obra/superpowers/issues/2418) | 0 |
+| [#2417 offline ide](https://github.com/obra/superpowers/issues/2417) | 0 |
+| [#2416 offline ide](https://github.com/obra/superpowers/issues/2416) | 0 |
+| [#2415 0919898048483](https://github.com/obra/superpowers/issues/2415) | 0 |
+| [#2413 writing-plans / task-reviewer: a plan step that infers identity from a string's shape ships its collision case unless the rubric asks for it](https://github.com/obra/superpowers/issues/2413) | 0 |
+| [#2408 writing-plans: the plan's code was built twice during planning, then the handoff offered to implement it a third time](https://github.com/obra/superpowers/issues/2408) | 0 |
+| [#2407 executing-plans/task-done: a passing test command that prints nothing aborts after the tests passed and drops the ledger line](https://github.com/obra/superpowers/issues/2407) | 0 |
+| [#2406 task-brief: the last task of a section absorbs the following non-Task heading and its prose](https://github.com/obra/superpowers/issues/2406) | 0 |
+| [#2405 task-brief: task number is an unanchored, unescaped regex prefix, so the wrong task is returned with exit 0](https://github.com/obra/superpowers/issues/2405) | 0 |
+| [#2404 task-done-style test steps abort silently on empty logs under set -euo pipefail](https://github.com/obra/superpowers/issues/2404) | 0 |
+| [#2403 requesting-code-review defaults BASE_SHA to HEAD~1, which other skills forbid](https://github.com/obra/superpowers/issues/2403) | 0 |
 | [#2398 Master tracking ticket for configurability](https://github.com/obra/superpowers/issues/2398) | 0 |
 | [#2397 finishing-a-development-branch doesn't clean up worktrees in the user's declared worktree directory](https://github.com/obra/superpowers/issues/2397) | 0 |
 | [#2396 Make it easier to write plans for non-coding projects](https://github.com/obra/superpowers/issues/2396) | 0 |
@@ -50,9 +62,3 @@ Most recently opened:
 | [#2243 Reviewer template: harden against hallucinated cross-domain references (cheap model tiers)](https://github.com/obra/superpowers/issues/2243) | 2 |
 | [#2242 SDD scripts (task-brief/review-package) crash on greenfield Task 1 — no git repo yet](https://github.com/obra/superpowers/issues/2242) | 1 |
 | [#2240 skills/brainstorming: the one-question rule is a proxy for a quality property, and a named vendor is an unmarked claim](https://github.com/obra/superpowers/issues/2240) | 1 |
-| [#2233 skills/writing-skills: moving content breaks relative links silently, and `Triggers on:` makes the frontmatter invalid YAML](https://github.com/obra/superpowers/issues/2233) | 2 |
-| [#2232 skills/systematic-debugging: sizing a probe for intermittent behaviour, and preserving evidence before reproducing](https://github.com/obra/superpowers/issues/2232) | 0 |
-| [#2231 skills/verification-before-completion: `git checkout` in a verified-red loop destroys uncommitted work](https://github.com/obra/superpowers/issues/2231) | 1 |
-| [#2230 skills/test-driven-development: three gaps — tests as the deliverable, detector suites, and closing deferred work](https://github.com/obra/superpowers/issues/2230) | 1 |
-| [#2219 Skills that script multi-branch git workflows never establish a remote-safety boundary, shared branches (production, dev) were unintentionally rewritten across three projects](https://github.com/obra/superpowers/issues/2219) | 0 |
-| [#2207 `finishing-a-development-branch` can silently delete an SDD workspace: ignored files don't make a worktree dirty](https://github.com/obra/superpowers/issues/2207) | 1 |

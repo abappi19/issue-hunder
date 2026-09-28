@@ -1,14 +1,15 @@
 # mattermost/mattermost
 
-Generated: 2026-09-27T09:52:54.664973+00:00
+Generated: 2026-09-28T16:05:13.515996+00:00
 
-- Unassigned: 15+
+- Unassigned: 17+
 - [View all unassigned issues](https://github.com/mattermost/mattermost/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#38814 [Bug]: Middle mouse clicking an image and canceling the tab causes application crash](https://github.com/mattermost/mattermost/issues/38814) | 0 |
 | [#38805 Burn-on-read: attachments stay downloadable after a recipient burns/expires (file endpoints don't check the receipt)](https://github.com/mattermost/mattermost/issues/38805) | 0 |
 | [#38803 Server crashes with stack overflow when disabling a bot that owns itself](https://github.com/mattermost/mattermost/issues/38803) | 0 |
 | [#38791 Feature request: persistent/pinned thread panel that survives channel switches](https://github.com/mattermost/mattermost/issues/38791) | 1 |
@@ -21,6 +22,7 @@ Most recently opened:
 | [#38562 [Bug]: Files in server release tarballs are world-writable](https://github.com/mattermost/mattermost/issues/38562) | 0 |
 | [#38551 [Bug]:  Native back button doesnt work on the web](https://github.com/mattermost/mattermost/issues/38551) | 2 |
 | [#38545 Link reference doesn't work correctly](https://github.com/mattermost/mattermost/issues/38545) | 0 |
-| [#38538 [Bug]: config.json gets reset to defaults if the disk fills up during startup](https://github.com/mattermost/mattermost/issues/38538) | 1 |
 | [#38496 [Feature request] Inline math expression autocomplete suggestion](https://github.com/mattermost/mattermost/issues/38496) | 0 |
 | [#38480 Feature: Collapse Details of a Mattermost Message using <details> or similar markup as in github markdown](https://github.com/mattermost/mattermost/issues/38480) | 0 |
+| [#38470 No desktop notifications or unread badge for new messages in private channels after upgrade to 11.10.1](https://github.com/mattermost/mattermost/issues/38470) | 0 |
+| [#38469 [Bug]: Team sidebar icon doesn't show indicator for @mentions in muted channels](https://github.com/mattermost/mattermost/issues/38469) | 2 |

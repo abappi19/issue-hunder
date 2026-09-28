@@ -1,8 +1,8 @@
 # effector/effector
 
-Generated: 2026-09-27T09:53:21.814221+00:00
+Generated: 2026-09-28T16:05:37.587261+00:00
 
-- Unassigned: 74+
+- Unassigned: 73+
 - [View all unassigned issues](https://github.com/effector/effector/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -82,4 +82,3 @@ Most recently opened:
 | [#769 Typeguards in `match` of `split` are not working in config overload](https://github.com/effector/effector/issues/769) | 1 |
 | [#757 Using moduleResolution NodeNext breaks type definitions for importing](https://github.com/effector/effector/issues/757) | 3 |
 | [#754 [forest] Inline mount](https://github.com/effector/effector/issues/754) | 0 |
-| [#753 Documentation is not contain explaining what effector is and how it use](https://github.com/effector/effector/issues/753) | 0 |

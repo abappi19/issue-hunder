@@ -1,8 +1,8 @@
 # codedogQBY/ReadAny
 
-Generated: 2026-09-27T09:53:07.820802+00:00
+Generated: 2026-09-28T16:05:25.841460+00:00
 
-- Unassigned: 68+
+- Unassigned: 67+
 - [View all unassigned issues](https://github.com/codedogQBY/ReadAny/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -76,4 +76,3 @@ Most recently opened:
 | [#703 v1.36 版本打开任意书籍报错 ReferenceError: makeBook is not defined](https://github.com/codedogQBY/ReadAny/issues/703) | 1 |
 | [#700 [Bug] 目录栏定位错误](https://github.com/codedogQBY/ReadAny/issues/700) | 0 |
 | [#698 [Suggestion] 能不能加一个广告过滤功能](https://github.com/codedogQBY/ReadAny/issues/698) | 0 |
-| [#695 导入PDF文件打开后，老是加载错误](https://github.com/codedogQBY/ReadAny/issues/695) | 1 |

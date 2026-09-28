@@ -1,6 +1,6 @@
 # czy0729/Bangumi
 
-Generated: 2026-09-27T09:53:07.820802+00:00
+Generated: 2026-09-28T16:05:25.841460+00:00
 
 - Unassigned: 27
 - [View all unassigned issues](https://github.com/czy0729/Bangumi/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)

@@ -1,6 +1,6 @@
 # Dokploy/dokploy
 
-Generated: 2026-09-27T09:52:39.878654+00:00
+Generated: 2026-09-28T16:04:59.586367+00:00
 
 - Unassigned: 48+
 - [View all unassigned issues](https://github.com/Dokploy/dokploy/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,13 +9,15 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#5528 Login fails via Cloudflare Tunnel custom domain with “invalid email address or password” while server IP works — Dokploy v0.30.7](https://github.com/Dokploy/dokploy/issues/5528) | 1 |
+| [#5533 UI change : few changes to avoiding silly mistakes](https://github.com/Dokploy/dokploy/issues/5533) | 1 |
+| [#5530 Dokploy Cloud v0.30.7: application schedule on remote server never fires automatically (Cron Bug)](https://github.com/Dokploy/dokploy/issues/5530) | 1 |
+| [#5528 Login fails via Cloudflare Tunnel custom domain with “invalid email address or password” while server IP works — Dokploy v0.30.7](https://github.com/Dokploy/dokploy/issues/5528) | 2 |
 | [#5526 make .env be renamable to .env.local](https://github.com/Dokploy/dokploy/issues/5526) | 1 |
-| [#5524 Database backups require gzip/shell inside the DB container, breaking hardened images (e.g. Docker Hardened Images)](https://github.com/Dokploy/dokploy/issues/5524) | 1 |
+| [#5524 Database backups require gzip/shell inside the DB container, breaking hardened images (e.g. Docker Hardened Images)](https://github.com/Dokploy/dokploy/issues/5524) | 2 |
 | [#5519 S3 credentials are logged in plaintext again: redactRcloneCredentials stopped matching after the shell-quote change](https://github.com/Dokploy/dokploy/issues/5519) | 2 |
-| [#5518 Orphaned deployment-log tail processes can exhaust inotify instances](https://github.com/Dokploy/dokploy/issues/5518) | 1 |
+| [#5518 Orphaned deployment-log tail processes can exhaust inotify instances](https://github.com/Dokploy/dokploy/issues/5518) | 2 |
 | [#5514 Dokploy does not use HTTP_PROXY/HTTPS_PROXY for Node.js fetch requests](https://github.com/Dokploy/dokploy/issues/5514) | 1 |
-| [#5513 Block I/O on host monitoring counts each write up to 5x on RAID/LVM hosts (partitions and md/dm devices are summed)](https://github.com/Dokploy/dokploy/issues/5513) | 1 |
+| [#5513 Block I/O on host monitoring counts each write up to 5x on RAID/LVM hosts (partitions and md/dm devices are summed)](https://github.com/Dokploy/dokploy/issues/5513) | 2 |
 | [#5511 Phase vault provider: testConnection fails with "401: Token expired or deleted" using a valid Service Account token](https://github.com/Dokploy/dokploy/issues/5511) | 3 |
 | [#5509 Additional Port Mappings: two entries sharing the same targetPort silently overwrite each other (last one wins)](https://github.com/Dokploy/dokploy/issues/5509) | 2 |
 | [#5508 Vault/secrets-provider interpolation doesn't work in the managed database's fields](https://github.com/Dokploy/dokploy/issues/5508) | 1 |
@@ -23,7 +25,7 @@ Most recently opened:
 | [#5503 500 error when managing domains / HTTPS in Dokploy UI](https://github.com/Dokploy/dokploy/issues/5503) | 1 |
 | [#5501 ## Bug: Dokploy Dashboard Projects Page Returns 404 Error](https://github.com/Dokploy/dokploy/issues/5501) | 1 |
 | [#5500 Feature: Cloud Providers — auto-provision servers (OVH, AWS, DigitalOcean, etc)](https://github.com/Dokploy/dokploy/issues/5500) | 1 |
-| [#5499 View in deployements build queues](https://github.com/Dokploy/dokploy/issues/5499) | 3 |
+| [#5499 View in deployements build queues](https://github.com/Dokploy/dokploy/issues/5499) | 4 |
 | [#5497 Bug: add-invitation form resets state on API error but leaves Select component visually out of sync](https://github.com/Dokploy/dokploy/issues/5497) | 1 |
 | [#5496 Docker-image app on a floating tag (`:latest`): deploy pulls the new digest, reports success, but the Swarm task keeps running the old image](https://github.com/Dokploy/dokploy/issues/5496) | 3 |
 | [#5495 Allow custom domain middlewares to be applied before stripPrefix (breaks forward-auth/oidc with path prefixes)](https://github.com/Dokploy/dokploy/issues/5495) | 1 |
@@ -55,5 +57,3 @@ Most recently opened:
 | [#5390 Support importing blueprint/templates with domain initially inactive](https://github.com/Dokploy/dokploy/issues/5390) | 1 |
 | [#5388 Support scheduled jobs for databases](https://github.com/Dokploy/dokploy/issues/5388) | 1 |
 | [#5385 Disk stats in Monitoring counts each byte twice](https://github.com/Dokploy/dokploy/issues/5385) | 2 |
-| [#5366 Registry authentication for Compose services (project-scoped)](https://github.com/Dokploy/dokploy/issues/5366) | 1 |
-| [#5361 compose.search omits services missing from member accessedServices, even for owners/admins](https://github.com/Dokploy/dokploy/issues/5361) | 2 |

@@ -1,16 +1,17 @@
 # coollabsio/coolify
 
-Generated: 2026-09-27T09:52:39.878654+00:00
+Generated: 2026-09-28T16:04:59.586367+00:00
 
-- Unassigned: 43+
+- Unassigned: 44+
 - [View all unassigned issues](https://github.com/coollabsio/coolify/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#12049 [Bug]: Coolify Cloud rejects Sentinel pushes with 429 for hours while the server sends nothing else to app.coolify.io](https://github.com/coollabsio/coolify/issues/12049) | 0 |
 | [#12036 Long-form bind mappings lose read_only and bind options during application parsing](https://github.com/coollabsio/coolify/issues/12036) | 0 |
-| [#12034 Server validation rejects Arch-derived distros: validateOS() reads ID and ignores ID_LIKE](https://github.com/coollabsio/coolify/issues/12034) | 0 |
+| [#12034 Server validation rejects Arch-derived distros: validateOS() reads ID and ignores ID_LIKE](https://github.com/coollabsio/coolify/issues/12034) | 1 |
 | [#12033 Server validation rejects Arch-derived distros: validateOS() reads ID and ignores ID_LIKE](https://github.com/coollabsio/coolify/issues/12033) | 0 |
 | [#12031 [Bug]: force_domain_override is ignored for docker_compose_domains when creating an application via the API](https://github.com/coollabsio/coolify/issues/12031) | 0 |
 | [#12017 [Bug]: Deleting an incomplete GitHub App source renders name on null](https://github.com/coollabsio/coolify/issues/12017) | 0 |
@@ -29,7 +30,7 @@ Most recently opened:
 | [#11975 [Bug]: Plane cannot start (MinIO removed)](https://github.com/coollabsio/coolify/issues/11975) | 0 |
 | [#11973 [Bug]: `install.sh` writes to `/data/coolify` before step 1 of 9, ahead of every check and download](https://github.com/coollabsio/coolify/issues/11973) | 0 |
 | [#11965 [Bug]: Noindex silently ignored for service domains that include a port (v4.3.15+)](https://github.com/coollabsio/coolify/issues/11965) | 0 |
-| [#11953 [Bug]: Sentinel restart loop on servers managed by a non-root SSH user (CheckAndStartSentinelJob checks run without sudo)](https://github.com/coollabsio/coolify/issues/11953) | 0 |
+| [#11953 [Bug]: Sentinel restart loop on servers managed by a non-root SSH user (CheckAndStartSentinelJob checks run without sudo)](https://github.com/coollabsio/coolify/issues/11953) | 1 |
 | [#11947 [Bug]: Application status dropdown is cut off on the left below xl width](https://github.com/coollabsio/coolify/issues/11947) | 0 |
 | [#11946 [Bug]: Volume backup to S3 (Cloudflare R2) crashes mc (SIGSEGV); with "Stop container during backup" the container is left stopped → production downtime](https://github.com/coollabsio/coolify/issues/11946) | 0 |
 | [#11945 [Bug]: install.sh recursively chowns /data/coolify on every upgrade, breaking service bind mounts (root install)](https://github.com/coollabsio/coolify/issues/11945) | 4 |
@@ -43,7 +44,7 @@ Most recently opened:
 | [#11869 [Bug]: Clicking an option in a table dropdown calls window.close() and closes the browser tab](https://github.com/coollabsio/coolify/issues/11869) | 2 |
 | [#11868 [Bug]: Proxy update warning persists on v4.3.21 after upgrading Traefik to v3.7.13](https://github.com/coollabsio/coolify/issues/11868) | 5 |
 | [#11861 [Bug]: Sentinel 1.0.1 storage collector logs `cannot stat mount source` WARN for every volume every 15 min — Coolify starts it without `HOST_MOUNT_PREFIX` / `STORAGE_VOLUMES_ENABLED=false`](https://github.com/coollabsio/coolify/issues/11861) | 0 |
-| [#11855 [Bug]: Supabase deployment/restart fails because minio/mc image cannot be pulled](https://github.com/coollabsio/coolify/issues/11855) | 6 |
+| [#11855 [Bug]: Supabase deployment/restart fails because minio/mc image cannot be pulled](https://github.com/coollabsio/coolify/issues/11855) | 8 |
 | [#11815 [Bug]: Sorting feature doesn't work on backups page](https://github.com/coollabsio/coolify/issues/11815) | 0 |
 | [#11814 [Bug]: Deleting scheduled task throws 404](https://github.com/coollabsio/coolify/issues/11814) | 0 |
 | [#11813 [Bug]: Stale coolify browser tab sets theme to custom](https://github.com/coollabsio/coolify/issues/11813) | 0 |

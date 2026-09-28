@@ -1,15 +1,14 @@
 # rrousselGit/riverpod
 
-Generated: 2026-09-27T09:53:21.814221+00:00
+Generated: 2026-09-28T16:05:37.587261+00:00
 
-- Unassigned: 10
+- Unassigned: 9
 - [View all unassigned issues](https://github.com/rrousselGit/riverpod/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#4890 read(provider.listenable) returns a closed ValueListenable whose value and addListener throw internal errors](https://github.com/rrousselGit/riverpod/issues/4890) | 0 |
 | [#4882 TickerMode resume still throws setState() during build when the resumed provider has a diamond dependency (3.4.3)](https://github.com/rrousselGit/riverpod/issues/4882) | 1 |
 | [#4839 riverpod_lint 3.1.7/3.1.8 hang `dart analyze` on stable Dart, work on 3.13 beta](https://github.com/rrousselGit/riverpod/issues/4839) | 5 |
 | [#4806 ConsumerStatefulElement reuses a closed ProviderSubscription after backgrounding + navigation churn (3.3.2): "read on a subscription that was closed"](https://github.com/rrousselGit/riverpod/issues/4806) | 0 |

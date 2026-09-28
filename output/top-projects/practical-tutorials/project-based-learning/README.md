@@ -1,8 +1,8 @@
 # practical-tutorials/project-based-learning
 
-Generated: 2026-09-27T09:52:05.335772+00:00
+Generated: 2026-09-28T16:04:27.044601+00:00
 
-- Unassigned: 52+
+- Unassigned: 49+
 - [View all unassigned issues](https://github.com/practical-tutorials/project-based-learning/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -58,7 +58,3 @@ Most recently opened:
 | [#672 Complexity level of projects](https://github.com/practical-tutorials/project-based-learning/issues/672) | 0 |
 | [#667 Troubleshooting ](https://github.com/practical-tutorials/project-based-learning/issues/667) | 0 |
 | [#663 Projects ](https://github.com/practical-tutorials/project-based-learning/issues/663) | 0 |
-| [#657 Practice](https://github.com/practical-tutorials/project-based-learning/issues/657) | 0 |
-| [#648 Practice ](https://github.com/practical-tutorials/project-based-learning/issues/648) | 0 |
-| [#646 Learn 
-](https://github.com/practical-tutorials/project-based-learning/issues/646) | 0 |

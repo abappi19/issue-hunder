@@ -1,6 +1,6 @@
 # vuejs/vuex
 
-Generated: 2026-09-27T09:53:21.814221+00:00
+Generated: 2026-09-28T16:05:37.587261+00:00
 
 - Unassigned: 59+
 - [View all unassigned issues](https://github.com/vuejs/vuex/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)

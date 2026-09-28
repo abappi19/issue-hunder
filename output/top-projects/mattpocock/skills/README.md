@@ -1,6 +1,6 @@
 # mattpocock/skills
 
-Generated: 2026-09-27T09:52:05.335772+00:00
+Generated: 2026-09-28T16:04:27.044601+00:00
 
 - Unassigned: 98+
 - [View all unassigned issues](https://github.com/mattpocock/skills/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,6 +9,9 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#1134 Proposal: /implement keeps a running implementation-notes file (design decisions, deviations, tradeoffs, open questions)](https://github.com/mattpocock/skills/issues/1134) | 0 |
+| [#1133 [contribution] to-intent skill — an entry point the to-spec family is missing](https://github.com/mattpocock/skills/issues/1133) | 0 |
+| [#1132 pr skill: component-tree example is flattened into one-line pseudo-TypeScript](https://github.com/mattpocock/skills/issues/1132) | 0 |
 | [#1131 [FYI] OpenAI-curated Codex package adds unsupported CHAT product metadata](https://github.com/mattpocock/skills/issues/1131) | 0 |
 | [#1129 Proposal: Make User Stories optional in to-spec](https://github.com/mattpocock/skills/issues/1129) | 0 |
 | [#1128 Proposal: ping-pong skill for short, direct back-and-forth](https://github.com/mattpocock/skills/issues/1128) | 0 |
@@ -33,7 +36,7 @@ Most recently opened:
 | [#1102 Which step is the technical design detail in the development process?](https://github.com/mattpocock/skills/issues/1102) | 0 |
 | [#1100 Add kimi plugin manifest support](https://github.com/mattpocock/skills/issues/1100) | 0 |
 | [#1099 Implement skill doesn't update completion status of planned tickets](https://github.com/mattpocock/skills/issues/1099) | 0 |
-| [#1098 grill-with-docs on gpt-6-Astra](https://github.com/mattpocock/skills/issues/1098) | 5 |
+| [#1098 grill-with-docs on gpt-6-Astra](https://github.com/mattpocock/skills/issues/1098) | 6 |
 | [#1096 grilling: the confirmation gate can pass without the user understanding the decision](https://github.com/mattpocock/skills/issues/1096) | 0 |
 | [#1095 Default to AGENTS.md when no instruction file exists](https://github.com/mattpocock/skills/issues/1095) | 1 |
 | [#1094 writing-for-agents does not state the /<skill-name> naming convention](https://github.com/mattpocock/skills/issues/1094) | 0 |
@@ -104,6 +107,3 @@ Most recently opened:
 | [#1003 wizard generates an unused `RED` variable](https://github.com/mattpocock/skills/issues/1003) | 1 |
 | [#1002 grilling: reset the tree when the user corrects the goal](https://github.com/mattpocock/skills/issues/1002) | 0 |
 | [#1001 [Idea] Exploring a lightweight adapter between /handoff and my task-handoff for high-stakes scenarios](https://github.com/mattpocock/skills/issues/1001) | 0 |
-| [#1000 Proposal with ready branch: tighten catalog descriptions, move trigger branches into a "When to reach for it" body section](https://github.com/mattpocock/skills/issues/1000) | 0 |
-| [#999 wayfinder: charting doesn't check for existing in-progress work before grilling](https://github.com/mattpocock/skills/issues/999) | 0 |
-| [#998 feat(skills): graduate implement-spec for Antigravity concurrent subagent workflows](https://github.com/mattpocock/skills/issues/998) | 0 |

@@ -1,8 +1,8 @@
 # karakeep-app/karakeep
 
-Generated: 2026-09-27T09:52:54.664973+00:00
+Generated: 2026-09-28T16:05:13.515996+00:00
 
-- Unassigned: 51+
+- Unassigned: 49+
 - [View all unassigned issues](https://github.com/karakeep-app/karakeep/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -43,7 +43,7 @@ Most recently opened:
 | [#2981 Crawler uses low-res images on Redlib as banner](https://github.com/karakeep-app/karakeep/issues/2981) | 0 |
 | [#2972 Support Substack's JSON-wrapped lazy-load images (data-attrs)](https://github.com/karakeep-app/karakeep/issues/2972) | 0 |
 | [#2967 Layout Configuration Per List/View](https://github.com/karakeep-app/karakeep/issues/2967) | 0 |
-| [#2963 Managing lists on a bookmark closes the manage dialog entirely if no list remains](https://github.com/karakeep-app/karakeep/issues/2963) | 0 |
+| [#2963 Managing lists on a bookmark closes the manage dialog entirely if no list remains](https://github.com/karakeep-app/karakeep/issues/2963) | 1 |
 | [#2958 Make highlights selectable in mobile app](https://github.com/karakeep-app/karakeep/issues/2958) | 0 |
 | [#2956 Track and display in-progress entries](https://github.com/karakeep-app/karakeep/issues/2956) | 0 |
 | [#2954 Browser extension requests permission for karakeep.invalid instead of configured server URL — fails on Edge, works on Brave/Chrome](https://github.com/karakeep-app/karakeep/issues/2954) | 0 |
@@ -58,5 +58,3 @@ Most recently opened:
 | [#2908 Video asset opens as a black page from Manage Assets and cannot be played](https://github.com/karakeep-app/karakeep/issues/2908) | 0 |
 | [#2907 Add automation or API to initiate Meilisearch Reindexing](https://github.com/karakeep-app/karakeep/issues/2907) | 0 |
 | [#2906 Deleting a bookmark fails with ENOTEMPTY when assets (video) are stored on NFS](https://github.com/karakeep-app/karakeep/issues/2906) | 0 |
-| [#2901 Unable to reset password: Reset password link redirects to sign in page](https://github.com/karakeep-app/karakeep/issues/2901) | 0 |
-| [#2898 Feature Request: Default to PDF asset when viewing local copy](https://github.com/karakeep-app/karakeep/issues/2898) | 1 |

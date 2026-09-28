@@ -1,14 +1,15 @@
 # immich-app/immich
 
-Generated: 2026-09-27T09:52:22.958112+00:00
+Generated: 2026-09-28T16:04:44.001734+00:00
 
-- Unassigned: 47+
+- Unassigned: 46+
 - [View all unassigned issues](https://github.com/immich-app/immich/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#31830 schema-check reports person_delete_audit missing even though function and trigger exist](https://github.com/immich-app/immich/issues/31830) | 0 |
 | [#31829 Samsung DNG 1.7 (JPEG XL) RAW previews render dark/green — PreviewJXL read as the finished preview](https://github.com/immich-app/immich/issues/31829) | 0 |
 | [#31827 [Documentation] PUT /assets is deprecated, long live PUT /assets](https://github.com/immich-app/immich/issues/31827) | 0 |
 | [#31826 Filtered Facial Recognition query stops using face_index after VectorChord 0.5.3 -> 1.1.1](https://github.com/immich-app/immich/issues/31826) | 1 |
@@ -23,7 +24,7 @@ Most recently opened:
 | [#31761 Cannot delete People](https://github.com/immich-app/immich/issues/31761) | 0 |
 | [#31757 iOS widget renders at too low resolution](https://github.com/immich-app/immich/issues/31757) | 0 |
 | [#31738 Upload through android app is slower than through mobile web UI](https://github.com/immich-app/immich/issues/31738) | 0 |
-| [#31678 Album syncing not working on iOS](https://github.com/immich-app/immich/issues/31678) | 3 |
+| [#31678 Album syncing not working on iOS](https://github.com/immich-app/immich/issues/31678) | 4 |
 | [#31645 External Libraries: misleading folder invalid path error on save](https://github.com/immich-app/immich/issues/31645) | 1 |
 | [#31622 [BUG] `--delete-duplicates` can unlink a file the server has never confirmed as a duplicate](https://github.com/immich-app/immich/issues/31622) | 4 |
 | [#31605 Mobile app crashes / logs out when device locale is `yue-Hant` (Cantonese) — `Invalid locale "yue-Hant"` in DateFormat](https://github.com/immich-app/immich/issues/31605) | 1 |
@@ -44,9 +45,7 @@ Most recently opened:
 | [#31420 password p_SQLll;~{W\Q<2frstHjWulFNKLB$(& doesn't work with ios app](https://github.com/immich-app/immich/issues/31420) | 4 |
 | [#31419 Rotating a photo from a Memory updates the photo list but not the Memory itself](https://github.com/immich-app/immich/issues/31419) | 4 |
 | [#31397 Mobile album displays blank thumbnail when a Live Photo has only the .MOV component](https://github.com/immich-app/immich/issues/31397) | 0 |
-| [#31396 Web: Renaming a tag causes bulk archive to restore the old tag name](https://github.com/immich-app/immich/issues/31396) | 3 |
 | [#31387 Mobile (Android): photo locations disappear when zooming out and reappear when zooming in](https://github.com/immich-app/immich/issues/31387) | 1 |
-| [#31385 Change time of a photo issue](https://github.com/immich-app/immich/issues/31385) | 1 |
 | [#31347 On this day memories does not allow spam taps](https://github.com/immich-app/immich/issues/31347) | 0 |
 | [#31336 Folder View does not restore scroll position after returning from the asset viewer](https://github.com/immich-app/immich/issues/31336) | 0 |
 | [#31332 Edited assets are skipped by a full Smart Search re-index and never get an embedding](https://github.com/immich-app/immich/issues/31332) | 0 |

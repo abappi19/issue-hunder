@@ -1,8 +1,8 @@
 # affaan-m/ECC
 
-Generated: 2026-09-27T09:52:05.335772+00:00
+Generated: 2026-09-28T16:04:27.044601+00:00
 
-- Unassigned: 35+
+- Unassigned: 33+
 - [View all unassigned issues](https://github.com/affaan-m/ECC/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -25,12 +25,9 @@ Most recently opened:
 | [#3211 GateGuard: PowerShell `foreach` loop header flagged as `powershell.dynamic-execution` when it is 24+ characters](https://github.com/affaan-m/ECC/issues/3211) | 1 |
 | [#3208 [Idea] Add AISOP/AISP-aware discovery and change tracking to skill-stocktake](https://github.com/affaan-m/ECC/issues/3208) | 2 |
 | [#3181 [Idea] Add a cross-harness compatibility audit](https://github.com/affaan-m/ECC/issues/3181) | 1 |
-| [#3178 Agent Airspace: clear and resolution-advisory colours are indistinguishable for red-green colour blindness (1.01:1 luminance)](https://github.com/affaan-m/ECC/issues/3178) | 1 |
-| [#3177 proximity-viz: missing response.ok check makes a backend 500 render as "no advisories"](https://github.com/affaan-m/ECC/issues/3177) | 1 |
 | [#3176 control-pane: auto-refresh discards fetch errors, so stale data is presented as live](https://github.com/affaan-m/ECC/issues/3176) | 1 |
-| [#3175 control-plane: canvas exceeds the browser size limit and never renders on devicePixelRatio > 1](https://github.com/affaan-m/ECC/issues/3175) | 1 |
 | [#3174 [RFC] Opt-in second-opinion review boundary for ECC workflows](https://github.com/affaan-m/ECC/issues/3174) | 2 |
-| [#3169 hooks.json: Claude Code warns "unknown keys" for id/description on all 24 matcher groups](https://github.com/affaan-m/ECC/issues/3169) | 1 |
+| [#3169 hooks.json: Claude Code warns "unknown keys" for id/description on all 24 matcher groups](https://github.com/affaan-m/ECC/issues/3169) | 2 |
 | [#3152 GateGuard: heredoc bodies are scanned as commands (false positive when writing docs that mention git)](https://github.com/affaan-m/ECC/issues/3152) | 1 |
 | [#3141 [Problem]](https://github.com/affaan-m/ECC/issues/3141) | 1 |
 | [#3105 [Copilot]](https://github.com/affaan-m/ECC/issues/3105) | 0 |
@@ -44,3 +41,4 @@ Most recently opened:
 | [#3056 fix: serialize Claude tool-use round trips with Anthropic message blocks](https://github.com/affaan-m/ECC/issues/3056) | 3 |
 | [#3053 hooks.json fails settings schema validation — "unknown keys" warning on every session start](https://github.com/affaan-m/ECC/issues/3053) | 5 |
 | [#3048 block-no-verify hook is pinned to 1.1.2, which blocks legitimate commits (fixed in 1.3.0)](https://github.com/affaan-m/ECC/issues/3048) | 2 |
+| [#3031 Add a skill quality validator for ECC contributions](https://github.com/affaan-m/ECC/issues/3031) | 3 |

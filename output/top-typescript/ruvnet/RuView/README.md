@@ -1,8 +1,8 @@
 # ruvnet/RuView
 
-Generated: 2026-09-27T09:52:22.958112+00:00
+Generated: 2026-09-28T16:04:44.001734+00:00
 
-- Unassigned: 28+
+- Unassigned: 18+
 - [View all unassigned issues](https://github.com/ruvnet/RuView/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -27,13 +27,3 @@ Most recently opened:
 | [#1875 Benchmark long term hazard graph memory for embodied planning](https://github.com/ruvnet/RuView/issues/1875) | 0 |
 | [#1854 Adaptive multimodal observability gate for RF, radar, LiDAR and vision fusion](https://github.com/ruvnet/RuView/issues/1854) | 0 |
 | [#1804 4x ESP32-S3 occupancy detection - what works, what doesn't, and questions on the intende d detection methods](https://github.com/ruvnet/RuView/issues/1804) | 2 |
-| [#1786 Research: CSI optical flow as a dense RF motion field primitive](https://github.com/ruvnet/RuView/issues/1786) | 1 |
-| [#1764 Persistent sendto ENOMEM on ESP32-S3 N16R8 (AMOLED board) — zero UDP frames reach server, not fixed by --edge-tier 1 (v0.8.8-esp32)](https://github.com/ruvnet/RuView/issues/1764) | 3 |
-| [#1759 fix(calibration): fresh/bound calibration emits no `calibrated_presence_evidence` on any endpoint](https://github.com/ruvnet/RuView/issues/1759) | 2 |
-| [#1758 occupancy classification does not change across gross occupancy change (single deployment, needs second-site confirmation)](https://github.com/ruvnet/RuView/issues/1758) | 3 |
-| [#1755 fix(provision): per-device state keyed by serial port path, so a different board inherits the previous board's node_id](https://github.com/ruvnet/RuView/issues/1755) | 0 |
-| [#1754 fix(provision): WiFi password persisted world-readable (0644) in per-port state file](https://github.com/ruvnet/RuView/issues/1754) | 0 |
-| [#1753 fix(firmware): OTA PSK cannot be provisioned — documented `provision.py --ota-psk` does not exist](https://github.com/ruvnet/RuView/issues/1753) | 0 |
-| [#1752 feat(multistatic): make phase evidence explicit and gate coherent versus noncoherent fusion](https://github.com/ruvnet/RuView/issues/1752) | 0 |
-| [#1751 experiment: benchmark subcarrier aware respiratory selection before weighted fusion](https://github.com/ruvnet/RuView/issues/1751) | 0 |
-| [#1750 feat: expose governed cohort freshness and aperture coverage on live multistatic sensing](https://github.com/ruvnet/RuView/issues/1750) | 0 |

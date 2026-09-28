@@ -1,6 +1,6 @@
 {
   "title": "Top Open-Source Projects",
-  "generated_at": "2026-09-27T09:52:05.335772+00:00",
+  "generated_at": "2026-09-28T16:04:27.044601+00:00",
   "repos": [
     {
       "repo": "codecrafters-io/build-your-own-x",
@@ -8,15 +8,15 @@
     },
     {
       "repo": "sindresorhus/awesome",
-      "unassigned": "9+"
+      "unassigned": "10+"
     },
     {
       "repo": "public-apis/public-apis",
-      "unassigned": "5+"
+      "unassigned": "3+"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
-      "unassigned": "35+"
+      "unassigned": "33+"
     },
     {
       "repo": "EbookFoundation/free-programming-books",
@@ -24,11 +24,11 @@
     },
     {
       "repo": "openclaw/openclaw",
-      "unassigned": "24+"
+      "unassigned": "32+"
     },
     {
       "repo": "donnemartin/system-design-primer",
-      "unassigned": "35+"
+      "unassigned": "37+"
     },
     {
       "repo": "nilbuild/developer-roadmap",
@@ -40,11 +40,11 @@
     },
     {
       "repo": "obra/superpowers",
-      "unassigned": "47+"
+      "unassigned": "53+"
     },
     {
       "repo": "practical-tutorials/project-based-learning",
-      "unassigned": "52+"
+      "unassigned": "49+"
     },
     {
       "repo": "mattpocock/skills",
@@ -52,19 +52,19 @@
     },
     {
       "repo": "affaan-m/ECC",
-      "unassigned": "35+"
+      "unassigned": "33+"
     },
     {
       "repo": "react/react",
-      "unassigned": "32+"
+      "unassigned": "34+"
     },
     {
       "repo": "NousResearch/hermes-agent",
-      "unassigned": "28+"
+      "unassigned": "22+"
     },
     {
       "repo": "TheAlgorithms/Python",
-      "unassigned": 8
+      "unassigned": 7
     },
     {
       "repo": "vuejs/vue",
@@ -76,11 +76,11 @@
     },
     {
       "repo": "ossu/computer-science",
-      "unassigned": 17
+      "unassigned": 20
     },
     {
       "repo": "n8n-io/n8n",
-      "unassigned": "8+"
+      "unassigned": "11+"
     }
   ]
 }

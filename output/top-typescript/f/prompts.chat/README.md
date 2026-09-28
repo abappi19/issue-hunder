@@ -1,14 +1,15 @@
 # f/prompts.chat
 
-Generated: 2026-09-27T09:52:22.958112+00:00
+Generated: 2026-09-28T16:04:44.001734+00:00
 
-- Unassigned: 26
+- Unassigned: 27
 - [View all unassigned issues](https://github.com/f/prompts.chat/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#1275 Account deletion request — @abelasvir](https://github.com/f/prompts.chat/issues/1275) | 0 |
 | [#1270 Report: Unauthorized account and personal information](https://github.com/f/prompts.chat/issues/1270) | 3 |
 | [#1268 Add ContHunt remote MCP server](https://github.com/f/prompts.chat/issues/1268) | 1 |
 | [#1263 Report: Unable to sign in to prompts.chat with GitHub — Configuration error and Chrome login difficulty](https://github.com/f/prompts.chat/issues/1263) | 0 |

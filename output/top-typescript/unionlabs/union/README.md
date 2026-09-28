@@ -1,6 +1,6 @@
 # unionlabs/union
 
-Generated: 2026-09-27T09:52:22.958112+00:00
+Generated: 2026-09-28T16:04:44.001734+00:00
 
 - Unassigned: 36+
 - [View all unassigned issues](https://github.com/unionlabs/union/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)

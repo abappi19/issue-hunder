@@ -1,15 +1,15 @@
 # ant-design/ant-design
 
-Generated: 2026-09-27T09:52:22.958112+00:00
+Generated: 2026-09-28T16:04:44.001734+00:00
 
-- Unassigned: 18+
+- Unassigned: 15+
 - [View all unassigned issues](https://github.com/ant-design/ant-design/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#59403 docs: replace deprecated components in demos](https://github.com/ant-design/ant-design/issues/59403) | 0 |
+| [#59412 点击 Notification 关闭按钮后，通知未关闭且保持 hover 展开状态](https://github.com/ant-design/ant-design/issues/59412) | 2 |
 | [#59350 DatePicker allow to select date before minDate](https://github.com/ant-design/ant-design/issues/59350) | 3 |
 | [#59349 表格滚动条](https://github.com/ant-design/ant-design/issues/59349) | 2 |
 | [#59292 Fluid hover interaction for interactive components](https://github.com/ant-design/ant-design/issues/59292) | 2 |
@@ -24,6 +24,3 @@ Most recently opened:
 | [#58500 Tree 在点击树节点中的<Select>组件时会导致滚动位置异常](https://github.com/ant-design/ant-design/issues/58500) | 3 |
 | [#58384 Root `filter: drop-shadow` on Popover/Tooltip silently breaks `backdrop-filter` on the content (since #57988)](https://github.com/ant-design/ant-design/issues/58384) | 8 |
 | [#58326 [Document] 官方开发文档右侧的大纲 超出视口的内容 会隐藏起来 ，大纲容器显示滚动条，大纲的锚点指示器无法正常显示当前位置](https://github.com/ant-design/ant-design/issues/58326) | 1 |
-| [#58295 Add support for JavaScript Temporal in DatePicker, TimePicker, Calendar and related date components](https://github.com/ant-design/ant-design/issues/58295) | 4 |
-| [#58281 [Suggestion]Mentions提及 默认样式为单行文本，却支持换行，在狭小的高度内应用滚动条](https://github.com/ant-design/ant-design/issues/58281) | 5 |
-| [#58273 @ant-design/compatible Form 结合 antd Input，如果存在同名，则丢失值](https://github.com/ant-design/ant-design/issues/58273) | 0 |

@@ -1,14 +1,21 @@
 # angular/angular
 
-Generated: 2026-09-27T09:52:22.958112+00:00
+Generated: 2026-09-28T16:04:44.001734+00:00
 
-- Unassigned: 33+
+- Unassigned: 28+
 - [View all unassigned issues](https://github.com/angular/angular/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#71010 Template type checking docs: split strictness flags into two tables](https://github.com/angular/angular/issues/71010) | 0 |
+| [#71007 RouteReuseStrategy: reattached child keeps providers from a destroyed parent injector](https://github.com/angular/angular/issues/71007) | 4 |
+| [#71004 Signal Forms: debounce('blur') loses the typed value when the focused input is removed](https://github.com/angular/angular/issues/71004) | 0 |
+| [#71000 feat(migrations): migrate ActivatedRoute snapshot reads to route input binding](https://github.com/angular/angular/issues/71000) | 1 |
+| [#70997 Angular Router zero-segment group replay can create duplicate outlet siblings and exhaust SSR workers](https://github.com/angular/angular/issues/70997) | 0 |
+| [#70990 adev: postMessage handler in code editor does not validate event.origin](https://github.com/angular/angular/issues/70990) | 0 |
+| [#70984 Spurious NG0101 when ApplicationRef.tick() is called outside the Angular zone and an effect is flushed](https://github.com/angular/angular/issues/70984) | 0 |
 | [#70979 reportProgress in https://angular.dev/guide/http/making-requests#receiving-raw-progress-events](https://github.com/angular/angular/issues/70979) | 0 |
 | [#70974 router: blocking route resource bound to a required input throws NG0950 on first render](https://github.com/angular/angular/issues/70974) | 0 |
 | [#70965 canDeactivate and resolvers are skipped when a RouteReuseStrategy recreates the component](https://github.com/angular/angular/issues/70965) | 2 |
@@ -30,15 +37,3 @@ Most recently opened:
 | [#70856 Add HttpClient.query() for the HTTP QUERY method](https://github.com/angular/angular/issues/70856) | 0 |
 | [#70840 Signal Forms: array items that share the tracking symbol (spread copy) share one field — writes land in the wrong row; frozen items throw](https://github.com/angular/angular/issues/70840) | 0 |
 | [#70834 Document the CSS namespacing feature.](https://github.com/angular/angular/issues/70834) | 0 |
-| [#70815 Add signal form config option to process async validation even when sync errors are present](https://github.com/angular/angular/issues/70815) | 0 |
-| [#70801 Built-in @while Control Flow Block](https://github.com/angular/angular/issues/70801) | 8 |
-| [#70790 [vscode language service extension] Rename its references automatically when selector changes](https://github.com/angular/angular/issues/70790) | 1 |
-| [#70784 Ability to determine if current navigation is originating from canceledNavigationResolution=computed or skip the navigation altogether if oldUrl=newUrl](https://github.com/angular/angular/issues/70784) | 1 |
-| [#70772 Signal Forms: allow custom identity tracking for array items](https://github.com/angular/angular/issues/70772) | 0 |
-| [#70743 Angular SSR MathML TemplateRef projection bypasses SVG animation validation and enables XSS after 7168bed](https://github.com/angular/angular/issues/70743) | 0 |
-| [#70734 forms: custom FormValueControl ignores updateOn ('blur' / 'submit') in reactive and template-driven forms](https://github.com/angular/angular/issues/70734) | 0 |
-| [#70732 forms: Provide a submission value that excludes disabled/hidden fields](https://github.com/angular/angular/issues/70732) | 0 |
-| [#70727 NG0953 should be suppressable](https://github.com/angular/angular/issues/70727) | 2 |
-| [#70721 forms: validator directives (required, minlength, …) are not applied to a custom control bound with ngModel / formControl](https://github.com/angular/angular/issues/70721) | 0 |
-| [#70678 Angular Language Service does not activate in multi-root workspaces (npm workspaces monorepo)](https://github.com/angular/angular/issues/70678) | 1 |
-| [#70627 Signal form children initialization is not really lazy](https://github.com/angular/angular/issues/70627) | 0 |

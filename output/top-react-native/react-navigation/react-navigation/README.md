@@ -1,6 +1,6 @@
 # react-navigation/react-navigation
 
-Generated: 2026-09-27T09:52:54.664973+00:00
+Generated: 2026-09-28T16:05:13.515996+00:00
 
 - Unassigned: 59+
 - [View all unassigned issues](https://github.com/react-navigation/react-navigation/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -53,7 +53,7 @@ Most recently opened:
 | [#12880 [Drawer] iOS scrollsToTop breaks when using Material Top Tabs inside a Drawer](https://github.com/react-navigation/react-navigation/issues/12880) | 1 |
 | [#12877 PlatformPressable still navigates/opens links when disabled prop is set (web only)](https://github.com/react-navigation/react-navigation/issues/12877) | 2 |
 | [#12868 "formSheet" presented screens account/not account for bottom safe area inset](https://github.com/react-navigation/react-navigation/issues/12868) | 7 |
-| [#12862 Android – Previous screen flashing when using shift transition after upgrading to Expo SDK 54](https://github.com/react-navigation/react-navigation/issues/12862) | 10 |
+| [#12862 Android – Previous screen flashing when using shift transition after upgrading to Expo SDK 54](https://github.com/react-navigation/react-navigation/issues/12862) | 11 |
 | [#12861 Native Stack headerSearchBar not integrating into button on iOS](https://github.com/react-navigation/react-navigation/issues/12861) | 0 |
 | [#12851 swipeEnabled prop has no effect — swipe gesture cannot be disabled](https://github.com/react-navigation/react-navigation/issues/12851) | 10 |
 | [#12848 Screen option `orientation: "portrait"` not working in Native Stack Navigator](https://github.com/react-navigation/react-navigation/issues/12848) | 3 |

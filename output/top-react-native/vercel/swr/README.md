@@ -1,14 +1,15 @@
 # vercel/swr
 
-Generated: 2026-09-27T09:52:54.664973+00:00
+Generated: 2026-09-28T16:05:13.515996+00:00
 
-- Unassigned: 47+
+- Unassigned: 46+
 - [View all unassigned issues](https://github.com/vercel/swr/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#4342 Focus events emit TimeoutNaNWarning with Node.js timers in jsdom](https://github.com/vercel/swr/issues/4342) | 0 |
 | [#4339 onSuccess can fire for an obsolete request after the key changes to null](https://github.com/vercel/swr/issues/4339) | 1 |
 | [#4327 Older Preload state overwrites a more recent mutated cached value](https://github.com/vercel/swr/issues/4327) | 1 |
 | [#4322 `useSWRImmutable` ignores hook-level `refreshInterval`  since 2.4.0 (regression of #4208)](https://github.com/vercel/swr/issues/4322) | 1 |
@@ -54,5 +55,3 @@ Most recently opened:
 | [#3040 onSuccess not called after upgrading from Expo 51 to 52](https://github.com/vercel/swr/issues/3040) | 3 |
 | [#3039 refreshWhenHidden not working properly](https://github.com/vercel/swr/issues/3039) | 2 |
 | [#3038 FetcherResponse not exported ](https://github.com/vercel/swr/issues/3038) | 0 |
-| [#3037 useSWRInfinite could not load new page correctly after `clear` and `refresh` ](https://github.com/vercel/swr/issues/3037) | 0 |
-| [#3034 useSWR not back to fallback data after switching key to fallback key when keepPreviousData is true](https://github.com/vercel/swr/issues/3034) | 5 |

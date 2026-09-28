@@ -1,6 +1,6 @@
 # TanStack/router
 
-Generated: 2026-09-27T09:53:21.814221+00:00
+Generated: 2026-09-28T16:05:37.587261+00:00
 
 - Unassigned: 24+
 - [View all unassigned issues](https://github.com/TanStack/router/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,12 +9,16 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#8546 [Start] Generated route preloads should default to fetchPriority="low" (they delay first paint at High)](https://github.com/TanStack/router/issues/8546) | 0 |
+| [#8545 Start + Rsbuild: server-only routes are not pruned from the client route tree](https://github.com/TanStack/router/issues/8545) | 0 |
+| [#8544 Start + Rsbuild: plugin forces `server.compress: false`, overriding user config](https://github.com/TanStack/router/issues/8544) | 0 |
+| [#8543 Start + Rsbuild: SPA mode dev server SSRs routes and runs loaders on the server](https://github.com/TanStack/router/issues/8543) | 0 |
+| [#8521 A request aborted by the client is logged as an unhandled 500](https://github.com/TanStack/router/issues/8521) | 0 |
 | [#8516 Start prerender: in-page fragment links (`/#section`) are crawled as separate pages and listed in sitemap.xml](https://github.com/TanStack/router/issues/8516) | 0 |
 | [#8514 Start: symlinked route files skip the client-side `server.handlers` strip — server code and node-only imports ship in the client bundle](https://github.com/TanStack/router/issues/8514) | 0 |
 | [#8512 start-plugin-core: sitemap lastmod and pages.json lastBuilt are stamped with the build's wall clock (no SOURCE_DATE_EPOCH support)](https://github.com/TanStack/router/issues/8512) | 0 |
-| [#8511 [Start] With Vite 8 (Rolldown), route preloads only include direct chunk imports, so second-level chunks load as a request waterfall](https://github.com/TanStack/router/issues/8511) | 1 |
+| [#8511 [Start] With Vite 8 (Rolldown), route preloads only include direct chunk imports, so second-level chunks load as a request waterfall](https://github.com/TanStack/router/issues/8511) | 2 |
 | [#8505 Compiler correctness: split-route exports and distinct re-export aliases](https://github.com/TanStack/router/issues/8505) | 0 |
-| [#8502 Page briefly jumps to the top before restoring scroll on reload](https://github.com/TanStack/router/issues/8502) | 0 |
 | [#8491 Blocked Back/go() across a browser-created fragment entry is undone to the wrong entry](https://github.com/TanStack/router/issues/8491) | 0 |
 | [#8487 lazyRouteComponent skips use() after the import resolves, triggering React 19's "conditional use()" warning](https://github.com/TanStack/router/issues/8487) | 0 |
 | [#8483 Start: prerender.concurrency has no effect on CPU-bound pages (all pages render one at a time in a single preview server)](https://github.com/TanStack/router/issues/8483) | 0 |
@@ -29,7 +33,3 @@ Most recently opened:
 | [#8415 Start + Rsbuild: shared chunks cause CSS issues in the initial SSR response](https://github.com/TanStack/router/issues/8415) | 0 |
 | [#8407 start-compiler-plugin fails to lazy-load dependencies with Vite bundledDev](https://github.com/TanStack/router/issues/8407) | 0 |
 | [#8377 lazyRouteComponent renders the error component after it has already triggered the stale-chunk reload](https://github.com/TanStack/router/issues/8377) | 1 |
-| [#8333 Start: untagged 2xx non-JSON server-function response resolves as a raw `Response` instead of rejecting](https://github.com/TanStack/router/issues/8333) | 0 |
-| [#8331 lazyRouteComponent reload guard key collides on Safari, capping stale-deploy recovery at one per tab](https://github.com/TanStack/router/issues/8331) | 1 |
-| [#8309 Links don't fully follow `retainSearchParams` and `stripSearchParams`](https://github.com/TanStack/router/issues/8309) | 0 |
-| [#8306 Hydration error thrown during a client-side navigation while a nested route is still hydrating](https://github.com/TanStack/router/issues/8306) | 0 |

@@ -1,8 +1,8 @@
 # jpudysz/react-native-unistyles
 
-Generated: 2026-09-27T09:53:07.820802+00:00
+Generated: 2026-09-28T16:05:25.841460+00:00
 
-- Unassigned: 29
+- Unassigned: 28
 - [View all unassigned issues](https://github.com/jpudysz/react-native-unistyles/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -13,7 +13,6 @@ Most recently opened:
 | [#1252 [3.3.0] Unfreezing a screen blocks JS for seconds — link() of suspended nodes commits the shadow tree once per node (O(n²))](https://github.com/jpudysz/react-native-unistyles/issues/1252) | 0 |
 | [#1250 Dev reload within a few seconds of the previous bundle leaves the new runtime permanently "not configured" (RN 0.87 bridgeless, 3.3.0)](https://github.com/jpudysz/react-native-unistyles/issues/1250) | 0 |
 | [#1249 Issue with react-native-gesture-handler on web](https://github.com/jpudysz/react-native-unistyles/issues/1249) | 0 |
-| [#1243 [iOS] Data race: unlocked nativeProps_DEPRECATED write in ShadowTreeManager crashes ShadowNode::clone (folly::dynamic::hash)](https://github.com/jpudysz/react-native-unistyles/issues/1243) | 0 |
 | [#1241 Web: breakpoint media queries use integer max-width bounds, leaving a dead band at fractional viewport widths (e.g. 767 < width < 768)](https://github.com/jpudysz/react-native-unistyles/issues/1241) | 0 |
 | [#1239 Jest mock registry doesn't survive module isolation (jest.resetModules / duplicate package copies)](https://github.com/jpudysz/react-native-unistyles/issues/1239) | 0 |
 | [#1228 [Android] SIGABRT in HybridShadowRegistry::unlink — folly::dynamic fatal destroying UnistyleData on screen unmount (98 users, no theme API and no frozen screens)](https://github.com/jpudysz/react-native-unistyles/issues/1228) | 1 |
@@ -29,7 +28,7 @@ Most recently opened:
 | [#1199 Web: `useAnimatedStyle` from Reanimated 3 silently fails inside `createUnistylesElement`-wrapped components](https://github.com/jpudysz/react-native-unistyles/issues/1199) | 1 |
 | [#1198 Web: CSS child-selector rule from withUnistyles component leaks into plain View sharing the same style](https://github.com/jpudysz/react-native-unistyles/issues/1198) | 1 |
 | [#1192 theme update doesn't apply to some dynamic styles](https://github.com/jpudysz/react-native-unistyles/issues/1192) | 4 |
-| [#1179 [iOS, 3.2.4] Heap corruption in ShadowTreeManager::updateShadowTree triggered reproducibly by setAdaptiveThemes(false) + setTheme() (user appearance toggle)](https://github.com/jpudysz/react-native-unistyles/issues/1179) | 14 |
+| [#1179 [iOS, 3.2.4] Heap corruption in ShadowTreeManager::updateShadowTree triggered reproducibly by setAdaptiveThemes(false) + setTheme() (user appearance toggle)](https://github.com/jpudysz/react-native-unistyles/issues/1179) | 15 |
 | [#1170 Theme not fully switching](https://github.com/jpudysz/react-native-unistyles/issues/1170) | 15 |
 | [#1142 Variant-based style breaks if applied to Animated component when breakpoint-based style is used](https://github.com/jpudysz/react-native-unistyles/issues/1142) | 2 |
 | [#1045 Nested `Text` not updated](https://github.com/jpudysz/react-native-unistyles/issues/1045) | 8 |

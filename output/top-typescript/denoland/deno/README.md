@@ -1,14 +1,15 @@
 # denoland/deno
 
-Generated: 2026-09-27T09:52:22.958112+00:00
+Generated: 2026-09-28T16:04:44.001734+00:00
 
-- Unassigned: 51+
+- Unassigned: 50+
 - [View all unassigned issues](https://github.com/denoland/deno/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#36913 deno desktop - delayed window closure broken](https://github.com/denoland/deno/issues/36913) | 0 |
 | [#36910 deno_core: snapshotting a JsRuntimeForSnapshot restored from a snapshot drops inherited extension sources; the next restore segfaults](https://github.com/denoland/deno/issues/36910) | 0 |
 | [#36904 `Headers` does not reject values containing CR / LF and leading / trailing whitespace](https://github.com/denoland/deno/issues/36904) | 2 |
 | [#36899 `deno bundle` gives confusing error message when dependency is newer than `min-dep-age`](https://github.com/denoland/deno/issues/36899) | 0 |
@@ -58,5 +59,3 @@ Most recently opened:
 | [#36780 deno desktop 2.9.6 - signing error on laufey_webview with prod build using "-" signing option](https://github.com/denoland/deno/issues/36780) | 0 |
 | [#36778 `[Feature Request / Bug]: Decouple Deno.Tray from BrowserWindow & fix tray menu interactivity when host window is hidden on Windows (WebView2 backend)`](https://github.com/denoland/deno/issues/36778) | 1 |
 | [#36777 deno desktop - Mac bundle About menu short version incorrect since 2.9.6](https://github.com/denoland/deno/issues/36777) | 0 |
-| [#36776 `desktop.app.name` is ignored for Linux .desktop Name= when an explicit output path is configured](https://github.com/denoland/deno/issues/36776) | 0 |
-| [#36775 feature(desktop): native support for OS-package-manager update channels (repo metadata + signing) for .rpm/.deb output](https://github.com/denoland/deno/issues/36775) | 0 |

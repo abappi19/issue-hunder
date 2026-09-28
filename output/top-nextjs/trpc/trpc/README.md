@@ -1,8 +1,8 @@
 # trpc/trpc
 
-Generated: 2026-09-27T09:52:39.878654+00:00
+Generated: 2026-09-28T16:04:59.586367+00:00
 
-- Unassigned: 42+
+- Unassigned: 41+
 - [View all unassigned issues](https://github.com/trpc/trpc/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -45,7 +45,6 @@ Most recently opened:
 | [#6864 docs: add upgrade path abortOnUnmount @trpc/tanstack-react-query](https://github.com/trpc/trpc/issues/6864) | 0 |
 | [#6862 Bug: useInfiniteQuery causes 400 Bad Request after .invalidate() due to auto-injected cursor: undefined](https://github.com/trpc/trpc/issues/6862) | 0 |
 | [#6835 feat: AppRouter Type Generation](https://github.com/trpc/trpc/issues/6835) | 3 |
-| [#6832 feat: custom type-safe errors](https://github.com/trpc/trpc/issues/6832) | 11 |
 | [#6819 bug: `httpBatchStreamLink` responses use wrong `content-type` header (`application/json`)](https://github.com/trpc/trpc/issues/6819) | 4 |
 | [#6800 feat: Support defining type maps as an escape hatch](https://github.com/trpc/trpc/issues/6800) | 1 |
 | [#6779 feat: support tanstack solid query](https://github.com/trpc/trpc/issues/6779) | 2 |

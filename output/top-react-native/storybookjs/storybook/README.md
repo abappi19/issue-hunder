@@ -1,14 +1,16 @@
 # storybookjs/storybook
 
-Generated: 2026-09-27T09:52:54.664973+00:00
+Generated: 2026-09-28T16:05:13.515996+00:00
 
-- Unassigned: 30+
+- Unassigned: 27+
 - [View all unassigned issues](https://github.com/storybookjs/storybook/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#36471 [Bug]: Story index caches "Could not parse import/exports with acorn" for a story file that changes during indexing](https://github.com/storybookjs/storybook/issues/36471) | 1 |
+| [#36470 [Bug]: Manager crashes with LandmarkManager TypeError when the sidebar is shown while the toolbar is hidden](https://github.com/storybookjs/storybook/issues/36470) | 0 |
 | [#36469 [Bug]: CSF Factories `story.extend({ tags })` drops negated tags, so `!autodocs` / `!dev` have no effect](https://github.com/storybookjs/storybook/issues/36469) | 0 |
 | [#36456 [Feature Request] Integrate with `ember-storybook`](https://github.com/storybookjs/storybook/issues/36456) | 0 |
 | [#36453 [Bug]: @storybook/angular-vite accepts @analogjs/vite-plugin-angular versions that break build-storybook on Angular 22.2](https://github.com/storybookjs/storybook/issues/36453) | 1 |
@@ -34,8 +36,3 @@ Most recently opened:
 | [#36233 [Documentation]: Explain `QueryClient` isolation with parallel story tests with `Vitest`](https://github.com/storybookjs/storybook/issues/36233) | 1 |
 | [#36228 Builder Vite: `storybook/internal/preview/runtime` served with 1Mb inline source map when used with Vite 8](https://github.com/storybookjs/storybook/issues/36228) | 1 |
 | [#36215 Addon Vitest: Use `enableCoverage` API instead of re-creating Vitest instance](https://github.com/storybookjs/storybook/issues/36215) | 0 |
-| [#36176 [Bug]: Fresh @storybook/nextjs Webpack project fails to compile because ajv-keywords resolves ajv 6](https://github.com/storybookjs/storybook/issues/36176) | 1 |
-| [#36175 [Bug]: storybook tools docs list omits stories when CSF files share a component ID](https://github.com/storybookjs/storybook/issues/36175) | 0 |
-| [#36174 [Bug]: storybook upgrade bypasses pnpm catalogs and leaves mixed Storybook versions](https://github.com/storybookjs/storybook/issues/36174) | 0 |
-| [#36173 [Bug]: storybook doctor cannot determine the installed version in a nested pnpm catalog workspace](https://github.com/storybookjs/storybook/issues/36173) | 2 |
-| [#36172 [Bug]: Telemetry and project.json report catalog addon versions instead of resolved versions](https://github.com/storybookjs/storybook/issues/36172) | 0 |

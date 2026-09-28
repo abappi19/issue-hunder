@@ -1,6 +1,6 @@
 # zulip/zulip
 
-Generated: 2026-09-27T09:52:54.664973+00:00
+Generated: 2026-09-28T16:05:13.515996+00:00
 
 - Unassigned: 22+
 - [View all unassigned issues](https://github.com/zulip/zulip/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,6 +9,8 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#40230 Authentication failure for flush-memcached during install](https://github.com/zulip/zulip/issues/40230) | 0 |
+| [#40229 Uploaded images that the server can't thumbnail render as literal ![name](url) text](https://github.com/zulip/zulip/issues/40229) | 1 |
 | [#40213 webhooks: only_events/exclude_events are ignored by the Linear, Azure DevOps, Redmine and RhodeCode integrations](https://github.com/zulip/zulip/issues/40213) | 0 |
 | [#40212 playgrounds: Trailing whitespace bypasses the restricted-keyword check for pygments_language](https://github.com/zulip/zulip/issues/40212) | 0 |
 | [#40193 Allow bots to send user invitations via /invites endpoint](https://github.com/zulip/zulip/issues/40193) | 3 |
@@ -29,5 +31,3 @@ Most recently opened:
 | [#39969 Improve setting custom time limit for time based organization settings.](https://github.com/zulip/zulip/issues/39969) | 6 |
 | [#39968 Render @-mentions correctly in polls](https://github.com/zulip/zulip/issues/39968) | 3 |
 | [#39953 Improve Quote message feature for long quotes](https://github.com/zulip/zulip/issues/39953) | 8 |
-| [#39944 Use licenses purchased to calculate file storage quota](https://github.com/zulip/zulip/issues/39944) | 3 |
-| [#39933 Creating a topic fails when the topic name contains a TAB character](https://github.com/zulip/zulip/issues/39933) | 7 |

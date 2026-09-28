@@ -1,15 +1,18 @@
 # calcom/cal.diy
 
-Generated: 2026-09-27T09:52:39.878654+00:00
+Generated: 2026-09-28T16:04:59.586367+00:00
 
-- Unassigned: 13+
+- Unassigned: 16+
 - [View all unassigned issues](https://github.com/calcom/cal.diy/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#30249 Align Column View with Monthly View for complete calendar weeks](https://github.com/calcom/cal.diy/issues/30249) | 0 |
+| [#30258 Feature Request: Add cancellation cutoff before an event](https://github.com/calcom/cal.diy/issues/30258) | 0 |
+| [#30256 timezones: picker lists Europe/Kiev instead of Europe/Kyiv](https://github.com/calcom/cal.diy/issues/30256) | 2 |
+| [#30255 companion: timezone picker has no search across 417 entries](https://github.com/calcom/cal.diy/issues/30255) | 3 |
+| [#30249 Align Column View with Monthly View for complete calendar weeks](https://github.com/calcom/cal.diy/issues/30249) | 5 |
 | [#30237 fix(lib): IP banlist bypass when reverse proxy sends comma-separated IPs in array header value](https://github.com/calcom/cal.diy/issues/30237) | 0 |
 | [#30236 Proposal: an optional feeless Nano (XNO) settle method for booking payment and no-show fees](https://github.com/calcom/cal.diy/issues/30236) | 0 |
 | [#30234 fix(security): redact standard OAuth access_token and refresh_token in redactSensitiveData](https://github.com/calcom/cal.diy/issues/30234) | 0 |

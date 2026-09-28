@@ -1,8 +1,8 @@
 # react/react-native
 
-Generated: 2026-09-27T09:52:54.664973+00:00
+Generated: 2026-09-28T16:05:13.515996+00:00
 
-- Unassigned: 23+
+- Unassigned: 21+
 - [View all unassigned issues](https://github.com/react/react-native/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -18,9 +18,8 @@ Most recently opened:
 | [#58601 enableSchedulerDelegateInvalidation defaults to false, leaving Scheduler's deferred delegate callbacks exposed to use-after-free (EXC_BAD_ACCESS on the JS thread during teardown)](https://github.com/react/react-native/issues/58601) | 2 |
 | [#58590 RN 0.87 | Blank dev tools is coming](https://github.com/react/react-native/issues/58590) | 4 |
 | [#58588 [Android] Set AccessibilityNodeInfo.stateDescription so TalkBack stops reading "checked. on." on switches](https://github.com/react/react-native/issues/58588) | 1 |
-| [#58578 ScrollView maintainVisibleContentPosition applies the anchor delta to the already-clamped offset when content shrinks (iOS + Android, Fabric)](https://github.com/react/react-native/issues/58578) | 1 |
+| [#58578 ScrollView maintainVisibleContentPosition applies the anchor delta to the already-clamped offset when content shrinks (iOS + Android, Fabric)](https://github.com/react/react-native/issues/58578) | 2 |
 | [#58565 `requestIdleCallback` is not defined in TS types](https://github.com/react/react-native/issues/58565) | 1 |
-| [#58555 iOS: updateOSDeploymentTarget skips resource-bundle targets, so Xcode 27 fails the build with "deployment target ... supported range is 15.0"](https://github.com/react/react-native/issues/58555) | 5 |
 | [#58545 0.87 and below: Crash upon launch iOS 27](https://github.com/react/react-native/issues/58545) | 20 |
 | [#58534 [iOS][Fabric] RTL horizontal ScrollView: contentOffset prop is not RTL-converted while scrollTo/metrics are, and scrollTo conversion uses stale contentSize](https://github.com/react/react-native/issues/58534) | 3 |
 | [#58526 [Android][Fabric] addViewAt hard-crashes on a placeholder ViewState synthesised by updateEventEmitter](https://github.com/react/react-native/issues/58526) | 2 |
@@ -31,4 +30,3 @@ Most recently opened:
 | [#58448 build failing with react native@0.81.5](https://github.com/react/react-native/issues/58448) | 1 |
 | [#58445 TextInput claims the responder on every selection change, even with no active touch](https://github.com/react/react-native/issues/58445) | 3 |
 | [#58441 RCTIdentifierPool::dequeue() spins forever when the pool is exhausted, hanging the main thread and freezing the device](https://github.com/react/react-native/issues/58441) | 2 |
-| [#58407 [Android] BackHandler receives no events on API 35 with predictive Back enabled](https://github.com/react/react-native/issues/58407) | 0 |

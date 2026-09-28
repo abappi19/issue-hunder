@@ -1,14 +1,14 @@
 {
   "title": "Top React Native Projects",
-  "generated_at": "2026-09-27T09:52:54.664973+00:00",
+  "generated_at": "2026-09-28T16:05:13.515996+00:00",
   "repos": [
     {
       "repo": "react/react-native",
-      "unassigned": "23+"
+      "unassigned": "21+"
     },
     {
       "repo": "storybookjs/storybook",
-      "unassigned": "30+"
+      "unassigned": "27+"
     },
     {
       "repo": "enaqx/awesome-react",
@@ -16,15 +16,15 @@
     },
     {
       "repo": "appwrite/appwrite",
-      "unassigned": "20+"
+      "unassigned": "19+"
     },
     {
       "repo": "laurent22/joplin",
-      "unassigned": "89+"
+      "unassigned": "86+"
     },
     {
       "repo": "expo/expo",
-      "unassigned": "10+"
+      "unassigned": "9+"
     },
     {
       "repo": "dkhamsing/open-source-ios-apps",
@@ -40,7 +40,7 @@
     },
     {
       "repo": "mattermost/mattermost",
-      "unassigned": "15+"
+      "unassigned": "17+"
     },
     {
       "repo": "NervJS/taro",
@@ -56,11 +56,11 @@
     },
     {
       "repo": "vercel/swr",
-      "unassigned": "47+"
+      "unassigned": "46+"
     },
     {
       "repo": "karakeep-app/karakeep",
-      "unassigned": "51+"
+      "unassigned": "49+"
     },
     {
       "repo": "maotoumao/MusicFree",

@@ -1,27 +1,20 @@
 # mermaid-js/mermaid
 
-Generated: 2026-09-27T09:52:22.958112+00:00
+Generated: 2026-09-28T16:04:44.001734+00:00
 
-- Unassigned: 27+
+- Unassigned: 23+
 - [View all unassigned issues](https://github.com/mermaid-js/mermaid/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#8326 ELK layout (12.0.0 default): repeated subgraph id renders with NaN geometry; dagre merges it](https://github.com/mermaid-js/mermaid/issues/8326) | 0 |
+| [#8340 Flowchart: a label that contains a math formula is never wrapped](https://github.com/mermaid-js/mermaid/issues/8340) | 0 |
+| [#8327 Swimlanes: Node position changes when label is added to link](https://github.com/mermaid-js/mermaid/issues/8327) | 0 |
 | [#8319 Title in multiple lines](https://github.com/mermaid-js/mermaid/issues/8319) | 0 |
 | [#8308 `viewBox` computed from un-settled `foreignObject` geometry when the host page has a CSS transition on `width`/`height` — diagram renders in a box ~2000 units square](https://github.com/mermaid-js/mermaid/issues/8308) | 1 |
-| [#8302 ELK layout: spacing and feedback-edge routing cannot be configured, and edges back into a subgraph go around it](https://github.com/mermaid-js/mermaid/issues/8302) | 0 |
-| [#8299 A partial themeVariables.xyChart override discards the active theme's xyChart palette](https://github.com/mermaid-js/mermaid/issues/8299) | 1 |
-| [#8292 ELK: edge label left off its edge after straightenEdgeTerminals moves the run](https://github.com/mermaid-js/mermaid/issues/8292) | 0 |
 | [#8290 Proposal: optional frame IDs, no `tf` prefix, forward arrows](https://github.com/mermaid-js/mermaid/issues/8290) | 0 |
 | [#8289 Diagram documention should version availability](https://github.com/mermaid-js/mermaid/issues/8289) | 2 |
-| [#8288 eventmodeling: explicit `->>` sources on an `rf` frame are silently dropped](https://github.com/mermaid-js/mermaid/issues/8288) | 0 |
-| [#8287 eventmodeling: a repeated frame id is accepted and redirects the later frame's relation to the first frame](https://github.com/mermaid-js/mermaid/issues/8287) | 0 |
-| [#8283 xychart: Legend text is clipped on wide charts, and chart collapses/vanishes below minimum height](https://github.com/mermaid-js/mermaid/issues/8283) | 0 |
-| [#8280 Sequence diagram: declared participant ID Link is rejected as the link keyword in messages](https://github.com/mermaid-js/mermaid/issues/8280) | 0 |
-| [#8278 mermaid 12 pulls lodash-es 4.17.23 through chevrotain 11](https://github.com/mermaid-js/mermaid/issues/8278) | 0 |
 | [#8272 Análisis normativo y jerarquía de las normas aplicables a las instalaciones eléctricas en BT en el Perú](https://github.com/mermaid-js/mermaid/issues/8272) | 0 |
 | [#8266 Can these commented-out code lines be deleted?](https://github.com/mermaid-js/mermaid/issues/8266) | 0 |
 | [#8218 Update README with Agent-Friendly Score badge](https://github.com/mermaid-js/mermaid/issues/8218) | 0 |
@@ -36,3 +29,6 @@ Most recently opened:
 | [#8175 Colour the use case diagram by role, with numbered system boundaries](https://github.com/mermaid-js/mermaid/issues/8175) | 1 |
 | [#8172 ELK: `elk.cycleBreakingStrategy` is silently stripped from frontmatter/init config — missing from `defaultConfig.elk`](https://github.com/mermaid-js/mermaid/issues/8172) | 1 |
 | [#8170 Several theme variables across multiple diagram types are dropped by frontmatter sanitization](https://github.com/mermaid-js/mermaid/issues/8170) | 1 |
+| [#8159 Unify per-diagram-type default layout selection](https://github.com/mermaid-js/mermaid/issues/8159) | 1 |
+| [#8153 xychart-beta: a line series with one data point renders an empty plot, because the path is a zero-length subpath and no point marker is drawn](https://github.com/mermaid-js/mermaid/issues/8153) | 0 |
+| [#8141 Support Universal Variability Language (UVL)](https://github.com/mermaid-js/mermaid/issues/8141) | 0 |

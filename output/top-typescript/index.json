@@ -1,66 +1,66 @@
 {
   "title": "Top TypeScript Projects",
-  "generated_at": "2026-09-27T09:52:22.958112+00:00",
+  "generated_at": "2026-09-28T16:04:44.001734+00:00",
   "repos": [
     {
       "repo": "n8n-io/n8n",
-      "unassigned": "8+"
+      "unassigned": "11+"
     },
     {
       "repo": "microsoft/vscode",
-      "unassigned": "67+"
+      "unassigned": "59+"
     },
     {
       "repo": "f/prompts.chat",
-      "unassigned": 26
+      "unassigned": 27
     },
     {
       "repo": "langchain-ai/langchain",
-      "unassigned": "80+"
+      "unassigned": "83+"
     },
     {
       "repo": "immich-app/immich",
-      "unassigned": "47+"
+      "unassigned": "46+"
     },
     {
       "repo": "microsoft/TypeScript",
-      "unassigned": "42+"
+      "unassigned": "44+"
     },
     {
       "repo": "denoland/deno",
-      "unassigned": "51+"
+      "unassigned": "50+"
     },
     {
       "repo": "angular/angular",
-      "unassigned": "33+"
-    },
-    {
-      "repo": "ant-design/ant-design",
-      "unassigned": "18+"
-    },
-    {
-      "repo": "oven-sh/bun",
-      "unassigned": "47+"
-    },
-    {
-      "repo": "ruvnet/RuView",
       "unassigned": "28+"
     },
     {
-      "repo": "storybookjs/storybook",
-      "unassigned": "30+"
+      "repo": "ant-design/ant-design",
+      "unassigned": "15+"
     },
     {
-      "repo": "mermaid-js/mermaid",
+      "repo": "oven-sh/bun",
+      "unassigned": "51+"
+    },
+    {
+      "repo": "ruvnet/RuView",
+      "unassigned": "18+"
+    },
+    {
+      "repo": "storybookjs/storybook",
       "unassigned": "27+"
     },
     {
+      "repo": "mermaid-js/mermaid",
+      "unassigned": "23+"
+    },
+    {
       "repo": "bytedance/deer-flow",
-      "unassigned": "34+"
+      "unassigned": "35+"
     },
     {
       "repo": "nestjs/nest",
-      "unassigned": 6
+      "unassigned": 7
     },
     {
       "repo": "enaqx/awesome-react",
@@ -68,7 +68,7 @@
     },
     {
       "repo": "headroomlabs-ai/headroom",
-      "unassigned": "42+"
+      "unassigned": "38+"
     },
     {
       "repo": "unionlabs/union",
@@ -76,11 +76,11 @@
     },
     {
       "repo": "ruvnet/ruflo",
-      "unassigned": "45+"
+      "unassigned": "42+"
     },
     {
       "repo": "strapi/strapi",
-      "unassigned": "19+"
+      "unassigned": "20+"
     }
   ]
 }

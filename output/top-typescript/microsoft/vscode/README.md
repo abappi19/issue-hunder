@@ -1,38 +1,24 @@
 # microsoft/vscode
 
-Generated: 2026-09-27T09:52:22.958112+00:00
+Generated: 2026-09-28T16:04:44.001734+00:00
 
-- Unassigned: 67+
+- Unassigned: 59+
 - [View all unassigned issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#338177 Test: Plugin custom-agent hook root expansion](https://github.com/microsoft/vscode/issues/338177) | 0 |
-| [#338176 Test: Copilot Connectors discovery, consent, and fresh-session tools](https://github.com/microsoft/vscode/issues/338176) | 0 |
-| [#338175 Test: Customization Marketplace installation identity, repair, and uninstall](https://github.com/microsoft/vscode/issues/338175) | 0 |
-| [#338174 Test: Customization Marketplace Discover gating and source composition](https://github.com/microsoft/vscode/issues/338174) | 0 |
-| [#338162 Test: MCP compatibility and migration diagnostics](https://github.com/microsoft/vscode/issues/338162) | 0 |
-| [#338161 Test: Workspace-root MCP configuration entry points](https://github.com/microsoft/vscode/issues/338161) | 0 |
-| [#338160 Test: Manual and assisted Copilot Global MCP setup](https://github.com/microsoft/vscode/issues/338160) | 0 |
+| [#338434 This repo is missing important files](https://github.com/microsoft/vscode/issues/338434) | 0 |
+| [#338433 This repo is missing a LICENSE file](https://github.com/microsoft/vscode/issues/338433) | 0 |
+| [#338307 [chat-perf] TTFT and layoutDurationMs regressed >20% in multi-turn-user and many-small-chunks scenarios (first run)](https://github.com/microsoft/vscode/issues/338307) | 0 |
 | [#338106 [chat-perf] TTFT/layoutDurationMs regressed 29–45% in large-codeblock, long-prose, file-links, thinking-response scenarios](https://github.com/microsoft/vscode/issues/338106) | 0 |
 | [#338070 Don,t show at my code](https://github.com/microsoft/vscode/issues/338070) | 1 |
-| [#338068 Test: Private GitHub plugin marketplaces with VS Code GitHub authentication](https://github.com/microsoft/vscode/issues/338068) | 0 |
-| [#338053 Test: Agent Host Copilot full output for large shell results](https://github.com/microsoft/vscode/issues/338053) | 0 |
-| [#338045 Test: Experimental composer control layout](https://github.com/microsoft/vscode/issues/338045) | 0 |
-| [#338044 Test: Rotating composer welcome phrases](https://github.com/microsoft/vscode/issues/338044) | 0 |
-| [#338021 Test: Try This experiences in release notes and documentation](https://github.com/microsoft/vscode/issues/338021) | 0 |
-| [#337969 TPI: Continue a ChatGPT Codex chat in VS Code](https://github.com/microsoft/vscode/issues/337969) | 0 |
 | [#337903 [chat-perf] layoutDurationMs regressed ~20% in thinking-response scenario](https://github.com/microsoft/vscode/issues/337903) | 0 |
 | [#337867 cant connect to server](https://github.com/microsoft/vscode/issues/337867) | 1 |
 | [#337859 Agent Host: chat URIs encode the owning session, contrary to AHP](https://github.com/microsoft/vscode/issues/337859) | 0 |
-| [#337849 Test: Remote session delegation across agent hosts](https://github.com/microsoft/vscode/issues/337849) | 0 |
-| [#337818 Test: Enterprise managed settings and Local OTel](https://github.com/microsoft/vscode/issues/337818) | 1 |
 | [#337650 [chat-perf] TTFT regressed ~26% in long-prose scenario](https://github.com/microsoft/vscode/issues/337650) | 0 |
 | [#337368 Clarify organization-managed Auto default in model picker](https://github.com/microsoft/vscode/issues/337368) | 1 |
-| [#336971 Upgraded and still get Timed Out.](https://github.com/microsoft/vscode/issues/336971) | 1 |
-| [#336890 find dialog appears](https://github.com/microsoft/vscode/issues/336890) | 3 |
 | [#336473 Agents Window in PWA: 'Work in Repository...' does nothing](https://github.com/microsoft/vscode/issues/336473) | 0 |
 | [#336208 When session groups are minimized, I can't tell where the notification badge comes from](https://github.com/microsoft/vscode/issues/336208) | 0 |
 | [#336170 Agents Web: Active Agent Host omitted when Dev Tunnels account contains more than five tunnels](https://github.com/microsoft/vscode/issues/336170) | 0 |
@@ -76,3 +62,9 @@ Most recently opened:
 | [#331546 Remote tunnel service status client can take over tunnel ownership](https://github.com/microsoft/vscode/issues/331546) | 0 |
 | [#331229 Chat session renaming](https://github.com/microsoft/vscode/issues/331229) | 3 |
 | [#331039 Agent Host "Allow remote session access" hangs and triggers Unexpected end of JSON input on VS Code 1.133.0](https://github.com/microsoft/vscode/issues/331039) | 0 |
+| [#331006 Opening editor Chat destroys standalone Agent session and creates phantom copilotcli session](https://github.com/microsoft/vscode/issues/331006) | 3 |
+| [#330979 Sessions are filtered out of the list in a remote window: working directories are compared without unwrapping their agent-host URIs](https://github.com/microsoft/vscode/issues/330979) | 4 |
+| [#330850 Option to download vscode server remote dev from host connected internet](https://github.com/microsoft/vscode/issues/330850) | 0 |
+| [#330572 Expose peer-chat discovery and stable chat identifiers for agent-host sessions](https://github.com/microsoft/vscode/issues/330572) | 0 |
+| [#330470 t](https://github.com/microsoft/vscode/issues/330470) | 0 |
+| [#330444 [flaky test] URI file#toString (src/vs/base/test/common/uri.test.ts)](https://github.com/microsoft/vscode/issues/330444) | 0 |

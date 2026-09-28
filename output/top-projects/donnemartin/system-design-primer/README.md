@@ -1,14 +1,16 @@
 # donnemartin/system-design-primer
 
-Generated: 2026-09-27T09:52:05.335772+00:00
+Generated: 2026-09-28T16:04:27.044601+00:00
 
-- Unassigned: 35+
+- Unassigned: 37+
 - [View all unassigned issues](https://github.com/donnemartin/system-design-primer/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#1405 Bug: AttributeError: module 'sys' has no attribute 'MAXSIZE' in BlackJackHand.score](https://github.com/donnemartin/system-design-primer/issues/1405) | 0 |
+| [#1403 Bug: AttributeError when instantiating Vehicle in parking_lot.py and missing Enum import in parking_lot.ipynb](https://github.com/donnemartin/system-design-primer/issues/1403) | 0 |
 | [#1396 Fix broken links and update outdated references in documentation](https://github.com/donnemartin/system-design-primer/issues/1396) | 1 |
 | [#1388 system design](https://github.com/donnemartin/system-design-primer/issues/1388) | 0 |
 | [#1386 一hj](https://github.com/donnemartin/system-design-primer/issues/1386) | 1 |
