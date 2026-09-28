@@ -12,11 +12,11 @@
   "heroui-inc/heroui-native",
   "galio-org/galio",
   "enzomanuelmangano/demos",
-  "Jpisnice/shadcn-ui-mcp-server",
   "elie222/rakazo",
+  "Jpisnice/shadcn-ui-mcp-server",
   "jpudysz/react-native-unistyles",
   "rnmapbox/maps",
   "microsoft/vscode-react-native",
-  "BlackHatDevX/openspot-music-app",
-  "codedogQBY/ReadAny"
+  "codedogQBY/ReadAny",
+  "BlackHatDevX/openspot-music-app"
 ]
