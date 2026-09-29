@@ -1,15 +1,14 @@
 # formbricks/formbricks
 
-Generated: 2026-09-28T16:23:06.602821+00:00
+Generated: 2026-09-29T09:30:42.630529+00:00
 
-- Unassigned: 80+
+- Unassigned: 81+
 - [View all unassigned issues](https://github.com/formbricks/formbricks/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#9394 i18n: zh-Hans-CN locale is 3 of 4,402 keys (full translation ready on fork)](https://github.com/formbricks/formbricks/issues/9394) | 0 |
 | [#8728 Add Zenith as a managed hosting option in the README](https://github.com/formbricks/formbricks/issues/8728) | 0 |
 | [#8715 Publishing an untouched survey rewrites its plain-text headline as rich-text HTML](https://github.com/formbricks/formbricks/issues/8715) | 3 |
 | [#8709 Add the option to specify a reason for single select or multi select questions similar to the "Other" field](https://github.com/formbricks/formbricks/issues/8709) | 2 |
@@ -89,3 +88,5 @@ Most recently opened:
 | [#6090 Sorting of question selection in Notion integration](https://github.com/formbricks/formbricks/issues/6090) | 1 |
 | [#6080 Forward slash + backslash `/\` characters render as empty bold block almost in every question field](https://github.com/formbricks/formbricks/issues/6080) | 2 |
 | [#6075 Date question format has no effect on the Calendar UI and user response](https://github.com/formbricks/formbricks/issues/6075) | 2 |
+| [#6041 Project logo and branding update doesn't reflect in the preview in real-time](https://github.com/formbricks/formbricks/issues/6041) | 1 |
+| [#6030 Add some sort of `prefix` for all IDs](https://github.com/formbricks/formbricks/issues/6030) | 1 |

@@ -1,6 +1,6 @@
 # software-mansion/react-native-reanimated
 
-Generated: 2026-09-28T16:23:06.602821+00:00
+Generated: 2026-09-29T09:30:42.630529+00:00
 
 - Unassigned: 23+
 - [View all unassigned issues](https://github.com/software-mansion/react-native-reanimated/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,6 +9,8 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#10752 [Web] An animation started outside a frame takes its first step at a negative elapsed time, so springs flash past their target](https://github.com/software-mansion/react-native-reanimated/issues/10752) | 1 |
+| [#10750 Bundle Mode startup recurses when Uniwind remaps React Native](https://github.com/software-mansion/react-native-reanimated/issues/10750) | 0 |
 | [#10684 Worklets: propagateModuleUpdate is shipped but never called, so worklets do not hot-reload](https://github.com/software-mansion/react-native-reanimated/issues/10684) | 0 |
 | [#10668 useAnimatedSensor: learn availability before the first render](https://github.com/software-mansion/react-native-reanimated/issues/10668) | 2 |
 | [#10656 [Reanimated] [4.7.1] cherry-pick thread](https://github.com/software-mansion/react-native-reanimated/issues/10656) | 0 |
@@ -30,5 +32,3 @@ Most recently opened:
 | [#9810 `:focus` / `:focus-within` never fire on tvOS (focus engine not observed)](https://github.com/software-mansion/react-native-reanimated/issues/9810) | 1 |
 | [#9571 Fix: Android build fails with NDK 27 (Clang 18) due to -Werror and new deprecation/VLA warnings](https://github.com/software-mansion/react-native-reanimated/issues/9571) | 3 |
 | [#9491 Shared Element Transition Image flickering on start transition in iOS](https://github.com/software-mansion/react-native-reanimated/issues/9491) | 3 |
-| [#9402 [iOS] EXC_BAD_ACCESS in performOperations from handleRawEvent during screen pop on 4.3.1](https://github.com/software-mansion/react-native-reanimated/issues/9402) | 6 |
-| [#9377 Reanimated v4.3.1 causes a white flash on screen navigation on Android](https://github.com/software-mansion/react-native-reanimated/issues/9377) | 1 |

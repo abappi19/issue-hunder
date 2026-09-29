@@ -1,15 +1,16 @@
 # software-mansion/react-native-screens
 
-Generated: 2026-09-28T16:23:06.602821+00:00
+Generated: 2026-09-29T09:30:42.630529+00:00
 
-- Unassigned: 23+
+- Unassigned: 22+
 - [View all unassigned issues](https://github.com/software-mansion/react-native-screens/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#4737 [Android] Native header reserves the status-bar inset twice: container = inset + toolbar (which already includes it)](https://github.com/software-mansion/react-native-screens/issues/4737) | 2 |
+| [#4740 [Android] formSheet loses its content during the dismiss animation](https://github.com/software-mansion/react-native-screens/issues/4740) | 0 |
+| [#4737 [Android] Native header reserves the status-bar inset twice: container = inset + toolbar (which already includes it)](https://github.com/software-mansion/react-native-screens/issues/4737) | 3 |
 | [#4730 [Android] Tabs: no way to render a tab item's image icon untinted (whole-bar itemIconTintList)](https://github.com/software-mansion/react-native-screens/issues/4730) | 3 |
 | [#4726 [iOS] Tabs' overrideScrollViewContentInsetAdjustmentBehavior reaches into formSheet/modal screens, so content shifts by the header height depending on mount timing](https://github.com/software-mansion/react-native-screens/issues/4726) | 0 |
 | [#4722 [Android][Fabric] Crash "Scrapped or attached views may not be recycled" when a screen with a scrolling RecyclerView (react-native-pager-view / top tabs) is popped](https://github.com/software-mansion/react-native-screens/issues/4722) | 0 |
@@ -30,5 +31,3 @@ Most recently opened:
 | [#4395 [iOS]: Stack back chevron has the wrong direction after switching from RTL back to LTR](https://github.com/software-mansion/react-native-screens/issues/4395) | 5 |
 | [#4382 [Android] navigate reordering a buried Screen (hosting a nested navigator) leaks a Screen that swallows all touches — #2466 regression on 4.26.2](https://github.com/software-mansion/react-native-screens/issues/4382) | 2 |
 | [#4360 [iOS 26] headerRight custom view stretches across the header during the pop transition](https://github.com/software-mansion/react-native-screens/issues/4360) | 6 |
-| [#4316 [ios][native-stack][RTL] header / large title don't behave correctly in RTL ?](https://github.com/software-mansion/react-native-screens/issues/4316) | 1 |
-| [#4310 [Android] Self-sustaining relayout loop after single touch on edge-to-edge screen with KeyboardAvoidingView (Android 12 / Samsung One UI, targetSdk 36)](https://github.com/software-mansion/react-native-screens/issues/4310) | 3 |

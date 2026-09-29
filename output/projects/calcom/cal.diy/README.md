@@ -1,6 +1,6 @@
 # calcom/cal.diy
 
-Generated: 2026-09-28T16:23:06.602821+00:00
+Generated: 2026-09-29T09:30:42.630529+00:00
 
 - Unassigned: 16+
 - [View all unassigned issues](https://github.com/calcom/cal.diy/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,7 +9,7 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#30258 Feature Request: Add cancellation cutoff before an event](https://github.com/calcom/cal.diy/issues/30258) | 0 |
+| [#30258 Feature Request: Add cancellation cutoff before an event](https://github.com/calcom/cal.diy/issues/30258) | 1 |
 | [#30256 timezones: picker lists Europe/Kiev instead of Europe/Kyiv](https://github.com/calcom/cal.diy/issues/30256) | 2 |
 | [#30255 companion: timezone picker has no search across 417 entries](https://github.com/calcom/cal.diy/issues/30255) | 3 |
 | [#30249 Align Column View with Monthly View for complete calendar weeks](https://github.com/calcom/cal.diy/issues/30249) | 5 |

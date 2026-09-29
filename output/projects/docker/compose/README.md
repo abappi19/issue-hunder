@@ -1,8 +1,8 @@
 # docker/compose
 
-Generated: 2026-09-28T16:23:06.602821+00:00
+Generated: 2026-09-29T09:30:42.630529+00:00
 
-- Unassigned: 45
+- Unassigned: 44
 - [View all unassigned issues](https://github.com/docker/compose/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -15,10 +15,9 @@ Most recently opened:
 | [#14219 [BUG] Unexpected output on already turned off service when running compose down](https://github.com/docker/compose/issues/14219) | 1 |
 | [#14163 Support Mounts and Secrets in Compose Provider Extensions](https://github.com/docker/compose/issues/14163) | 1 |
 | [#14050 Use annotations instead of labels for Compose-managed container runtime state](https://github.com/docker/compose/issues/14050) | 1 |
-| [#13821 Support ref+<backend>:// secret resolution in environment values (vals/helmfile URI syntax)](https://github.com/docker/compose/issues/13821) | 3 |
 | [#13814 [BUG] compose watch does not work with Enhanced Container Isolation on Docker Desktop MacOS Enterprise](https://github.com/docker/compose/issues/13814) | 3 |
 | [#13809 [BUG] `docker compose pull` does not update images that are used in volumes with `type=image`](https://github.com/docker/compose/issues/13809) | 2 |
-| [#13807 Add optional auto-confirm label on volumes](https://github.com/docker/compose/issues/13807) | 11 |
+| [#13807 Add optional auto-confirm label on volumes](https://github.com/docker/compose/issues/13807) | 12 |
 | [#13800 Question: Handling --exit-code-from premature teardown when dependency services exit](https://github.com/docker/compose/issues/13800) | 6 |
 | [#13757 [BUG] Per-layer pull progress restored by PR #13445 regressed](https://github.com/docker/compose/issues/13757) | 4 |
 | [#13743 [BUG] docker compose watch fails to sync file changes for Node.js app when using bind mounts on Linux](https://github.com/docker/compose/issues/13743) | 2 |

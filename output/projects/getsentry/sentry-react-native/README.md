@@ -1,6 +1,6 @@
 # getsentry/sentry-react-native
 
-Generated: 2026-09-28T16:23:06.602821+00:00
+Generated: 2026-09-29T09:30:42.630529+00:00
 
 - Unassigned: 91+
 - [View all unassigned issues](https://github.com/getsentry/sentry-react-native/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,6 +9,7 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#6783 Migrate iOS enableUnhandledCPPExceptionsV2 off the deprecated experimental alias](https://github.com/getsentry/sentry-react-native/issues/6783) | 2 |
 | [#6776 Wizard: surface an RN-specific JS-11 migration link when React Native adopts JS 11](https://github.com/getsentry/sentry-react-native/issues/6776) | 2 |
 | [#6770 Migrate from @sentry/cli to the new getsentry/cli](https://github.com/getsentry/sentry-react-native/issues/6770) | 1 |
 | [#6745 User Timing API: auto-convert performance.mark()/measure() into spans](https://github.com/getsentry/sentry-react-native/issues/6745) | 1 |
@@ -62,7 +63,6 @@ Most recently opened:
 | [#5388 Set `annotateReactComponents` to `true` by default](https://github.com/getsentry/sentry-react-native/issues/5388) | 1 |
 | [#5368 Log when OTA updates are incompatible with the installed Native SDKs](https://github.com/getsentry/sentry-react-native/issues/5368) | 2 |
 | [#5312 Create a sample app to measure performance and measure how embedding Sentry affects performance](https://github.com/getsentry/sentry-react-native/issues/5312) | 2 |
-| [#5139 Switch wizard to use `featureSelectionPrompt`](https://github.com/getsentry/sentry-react-native/issues/5139) | 1 |
 | [#5096 Investigate performance issues with Session Replay on iOS](https://github.com/getsentry/sentry-react-native/issues/5096) | 27 |
 | [#4946 Align with new User Feedback API](https://github.com/getsentry/sentry-react-native/issues/4946) | 0 |
 | [#4915 Consider using the Global scope for static APIs (like setUser...)](https://github.com/getsentry/sentry-react-native/issues/4915) | 0 |
@@ -86,7 +86,6 @@ Most recently opened:
 | [#3956 Support Debug Ids with Re.Pack](https://github.com/getsentry/sentry-react-native/issues/3956) | 6 |
 | [#3931 Uncaught CPP Exceptions are missing message](https://github.com/getsentry/sentry-react-native/issues/3931) | 3 |
 | [#3918 Synchronize `PropagationContext` across layers](https://github.com/getsentry/sentry-react-native/issues/3918) | 3 |
-| [#3888 Sentry wizard install into bare react-native project breaks use of react-native-version because of code added to project.pbxproj](https://github.com/getsentry/sentry-react-native/issues/3888) | 2 |
 | [#3874 View Hierarchy: Option to disable reporting of identifiers/tags](https://github.com/getsentry/sentry-react-native/issues/3874) | 0 |
 | [#3748 Support `rnx-kit` Serializers with `createSentryMetroSerializer`](https://github.com/getsentry/sentry-react-native/issues/3748) | 3 |
 | [#3685 Add E2E performance product tests](https://github.com/getsentry/sentry-react-native/issues/3685) | 1 |
@@ -100,3 +99,4 @@ Most recently opened:
 | [#3189 Add before-capture-callback and debouncing for screenshots/view hierarchy](https://github.com/getsentry/sentry-react-native/issues/3189) | 2 |
 | [#3065 Persist user information across app launches](https://github.com/getsentry/sentry-react-native/issues/3065) | 0 |
 | [#2924 Support for gradle-play-publisher](https://github.com/getsentry/sentry-react-native/issues/2924) | 3 |
+| [#2789 Add Sentry.crashedLastRunEventId()](https://github.com/getsentry/sentry-react-native/issues/2789) | 4 |

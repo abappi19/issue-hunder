@@ -1,10 +1,10 @@
 {
   "title": "Tracked Projects",
-  "generated_at": "2026-09-28T16:23:06.602821+00:00",
+  "generated_at": "2026-09-29T09:30:42.630529+00:00",
   "repos": [
     {
       "repo": "facebook/react",
-      "unassigned": "34+"
+      "unassigned": "35+"
     },
     {
       "repo": "vuejs/vue",
@@ -12,7 +12,7 @@
     },
     {
       "repo": "docker/compose",
-      "unassigned": 45
+      "unassigned": 44
     },
     {
       "repo": "axonpack/axonpack",
@@ -20,7 +20,7 @@
     },
     {
       "repo": "formbricks/formbricks",
-      "unassigned": "80+"
+      "unassigned": "81+"
     },
     {
       "repo": "calcom/cal.diy",
@@ -44,15 +44,15 @@
     },
     {
       "repo": "software-mansion/react-native-gesture-handler",
-      "unassigned": 9
+      "unassigned": 10
     },
     {
       "repo": "software-mansion/react-native-screens",
-      "unassigned": "23+"
+      "unassigned": "22+"
     },
     {
       "repo": "software-mansion/react-native-executorch",
-      "unassigned": 20
+      "unassigned": 21
     },
     {
       "repo": "software-mansion/react-native-svg",
