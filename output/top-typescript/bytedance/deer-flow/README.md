@@ -1,6 +1,6 @@
 # bytedance/deer-flow
 
-Generated: 2026-09-28T16:04:44.001734+00:00
+Generated: 2026-09-29T10:27:34.881260+00:00
 
 - Unassigned: 35+
 - [View all unassigned issues](https://github.com/bytedance/deer-flow/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,6 +9,16 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#6041 [bug] 3 test_file_signature.py tests fail on Windows: text-mode fixtures write CRLF the byte-exact assertions don't expect](https://github.com/bytedance/deer-flow/issues/6041) | 1 |
+| [#6039 [bug] Bundled MCP server repair hint renders the interpreter path with escaped backslashes on Windows](https://github.com/bytedance/deer-flow/issues/6039) | 1 |
+| [#6037 Proposal: shadow-measure duplicate paid web calls across parallel subagents](https://github.com/bytedance/deer-flow/issues/6037) | 0 |
+| [#6033 [bug] tool_progress.min_word_count_for_similarity accepts 0, negatives and booleans, silently disabling the short-result skip](https://github.com/bytedance/deer-flow/issues/6033) | 0 |
+| [#6032 [bug] DeerFlowClient still validates agent_name with .match, so a trailing-newline name passes the guard](https://github.com/bytedance/deer-flow/issues/6032) | 0 |
+| [#6031 [bug] Loading the full artifact leaves the truncated preview as the edit baseline](https://github.com/bytedance/deer-flow/issues/6031) | 0 |
+| [#6028 [bug] MindIE keeps signed and fractional XML tool arguments as strings](https://github.com/bytedance/deer-flow/issues/6028) | 0 |
+| [#6025 [bug] Ten numeric config fields accept silently-broken values (0, negatives, booleans)](https://github.com/bytedance/deer-flow/issues/6025) | 0 |
+| [#6022 [feat] Support Tencent QQ as an IM channel](https://github.com/bytedance/deer-flow/issues/6022) | 2 |
+| [#6019 ReadBeforeWriteMiddleware lacks file line count in append guidance; read_file inverted range error triggers hallucinated file-length assumptions](https://github.com/bytedance/deer-flow/issues/6019) | 0 |
 | [#6016 [bug] loop_detection boolean thresholds can force-stop the first tool call](https://github.com/bytedance/deer-flow/issues/6016) | 0 |
 | [#6012 [bug] Firecrawl web_search/web_fetch leak an unclosed httpx.AsyncClient pool per tool call](https://github.com/bytedance/deer-flow/issues/6012) | 0 |
 | [#6010 [bug] MindIE drops structured ToolMessage content before the next model turn](https://github.com/bytedance/deer-flow/issues/6010) | 0 |
@@ -34,13 +44,3 @@ Most recently opened:
 | [#5615 Support Sandbox0 persistent workspaces for DeerFlow agents](https://github.com/bytedance/deer-flow/issues/5615) | 0 |
 | [#5599 Add a Webz.io community web search tool](https://github.com/bytedance/deer-flow/issues/5599) | 2 |
 | [#5552 Codex CLI credential loader raises AttributeError when the credentials file is not a JSON object](https://github.com/bytedance/deer-flow/issues/5552) | 0 |
-| [#5542 [bug] Host cancellation during run finalization can skip the terminal lifecycle tail](https://github.com/bytedance/deer-flow/issues/5542) | 2 |
-| [#5539 RFC: 全栈插件扩展与宿主接口 / Full-Stack Plugin Contributions and Host APIs](https://github.com/bytedance/deer-flow/issues/5539) | 6 |
-| [#5532 [feat] 是否会主动对接国内的企业级软件服务商，类似 Claude和 Salesoforce 的合作产出 Claudeforce](https://github.com/bytedance/deer-flow/issues/5532) | 0 |
-| [#5510 RFC: Frontend Dynamic Plugin System](https://github.com/bytedance/deer-flow/issues/5510) | 8 |
-| [#5398 [RFC] Cross-session conversation references and retrieval](https://github.com/bytedance/deer-flow/issues/5398) | 6 |
-| [#5391 RFC: 内置本地知识库（Harness RAG）](https://github.com/bytedance/deer-flow/issues/5391) | 5 |
-| [#5387 长任务报告的出口审计（开源）](https://github.com/bytedance/deer-flow/issues/5387) | 5 |
-| [#5342 [bug] run.end can precede and disagree with the authoritative run outcome](https://github.com/bytedance/deer-flow/issues/5342) | 1 |
-| [#5333 [RFC] Export current custom skills as portable .skill packages](https://github.com/bytedance/deer-flow/issues/5333) | 0 |
-| [#5285 [RFC] Preview CSV/TSV artifacts as tables](https://github.com/bytedance/deer-flow/issues/5285) | 0 |

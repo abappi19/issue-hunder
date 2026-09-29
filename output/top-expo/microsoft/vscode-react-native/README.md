@@ -1,8 +1,8 @@
 # microsoft/vscode-react-native
 
-Generated: 2026-09-28T16:05:25.841460+00:00
+Generated: 2026-09-29T10:28:12.612802+00:00
 
-- Unassigned: 13
+- Unassigned: 12
 - [View all unassigned issues](https://github.com/microsoft/vscode-react-native/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -20,5 +20,4 @@ Most recently opened:
 | [#2947 [Feature] Add unit tests for selectAndInsertDebugConfiguration command](https://github.com/microsoft/vscode-react-native/issues/2947) | 0 |
 | [#2946 [Feature] Add unit tests for networkInspector commands](https://github.com/microsoft/vscode-react-native/issues/2946) | 0 |
 | [#2938 [Feature] Android Hermes command incorrectly updates commented configuration](https://github.com/microsoft/vscode-react-native/issues/2938) | 0 |
-| [#2933 [Feature] EAS config command swallows CLI errors](https://github.com/microsoft/vscode-react-native/issues/2933) | 0 |
 | [#2781 React Native Tools debugging fails with recent React Native 0.85 / 0.86 Android Hermes apps](https://github.com/microsoft/vscode-react-native/issues/2781) | 1 |

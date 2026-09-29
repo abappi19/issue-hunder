@@ -1,6 +1,6 @@
 # refinedev/refine
 
-Generated: 2026-09-28T16:04:59.586367+00:00
+Generated: 2026-09-29T10:27:49.162918+00:00
 
 - Unassigned: 21
 - [View all unassigned issues](https://github.com/refinedev/refine/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,7 +9,7 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#7620 [FEAT] Add support to shadcn v4.x.x](https://github.com/refinedev/refine/issues/7620) | 0 |
+| [#7620 [FEAT] Add support to shadcn v4.x.x](https://github.com/refinedev/refine/issues/7620) | 1 |
 | [#7616 [BUG] hasura getList throws "v.toUpperCase is not a function" when sorting by a relation field with graphql-default](https://github.com/refinedev/refine/issues/7616) | 0 |
 | [#7615 [BUG] useImport imports an empty record when the csv file ends with a line break](https://github.com/refinedev/refine/issues/7615) | 0 |
 | [#7613 [BUG] simple-rest deleteOne sends wrong body and drops headers when meta.method is post/put/patch](https://github.com/refinedev/refine/issues/7613) | 0 |

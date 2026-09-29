@@ -1,14 +1,15 @@
 # infinitered/ignite
 
-Generated: 2026-09-28T16:05:25.841460+00:00
+Generated: 2026-09-29T10:28:12.612802+00:00
 
-- Unassigned: 27
+- Unassigned: 28
 - [View all unassigned issues](https://github.com/infinitered/ignite/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#3045 Unable to start demo app in Xcode 27](https://github.com/infinitered/ignite/issues/3045) | 0 |
 | [#3042 ignite new --remove-demo has no effect: demo code is still generated (11.5.0)](https://github.com/infinitered/ignite/issues/3042) | 0 |
 | [#3041 Proposal: ship an AGENTS.md with the boilerplate so agents follow Ignite's conventions](https://github.com/infinitered/ignite/issues/3041) | 2 |
 | [#3036 Add UI Knowledge & Usage Pattern Support for AI (Similar to gluestack-ui MCP)](https://github.com/infinitered/ignite/issues/3036) | 3 |

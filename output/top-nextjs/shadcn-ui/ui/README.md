@@ -1,8 +1,8 @@
 # shadcn-ui/ui
 
-Generated: 2026-09-28T16:04:59.586367+00:00
+Generated: 2026-09-29T10:27:49.162918+00:00
 
-- Unassigned: 13+
+- Unassigned: 10+
 - [View all unassigned issues](https://github.com/shadcn-ui/ui/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -19,6 +19,3 @@ Most recently opened:
 | [#11954 [bug]: Base UI Select causes virtualized table rows to become invisible when opening Select](https://github.com/shadcn-ui/ui/issues/11954) | 2 |
 | [#11927 [bug]:](https://github.com/shadcn-ui/ui/issues/11927) | 2 |
 | [#11904 Progress drops value before Root: bar is indeterminate for assistive tech](https://github.com/shadcn-ui/ui/issues/11904) | 2 |
-| [#11859 [bug]: Separator offset](https://github.com/shadcn-ui/ui/issues/11859) | 0 |
-| [#11857 Add ui to awesome-ai-plugins?](https://github.com/shadcn-ui/ui/issues/11857) | 0 |
-| [#11854 [bug]: Registry components import cn from the package and ignore aliases.utils, which silently disables a project's tailwind-merge config](https://github.com/shadcn-ui/ui/issues/11854) | 1 |

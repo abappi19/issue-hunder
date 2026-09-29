@@ -1,6 +1,6 @@
 # jpudysz/react-native-unistyles
 
-Generated: 2026-09-28T16:05:25.841460+00:00
+Generated: 2026-09-29T10:28:12.612802+00:00
 
 - Unassigned: 28
 - [View all unassigned issues](https://github.com/jpudysz/react-native-unistyles/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -35,5 +35,5 @@ Most recently opened:
 | [#1030 `tintColor` and `experimental_backgroundImage` not updating when changing theme](https://github.com/jpudysz/react-native-unistyles/issues/1030) | 8 |
 | [#1007 Reanimated CSS transitions break color updates](https://github.com/jpudysz/react-native-unistyles/issues/1007) | 6 |
 | [#1002 React compiler fails when using useVariants and higher panicThreshold](https://github.com/jpudysz/react-native-unistyles/issues/1002) | 5 |
-| [#955 ScopedTheme not applied to dynamically added child components](https://github.com/jpudysz/react-native-unistyles/issues/955) | 5 |
+| [#955 ScopedTheme not applied to dynamically added child components](https://github.com/jpudysz/react-native-unistyles/issues/955) | 6 |
 | [#803 Could not find shadow node for one of your components of type unknown](https://github.com/jpudysz/react-native-unistyles/issues/803) | 6 |

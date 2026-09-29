@@ -1,8 +1,8 @@
 # supabase/supabase
 
-Generated: 2026-09-28T16:04:59.586367+00:00
+Generated: 2026-09-29T10:27:49.162918+00:00
 
-- Unassigned: 12+
+- Unassigned: 11+
 - [View all unassigned issues](https://github.com/supabase/supabase/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -20,4 +20,3 @@ Most recently opened:
 | [#50882 fix(pg-meta): schemas.update and schemas.remove DO blocks fail when a name contains "$$"](https://github.com/supabase/supabase/issues/50882) | 0 |
 | [#50862 Shared pooler certificate chain fails strict TLS verification: intermediate CA missing Key Usage](https://github.com/supabase/supabase/issues/50862) | 0 |
 | [#50831 linkedin_oidc provider uses api.linkedin.com for the authorization redirect instead of www.linkedin.com](https://github.com/supabase/supabase/issues/50831) | 0 |
-| [#50816 Nested inserts fail with `PGRST204 Could not find the '<child table>' column` while read embeds and plain inserts succeed](https://github.com/supabase/supabase/issues/50816) | 2 |

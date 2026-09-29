@@ -1,14 +1,15 @@
 # donnemartin/system-design-primer
 
-Generated: 2026-09-28T16:04:27.044601+00:00
+Generated: 2026-09-29T10:27:19.620529+00:00
 
-- Unassigned: 37+
+- Unassigned: 36+
 - [View all unassigned issues](https://github.com/donnemartin/system-design-primer/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#1407 Bug: Generator exhaustion in SpendingByCategory reducer yields 0 instead of total](https://github.com/donnemartin/system-design-primer/issues/1407) | 0 |
 | [#1405 Bug: AttributeError: module 'sys' has no attribute 'MAXSIZE' in BlackJackHand.score](https://github.com/donnemartin/system-design-primer/issues/1405) | 0 |
 | [#1403 Bug: AttributeError when instantiating Vehicle in parking_lot.py and missing Enum import in parking_lot.ipynb](https://github.com/donnemartin/system-design-primer/issues/1403) | 0 |
 | [#1396 Fix broken links and update outdated references in documentation](https://github.com/donnemartin/system-design-primer/issues/1396) | 1 |
@@ -44,5 +45,3 @@ Most recently opened:
 | [#1293 I built a dev tool that complements this project](https://github.com/donnemartin/system-design-primer/issues/1293) | 1 |
 | [#1268 Suggestion: Add a structured system design learning path companion](https://github.com/donnemartin/system-design-primer/issues/1268) | 3 |
 | [#1254 Suggestion: section on cost-aware system design (per-seat vs per-call tradeoffs)](https://github.com/donnemartin/system-design-primer/issues/1254) | 0 |
-| [#1253 Suggestion: section on cost-aware system design (per-seat vs per-call tradeoffs)](https://github.com/donnemartin/system-design-primer/issues/1253) | 0 |
-| [#1252 Graffle diagrams are annoying to update](https://github.com/donnemartin/system-design-primer/issues/1252) | 0 |

@@ -1,14 +1,16 @@
 # affaan-m/ECC
 
-Generated: 2026-09-28T16:04:27.044601+00:00
+Generated: 2026-09-29T10:27:19.620529+00:00
 
-- Unassigned: 33+
+- Unassigned: 34+
 - [View all unassigned issues](https://github.com/affaan-m/ECC/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#3259 skills-health.js requires missing ./lib/skill-evolution/health in managed installs](https://github.com/affaan-m/ECC/issues/3259) | 0 |
+| [#3258 [Problem]](https://github.com/affaan-m/ECC/issues/3258) | 0 |
 | [#3245 ECC Not installing](https://github.com/affaan-m/ECC/issues/3245) | 1 |
 | [#3242 [Copilot]](https://github.com/affaan-m/ECC/issues/3242) | 0 |
 | [#3238 [Idea] Replace FluentAssertions with AwesomeAssertions](https://github.com/affaan-m/ECC/issues/3238) | 0 |
@@ -18,8 +20,8 @@ Most recently opened:
 | [#3229 [Problem] Opencode there is simple step by step guide? V2 seems currently its for V1](https://github.com/affaan-m/ECC/issues/3229) | 2 |
 | [#3226 [Problem]](https://github.com/affaan-m/ECC/issues/3226) | 0 |
 | [#3225 [test1]](https://github.com/affaan-m/ECC/issues/3225) | 0 |
-| [#3223 process: three issues closed with references that don't hold up (#2269, #2074, #3133)](https://github.com/affaan-m/ECC/issues/3223) | 0 |
-| [#3222 release: #3133 closed as shipped, but v2.2.2 was never tagged or published (npm still 2.2.1)](https://github.com/affaan-m/ECC/issues/3222) | 0 |
+| [#3223 process: three issues closed with references that don't hold up (#2269, #2074, #3133)](https://github.com/affaan-m/ECC/issues/3223) | 1 |
+| [#3222 release: #3133 closed as shipped, but v2.2.2 was never tagged or published (npm still 2.2.1)](https://github.com/affaan-m/ECC/issues/3222) | 1 |
 | [#3218 skill-stocktake: scan.sh counts trashed skills as live, and reports unmeasured usage as 0](https://github.com/affaan-m/ECC/issues/3218) | 3 |
 | [#3214 [Problem] #3205 missed a call site: claude-scope-migration.js still passes --config to claude plugin install](https://github.com/affaan-m/ECC/issues/3214) | 1 |
 | [#3211 GateGuard: PowerShell `foreach` loop header flagged as `powershell.dynamic-execution` when it is 24+ characters](https://github.com/affaan-m/ECC/issues/3211) | 1 |
@@ -41,4 +43,3 @@ Most recently opened:
 | [#3056 fix: serialize Claude tool-use round trips with Anthropic message blocks](https://github.com/affaan-m/ECC/issues/3056) | 3 |
 | [#3053 hooks.json fails settings schema validation — "unknown keys" warning on every session start](https://github.com/affaan-m/ECC/issues/3053) | 5 |
 | [#3048 block-no-verify hook is pinned to 1.1.2, which blocks legitimate commits (fixed in 1.3.0)](https://github.com/affaan-m/ECC/issues/3048) | 2 |
-| [#3031 Add a skill quality validator for ECC contributions](https://github.com/affaan-m/ECC/issues/3031) | 3 |

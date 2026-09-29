@@ -41,53 +41,53 @@ _15 repos · updated 2026-09-29T09:30:42.630529+00:00_
 
 ## Top Open-Source Projects
 
-_20 repos · updated 2026-09-28T16:04:27.044601+00:00_
+_20 repos · updated 2026-09-29T10:27:19.620529+00:00_
 
 | Repository | Unassigned |
 |---|---|
 | [mattpocock/skills](output/top-projects/mattpocock/skills/README.md) | [98+](https://github.com/mattpocock/skills/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [jwasham/coding-interview-university](output/top-projects/jwasham/coding-interview-university/README.md) | [56+](https://github.com/jwasham/coding-interview-university/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [obra/superpowers](output/top-projects/obra/superpowers/README.md) | [53+](https://github.com/obra/superpowers/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [obra/superpowers](output/top-projects/obra/superpowers/README.md) | [55+](https://github.com/obra/superpowers/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [practical-tutorials/project-based-learning](output/top-projects/practical-tutorials/project-based-learning/README.md) | [49+](https://github.com/practical-tutorials/project-based-learning/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [donnemartin/system-design-primer](output/top-projects/donnemartin/system-design-primer/README.md) | [37+](https://github.com/donnemartin/system-design-primer/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [freeCodeCamp/freeCodeCamp](output/top-projects/freeCodeCamp/freeCodeCamp/README.md) | [41+](https://github.com/freeCodeCamp/freeCodeCamp/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [EbookFoundation/free-programming-books](output/top-projects/EbookFoundation/free-programming-books/README.md) | [37](https://github.com/EbookFoundation/free-programming-books/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [react/react](output/top-projects/react/react/README.md) | [34+](https://github.com/react/react/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [freeCodeCamp/freeCodeCamp](output/top-projects/freeCodeCamp/freeCodeCamp/README.md) | [33+](https://github.com/freeCodeCamp/freeCodeCamp/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [affaan-m/ECC](output/top-projects/affaan-m/ECC/README.md) | [33+](https://github.com/affaan-m/ECC/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [openclaw/openclaw](output/top-projects/openclaw/openclaw/README.md) | [32+](https://github.com/openclaw/openclaw/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [donnemartin/system-design-primer](output/top-projects/donnemartin/system-design-primer/README.md) | [36+](https://github.com/donnemartin/system-design-primer/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [react/react](output/top-projects/react/react/README.md) | [35+](https://github.com/react/react/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [affaan-m/ECC](output/top-projects/affaan-m/ECC/README.md) | [34+](https://github.com/affaan-m/ECC/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [NousResearch/hermes-agent](output/top-projects/NousResearch/hermes-agent/README.md) | [34+](https://github.com/NousResearch/hermes-agent/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [vuejs/vue](output/top-projects/vuejs/vue/README.md) | [30+](https://github.com/vuejs/vue/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [NousResearch/hermes-agent](output/top-projects/NousResearch/hermes-agent/README.md) | [22+](https://github.com/NousResearch/hermes-agent/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [ossu/computer-science](output/top-projects/ossu/computer-science/README.md) | [20](https://github.com/ossu/computer-science/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [openclaw/openclaw](output/top-projects/openclaw/openclaw/README.md) | [25+](https://github.com/openclaw/openclaw/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [ossu/computer-science](output/top-projects/ossu/computer-science/README.md) | [16](https://github.com/ossu/computer-science/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [codecrafters-io/build-your-own-x](output/top-projects/codecrafters-io/build-your-own-x/README.md) | [15+](https://github.com/codecrafters-io/build-your-own-x/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [n8n-io/n8n](output/top-projects/n8n-io/n8n/README.md) | [11+](https://github.com/n8n-io/n8n/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [sindresorhus/awesome](output/top-projects/sindresorhus/awesome/README.md) | [10+](https://github.com/sindresorhus/awesome/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [n8n-io/n8n](output/top-projects/n8n-io/n8n/README.md) | [9+](https://github.com/n8n-io/n8n/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [anomalyco/opencode](output/top-projects/anomalyco/opencode/README.md) | [7+](https://github.com/anomalyco/opencode/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [TheAlgorithms/Python](output/top-projects/TheAlgorithms/Python/README.md) | [7](https://github.com/TheAlgorithms/Python/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [anomalyco/opencode](output/top-projects/anomalyco/opencode/README.md) | [6+](https://github.com/anomalyco/opencode/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [public-apis/public-apis](output/top-projects/public-apis/public-apis/README.md) | [3+](https://github.com/public-apis/public-apis/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [public-apis/public-apis](output/top-projects/public-apis/public-apis/README.md) | [5+](https://github.com/public-apis/public-apis/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [nilbuild/developer-roadmap](output/top-projects/nilbuild/developer-roadmap/README.md) | [0](https://github.com/nilbuild/developer-roadmap/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 
 ## Top Expo Projects
 
-_20 repos · updated 2026-09-28T16:05:25.841460+00:00_
+_20 repos · updated 2026-09-29T10:28:12.612802+00:00_
 
 | Repository | Unassigned |
 |---|---|
+| [callstack/agent-device](output/top-expo/callstack/agent-device/README.md) | [86+](https://github.com/callstack/agent-device/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [AmanVarshney01/create-better-t-stack](output/top-expo/AmanVarshney01/create-better-t-stack/README.md) | [76+](https://github.com/AmanVarshney01/create-better-t-stack/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [expo/examples](output/top-expo/expo/examples/README.md) | [72+](https://github.com/expo/examples/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [codedogQBY/ReadAny](output/top-expo/codedogQBY/ReadAny/README.md) | [67+](https://github.com/codedogQBY/ReadAny/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [callstack/agent-device](output/top-expo/callstack/agent-device/README.md) | [61+](https://github.com/callstack/agent-device/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [codedogQBY/ReadAny](output/top-expo/codedogQBY/ReadAny/README.md) | [68+](https://github.com/codedogQBY/ReadAny/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [rnmapbox/maps](output/top-expo/rnmapbox/maps/README.md) | [60+](https://github.com/rnmapbox/maps/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [t3-oss/create-t3-turbo](output/top-expo/t3-oss/create-t3-turbo/README.md) | [36](https://github.com/t3-oss/create-t3-turbo/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [galio-org/galio](output/top-expo/galio-org/galio/README.md) | [35](https://github.com/galio-org/galio/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [infinitered/ignite](output/top-expo/infinitered/ignite/README.md) | [28](https://github.com/infinitered/ignite/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [jpudysz/react-native-unistyles](output/top-expo/jpudysz/react-native-unistyles/README.md) | [28](https://github.com/jpudysz/react-native-unistyles/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [infinitered/ignite](output/top-expo/infinitered/ignite/README.md) | [27](https://github.com/infinitered/ignite/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [czy0729/Bangumi](output/top-expo/czy0729/Bangumi/README.md) | [27](https://github.com/czy0729/Bangumi/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [founded-labs/react-native-reusables](output/top-expo/founded-labs/react-native-reusables/README.md) | [15](https://github.com/founded-labs/react-native-reusables/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [CherryHQ/cherry-studio-app](output/top-expo/CherryHQ/cherry-studio-app/README.md) | [13](https://github.com/CherryHQ/cherry-studio-app/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [elie222/rakazo](output/top-expo/elie222/rakazo/README.md) | [13](https://github.com/elie222/rakazo/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [microsoft/vscode-react-native](output/top-expo/microsoft/vscode-react-native/README.md) | [13](https://github.com/microsoft/vscode-react-native/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [expo/expo](output/top-expo/expo/expo/README.md) | [9+](https://github.com/expo/expo/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [heroui-inc/heroui-native](output/top-expo/heroui-inc/heroui-native/README.md) | [9](https://github.com/heroui-inc/heroui-native/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [CherryHQ/cherry-studio-app](output/top-expo/CherryHQ/cherry-studio-app/README.md) | [12](https://github.com/CherryHQ/cherry-studio-app/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [microsoft/vscode-react-native](output/top-expo/microsoft/vscode-react-native/README.md) | [12](https://github.com/microsoft/vscode-react-native/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [expo/expo](output/top-expo/expo/expo/README.md) | [10+](https://github.com/expo/expo/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [heroui-inc/heroui-native](output/top-expo/heroui-inc/heroui-native/README.md) | [10](https://github.com/heroui-inc/heroui-native/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [elie222/rakazo](output/top-expo/elie222/rakazo/README.md) | [9](https://github.com/elie222/rakazo/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [obytes/react-native-template-obytes](output/top-expo/obytes/react-native-template-obytes/README.md) | [7](https://github.com/obytes/react-native-template-obytes/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [BlackHatDevX/openspot-music-app](output/top-expo/BlackHatDevX/openspot-music-app/README.md) | [6](https://github.com/BlackHatDevX/openspot-music-app/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [Jpisnice/shadcn-ui-mcp-server](output/top-expo/Jpisnice/shadcn-ui-mcp-server/README.md) | [3](https://github.com/Jpisnice/shadcn-ui-mcp-server/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
@@ -95,52 +95,52 @@ _20 repos · updated 2026-09-28T16:05:25.841460+00:00_
 
 ## Top Next.js Projects
 
-_20 repos · updated 2026-09-28T16:04:59.586367+00:00_
+_20 repos · updated 2026-09-29T10:27:49.162918+00:00_
 
 | Repository | Unassigned |
 |---|---|
 | [LAION-AI/Open-Assistant](output/top-nextjs/LAION-AI/Open-Assistant/README.md) | [54+](https://github.com/LAION-AI/Open-Assistant/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [Dokploy/dokploy](output/top-nextjs/Dokploy/dokploy/README.md) | [48+](https://github.com/Dokploy/dokploy/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [Dokploy/dokploy](output/top-nextjs/Dokploy/dokploy/README.md) | [49+](https://github.com/Dokploy/dokploy/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [vercel/swr](output/top-nextjs/vercel/swr/README.md) | [46+](https://github.com/vercel/swr/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [coollabsio/coolify](output/top-nextjs/coollabsio/coolify/README.md) | [44+](https://github.com/coollabsio/coolify/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [trpc/trpc](output/top-nextjs/trpc/trpc/README.md) | [41+](https://github.com/trpc/trpc/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [gitroomhq/postiz-app](output/top-nextjs/gitroomhq/postiz-app/README.md) | [41+](https://github.com/gitroomhq/postiz-app/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [ChatGPTNextWeb/NextChat](output/top-nextjs/ChatGPTNextWeb/NextChat/README.md) | [37+](https://github.com/ChatGPTNextWeb/NextChat/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [gitroomhq/postiz-app](output/top-nextjs/gitroomhq/postiz-app/README.md) | [36+](https://github.com/gitroomhq/postiz-app/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [payloadcms/payload](output/top-nextjs/payloadcms/payload/README.md) | [32+](https://github.com/payloadcms/payload/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [langgenius/dify](output/top-nextjs/langgenius/dify/README.md) | [30+](https://github.com/langgenius/dify/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [CopilotKit/CopilotKit](output/top-nextjs/CopilotKit/CopilotKit/README.md) | [27+](https://github.com/CopilotKit/CopilotKit/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [f/prompts.chat](output/top-nextjs/f/prompts.chat/README.md) | [27](https://github.com/f/prompts.chat/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [AykutSarac/jsoncrack.com](output/top-nextjs/AykutSarac/jsoncrack.com/README.md) | [27](https://github.com/AykutSarac/jsoncrack.com/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [CopilotKit/CopilotKit](output/top-nextjs/CopilotKit/CopilotKit/README.md) | [25+](https://github.com/CopilotKit/CopilotKit/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [vercel/next.js](output/top-nextjs/vercel/next.js/README.md) | [22+](https://github.com/vercel/next.js/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [AykutSarac/jsoncrack.com](output/top-nextjs/AykutSarac/jsoncrack.com/README.md) | [26](https://github.com/AykutSarac/jsoncrack.com/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [vercel/next.js](output/top-nextjs/vercel/next.js/README.md) | [21+](https://github.com/vercel/next.js/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [refinedev/refine](output/top-nextjs/refinedev/refine/README.md) | [21](https://github.com/refinedev/refine/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [appwrite/appwrite](output/top-nextjs/appwrite/appwrite/README.md) | [19+](https://github.com/appwrite/appwrite/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [calcom/cal.diy](output/top-nextjs/calcom/cal.diy/README.md) | [16+](https://github.com/calcom/cal.diy/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [shadcn-ui/ui](output/top-nextjs/shadcn-ui/ui/README.md) | [13+](https://github.com/shadcn-ui/ui/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [supabase/supabase](output/top-nextjs/supabase/supabase/README.md) | [12+](https://github.com/supabase/supabase/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [appwrite/appwrite](output/top-nextjs/appwrite/appwrite/README.md) | [15+](https://github.com/appwrite/appwrite/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [calcom/cal.diy](output/top-nextjs/calcom/cal.diy/README.md) | [15+](https://github.com/calcom/cal.diy/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [supabase/supabase](output/top-nextjs/supabase/supabase/README.md) | [11+](https://github.com/supabase/supabase/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [shadcn-ui/ui](output/top-nextjs/shadcn-ui/ui/README.md) | [10+](https://github.com/shadcn-ui/ui/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [langgenius/dify](output/top-nextjs/langgenius/dify/README.md) | [9+](https://github.com/langgenius/dify/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [JCodesMore/ai-website-cloner-template](output/top-nextjs/JCodesMore/ai-website-cloner-template/README.md) | [0](https://github.com/JCodesMore/ai-website-cloner-template/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [gethomepage/homepage](output/top-nextjs/gethomepage/homepage/README.md) | [0](https://github.com/gethomepage/homepage/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 
 ## Top React Native Projects
 
-_20 repos · updated 2026-09-28T16:05:13.515996+00:00_
+_20 repos · updated 2026-09-29T10:28:01.660019+00:00_
 
 | Repository | Unassigned |
 |---|---|
 | [maotoumao/MusicFree](output/top-react-native/maotoumao/MusicFree/README.md) | [94+](https://github.com/maotoumao/MusicFree/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [laurent22/joplin](output/top-react-native/laurent22/joplin/README.md) | [86+](https://github.com/laurent22/joplin/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [react-native-elements/react-native-elements](output/top-react-native/react-native-elements/react-native-elements/README.md) | [83+](https://github.com/react-native-elements/react-native-elements/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [NervJS/taro](output/top-react-native/NervJS/taro/README.md) | [78+](https://github.com/NervJS/taro/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [NervJS/taro](output/top-react-native/NervJS/taro/README.md) | [81+](https://github.com/NervJS/taro/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [jaredpalmer/formik](output/top-react-native/jaredpalmer/formik/README.md) | [59+](https://github.com/jaredpalmer/formik/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [react-navigation/react-navigation](output/top-react-native/react-navigation/react-navigation/README.md) | [59+](https://github.com/react-navigation/react-navigation/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [karakeep-app/karakeep](output/top-react-native/karakeep-app/karakeep/README.md) | [49+](https://github.com/karakeep-app/karakeep/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [vercel/swr](output/top-react-native/vercel/swr/README.md) | [46+](https://github.com/vercel/swr/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [storybookjs/storybook](output/top-react-native/storybookjs/storybook/README.md) | [27+](https://github.com/storybookjs/storybook/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [zulip/zulip](output/top-react-native/zulip/zulip/README.md) | [22+](https://github.com/zulip/zulip/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [react/react-native](output/top-react-native/react/react-native/README.md) | [21+](https://github.com/react/react-native/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [appwrite/appwrite](output/top-react-native/appwrite/appwrite/README.md) | [19+](https://github.com/appwrite/appwrite/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [mattermost/mattermost](output/top-react-native/mattermost/mattermost/README.md) | [17+](https://github.com/mattermost/mattermost/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [expo/expo](output/top-react-native/expo/expo/README.md) | [9+](https://github.com/expo/expo/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [pubkey/rxdb](output/top-react-native/pubkey/rxdb/README.md) | [4](https://github.com/pubkey/rxdb/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [storybookjs/storybook](output/top-react-native/storybookjs/storybook/README.md) | [28+](https://github.com/storybookjs/storybook/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [react/react-native](output/top-react-native/react/react-native/README.md) | [22+](https://github.com/react/react-native/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [zulip/zulip](output/top-react-native/zulip/zulip/README.md) | [21+](https://github.com/zulip/zulip/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [appwrite/appwrite](output/top-react-native/appwrite/appwrite/README.md) | [15+](https://github.com/appwrite/appwrite/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [mattermost/mattermost](output/top-react-native/mattermost/mattermost/README.md) | [13+](https://github.com/mattermost/mattermost/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [expo/expo](output/top-react-native/expo/expo/README.md) | [10+](https://github.com/expo/expo/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [pubkey/rxdb](output/top-react-native/pubkey/rxdb/README.md) | [5](https://github.com/pubkey/rxdb/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [sudheerj/reactjs-interview-questions](output/top-react-native/sudheerj/reactjs-interview-questions/README.md) | [3](https://github.com/sudheerj/reactjs-interview-questions/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [enaqx/awesome-react](output/top-react-native/enaqx/awesome-react/README.md) | [1](https://github.com/enaqx/awesome-react/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [react-hook-form/react-hook-form](output/top-react-native/react-hook-form/react-hook-form/README.md) | [1](https://github.com/react-hook-form/react-hook-form/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
@@ -149,7 +149,7 @@ _20 repos · updated 2026-09-28T16:05:13.515996+00:00_
 
 ## Top State Management Projects
 
-_20 repos · updated 2026-09-28T16:05:37.587261+00:00_
+_20 repos · updated 2026-09-29T10:28:23.494697+00:00_
 
 | Repository | Unassigned |
 |---|---|
@@ -158,15 +158,15 @@ _20 repos · updated 2026-09-28T16:05:37.587261+00:00_
 | [final-form/react-final-form](output/top-state-management/final-form/react-final-form/README.md) | [85+](https://github.com/final-form/react-final-form/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [effector/effector](output/top-state-management/effector/effector/README.md) | [73+](https://github.com/effector/effector/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [statelyai/xstate](output/top-state-management/statelyai/xstate/README.md) | [68](https://github.com/statelyai/xstate/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [mem0ai/mem0](output/top-state-management/mem0ai/mem0/README.md) | [64+](https://github.com/mem0ai/mem0/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [mem0ai/mem0](output/top-state-management/mem0ai/mem0/README.md) | [66+](https://github.com/mem0ai/mem0/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [jonataslaw/getx](output/top-state-management/jonataslaw/getx/README.md) | [63+](https://github.com/jonataslaw/getx/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [Tencent/westore](output/top-state-management/Tencent/westore/README.md) | [60](https://github.com/Tencent/westore/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [vuejs/vuex](output/top-state-management/vuejs/vuex/README.md) | [59+](https://github.com/vuejs/vuex/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [ngrx/platform](output/top-state-management/ngrx/platform/README.md) | [50](https://github.com/ngrx/platform/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [felangel/bloc](output/top-state-management/felangel/bloc/README.md) | [37](https://github.com/felangel/bloc/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [dapr/dapr](output/top-state-management/dapr/dapr/README.md) | [29+](https://github.com/dapr/dapr/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [dapr/dapr](output/top-state-management/dapr/dapr/README.md) | [30+](https://github.com/dapr/dapr/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [preactjs/signals](output/top-state-management/preactjs/signals/README.md) | [29](https://github.com/preactjs/signals/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [TanStack/router](output/top-state-management/TanStack/router/README.md) | [24+](https://github.com/TanStack/router/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [TanStack/router](output/top-state-management/TanStack/router/README.md) | [26+](https://github.com/TanStack/router/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [47ng/nuqs](output/top-state-management/47ng/nuqs/README.md) | [18](https://github.com/47ng/nuqs/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [MemoriLabs/Memori](output/top-state-management/MemoriLabs/Memori/README.md) | [12](https://github.com/MemoriLabs/Memori/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [rrousselGit/riverpod](output/top-state-management/rrousselGit/riverpod/README.md) | [9](https://github.com/rrousselGit/riverpod/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
@@ -176,28 +176,28 @@ _20 repos · updated 2026-09-28T16:05:37.587261+00:00_
 
 ## Top TypeScript Projects
 
-_20 repos · updated 2026-09-28T16:04:44.001734+00:00_
+_20 repos · updated 2026-09-29T10:27:34.881260+00:00_
 
 | Repository | Unassigned |
 |---|---|
-| [langchain-ai/langchain](output/top-typescript/langchain-ai/langchain/README.md) | [83+](https://github.com/langchain-ai/langchain/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [microsoft/vscode](output/top-typescript/microsoft/vscode/README.md) | [59+](https://github.com/microsoft/vscode/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [oven-sh/bun](output/top-typescript/oven-sh/bun/README.md) | [51+](https://github.com/oven-sh/bun/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [denoland/deno](output/top-typescript/denoland/deno/README.md) | [50+](https://github.com/denoland/deno/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [immich-app/immich](output/top-typescript/immich-app/immich/README.md) | [46+](https://github.com/immich-app/immich/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [microsoft/TypeScript](output/top-typescript/microsoft/TypeScript/README.md) | [44+](https://github.com/microsoft/TypeScript/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [ruvnet/ruflo](output/top-typescript/ruvnet/ruflo/README.md) | [42+](https://github.com/ruvnet/ruflo/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [headroomlabs-ai/headroom](output/top-typescript/headroomlabs-ai/headroom/README.md) | [38+](https://github.com/headroomlabs-ai/headroom/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [langchain-ai/langchain](output/top-typescript/langchain-ai/langchain/README.md) | [82+](https://github.com/langchain-ai/langchain/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [microsoft/vscode](output/top-typescript/microsoft/vscode/README.md) | [61+](https://github.com/microsoft/vscode/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [immich-app/immich](output/top-typescript/immich-app/immich/README.md) | [49+](https://github.com/immich-app/immich/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [oven-sh/bun](output/top-typescript/oven-sh/bun/README.md) | [49+](https://github.com/oven-sh/bun/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [denoland/deno](output/top-typescript/denoland/deno/README.md) | [48+](https://github.com/denoland/deno/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [headroomlabs-ai/headroom](output/top-typescript/headroomlabs-ai/headroom/README.md) | [42+](https://github.com/headroomlabs-ai/headroom/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [microsoft/TypeScript](output/top-typescript/microsoft/TypeScript/README.md) | [41+](https://github.com/microsoft/TypeScript/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [ruvnet/ruflo](output/top-typescript/ruvnet/ruflo/README.md) | [41+](https://github.com/ruvnet/ruflo/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [unionlabs/union](output/top-typescript/unionlabs/union/README.md) | [36+](https://github.com/unionlabs/union/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [bytedance/deer-flow](output/top-typescript/bytedance/deer-flow/README.md) | [35+](https://github.com/bytedance/deer-flow/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [angular/angular](output/top-typescript/angular/angular/README.md) | [28+](https://github.com/angular/angular/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [storybookjs/storybook](output/top-typescript/storybookjs/storybook/README.md) | [27+](https://github.com/storybookjs/storybook/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [angular/angular](output/top-typescript/angular/angular/README.md) | [32+](https://github.com/angular/angular/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [storybookjs/storybook](output/top-typescript/storybookjs/storybook/README.md) | [28+](https://github.com/storybookjs/storybook/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [f/prompts.chat](output/top-typescript/f/prompts.chat/README.md) | [27](https://github.com/f/prompts.chat/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [mermaid-js/mermaid](output/top-typescript/mermaid-js/mermaid/README.md) | [23+](https://github.com/mermaid-js/mermaid/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [strapi/strapi](output/top-typescript/strapi/strapi/README.md) | [20+](https://github.com/strapi/strapi/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [ruvnet/RuView](output/top-typescript/ruvnet/RuView/README.md) | [18+](https://github.com/ruvnet/RuView/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [mermaid-js/mermaid](output/top-typescript/mermaid-js/mermaid/README.md) | [21+](https://github.com/mermaid-js/mermaid/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [ruvnet/RuView](output/top-typescript/ruvnet/RuView/README.md) | [17+](https://github.com/ruvnet/RuView/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [strapi/strapi](output/top-typescript/strapi/strapi/README.md) | [17+](https://github.com/strapi/strapi/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [ant-design/ant-design](output/top-typescript/ant-design/ant-design/README.md) | [15+](https://github.com/ant-design/ant-design/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [n8n-io/n8n](output/top-typescript/n8n-io/n8n/README.md) | [11+](https://github.com/n8n-io/n8n/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
-| [nestjs/nest](output/top-typescript/nestjs/nest/README.md) | [7](https://github.com/nestjs/nest/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [n8n-io/n8n](output/top-typescript/n8n-io/n8n/README.md) | [9+](https://github.com/n8n-io/n8n/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
+| [nestjs/nest](output/top-typescript/nestjs/nest/README.md) | [6](https://github.com/nestjs/nest/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 | [enaqx/awesome-react](output/top-typescript/enaqx/awesome-react/README.md) | [1](https://github.com/enaqx/awesome-react/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee) |
 <!-- AUTO-GENERATED:END -->

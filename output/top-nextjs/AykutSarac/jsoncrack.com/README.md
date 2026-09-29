@@ -1,8 +1,8 @@
 # AykutSarac/jsoncrack.com
 
-Generated: 2026-09-28T16:04:59.586367+00:00
+Generated: 2026-09-29T10:27:49.162918+00:00
 
-- Unassigned: 27
+- Unassigned: 26
 - [View all unassigned issues](https://github.com/AykutSarac/jsoncrack.com/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -35,4 +35,3 @@ Most recently opened:
 | [#258 JSONCrack icon in svg format](https://github.com/AykutSarac/jsoncrack.com/issues/258) | 0 |
 | [#234 [Feature Request] Partial rendering to handle big JSON docs](https://github.com/AykutSarac/jsoncrack.com/issues/234) | 1 |
 | [#226 Container with CSP and offline support](https://github.com/AykutSarac/jsoncrack.com/issues/226) | 3 |
-| [#217 Expose JSONCrack as a cli tool](https://github.com/AykutSarac/jsoncrack.com/issues/217) | 0 |

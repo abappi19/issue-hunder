@@ -1,14 +1,18 @@
 # obra/superpowers
 
-Generated: 2026-09-28T16:04:27.044601+00:00
+Generated: 2026-09-29T10:27:19.620529+00:00
 
-- Unassigned: 53+
+- Unassigned: 55+
 - [View all unassigned issues](https://github.com/obra/superpowers/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#2423 Pressure-register and update-suppressor wording over-triggers on Claude Opus 5.5 / Sonnet 5.5](https://github.com/obra/superpowers/issues/2423) | 0 |
+| [#2422 test-driven-development: no guidance when a layer has no test harness, so the agent either skips the Iron Law silently or installs a harness nobody asked for](https://github.com/obra/superpowers/issues/2422) | 0 |
+| [#2421 brainstorming/visual-companion: a host's own preview pane can show a screen file directly, which breaks `/files/` assets and the injected helper; and hidden panes pause animation checks](https://github.com/obra/superpowers/issues/2421) | 0 |
+| [#2420 Screenshot (Sep 28, 2026 4:38:37 PM)](https://github.com/obra/superpowers/issues/2420) | 2 |
 | [#2419 0919898048483](https://github.com/obra/superpowers/issues/2419) | 2 |
 | [#2418 0919898048483](https://github.com/obra/superpowers/issues/2418) | 0 |
 | [#2417 offline ide](https://github.com/obra/superpowers/issues/2417) | 0 |
@@ -16,7 +20,7 @@ Most recently opened:
 | [#2415 0919898048483](https://github.com/obra/superpowers/issues/2415) | 0 |
 | [#2413 writing-plans / task-reviewer: a plan step that infers identity from a string's shape ships its collision case unless the rubric asks for it](https://github.com/obra/superpowers/issues/2413) | 0 |
 | [#2408 writing-plans: the plan's code was built twice during planning, then the handoff offered to implement it a third time](https://github.com/obra/superpowers/issues/2408) | 0 |
-| [#2407 executing-plans/task-done: a passing test command that prints nothing aborts after the tests passed and drops the ledger line](https://github.com/obra/superpowers/issues/2407) | 0 |
+| [#2407 executing-plans/task-done: a passing test command that prints nothing aborts after the tests passed and drops the ledger line](https://github.com/obra/superpowers/issues/2407) | 1 |
 | [#2406 task-brief: the last task of a section absorbs the following non-Task heading and its prose](https://github.com/obra/superpowers/issues/2406) | 0 |
 | [#2405 task-brief: task number is an unanchored, unescaped regex prefix, so the wrong task is returned with exit 0](https://github.com/obra/superpowers/issues/2405) | 0 |
 | [#2404 task-done-style test steps abort silently on empty logs under set -euo pipefail](https://github.com/obra/superpowers/issues/2404) | 0 |
@@ -26,7 +30,7 @@ Most recently opened:
 | [#2396 Make it easier to write plans for non-coding projects](https://github.com/obra/superpowers/issues/2396) | 0 |
 | [#2394 pi extension: resources_discover re-adds every skill, defeating package skill filters (pi)](https://github.com/obra/superpowers/issues/2394) | 0 |
 | [#2391 OpenCode V2 plugin: bootstrap is injected on the 'context' hook only, so every compaction request misses the prompt cache](https://github.com/obra/superpowers/issues/2391) | 0 |
-| [#2386 test-driven-development is not invoked for a plain "add a function" request, even with the using-superpowers injection present](https://github.com/obra/superpowers/issues/2386) | 0 |
+| [#2386 test-driven-development is not invoked for a plain "add a function" request, even with the using-superpowers injection present](https://github.com/obra/superpowers/issues/2386) | 1 |
 | [#2378 brainstorming: spec metadata renders as one line, and there's no design-doc template](https://github.com/obra/superpowers/issues/2378) | 0 |
 | [#2377 Pressure-language bootstrap and narration suppressors degrade behavior on current Claude models](https://github.com/obra/superpowers/issues/2377) | 1 |
 | [#2376 Open a rendered HTML preview of the saved spec or plan in the browser](https://github.com/obra/superpowers/issues/2376) | 0 |
@@ -60,5 +64,3 @@ Most recently opened:
 | [#2247 Antigravity (agy): plugin hooks.json fails to parse — the using-superpowers bootstrap never loads](https://github.com/obra/superpowers/issues/2247) | 1 |
 | [#2245 Delegation skills: four dispatch checks that silently fail without them (base commit, spawned model, enumerable scope, parallel-dispatch isolation)](https://github.com/obra/superpowers/issues/2245) | 0 |
 | [#2243 Reviewer template: harden against hallucinated cross-domain references (cheap model tiers)](https://github.com/obra/superpowers/issues/2243) | 2 |
-| [#2242 SDD scripts (task-brief/review-package) crash on greenfield Task 1 — no git repo yet](https://github.com/obra/superpowers/issues/2242) | 1 |
-| [#2240 skills/brainstorming: the one-question rule is a proxy for a quality property, and a named vendor is an unmarked claim](https://github.com/obra/superpowers/issues/2240) | 1 |

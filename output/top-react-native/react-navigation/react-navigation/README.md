@@ -1,6 +1,6 @@
 # react-navigation/react-navigation
 
-Generated: 2026-09-28T16:05:13.515996+00:00
+Generated: 2026-09-29T10:28:01.660019+00:00
 
 - Unassigned: 59+
 - [View all unassigned issues](https://github.com/react-navigation/react-navigation/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)

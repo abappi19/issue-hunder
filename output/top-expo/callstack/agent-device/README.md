@@ -1,14 +1,16 @@
 # callstack/agent-device
 
-Generated: 2026-09-28T16:05:25.841460+00:00
+Generated: 2026-09-29T10:28:12.612802+00:00
 
-- Unassigned: 61+
+- Unassigned: 86+
 - [View all unassigned issues](https://github.com/callstack/agent-device/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#3052 Android test-IME fill commits into a stale InputConnection session after focus moves to a new field](https://github.com/callstack/agent-device/issues/3052) | 0 |
+| [#3047 Report the daemon host CPU architecture in /health](https://github.com/callstack/agent-device/issues/3047) | 0 |
 | [#3021 role= selector vocabulary diverges from snapshot kind](https://github.com/callstack/agent-device/issues/3021) | 0 |
 | [#3004 boot: the first boot of a new iOS simulator exceeds the fixed 90 s daemon timeout](https://github.com/callstack/agent-device/issues/3004) | 0 |
 | [#2997 Maestro `eraseText` fails on real Android devices: `test` and `replay` cannot opt in to the test IME](https://github.com/callstack/agent-device/issues/2997) | 0 |
@@ -18,10 +20,8 @@ Most recently opened:
 | [#2973 refactor(apple-runner): encapsulate XCTest-channel penalty state](https://github.com/callstack/agent-device/issues/2973) | 0 |
 | [#2972 refactor(apple-runner): classify AX snapshot failure once at acquisition](https://github.com/callstack/agent-device/issues/2972) | 0 |
 | [#2971 refactor(apple-runner): type outgoing commands by payload family](https://github.com/callstack/agent-device/issues/2971) | 0 |
-| [#2970 refactor(apple): give snapshot and fold one native-build owner](https://github.com/callstack/agent-device/issues/2970) | 0 |
 | [#2969 refactor(apple-runner): own target identity and reset transitions](https://github.com/callstack/agent-device/issues/2969) | 0 |
 | [#2968 test(apple-runner): characterize target transitions and cache lifetimes](https://github.com/callstack/agent-device/issues/2968) | 0 |
-| [#2967 refactor(apple-runner): separate command exchange from session resource ownership](https://github.com/callstack/agent-device/issues/2967) | 0 |
 | [#2966 refactor(apple-runner): encapsulate bounded main-thread work and occupancy](https://github.com/callstack/agent-device/issues/2966) | 0 |
 | [#2956 iOS alert activation can tap after the command deadline](https://github.com/callstack/agent-device/issues/2956) | 1 |
 | [#2953 Proposal: pull a real device's app data container and restore it into a simulator (app-data export/import)](https://github.com/callstack/agent-device/issues/2953) | 0 |
@@ -34,7 +34,6 @@ Most recently opened:
 | [#2870 is: an ambiguous selector reports selector_not_found; RN text yields duplicate-label nodes](https://github.com/callstack/agent-device/issues/2870) | 1 |
 | [#2861 fix(ios): refuse open and perf on a locked physical iPhone with a typed reason](https://github.com/callstack/agent-device/issues/2861) | 0 |
 | [#2826 perf(scroll): reuse the settled capture as the next directional baseline](https://github.com/callstack/agent-device/issues/2826) | 0 |
-| [#2819 Migrate the remaining 28 hand-authored MCP output schemas to their owning command modules](https://github.com/callstack/agent-device/issues/2819) | 0 |
 | [#2803 Apple platform + runner: simplify, shrink, and preserve correctness (tracking)](https://github.com/callstack/agent-device/issues/2803) | 0 |
 | [#2774 Verify the touch-overlay export on the iPhone Duo inner (rot90) panel](https://github.com/callstack/agent-device/issues/2774) | 0 |
 | [#2754 Make snapshot membership loss attributable: scroll clip authority + ejection dispositions](https://github.com/callstack/agent-device/issues/2754) | 2 |
@@ -42,16 +41,12 @@ Most recently opened:
 | [#2719 ios(foldable): snapshot rects on the unfolded iPhone Duo inner panel are transposed, so ref taps miss](https://github.com/callstack/agent-device/issues/2719) | 0 |
 | [#2714 fix(scroll): keep directional swipe endpoints within the resolved scrollable](https://github.com/callstack/agent-device/issues/2714) | 1 |
 | [#2711 iOS: taps and scrolls on a foldable's lit inner panel report success and do nothing](https://github.com/callstack/agent-device/issues/2711) | 2 |
-| [#2701 Android settings permission response: one permissions list for changed ids, not permission: "a,b"](https://github.com/callstack/agent-device/issues/2701) | 0 |
 | [#2696 iOS CI simulator: XCUIApplication.state reports runningForeground for the runner target while a foreign app is foreground](https://github.com/callstack/agent-device/issues/2696) | 0 |
 | [#2694 iOS: decode the targetActivation stamp for commands that consume no capture (press <x> <y>, live @ref)](https://github.com/callstack/agent-device/issues/2694) | 1 |
 | [#2685 Android: read the clipboard through a component that satisfies the Android 10 focus/IME gate](https://github.com/callstack/agent-device/issues/2685) | 0 |
 | [#2677 Add report-only module-shape measures: placement legibility (Jev) and change-coupling modularity](https://github.com/callstack/agent-device/issues/2677) | 4 |
-| [#2663 refactor(replay): move the daemon-side replay port into packages/replay-port](https://github.com/callstack/agent-device/issues/2663) | 1 |
 | [#2662 refactor(ios-runner): one response decoder, a session state enum, and a verdict on the curl-through-simctl transport](https://github.com/callstack/agent-device/issues/2662) | 2 |
 | [#2657 proposal(ai-sdk): goal-driven step loop with a model-agnostic decide step](https://github.com/callstack/agent-device/issues/2657) | 0 |
-| [#2656 feat(snapshot): carry the presenter's platform-neutral role on structured snapshot nodes](https://github.com/callstack/agent-device/issues/2656) | 0 |
-| [#2650 perf(daemon-client): persistent remote clients re-run the /health probe on every command](https://github.com/callstack/agent-device/issues/2650) | 0 |
 | [#2640 break(sdk): stop accepting serverPort on device-scoped adb executors](https://github.com/callstack/agent-device/issues/2640) | 0 |
 | [#2634 fill repairs and fails on fields that normalize their input](https://github.com/callstack/agent-device/issues/2634) | 0 |
 | [#2622 find focus/type dispatch the focus without the #2589 keyboard guard](https://github.com/callstack/agent-device/issues/2622) | 0 |
@@ -70,3 +65,33 @@ Most recently opened:
 | [#2434 Feat(Browserstack): Private Network Config](https://github.com/callstack/agent-device/issues/2434) | 1 |
 | [#2376 macOS sandbox blocks ps-backed recording process identity](https://github.com/callstack/agent-device/issues/2376) | 0 |
 | [#2343 wait: account startup and readiness separately from observation time, and say when infrastructure prevented any observation](https://github.com/callstack/agent-device/issues/2343) | 0 |
+| [#2289 feat(android): add optional private comparison for secure input](https://github.com/callstack/agent-device/issues/2289) | 2 |
+| [#2281 Remote iOS recording: recover completed export after record stop times out](https://github.com/callstack/agent-device/issues/2281) | 1 |
+| [#2274 Selector queries have no fallback producer on the iOS Simulator, and any fallback needs producer equivalence](https://github.com/callstack/agent-device/issues/2274) | 1 |
+| [#2265 Add remote proxy lease backend for HarmonyOS (harmonyos-instance)](https://github.com/callstack/agent-device/issues/2265) | 1 |
+| [#2161 feat: workspace-scoped device pinning (lock a project to one device)](https://github.com/callstack/agent-device/issues/2161) | 2 |
+| [#2159 Maestro inputText types whole string at once; debounced inputs only fire once (real Maestro types per-keystroke)](https://github.com/callstack/agent-device/issues/2159) | 3 |
+| [#2080 ios: fill's synthesized-replacement route lands a corrupted value (traced: 11 chars requested, 7 observed, frozen)](https://github.com/callstack/agent-device/issues/2080) | 5 |
+| [#2028 Publish from CI with npm provenance (--provenance / OIDC trusted publisher)](https://github.com/callstack/agent-device/issues/2028) | 1 |
+| [#1916 test: close macOS platform command-coverage gaps from #1426](https://github.com/callstack/agent-device/issues/1916) | 0 |
+| [#1914 test: close tvOS platform command-coverage gaps from #1426](https://github.com/callstack/agent-device/issues/1914) | 0 |
+| [#1869 Parser fuzz validation targets: findings ledger and kill criterion (#1781 B2)](https://github.com/callstack/agent-device/issues/1869) | 0 |
+| [#1821 Gesture viewport should expose content-safe bounds (app window minus system bars) so scroll planning clamps to real geometry](https://github.com/callstack/agent-device/issues/1821) | 1 |
+| [#1778 Add bounded crash discovery and retrieval as first-class debug evidence](https://github.com/callstack/agent-device/issues/1778) | 1 |
+| [#1721 Fail closed for unresolved synthesized coordinate fill on iOS](https://github.com/callstack/agent-device/issues/1721) | 0 |
+| [#1718 Close parent-owned touch-point gap for direct iOS selectors and Maestro](https://github.com/callstack/agent-device/issues/1718) | 0 |
+| [#1626 iOS: skip private-AX deep extension on observation-only captures (settle, stabilization, corroboration)](https://github.com/callstack/agent-device/issues/1626) | 4 |
+| [#1619 iOS: image lightbox swallows subsequent taps — agents end tasks stuck in the viewer](https://github.com/callstack/agent-device/issues/1619) | 0 |
+| [#1599 investigate(ios): confirm historical XCTest tap-failure storm root cause](https://github.com/callstack/agent-device/issues/1599) | 0 |
+| [#1585 WebDriver endpoint-plan lowering has never been executed by a real driver](https://github.com/callstack/agent-device/issues/1585) | 0 |
+| [#1296 iOS: first-class widget and Live Activity testing through a system UI target](https://github.com/callstack/agent-device/issues/1296) | 1 |
+| [#1255 Test-fixture gaps for divergence chrome-filter over-filtering live evidence (short-form screen, native inputAccessoryView, runtime-permission action)](https://github.com/callstack/agent-device/issues/1255) | 0 |
+| [#1245 iOS Metro hint doesn't reach expo-dev-client apps (writes bare-RN RCT_jsLocation only)](https://github.com/callstack/agent-device/issues/1245) | 0 |
+| [#646 Improve iOS keyboard return reliability and perf without English label probing](https://github.com/callstack/agent-device/issues/646) | 0 |
+| [#567 Use native scroll telemetry to make scroll top and bottom more deterministic](https://github.com/callstack/agent-device/issues/567) | 0 |
+| [#536 Compact network dump output for long React Native flows](https://github.com/callstack/agent-device/issues/536) | 1 |
+| [#475 Add Apple frame-health sampling to perf](https://github.com/callstack/agent-device/issues/475) | 0 |
+| [#471 Investigate Android snapshot helper secondary-display support](https://github.com/callstack/agent-device/issues/471) | 0 |
+| [#320 test(ios): add live system permission-prompt accept/dismiss/recovery journey](https://github.com/callstack/agent-device/issues/320) | 3 |
+| [#100 [Lower priority] Multi-device orchestration (coordinated actions across two devices)](https://github.com/callstack/agent-device/issues/100) | 0 |
+| [#98 Expose media input simulation (camera roll, photo/video, mic)](https://github.com/callstack/agent-device/issues/98) | 0 |

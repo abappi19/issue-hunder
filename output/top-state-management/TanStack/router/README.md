@@ -1,17 +1,20 @@
 # TanStack/router
 
-Generated: 2026-09-28T16:05:37.587261+00:00
+Generated: 2026-09-29T10:28:23.494697+00:00
 
-- Unassigned: 24+
+- Unassigned: 26+
 - [View all unassigned issues](https://github.com/TanStack/router/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#8546 [Start] Generated route preloads should default to fetchPriority="low" (they delay first paint at High)](https://github.com/TanStack/router/issues/8546) | 0 |
+| [#8558 router-core: dehydrated match updatedAt (`u`) is the render's wall clock, so prerendered HTML is not reproducible (no SOURCE_DATE_EPOCH support)](https://github.com/TanStack/router/issues/8558) | 0 |
+| [#8554 dev: import-protection plugin reads `ModuleInfo.code`, which Vite does not support — throws and breaks the client entry](https://github.com/TanStack/router/issues/8554) | 2 |
+| [#8550 Inline scripts are duplicated after hydration when the CSP nonce is sent in a header](https://github.com/TanStack/router/issues/8550) | 0 |
+| [#8546 [Start] Generated route preloads should default to fetchPriority="low" (they delay first paint at High)](https://github.com/TanStack/router/issues/8546) | 1 |
 | [#8545 Start + Rsbuild: server-only routes are not pruned from the client route tree](https://github.com/TanStack/router/issues/8545) | 0 |
-| [#8544 Start + Rsbuild: plugin forces `server.compress: false`, overriding user config](https://github.com/TanStack/router/issues/8544) | 0 |
+| [#8544 Start + Rsbuild: plugin forces `server.compress: false`, overriding user config](https://github.com/TanStack/router/issues/8544) | 1 |
 | [#8543 Start + Rsbuild: SPA mode dev server SSRs routes and runs loaders on the server](https://github.com/TanStack/router/issues/8543) | 0 |
 | [#8521 A request aborted by the client is logged as an unhandled 500](https://github.com/TanStack/router/issues/8521) | 0 |
 | [#8516 Start prerender: in-page fragment links (`/#section`) are crawled as separate pages and listed in sitemap.xml](https://github.com/TanStack/router/issues/8516) | 0 |
@@ -32,4 +35,3 @@ Most recently opened:
 | [#8437 Start: the Vite plugin and `tsr generate` write different routeTree.gen.ts (Start footer added, then stripped)](https://github.com/TanStack/router/issues/8437) | 1 |
 | [#8415 Start + Rsbuild: shared chunks cause CSS issues in the initial SSR response](https://github.com/TanStack/router/issues/8415) | 0 |
 | [#8407 start-compiler-plugin fails to lazy-load dependencies with Vite bundledDev](https://github.com/TanStack/router/issues/8407) | 0 |
-| [#8377 lazyRouteComponent renders the error component after it has already triggered the stale-chunk reload](https://github.com/TanStack/router/issues/8377) | 1 |

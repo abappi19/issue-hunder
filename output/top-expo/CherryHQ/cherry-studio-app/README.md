@@ -1,8 +1,8 @@
 # CherryHQ/cherry-studio-app
 
-Generated: 2026-09-28T16:05:25.841460+00:00
+Generated: 2026-09-29T10:28:12.612802+00:00
 
-- Unassigned: 13
+- Unassigned: 12
 - [View all unassigned issues](https://github.com/CherryHQ/cherry-studio-app/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -16,7 +16,6 @@ Most recently opened:
 | [#1054 [Feature]: Design controlled Office editing with mobile tools and a skill](https://github.com/CherryHQ/cherry-studio-app/issues/1054) | 0 |
 | [#1049 [Feature]: Export and submit mobile diagnostic bundles](https://github.com/CherryHQ/cherry-studio-app/issues/1049) | 0 |
 | [#1048 [Bug]: Gmail connection fails after account selection on Android with a generic access-denied error](https://github.com/CherryHQ/cherry-studio-app/issues/1048) | 0 |
-| [#1047 [Feature]: Support CherryIN account sign-in and balance sync on mobile](https://github.com/CherryHQ/cherry-studio-app/issues/1047) | 0 |
 | [#1046 [Feature]: Add Slack integration through the official MCP service](https://github.com/CherryHQ/cherry-studio-app/issues/1046) | 0 |
 | [#1043 [Bug]: pnpm re-resolution splits react-native into two lockfile instances](https://github.com/CherryHQ/cherry-studio-app/issues/1043) | 0 |
 | [#1011 [Bug]: Mobile Sentry stability and cleanup for 0.1.0 production builds](https://github.com/CherryHQ/cherry-studio-app/issues/1011) | 0 |

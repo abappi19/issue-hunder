@@ -1,27 +1,27 @@
 # headroomlabs-ai/headroom
 
-Generated: 2026-09-28T16:04:44.001734+00:00
+Generated: 2026-09-29T10:27:34.881260+00:00
 
-- Unassigned: 38+
+- Unassigned: 42+
 - [View all unassigned issues](https://github.com/headroomlabs-ai/headroom/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#3829 [BUG] Windows persistent-task install fails parsing schtasks XML encoding](https://github.com/headroomlabs-ai/headroom/issues/3829) | 0 |
+| [#3840 [COPILOT-SUB] <OS> test report](https://github.com/headroomlabs-ai/headroom/issues/3840) | 2 |
+| [#3838 Add headroom to awesome-ai-plugins?](https://github.com/headroomlabs-ai/headroom/issues/3838) | 0 |
+| [#3837 Regression in 0.39.1: headroom_retrieve results re-compressed again despite the #1077 / #2654 exemption](https://github.com/headroomlabs-ai/headroom/issues/3837) | 0 |
+| [#3836 CCR continuation on the Anthropic path treats a non-2xx reply as the model's answer](https://github.com/headroomlabs-ai/headroom/issues/3836) | 0 |
 | [#3822 [BUG] JSONLStorage.query() pages before it sorts, so a jsonl store returns the OLDEST rows while sqlite returns the NEWEST](https://github.com/headroomlabs-ai/headroom/issues/3822) | 0 |
-| [#3820 [BUG] generate_report() always prints "$0.0000" Est. Cost Savings — estimate_cost() is called with no provider and the None is coerced to 0.0](https://github.com/headroomlabs-ai/headroom/issues/3820) | 0 |
 | [#3818 [BUG] headroom-ai[proxy]/[all] unresolvable on Intel macOS with Python ≥3.11 (onnxruntime>=1.24.0 has no x86_64 macOS wheels)](https://github.com/headroomlabs-ai/headroom/issues/3818) | 0 |
 | [#3815 CCR retrieval is unavailable on OpenAI chat-completions streaming, and toggles the tools cache in mixed-mode sessions](https://github.com/headroomlabs-ai/headroom/issues/3815) | 1 |
-| [#3814 LogCompressor silently drops middle FAILED lines from pytest's short test summary](https://github.com/headroomlabs-ai/headroom/issues/3814) | 1 |
 | [#3812 Per-session savings attribution (x-claude-code-session-id)](https://github.com/headroomlabs-ai/headroom/issues/3812) | 0 |
 | [#3809 openclaw plugin: assemble() rebuilds every history message when anything is compressed, invalidating the provider prompt cache](https://github.com/headroomlabs-ai/headroom/issues/3809) | 1 |
 | [#3798 [BUG] Vertex us multi-region is forwarded to incorrect upstream hostname](https://github.com/headroomlabs-ai/headroom/issues/3798) | 0 |
 | [#3777 HEADROOM_OFFLINE=1 does not prevent the HuggingFace tokenizer download](https://github.com/headroomlabs-ai/headroom/issues/3777) | 0 |
 | [#3775 HTMLExtractor replaces tool results with unrecoverable output: CompressionStrategy.HTML is missing from LOSSY_UNMARKED_STRATEGIES](https://github.com/headroomlabs-ai/headroom/issues/3775) | 0 |
 | [#3768 [FEATURE] Pass through `safeguards` request field and `safeguard_results` response field](https://github.com/headroomlabs-ai/headroom/issues/3768) | 0 |
-| [#3760 [BUG] SmartCrusher does nothing for arrays at/above min_items_to_analyze when no rows need trimming (same payload compresses ~99% via either bypass)](https://github.com/headroomlabs-ai/headroom/issues/3760) | 1 |
 | [#3749 [BUG] Windows Codex proxy unavailability: sanitized 0.32.1 incident logs and limited 0.37.0 follow-up](https://github.com/headroomlabs-ai/headroom/issues/3749) | 0 |
 | [#3732 Unknown model silently priced at the GPT-4o tier, so cost tracking and budget enforcement act on fabricated numbers](https://github.com/headroomlabs-ai/headroom/issues/3732) | 1 |
 | [#3716 [BUG] VS Code Copilot requests are not routed through Headroom proxy despite successful wrap vscode setup](https://github.com/headroomlabs-ai/headroom/issues/3716) | 0 |
@@ -47,3 +47,7 @@ Most recently opened:
 | [#3590 Compressing small tool results destroys structure silently; consider excluding shell/file reads by default](https://github.com/headroomlabs-ai/headroom/issues/3590) | 0 |
 | [#3589 [BUG] Codex Desktop voice chat fails with 403 when using Headroom persistent proxy](https://github.com/headroomlabs-ai/headroom/issues/3589) | 0 |
 | [#3588 Proxy daemon keeps stale env; no way to restart it from inside a session](https://github.com/headroomlabs-ai/headroom/issues/3588) | 0 |
+| [#3587 CCR buffered path (stream:false) fires on 71% of opus turns after #3071 and redeems zero retrievals — TTFT becomes the whole generation (0.37.0)](https://github.com/headroomlabs-ai/headroom/issues/3587) | 1 |
+| [#3573 [DOCS] --memory context injection is silently skipped in --mode cache](https://github.com/headroomlabs-ai/headroom/issues/3573) | 0 |
+| [#3571 [BUILD] Migrate Headroom local and CI Rust to 1.98.1](https://github.com/headroomlabs-ai/headroom/issues/3571) | 0 |
+| [#3569 [BUG] Image v0.37.0 switches to `USER root`; with `--userns=keep-id` all newly created files in bind mounts are owned by a subordinate UID](https://github.com/headroomlabs-ai/headroom/issues/3569) | 4 |

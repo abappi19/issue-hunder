@@ -1,8 +1,8 @@
 # ruvnet/RuView
 
-Generated: 2026-09-28T16:04:44.001734+00:00
+Generated: 2026-09-29T10:27:34.881260+00:00
 
-- Unassigned: 18+
+- Unassigned: 17+
 - [View all unassigned issues](https://github.com/ruvnet/RuView/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -26,4 +26,3 @@ Most recently opened:
 | [#1893 firmware: POST /ota always fails — stack overflow in task httpd during esp_ota_end() image validation (ESP32-S3, v0.8.8)](https://github.com/ruvnet/RuView/issues/1893) | 1 |
 | [#1875 Benchmark long term hazard graph memory for embodied planning](https://github.com/ruvnet/RuView/issues/1875) | 0 |
 | [#1854 Adaptive multimodal observability gate for RF, radar, LiDAR and vision fusion](https://github.com/ruvnet/RuView/issues/1854) | 0 |
-| [#1804 4x ESP32-S3 occupancy detection - what works, what doesn't, and questions on the intende d detection methods](https://github.com/ruvnet/RuView/issues/1804) | 2 |

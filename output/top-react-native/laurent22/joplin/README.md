@@ -1,6 +1,6 @@
 # laurent22/joplin
 
-Generated: 2026-09-28T16:05:13.515996+00:00
+Generated: 2026-09-29T10:28:01.660019+00:00
 
 - Unassigned: 86+
 - [View all unassigned issues](https://github.com/laurent22/joplin/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,15 +9,12 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#16691 Joplin becomes very laggy/sluggish after enabling the AI feature, while the rest of the system remains responsive.](https://github.com/laurent22/joplin/issues/16691) | 0 |
+| [#16691 Joplin becomes very laggy/sluggish after enabling the AI feature, while the rest of the system remains responsive.](https://github.com/laurent22/joplin/issues/16691) | 2 |
 | [#16690 All: Sync auto-merge adds a blank line when one device deletes lines the other device edited](https://github.com/laurent22/joplin/issues/16690) | 1 |
-| [#16689 Title](https://github.com/laurent22/joplin/issues/16689) | 1 |
 | [#16687 Rows with lines are not deleted](https://github.com/laurent22/joplin/issues/16687) | 0 |
-| [#16681 Mobile: hightligt text on RTE is bright yellow compared to markdown color](https://github.com/laurent22/joplin/issues/16681) | 0 |
-| [#16676 Mobile: master password is not persisted when keychain support is unavailable](https://github.com/laurent22/joplin/issues/16676) | 2 |
+| [#16681 Mobile: hightligt text on RTE is bright yellow compared to markdown color](https://github.com/laurent22/joplin/issues/16681) | 1 |
 | [#16671 iOS: Editor scrolls while typing](https://github.com/laurent22/joplin/issues/16671) | 1 |
 | [#16670 No Joplin icon in taskbar after update to 3.7.21 in Windows 11](https://github.com/laurent22/joplin/issues/16670) | 1 |
-| [#16669 2026-09-20 - Published notebook notes cannot be scrolled down on Android browsers](https://github.com/laurent22/joplin/issues/16669) | 1 |
 | [#16668 Apostrophe in Android version replaces preceding word](https://github.com/laurent22/joplin/issues/16668) | 6 |
 | [#16658 Plugin Review Ecosystem — Complete Feature Plan](https://github.com/laurent22/joplin/issues/16658) | 2 |
 | [#16654 Parent and child notebooks link is missing when restoring from trash](https://github.com/laurent22/joplin/issues/16654) | 2 |
@@ -26,7 +23,7 @@ Most recently opened:
 | [#16642 Mobile: Restore text padding of notes list entries](https://github.com/laurent22/joplin/issues/16642) | 0 |
 | [#16641 Desktop: Add keyboard shortcut for text style "Highlight"](https://github.com/laurent22/joplin/issues/16641) | 0 |
 | [#16640 Mobile: Add "Highlight" button to toolbar](https://github.com/laurent22/joplin/issues/16640) | 0 |
-| [#16638 Matched underscores disappear from note titles when typing the title](https://github.com/laurent22/joplin/issues/16638) | 2 |
+| [#16638 Matched underscores disappear from note titles when typing the title](https://github.com/laurent22/joplin/issues/16638) | 3 |
 | [#16630 Vim mode: Cursor wraps to top when pressing "j" at the end of file](https://github.com/laurent22/joplin/issues/16630) | 0 |
 | [#16625 Mobile: Update appearance of notebook picker in note editor](https://github.com/laurent22/joplin/issues/16625) | 0 |
 | [#16615 Android: Can't access note body with screen reader](https://github.com/laurent22/joplin/issues/16615) | 2 |
@@ -69,7 +66,7 @@ Most recently opened:
 | [#16371 Error importing notes from format: one](https://github.com/laurent22/joplin/issues/16371) | 0 |
 | [#16370 install script doesent work](https://github.com/laurent22/joplin/issues/16370) | 2 |
 | [#16367 OCR text is not searched on Android](https://github.com/laurent22/joplin/issues/16367) | 1 |
-| [#16348 Markdown & HTML Exporters fail to convert joplin:// URI links to relative paths during export](https://github.com/laurent22/joplin/issues/16348) | 0 |
+| [#16348 Markdown & HTML Exporters fail to convert joplin:// URI links to relative paths during export](https://github.com/laurent22/joplin/issues/16348) | 1 |
 | [#16346 Markdown interactive table editor should be horizontally scrollable instead of wrapped](https://github.com/laurent22/joplin/issues/16346) | 3 |
 | [#16344 Plugin updates blocked after repository URL change for com.dejoyf.inlineTodoGui](https://github.com/laurent22/joplin/issues/16344) | 1 |
 | [#16342 Joplin CLI NPM package release is 4+ months outdated and causing errors](https://github.com/laurent22/joplin/issues/16342) | 1 |
@@ -87,7 +84,6 @@ Most recently opened:
 | [#16288 Markdown codeblock (three backticks) removes enclosed text on final backtick](https://github.com/laurent22/joplin/issues/16288) | 1 |
 | [#16284 Web clipper: Markdown clipped from Wikipedia includes a large amount of empty `<a id="..."></a>` HTML](https://github.com/laurent22/joplin/issues/16284) | 0 |
 | [#16282 Inconsistent cursor placement when right clicking vs left clicking rendered image in markdown editor](https://github.com/laurent22/joplin/issues/16282) | 2 |
-| [#16281 Android: Export JEX archive to local storage](https://github.com/laurent22/joplin/issues/16281) | 2 |
 | [#16277 Desktop: Add a beta Rich Text Editor based on ProseMirror](https://github.com/laurent22/joplin/issues/16277) | 2 |
 | [#16265 [Feature Request] Add MCP endpoint to joplin/server (headless mode)](https://github.com/laurent22/joplin/issues/16265) | 3 |
 | [#16262 Cannot destructure property 'tile' of 'l.pop(...)' as it is undefined.](https://github.com/laurent22/joplin/issues/16262) | 2 |
@@ -95,3 +91,7 @@ Most recently opened:
 | [#16240 Android: attached files are stored as `application/octet-stream`, ignoring the file extension](https://github.com/laurent22/joplin/issues/16240) | 0 |
 | [#16239 Desktop: Conflict Resolution  UI](https://github.com/laurent22/joplin/issues/16239) | 2 |
 | [#16233 Whiteboard: When a whiteboard note is trashed, the whiteboard is fully editable instead of being readonly](https://github.com/laurent22/joplin/issues/16233) | 1 |
+| [#16210 [Bug] macOS tray startup creates blank fullscreen Space](https://github.com/laurent22/joplin/issues/16210) | 2 |
+| [#16178 Desktop: Changing profile in the primary instance in Joplin kills the secondary instance](https://github.com/laurent22/joplin/issues/16178) | 0 |
+| [#16163 Mobile: Tapping attachments of a file type not associated with any app in the manage attachments screen does nothing](https://github.com/laurent22/joplin/issues/16163) | 2 |
+| [#16157 OneNote importer fails with WebAssembly.Instance(): Out of memory on Windows 10](https://github.com/laurent22/joplin/issues/16157) | 8 |

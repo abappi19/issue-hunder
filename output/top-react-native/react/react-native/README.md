@@ -1,8 +1,8 @@
 # react/react-native
 
-Generated: 2026-09-28T16:05:13.515996+00:00
+Generated: 2026-09-29T10:28:01.660019+00:00
 
-- Unassigned: 21+
+- Unassigned: 22+
 - [View all unassigned issues](https://github.com/react/react-native/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -30,3 +30,4 @@ Most recently opened:
 | [#58448 build failing with react native@0.81.5](https://github.com/react/react-native/issues/58448) | 1 |
 | [#58445 TextInput claims the responder on every selection change, even with no active touch](https://github.com/react/react-native/issues/58445) | 3 |
 | [#58441 RCTIdentifierPool::dequeue() spins forever when the pool is exhausted, hanging the main thread and freezing the device](https://github.com/react/react-native/issues/58441) | 2 |
+| [#58407 [Android] BackHandler receives no events on API 35 with predictive Back enabled](https://github.com/react/react-native/issues/58407) | 0 |

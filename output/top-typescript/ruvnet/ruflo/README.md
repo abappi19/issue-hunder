@@ -1,14 +1,19 @@
 # ruvnet/ruflo
 
-Generated: 2026-09-28T16:04:44.001734+00:00
+Generated: 2026-09-29T10:27:34.881260+00:00
 
-- Unassigned: 42+
+- Unassigned: 41+
 - [View all unassigned issues](https://github.com/ruvnet/ruflo/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#3538 [Dream Cycle 2026-09-29] swarm: spawnAgent() auto-domain branch skips pool.add() + ruview,ruvector-integration scan](https://github.com/ruvnet/ruflo/issues/3538) | 0 |
+| [#3532 🔄 Rollback Incident: [Brief Description]](https://github.com/ruvnet/ruflo/issues/3532) | 0 |
+| [#3531 security(plugins): gnn.ts interpolates node ids, depth and identifiers into executed SQL](https://github.com/ruvnet/ruflo/issues/3531) | 0 |
+| [#3529 test: init-memory-package-resolver-2545 fails whenever vitest runs through pnpm's bin shim (NODE_PATH exposes the workspace's own @claude-flow/memory)](https://github.com/ruvnet/ruflo/issues/3529) | 0 |
+| [#3527 init: every `ruflo init` pins "model": "claude-sonnet-5" in .claude/settings.json, overriding the user's own model (the repo's own settings.json does too)](https://github.com/ruvnet/ruflo/issues/3527) | 0 |
 | [#3518 feat: durable missions with typed waits and explicit side-effect reconciliation](https://github.com/ruvnet/ruflo/issues/3518) | 0 |
 | [#3516 [Dream Cycle 2026-09-28] memory: mmrRerank() cosine running-max-cache + plugins,automation scan](https://github.com/ruvnet/ruflo/issues/3516) | 0 |
 | [#3511 ReDoS hang in analyze circular/modules/boundaries/dependencies; security scan -o json/sarif silently ignored](https://github.com/ruvnet/ruflo/issues/3511) | 0 |
@@ -23,7 +28,7 @@ Most recently opened:
 | [#3418 Add ruflo doctor components for the MiniLM picker (CLAUDE_FLOW_ROUTER_EMBEDDER) and MCP governance (RUFLO_MCP_ENFORCE_POLICY)](https://github.com/ruvnet/ruflo/issues/3418) | 1 |
 | [#3417 Make the MCP tool-governance audit log path configurable and per-project, with rotation](https://github.com/ruvnet/ruflo/issues/3417) | 1 |
 | [#3416 Add --json output to ruflo doctor](https://github.com/ruvnet/ruflo/issues/3416) | 1 |
-| [#3411 Coordinated disclosure: github-safe.js helper interpolates argv into a shell string passed to execSync (AS-S001)](https://github.com/ruvnet/ruflo/issues/3411) | 2 |
+| [#3411 Coordinated disclosure: github-safe.js helper interpolates argv into a shell string passed to execSync (AS-S001)](https://github.com/ruvnet/ruflo/issues/3411) | 3 |
 | [#3408 Security research: reproduce A2M metadata attraction and adversarial MCP output steering](https://github.com/ruvnet/ruflo/issues/3408) | 0 |
 | [#3394 [Dream Cycle 2026-09-22] intelligence: EWCConsolidator.updateFisherFromConfidences() inverts its own EMA direction, defeating EWC++'s anti-forgetting purpose + capabilities,memory scan](https://github.com/ruvnet/ruflo/issues/3394) | 1 |
 | [#3384 [Dream Cycle 2026-09-21] security: validateEnv() denylist missing PATH/search-path family (CWE-427) + intelligence,swarm scan](https://github.com/ruvnet/ruflo/issues/3384) | 0 |
@@ -45,9 +50,3 @@ Most recently opened:
 | [#3269 SOTA standards: reopen ADR-106 as a DAWN-aligned discovery plane, keep mDNS as an adapter](https://github.com/ruvnet/ruflo/issues/3269) | 0 |
 | [#3249 Encrypted (RFE1) memory: checkMemoryInitialization leaks one sql.js image per MCP tool call (3.38.3, Windows) -- decrypt-before-open + finally-close patch](https://github.com/ruvnet/ruflo/issues/3249) | 0 |
 | [#3246 Integrate MidStream reflex handoff with deliberative agent loop](https://github.com/ruvnet/ruflo/issues/3246) | 0 |
-| [#3233 docs: update stale contribution link and security contact](https://github.com/ruvnet/ruflo/issues/3233) | 0 |
-| [#3230 an idea](https://github.com/ruvnet/ruflo/issues/3230) | 0 |
-| [#3228 Windows 3.38.12–3.38.21: closed native-bridge gate silently routes memory tools to sql.js memory.db (encrypted archive) instead of agentdb-memory.db; opt-in aborts with 0xC0000409 on a ~4.4 GB allocation](https://github.com/ruvnet/ruflo/issues/3228) | 1 |
-| [#3227 ruflo-cost-tracker: the Stop hook discards every write failure with no log — silent multi-day data loss behind a correct, actionable CLI error](https://github.com/ruvnet/ruflo/issues/3227) | 0 |
-| [#3226 `memory list` intermittently exits 127 on success (libuv teardown assertion) — gating callers in ruflo-adr misreport it as a concurrent-writer race (#2621)](https://github.com/ruvnet/ruflo/issues/3226) | 1 |
-| [#3225 SOTA experiment: qualify agent team interchangeability before live replacement](https://github.com/ruvnet/ruflo/issues/3225) | 0 |

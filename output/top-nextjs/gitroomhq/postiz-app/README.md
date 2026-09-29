@@ -1,15 +1,16 @@
 # gitroomhq/postiz-app
 
-Generated: 2026-09-28T16:04:59.586367+00:00
+Generated: 2026-09-29T10:27:49.162918+00:00
 
-- Unassigned: 36+
+- Unassigned: 41+
 - [View all unassigned issues](https://github.com/gitroomhq/postiz-app/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#2168 YouTube provider requests unused youtubepartner scope, blocks clean OAuth verification](https://github.com/gitroomhq/postiz-app/issues/2168) | 0 |
+| [#2169 Agent doesnt load old convo](https://github.com/gitroomhq/postiz-app/issues/2169) | 0 |
+| [#2168 YouTube provider requests unused youtubepartner scope, blocks clean OAuth verification](https://github.com/gitroomhq/postiz-app/issues/2168) | 1 |
 | [#2157 stripe.js is loaded and makes fingerprinting requests when Stripe is disabled](https://github.com/gitroomhq/postiz-app/issues/2157) | 0 |
 | [#2135 Login loop: custom fetch reads the first cookie containing "auth=" (e.g. _pin_unauth) instead of the auth cookie](https://github.com/gitroomhq/postiz-app/issues/2135) | 0 |
 | [#2120 Support multiple provider app credentials per instance (bindable to a Customer)](https://github.com/gitroomhq/postiz-app/issues/2120) | 0 |
@@ -45,3 +46,7 @@ Most recently opened:
 | [#1891 Nostr provider fails to publish HEX private keys: expected Uint8Array, got type=string](https://github.com/gitroomhq/postiz-app/issues/1891) | 0 |
 | [#1888 WhatsApp Channel support](https://github.com/gitroomhq/postiz-app/issues/1888) | 0 |
 | [#1867 Short-linking corrupts Markdown links and images](https://github.com/gitroomhq/postiz-app/issues/1867) | 0 |
+| [#1863 bug: Copilot requests hang when OPENAI_API_KEY is unset](https://github.com/gitroomhq/postiz-app/issues/1863) | 0 |
+| [#1862 Public API `/public/v1/upload` always returns `originalName: null`, breaking display name in Media Library](https://github.com/gitroomhq/postiz-app/issues/1862) | 0 |
+| [#1861 Webhooks always fire with an empty body: sendWebhooks() receives the provider's post id instead of the internal post id](https://github.com/gitroomhq/postiz-app/issues/1861) | 0 |
+| [#1857 v2.22.1 has broken backend](https://github.com/gitroomhq/postiz-app/issues/1857) | 2 |

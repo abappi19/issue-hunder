@@ -1,14 +1,16 @@
 # codedogQBY/ReadAny
 
-Generated: 2026-09-28T16:05:25.841460+00:00
+Generated: 2026-09-29T10:28:12.612802+00:00
 
-- Unassigned: 67+
+- Unassigned: 68+
 - [View all unassigned issues](https://github.com/codedogQBY/ReadAny/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#812 [Bug] 设置里没有OLED选项](https://github.com/codedogQBY/ReadAny/issues/812) | 0 |
+| [#811 [Bug] 批量删除确认逻辑出错](https://github.com/codedogQBY/ReadAny/issues/811) | 0 |
 | [#808 [Bug] 索引了但是还不能使用](https://github.com/codedogQBY/ReadAny/issues/808) | 0 |
 | [#802 [Request] New release + TestFlight build update (post-1.3.6 fixes)](https://github.com/codedogQBY/ReadAny/issues/802) | 0 |
 | [#800 [Suggestion] 目录不跟随正文同步](https://github.com/codedogQBY/ReadAny/issues/800) | 0 |
@@ -75,4 +77,3 @@ Most recently opened:
 | [#704 [Bug] 标注问题](https://github.com/codedogQBY/ReadAny/issues/704) | 0 |
 | [#703 v1.36 版本打开任意书籍报错 ReferenceError: makeBook is not defined](https://github.com/codedogQBY/ReadAny/issues/703) | 1 |
 | [#700 [Bug] 目录栏定位错误](https://github.com/codedogQBY/ReadAny/issues/700) | 0 |
-| [#698 [Suggestion] 能不能加一个广告过滤功能](https://github.com/codedogQBY/ReadAny/issues/698) | 0 |

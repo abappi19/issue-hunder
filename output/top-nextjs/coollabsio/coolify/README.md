@@ -1,6 +1,6 @@
 # coollabsio/coolify
 
-Generated: 2026-09-28T16:04:59.586367+00:00
+Generated: 2026-09-29T10:27:49.162918+00:00
 
 - Unassigned: 44+
 - [View all unassigned issues](https://github.com/coollabsio/coolify/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,6 +9,7 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#12055 [BUG] Application logs API ignores service_name for Docker Compose applications](https://github.com/coollabsio/coolify/issues/12055) | 1 |
 | [#12049 [Bug]: Coolify Cloud rejects Sentinel pushes with 429 for hours while the server sends nothing else to app.coolify.io](https://github.com/coollabsio/coolify/issues/12049) | 0 |
 | [#12036 Long-form bind mappings lose read_only and bind options during application parsing](https://github.com/coollabsio/coolify/issues/12036) | 0 |
 | [#12034 Server validation rejects Arch-derived distros: validateOS() reads ID and ignores ID_LIKE](https://github.com/coollabsio/coolify/issues/12034) | 1 |
@@ -33,7 +34,6 @@ Most recently opened:
 | [#11953 [Bug]: Sentinel restart loop on servers managed by a non-root SSH user (CheckAndStartSentinelJob checks run without sudo)](https://github.com/coollabsio/coolify/issues/11953) | 1 |
 | [#11947 [Bug]: Application status dropdown is cut off on the left below xl width](https://github.com/coollabsio/coolify/issues/11947) | 0 |
 | [#11946 [Bug]: Volume backup to S3 (Cloudflare R2) crashes mc (SIGSEGV); with "Stop container during backup" the container is left stopped → production downtime](https://github.com/coollabsio/coolify/issues/11946) | 0 |
-| [#11945 [Bug]: install.sh recursively chowns /data/coolify on every upgrade, breaking service bind mounts (root install)](https://github.com/coollabsio/coolify/issues/11945) | 4 |
 | [#11926 [Bug]: Redis SSL regeneration generates an invalid certificate and mounts server.pem while Redis expects server.crt/server.key](https://github.com/coollabsio/coolify/issues/11926) | 0 |
 | [#11924 [Bug]: SERVICE_FQDN_*/SERVICE_URL_* regenerated from the stale auto-generated value on every deploy](https://github.com/coollabsio/coolify/issues/11924) | 2 |
 | [#11892 [Bug]: Additional destination status without a health suffix shows as an unhealthy healthcheck](https://github.com/coollabsio/coolify/issues/11892) | 0 |

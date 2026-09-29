@@ -1,14 +1,14 @@
 {
   "title": "Top React Native Projects",
-  "generated_at": "2026-09-28T16:05:13.515996+00:00",
+  "generated_at": "2026-09-29T10:28:01.660019+00:00",
   "repos": [
     {
       "repo": "react/react-native",
-      "unassigned": "21+"
+      "unassigned": "22+"
     },
     {
       "repo": "storybookjs/storybook",
-      "unassigned": "27+"
+      "unassigned": "28+"
     },
     {
       "repo": "enaqx/awesome-react",
@@ -16,7 +16,7 @@
     },
     {
       "repo": "appwrite/appwrite",
-      "unassigned": "19+"
+      "unassigned": "15+"
     },
     {
       "repo": "laurent22/joplin",
@@ -24,7 +24,7 @@
     },
     {
       "repo": "expo/expo",
-      "unassigned": "9+"
+      "unassigned": "10+"
     },
     {
       "repo": "dkhamsing/open-source-ios-apps",
@@ -40,11 +40,11 @@
     },
     {
       "repo": "mattermost/mattermost",
-      "unassigned": "17+"
+      "unassigned": "13+"
     },
     {
       "repo": "NervJS/taro",
-      "unassigned": "78+"
+      "unassigned": "81+"
     },
     {
       "repo": "jondot/awesome-react-native",
@@ -68,7 +68,7 @@
     },
     {
       "repo": "zulip/zulip",
-      "unassigned": "22+"
+      "unassigned": "21+"
     },
     {
       "repo": "react-native-elements/react-native-elements",
@@ -80,7 +80,7 @@
     },
     {
       "repo": "pubkey/rxdb",
-      "unassigned": 4
+      "unassigned": 5
     }
   ]
 }

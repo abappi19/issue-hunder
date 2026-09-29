@@ -1,18 +1,19 @@
 # Dokploy/dokploy
 
-Generated: 2026-09-28T16:04:59.586367+00:00
+Generated: 2026-09-29T10:27:49.162918+00:00
 
-- Unassigned: 48+
+- Unassigned: 49+
 - [View all unassigned issues](https://github.com/Dokploy/dokploy/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#5537 Auto-deploy is silently skipped when a GitHub push webhook is larger than 1 MB](https://github.com/Dokploy/dokploy/issues/5537) | 2 |
 | [#5533 UI change : few changes to avoiding silly mistakes](https://github.com/Dokploy/dokploy/issues/5533) | 1 |
 | [#5530 Dokploy Cloud v0.30.7: application schedule on remote server never fires automatically (Cron Bug)](https://github.com/Dokploy/dokploy/issues/5530) | 1 |
 | [#5528 Login fails via Cloudflare Tunnel custom domain with “invalid email address or password” while server IP works — Dokploy v0.30.7](https://github.com/Dokploy/dokploy/issues/5528) | 2 |
-| [#5526 make .env be renamable to .env.local](https://github.com/Dokploy/dokploy/issues/5526) | 1 |
+| [#5526 feat(env): renamable env file](https://github.com/Dokploy/dokploy/issues/5526) | 3 |
 | [#5524 Database backups require gzip/shell inside the DB container, breaking hardened images (e.g. Docker Hardened Images)](https://github.com/Dokploy/dokploy/issues/5524) | 2 |
 | [#5519 S3 credentials are logged in plaintext again: redactRcloneCredentials stopped matching after the shell-quote change](https://github.com/Dokploy/dokploy/issues/5519) | 2 |
 | [#5518 Orphaned deployment-log tail processes can exhaust inotify instances](https://github.com/Dokploy/dokploy/issues/5518) | 2 |

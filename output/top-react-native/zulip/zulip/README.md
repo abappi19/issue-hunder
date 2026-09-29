@@ -1,19 +1,18 @@
 # zulip/zulip
 
-Generated: 2026-09-28T16:05:13.515996+00:00
+Generated: 2026-09-29T10:28:01.660019+00:00
 
-- Unassigned: 22+
+- Unassigned: 21+
 - [View all unassigned issues](https://github.com/zulip/zulip/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#40230 Authentication failure for flush-memcached during install](https://github.com/zulip/zulip/issues/40230) | 0 |
-| [#40229 Uploaded images that the server can't thumbnail render as literal ![name](url) text](https://github.com/zulip/zulip/issues/40229) | 1 |
+| [#40229 Uploaded images that the server can't thumbnail render as literal ![name](url) text](https://github.com/zulip/zulip/issues/40229) | 3 |
 | [#40213 webhooks: only_events/exclude_events are ignored by the Linear, Azure DevOps, Redmine and RhodeCode integrations](https://github.com/zulip/zulip/issues/40213) | 0 |
-| [#40212 playgrounds: Trailing whitespace bypasses the restricted-keyword check for pygments_language](https://github.com/zulip/zulip/issues/40212) | 0 |
-| [#40193 Allow bots to send user invitations via /invites endpoint](https://github.com/zulip/zulip/issues/40193) | 3 |
+| [#40212 playgrounds: Trailing whitespace bypasses the restricted-keyword check for pygments_language](https://github.com/zulip/zulip/issues/40212) | 1 |
+| [#40193 Allow bots to send user invitations via /invites endpoint](https://github.com/zulip/zulip/issues/40193) | 4 |
 | [#40183 macOS desktop: Cmd+Enter does not insert a new line after using a code block](https://github.com/zulip/zulip/issues/40183) | 4 |
 | [#40166 "Error editing message: Message was edited by another client" but there is no other client](https://github.com/zulip/zulip/issues/40166) | 2 |
 | [#40156 Feature proposal: Add setting to control who can create voice/video call links](https://github.com/zulip/zulip/issues/40156) | 9 |

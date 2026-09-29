@@ -1,14 +1,14 @@
 {
   "title": "Top TypeScript Projects",
-  "generated_at": "2026-09-28T16:04:44.001734+00:00",
+  "generated_at": "2026-09-29T10:27:34.881260+00:00",
   "repos": [
     {
       "repo": "n8n-io/n8n",
-      "unassigned": "11+"
+      "unassigned": "9+"
     },
     {
       "repo": "microsoft/vscode",
-      "unassigned": "59+"
+      "unassigned": "61+"
     },
     {
       "repo": "f/prompts.chat",
@@ -16,23 +16,23 @@
     },
     {
       "repo": "langchain-ai/langchain",
-      "unassigned": "83+"
+      "unassigned": "82+"
     },
     {
       "repo": "immich-app/immich",
-      "unassigned": "46+"
+      "unassigned": "49+"
     },
     {
       "repo": "microsoft/TypeScript",
-      "unassigned": "44+"
+      "unassigned": "41+"
     },
     {
       "repo": "denoland/deno",
-      "unassigned": "50+"
+      "unassigned": "48+"
     },
     {
       "repo": "angular/angular",
-      "unassigned": "28+"
+      "unassigned": "32+"
     },
     {
       "repo": "ant-design/ant-design",
@@ -40,19 +40,19 @@
     },
     {
       "repo": "oven-sh/bun",
-      "unassigned": "51+"
+      "unassigned": "49+"
     },
     {
       "repo": "ruvnet/RuView",
-      "unassigned": "18+"
+      "unassigned": "17+"
     },
     {
       "repo": "storybookjs/storybook",
-      "unassigned": "27+"
+      "unassigned": "28+"
     },
     {
       "repo": "mermaid-js/mermaid",
-      "unassigned": "23+"
+      "unassigned": "21+"
     },
     {
       "repo": "bytedance/deer-flow",
@@ -60,7 +60,7 @@
     },
     {
       "repo": "nestjs/nest",
-      "unassigned": 7
+      "unassigned": 6
     },
     {
       "repo": "enaqx/awesome-react",
@@ -68,7 +68,7 @@
     },
     {
       "repo": "headroomlabs-ai/headroom",
-      "unassigned": "38+"
+      "unassigned": "42+"
     },
     {
       "repo": "unionlabs/union",
@@ -76,11 +76,11 @@
     },
     {
       "repo": "ruvnet/ruflo",
-      "unassigned": "42+"
+      "unassigned": "41+"
     },
     {
       "repo": "strapi/strapi",
-      "unassigned": "20+"
+      "unassigned": "17+"
     }
   ]
 }

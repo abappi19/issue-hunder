@@ -1,15 +1,14 @@
 # nestjs/nest
 
-Generated: 2026-09-28T16:04:44.001734+00:00
+Generated: 2026-09-29T10:27:34.881260+00:00
 
-- Unassigned: 7
+- Unassigned: 6
 - [View all unassigned issues](https://github.com/nestjs/nest/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#17903 ParseUUIDPipe `version` option does not support UUID v1, v6 and v8](https://github.com/nestjs/nest/issues/17903) | 0 |
 | [#13223 KafkaJs seems not maintained anymore](https://github.com/nestjs/nest/issues/13223) | 64 |
 | [#13158 `UploadFile()` should accept `Readable` instead of `Buffer`](https://github.com/nestjs/nest/issues/13158) | 14 |
 | [#4944 Dependency Dashboard](https://github.com/nestjs/nest/issues/4944) | 0 |

@@ -1,14 +1,17 @@
 # react/react
 
-Generated: 2026-09-28T16:04:27.044601+00:00
+Generated: 2026-09-29T10:27:19.620529+00:00
 
-- Unassigned: 34+
+- Unassigned: 35+
 - [View all unassigned issues](https://github.com/react/react/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#37709 Bug: Resuming a prerender that was aborted while a retried task was rendering drops part of the boundary](https://github.com/react/react/issues/37709) | 0 |
+| [#37707 Bug:](https://github.com/react/react/issues/37707) | 0 |
+| [#37706 [DevTools Bug] Cannot remove node "7321" because no matching node was found in the Store.](https://github.com/react/react/issues/37706) | 0 |
 | [#37704 [DevTools Bug] Cannot add child "424" to parent "423" because parent node was not found in the Store.](https://github.com/react/react/issues/37704) | 0 |
 | [#37703 Bug:](https://github.com/react/react/issues/37703) | 0 |
 | [#37697 Bug: `useTransition` updates state ~17 seconds after File System API promise resolves](https://github.com/react/react/issues/37697) | 1 |
@@ -29,7 +32,7 @@ Most recently opened:
 | [#37639 [DevTools Bug]: standalone bundle should be rebuilt with a patched ws 7.x release](https://github.com/react/react/issues/37639) | 1 |
 | [#37637 Bug: <ViewTransition> nested inside a portal-mounted parent never receives its own view-transition-name/class when both mount in the same commit](https://github.com/react/react/issues/37637) | 0 |
 | [#37623 Bug:](https://github.com/react/react/issues/37623) | 0 |
-| [#37620 Bug: Suspense fallback remounts on hydration after use(browser()) + client use(promise)](https://github.com/react/react/issues/37620) | 8 |
+| [#37620 Bug: Suspense fallback remounts on hydration after use(browser()) + client use(promise)](https://github.com/react/react/issues/37620) | 9 |
 | [#37619 [Flight] Cyclic references inside Map/Set values are silently corrupted to null on the client](https://github.com/react/react/issues/37619) | 1 |
 | [#37617 Bug:](https://github.com/react/react/issues/37617) | 0 |
 | [#37616 [Fizz]: An error thrown without a Suspense boundary rejects the shell w/ no recovery primitive](https://github.com/react/react/issues/37616) | 0 |
@@ -41,5 +44,3 @@ Most recently opened:
 | [#37600 Bug: Fragment dispatchEvent invokes listeners removed or aborted earlier in the same dispatch](https://github.com/react/react/issues/37600) | 0 |
 | [#37598 Bug: Mutating Fragment listener options breaks removal, once and abort cleanup](https://github.com/react/react/issues/37598) | 0 |
 | [#37596 Bug: Flight Node clients leave models pending when a readable closes without end or error](https://github.com/react/react/issues/37596) | 0 |
-| [#37585 [Compiler Bug]: Moving an unreachable early return changes child rendering](https://github.com/react/react/issues/37585) | 0 |
-| [#37571 Bug: ResponderEventPlugin counts touch events, not touches, so a coalesced multi-touch cancel leaves trackedTouchCount stuck](https://github.com/react/react/issues/37571) | 3 |

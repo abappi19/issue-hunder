@@ -1,37 +1,49 @@
 # langchain-ai/langchain
 
-Generated: 2026-09-28T16:04:44.001734+00:00
+Generated: 2026-09-29T10:27:34.881260+00:00
 
-- Unassigned: 83+
+- Unassigned: 82+
 - [View all unassigned issues](https://github.com/langchain-ai/langchain/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#40871 ChatOpenAI (Responses API): streamed chunks switch from resp_… to lc_run--… ids, the stream id doesn't match the final message id](https://github.com/langchain-ai/langchain/issues/40871) | 0 |
-| [#40868 Agentic run with dynamic filtering (web_search_20260209 inside code_execution) rejected with "code_execution tool use ... without a corresponding code_execution_tool_result block](https://github.com/langchain-ai/langchain/issues/40868) | 1 |
-| [#40867 feat(typesafe): harden TypeSafeClassifier against API limits and rate limiting](https://github.com/langchain-ai/langchain/issues/40867) | 0 |
-| [#40866 ModelCallLimitMiddleware: the limit-exceeded message can't be told apart from a model answer](https://github.com/langchain-ai/langchain/issues/40866) | 0 |
+| [#40899 langchain-classic: ImportError messages for moved REPL tools link to a deleted SECURITY.md and a deleted discussion](https://github.com/langchain-ai/langchain/issues/40899) | 0 |
+| [#40897 [langchain-openai] Qwen named tool_choice is rejected when thinking mode is enabled](https://github.com/langchain-ai/langchain/issues/40897) | 1 |
+| [#40896 [langchain-openai] ChatOpenAI accepts stop for o3 and o4-mini, resulting in provider HTTP 400`](https://github.com/langchain-ai/langchain/issues/40896) | 1 |
+| [#40895 [langchain-openai] ChatOpenAI forwards unsupported sampling parameters to gpt-6-astra via Responses API](https://github.com/langchain-ai/langchain/issues/40895) | 1 |
+| [#40894 Streaming parser crashes when a tool-call delta has function=None](https://github.com/langchain-ai/langchain/issues/40894) | 2 |
+| [#40892 ChatAnthropic silently drops message-level output_config and clear_at from SystemMessage](https://github.com/langchain-ai/langchain/issues/40892) | 1 |
+| [#40881 `on_tool_error` does not receive the caller's `**kwargs` that `on_tool_start` and `on_tool_end` do](https://github.com/langchain-ai/langchain/issues/40881) | 1 |
+| [#40880 An injected tool arg declared with a Pydantic alias is not filtered from `on_tool_start`'s `inputs` and `input_str`](https://github.com/langchain-ai/langchain/issues/40880) | 1 |
+| [#40879 `InjectedToolCallId` is overridden by a value inside `args` when a custom `args_schema` does not declare the field](https://github.com/langchain-ai/langchain/issues/40879) | 1 |
+| [#40878 `with_fallbacks(exception_key=...)` writes the exception into the caller's own input mapping  Package：langchain-core](https://github.com/langchain-ai/langchain/issues/40878) | 1 |
+| [#40877 `RunnableParallel` ignores `max_concurrency` on `ainvoke`/`astream` while `invoke`/`stream` honour it](https://github.com/langchain-ai/langchain/issues/40877) | 2 |
+| [#40873 Test PIIMiddleware stream redaction at every chunk split](https://github.com/langchain-ai/langchain/issues/40873) | 0 |
+| [#40871 ChatOpenAI (Responses API): streamed chunks switch from resp_… to lc_run--… ids, the stream id doesn't match the final message id](https://github.com/langchain-ai/langchain/issues/40871) | 1 |
+| [#40868 Agentic run with dynamic filtering (web_search_20260209 inside code_execution) rejected with "code_execution tool use ... without a corresponding code_execution_tool_result block](https://github.com/langchain-ai/langchain/issues/40868) | 3 |
+| [#40867 feat(typesafe): harden TypeSafeClassifier against API limits and rate limiting](https://github.com/langchain-ai/langchain/issues/40867) | 2 |
+| [#40866 ModelCallLimitMiddleware: the limit-exceeded message can't be told apart from a model answer](https://github.com/langchain-ai/langchain/issues/40866) | 1 |
 | [#40863 Support forwarding MCP _meta on tool calls and surfacing server response metadata](https://github.com/langchain-ai/langchain/issues/40863) | 0 |
 | [#40858 Output parsers drop tool calls when a chat model falls back to invoke inside stream(), so structured output streams nothing](https://github.com/langchain-ai/langchain/issues/40858) | 3 |
 | [#40852 Many tests fail](https://github.com/langchain-ai/langchain/issues/40852) | 1 |
 | [#40840 SummarizationMiddleware: _get_approximate_token_counter doesn't recognize Claude on Bedrock (ChatBedrockConverse), so summarization triggers late](https://github.com/langchain-ai/langchain/issues/40840) | 1 |
 | [#40830 ChatPerplexity.stream() crashes with TypeError when `stop` sequences are passed](https://github.com/langchain-ai/langchain/issues/40830) | 4 |
 | [#40826 Streaming a large tool call re-parses its arguments in pure Python on every chunk](https://github.com/langchain-ai/langchain/issues/40826) | 3 |
-| [#40825 MCP Apps (SEP-1865): first-class support for hosts that render a server's UI](https://github.com/langchain-ai/langchain/issues/40825) | 1 |
+| [#40825 Support MCP Apps (SEP-1865) in LangChain hosts](https://github.com/langchain-ai/langchain/issues/40825) | 1 |
 | [#40819 RunnableWithFallbacks.batch/abatch never close root runs when an input raises an exception not in exceptions_to_handle](https://github.com/langchain-ai/langchain/issues/40819) | 8 |
 | [#40809 Bedrock Converse `content_blocks` drops redacted reasoning, so it is not sent back with `output_version="v1"` (found with GPT-6 Sol/Luna/Astra)](https://github.com/langchain-ai/langchain/issues/40809) | 1 |
 | [#40802 langchain-typesafe: TypeSafeClassifier declares serialization support but cannot round-trip through built-in deserialization](https://github.com/langchain-ai/langchain/issues/40802) | 1 |
 | [#40796 langchain-typesafe: validate ModelRouterMiddleware classifier routes](https://github.com/langchain-ai/langchain/issues/40796) | 2 |
-| [#40788 message_to_events drops AIMessage.additional_kwargs during replay](https://github.com/langchain-ai/langchain/issues/40788) | 7 |
+| [#40788 message_to_events drops AIMessage.additional_kwargs during replay](https://github.com/langchain-ai/langchain/issues/40788) | 8 |
 | [#40782 `ChatOpenAI.bind_tools()` rejects GPT-6 shell / Programmatic Tool Calling and lacks Responses round-trip support](https://github.com/langchain-ai/langchain/issues/40782) | 1 |
 | [#40777 `ChatAnthropic` sends unsupported tool choice and thinking configurations for Claude Opus 5.5](https://github.com/langchain-ai/langchain/issues/40777) | 1 |
 | [#40771 [langchain-groq] bind_tools ignores a known tool_calling=False model profile and sends a request that Groq rejects](https://github.com/langchain-ai/langchain/issues/40771) | 7 |
 | [#40770 [langchain-anthropic] Manual thinking validation misses Claude Opus 4.7/4.8 and Sonnet 5](https://github.com/langchain-ai/langchain/issues/40770) | 3 |
 | [#40769 [langchain-deepseek] bind_tools(tool_choice="any") produces an invalid request with DeepSeek's default thinking mode`](https://github.com/langchain-ai/langchain/issues/40769) | 2 |
 | [#40768 [langchain-anthropic] Call-time thinking bypasses bind_tools forced-tool-choice guard](https://github.com/langchain-ai/langchain/issues/40768) | 2 |
-| [#40767 PIIMiddleware(apply_to_output=True) blanks parameters on tool calls, leading to a GraphRecursion Error.](https://github.com/langchain-ai/langchain/issues/40767) | 2 |
+| [#40767 PIIMiddleware(apply_to_output=True) blanks parameters on tool calls, leading to a GraphRecursion Error.](https://github.com/langchain-ai/langchain/issues/40767) | 3 |
 | [#40761 text-splitters: `RecursiveJsonSplitter` sizes chunks against escaped JSON, so `ensure_ascii=False` chunks come back far below `max_chunk_size`](https://github.com/langchain-ai/langchain/issues/40761) | 3 |
 | [#40755 ChatAnthropic.bind_tools() raises ValueError on Anthropic's documented browser_toolset_20260801](https://github.com/langchain-ai/langchain/issues/40755) | 2 |
 | [#40753 ToolStrategy retries structured-output validation failures without any cap](https://github.com/langchain-ai/langchain/issues/40753) | 1 |
@@ -67,7 +79,7 @@ Most recently opened:
 | [#40503 MCP ResourceLink/EmbeddedResource metadata dropped when converting to LangChain content blocks (langchain.mcp)](https://github.com/langchain-ai/langchain/issues/40503) | 3 |
 | [#40502 core: `InMemoryVectorStore` raises `NotImplementedError` for relevance-score search and the `similarity_score_threshold` retriever](https://github.com/langchain-ai/langchain/issues/40502) | 2 |
 | [#40501 core: `AsyncBaseTracer` drops `name` in `on_tool_start` and `response` in `on_llm_error`, diverging from `BaseTracer`](https://github.com/langchain-ai/langchain/issues/40501) | 2 |
-| [#40492 langchain 1.4.0: any after_model middleware using documented `jump_to="tools"` bypasses the HITL pending_tool_calls gate and re-executes rejected tool calls](https://github.com/langchain-ai/langchain/issues/40492) | 9 |
+| [#40492 langchain 1.4.0: any after_model middleware using documented `jump_to="tools"` bypasses the HITL pending_tool_calls gate and re-executes rejected tool calls](https://github.com/langchain-ai/langchain/issues/40492) | 10 |
 | [#40470 langchain: preserve result-level MCP `_meta` in tool results](https://github.com/langchain-ai/langchain/issues/40470) | 2 |
 | [#40460 core: mustache inverted section `{{^key}}` nested inside a `{{#key}}` list section misrenders or raises `IndexError`](https://github.com/langchain-ai/langchain/issues/40460) | 4 |
 | [#40447 huggingface: `HuggingFaceEndpoint` drops the token for dedicated Inference Endpoints (`*.endpoints.huggingface.cloud`)](https://github.com/langchain-ai/langchain/issues/40447) | 4 |
@@ -79,16 +91,3 @@ Most recently opened:
 | [#40423 bug(langchain): create_agent ends the loop on an invalid structured-output call when an ordinary tool call is in the same batch (no retry feedback)](https://github.com/langchain-ai/langchain/issues/40423) | 3 |
 | [#40392 v3 stream: parallel tool calls collide on the positional fallback key and one is silently dropped](https://github.com/langchain-ai/langchain/issues/40392) | 7 |
 | [#40379 ChatOpenRouter: max_retries=0 enables the SDK default retry policy](https://github.com/langchain-ai/langchain/issues/40379) | 2 |
-| [#40368 RemoteGraph returns invoke output as list of dict instead of list of BaseMessage - mandatory when combined with CompiledSubAgent](https://github.com/langchain-ai/langchain/issues/40368) | 1 |
-| [#40367 Fireworks: reasoning_content dropped in streaming and outbound converters](https://github.com/langchain-ai/langchain/issues/40367) | 1 |
-| [#40364 Errors OpenRouter reports in a 200 response body are stringified rather than classified](https://github.com/langchain-ai/langchain/issues/40364) | 2 |
-| [#40362 Provider errors returned in a 200 response body are never classified](https://github.com/langchain-ai/langchain/issues/40362) | 4 |
-| [#40360 CommaSeparatedListOutputParser corrupts quoted CSV fields across streaming chunks](https://github.com/langchain-ai/langchain/issues/40360) | 2 |
-| [#40343 standard-tests: chat model tests never check the documented `total_tokens == input_tokens + output_tokens` invariant](https://github.com/langchain-ai/langchain/issues/40343) | 1 |
-| [#40341 `HTMLHeaderTextSplitter` raises `ValueError` on init for the non-heading tags its splitter already supports](https://github.com/langchain-ai/langchain/issues/40341) | 10 |
-| [#40334 Feature: Support metadata-only updates in index() - avoid re-embedding when the content is unchanged](https://github.com/langchain-ai/langchain/issues/40334) | 1 |
-| [#40333 feat: WalletForge x402 paid tools (fetch_markdown / normalize_text) for LangChain agents](https://github.com/langchain-ai/langchain/issues/40333) | 0 |
-| [#40332 `convert_to_openai_tool` ignores `strict` for dicts already in OpenAI tool format](https://github.com/langchain-ai/langchain/issues/40332) | 2 |
-| [#40320 langchain: 26 shell middleware unit tests fail on Windows (POSIX-only tests without platform guards)](https://github.com/langchain-ai/langchain/issues/40320) | 1 |
-| [#40314 MarkdownHeaderTextSplitter becomes very slow with many paragraphs under the same header](https://github.com/langchain-ai/langchain/issues/40314) | 2 |
-| [#40311 `AnthropicPromptCachingMiddleware` silently drops the system prompt when the last content block is a string](https://github.com/langchain-ai/langchain/issues/40311) | 2 |

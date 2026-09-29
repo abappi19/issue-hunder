@@ -1,17 +1,17 @@
 # microsoft/vscode
 
-Generated: 2026-09-28T16:04:44.001734+00:00
+Generated: 2026-09-29T10:27:34.881260+00:00
 
-- Unassigned: 59+
+- Unassigned: 61+
 - [View all unassigned issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#338434 This repo is missing important files](https://github.com/microsoft/vscode/issues/338434) | 0 |
-| [#338433 This repo is missing a LICENSE file](https://github.com/microsoft/vscode/issues/338433) | 0 |
+| [#338444 Remote Agent Host fails GitHub issue creation by opening UI on the remote](https://github.com/microsoft/vscode/issues/338444) | 1 |
 | [#338307 [chat-perf] TTFT and layoutDurationMs regressed >20% in multi-turn-user and many-small-chunks scenarios (first run)](https://github.com/microsoft/vscode/issues/338307) | 0 |
+| [#338220 Test: Single-folder multi-chat regression coverage](https://github.com/microsoft/vscode/issues/338220) | 0 |
 | [#338106 [chat-perf] TTFT/layoutDurationMs regressed 29–45% in large-codeblock, long-prose, file-links, thinking-response scenarios](https://github.com/microsoft/vscode/issues/338106) | 0 |
 | [#338070 Don,t show at my code](https://github.com/microsoft/vscode/issues/338070) | 1 |
 | [#337903 [chat-perf] layoutDurationMs regressed ~20% in thinking-response scenario](https://github.com/microsoft/vscode/issues/337903) | 0 |
@@ -68,3 +68,5 @@ Most recently opened:
 | [#330572 Expose peer-chat discovery and stable chat identifiers for agent-host sessions](https://github.com/microsoft/vscode/issues/330572) | 0 |
 | [#330470 t](https://github.com/microsoft/vscode/issues/330470) | 0 |
 | [#330444 [flaky test] URI file#toString (src/vs/base/test/common/uri.test.ts)](https://github.com/microsoft/vscode/issues/330444) | 0 |
+| [#330110 No indication in Customizations window that `strictPluginOnlyCustomization` is preventing workspace plugins from being usable.](https://github.com/microsoft/vscode/issues/330110) | 0 |
+| [#330053 cannot install from allowed marketplace](https://github.com/microsoft/vscode/issues/330053) | 1 |

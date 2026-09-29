@@ -1,14 +1,16 @@
 # CopilotKit/CopilotKit
 
-Generated: 2026-09-28T16:04:59.586367+00:00
+Generated: 2026-09-29T10:27:49.162918+00:00
 
-- Unassigned: 25+
+- Unassigned: 27+
 - [View all unassigned issues](https://github.com/CopilotKit/CopilotKit/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#7507 Vue: message-after slot calls getMeta() 6x per row per render, each deep-cloning the full run state — 84% of main-thread time, 12-76s freezes in long threads](https://github.com/CopilotKit/CopilotKit/issues/7507) | 1 |
+| [#7494 v2 chat: sending a message in a long virtualized thread jumps the view up before it returns to the bottom](https://github.com/CopilotKit/CopilotKit/issues/7494) | 1 |
 | [#7486 Inspector panel overflows small viewports; close control unreachable and Escape doesn't close it](https://github.com/CopilotKit/CopilotKit/issues/7486) | 1 |
 | [#7480 🚀 Feature Request: App Context / state note in system_message invalidates provider prompt caching on every turn](https://github.com/CopilotKit/CopilotKit/issues/7480) | 1 |
 | [#7459 RFC: activity lifecycle API and MCP Apps failure UX — core maintainer input](https://github.com/CopilotKit/CopilotKit/issues/7459) | 2 |

@@ -1,14 +1,15 @@
 # vercel/next.js
 
-Generated: 2026-09-28T16:04:59.586367+00:00
+Generated: 2026-09-29T10:27:49.162918+00:00
 
-- Unassigned: 22+
+- Unassigned: 21+
 - [View all unassigned issues](https://github.com/vercel/next.js/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#99390 Turbopack: web worker bootstrap throws when a query is appended to the worker URL (#params= fragment)](https://github.com/vercel/next.js/issues/99390) | 0 |
 | [#99361 Redirects from proxy drop the _rsc search param, while rewrites and next.config redirects keep it](https://github.com/vercel/next.js/issues/99361) | 0 |
 | [#99357 `next/link` prefetches across routers in mixed App/Pages apps (`_next/data` 404 for App routes, HTML prefetch for Pages routes)](https://github.com/vercel/next.js/issues/99357) | 0 |
 | [#99353 Route announcer crashes with `removeChild` after browser translation](https://github.com/vercel/next.js/issues/99353) | 0 |
@@ -27,7 +28,5 @@ Most recently opened:
 | [#99297 Editing a server component while the page hydrates logs "Can't perform a React state update on a component that hasn't mounted yet"](https://github.com/vercel/next.js/issues/99297) | 0 |
 | [#99290 next/image: please backport #98168 to 15.5.x (cancelled image request hangs that image until restart)](https://github.com/vercel/next.js/issues/99290) | 0 |
 | [#99288 Self-hosted, multiple instances: an ISR page served from a shared cacheHandler by an instance that did not render it has no Cache-Control](https://github.com/vercel/next.js/issues/99288) | 1 |
-| [#99287 notFound() serves an empty `__next_error__` document instead of not-found.tsx](https://github.com/vercel/next.js/issues/99287) | 1 |
+| [#99287 notFound() serves an empty `__next_error__` document instead of not-found.tsx](https://github.com/vercel/next.js/issues/99287) | 4 |
 | [#99273 Socket rewrites connection reuse can lead to a race condition](https://github.com/vercel/next.js/issues/99273) | 0 |
-| [#99248 next/jest loads the server runtime into Jest's own process, so process.on(…) in every test file adds listeners to the real process](https://github.com/vercel/next.js/issues/99248) | 3 |
-| [#99246 crypto/node:crypto wrappers stack up each time the server starts in a new realm, keeping every earlier realm alive](https://github.com/vercel/next.js/issues/99246) | 3 |

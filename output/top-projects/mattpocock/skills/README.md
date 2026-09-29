@@ -1,6 +1,6 @@
 # mattpocock/skills
 
-Generated: 2026-09-28T16:04:27.044601+00:00
+Generated: 2026-09-29T10:27:19.620529+00:00
 
 - Unassigned: 98+
 - [View all unassigned issues](https://github.com/mattpocock/skills/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,6 +9,8 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#1137 Add Jira as a first-class issue tracker, via Atlassian's official CLI (`acli`)](https://github.com/mattpocock/skills/issues/1137) | 0 |
+| [#1135 Star Graph](https://github.com/mattpocock/skills/issues/1135) | 0 |
 | [#1134 Proposal: /implement keeps a running implementation-notes file (design decisions, deviations, tradeoffs, open questions)](https://github.com/mattpocock/skills/issues/1134) | 0 |
 | [#1133 [contribution] to-intent skill — an entry point the to-spec family is missing](https://github.com/mattpocock/skills/issues/1133) | 0 |
 | [#1132 pr skill: component-tree example is flattened into one-line pseudo-TypeScript](https://github.com/mattpocock/skills/issues/1132) | 0 |
@@ -105,5 +107,3 @@ Most recently opened:
 | [#1006 `wayfinder: define behavior when all tickets are resolved but "Not yet specified" is still non-empty`](https://github.com/mattpocock/skills/issues/1006) | 0 |
 | [#1005 Add a documentation index under docs/](https://github.com/mattpocock/skills/issues/1005) | 1 |
 | [#1003 wizard generates an unused `RED` variable](https://github.com/mattpocock/skills/issues/1003) | 1 |
-| [#1002 grilling: reset the tree when the user corrects the goal](https://github.com/mattpocock/skills/issues/1002) | 0 |
-| [#1001 [Idea] Exploring a lightweight adapter between /handoff and my task-handoff for high-stakes scenarios](https://github.com/mattpocock/skills/issues/1001) | 0 |

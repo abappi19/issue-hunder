@@ -1,22 +1,18 @@
 # ossu/computer-science
 
-Generated: 2026-09-28T16:04:27.044601+00:00
+Generated: 2026-09-29T10:27:19.620529+00:00
 
-- Unassigned: 20
+- Unassigned: 16
 - [View all unassigned issues](https://github.com/ossu/computer-science/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#1466 Stale Course Links](https://github.com/ossu/computer-science/issues/1466) | 0 |
-| [#1465 Add Deep Learning / Modern AI Elective to Advanced CS](https://github.com/ossu/computer-science/issues/1465) | 0 |
-| [#1464 Add a Distributed Systems Course to the Curriculum](https://github.com/ossu/computer-science/issues/1464) | 0 |
 | [#1458 Create computer-science-ja](https://github.com/ossu/computer-science/issues/1458) | 1 |
 | [#1441 2 errors in the class based programming course](https://github.com/ossu/computer-science/issues/1441) | 4 |
 | [#1427 RFC: Replace Software Architecture with Freely Available Alternative](https://github.com/ossu/computer-science/issues/1427) | 1 |
 | [#1411 RFC: Add modern AI literacy and safety resources to curriculum](https://github.com/ossu/computer-science/issues/1411) | 3 |
-| [#1393 Coursera "This content is outside your preview access"](https://github.com/ossu/computer-science/issues/1393) | 1 |
 | [#1364 Discussion on updating this curriculum to new CS2023 guidelines](https://github.com/ossu/computer-science/issues/1364) | 2 |
 | [#1266 RFC: Replace 6.00.1x, PY4E, and CS50P for 6.100L Introduction to CS and Programming Using Python](https://github.com/ossu/computer-science/issues/1266) | 11 |
 | [#1235 RFC: Provide Organized Instruction In Professional Presentation Skills](https://github.com/ossu/computer-science/issues/1235) | 3 |

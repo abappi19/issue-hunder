@@ -1,22 +1,32 @@
 # oven-sh/bun
 
-Generated: 2026-09-28T16:04:44.001734+00:00
+Generated: 2026-09-29T10:27:34.881260+00:00
 
-- Unassigned: 51+
+- Unassigned: 49+
 - [View all unassigned issues](https://github.com/oven-sh/bun/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#44209 node:http: a request with Content-Length: 0 whose head took two reads gets a 408 on the idle connection](https://github.com/oven-sh/bun/issues/44209) | 0 |
+| [#44208 node:http: every request copies the bytes behind its head into a head Buffer that only 'connect' and 'upgrade' read](https://github.com/oven-sh/bun/issues/44208) | 0 |
+| [#44207 node:http: closeIdleConnections() in the same tick as res.end() closes the connection of that request](https://github.com/oven-sh/bun/issues/44207) | 0 |
+| [#44206 node:http: an Upgrade request with a body gets no body and no tunnel bytes when its listener calls socket.end()](https://github.com/oven-sh/bun/issues/44206) | 0 |
+| [#44202 node:http2 client resets a bodiless DELETE that carries content-length: 0 (ERR_HTTP2_STREAM_ERROR, rstCode 1); PATCH and PUT with the header are fine](https://github.com/oven-sh/bun/issues/44202) | 0 |
+| [#44201 node:zlib: a zstd compressor with ZSTD_c_nbWorkers and a dictionary crashes when it closes while a job runs](https://github.com/oven-sh/bun/issues/44201) | 0 |
+| [#44187 node:sqlite / bun:sqlite: built without SQLITE_DEFAULT_MEMSTATUS=0, so reads from several workers contend on a global mutex](https://github.com/oven-sh/bun/issues/44187) | 0 |
+| [#44186 worker_threads: allocating workers block on each other's GC marking; BUN_JSC_numberOfGCMarkers=1 halves 8-worker wall time](https://github.com/oven-sh/bun/issues/44186) | 0 |
+| [#44177 Bun.serve routes: building the table is quadratic and lookup is linear in the number of sibling routes](https://github.com/oven-sh/bun/issues/44177) | 2 |
+| [#44176 Bun.serve routes: matching uses the raw request-target but req.url is dot-segment-normalised (`..` reaches a :param route; `#` lands in params)](https://github.com/oven-sh/bun/issues/44176) | 0 |
+| [#44173 node:worker_threads: new Worker() validates options.name before the filename, execArgv, argv and env](https://github.com/oven-sh/bun/issues/44173) | 0 |
+| [#44170 `process` listeners registered after a listener that throws still run](https://github.com/oven-sh/bun/issues/44170) | 0 |
 | [#44164 Bun.PLIST: parse/stringify Apple property lists (XML, binary, OpenStep) + .plist loader](https://github.com/oven-sh/bun/issues/44164) | 0 |
 | [#44162 bun test --changed skips tests that import through package.json "imports" (#subpath) or a workspace package](https://github.com/oven-sh/bun/issues/44162) | 0 |
 | [#44161 bun test --isolate: intermittent SIGSEGV in JSFinalizationRegistry::takeDeadHoldingsValue (0x70) on 1.4.2 Linux x64](https://github.com/oven-sh/bun/issues/44161) | 0 |
 | [#44160 bun publish does not respect --dns-result-order=ipv4first](https://github.com/oven-sh/bun/issues/44160) | 0 |
 | [#44159 bun upgrade fails if you have BUN_OPTIONS set](https://github.com/oven-sh/bun/issues/44159) | 0 |
 | [#44158 --cpu-prof omits positionTicks for samples in DFG/FTL code, so a node's ticks sum to less than its hitCount](https://github.com/oven-sh/bun/issues/44158) | 0 |
-| [#44157 node:sqlite / bun:sqlite: built without SQLITE_DEFAULT_MEMSTATUS=0, so reads from several workers contend on a global mutex](https://github.com/oven-sh/bun/issues/44157) | 0 |
-| [#44156 worker_threads: allocating workers block on each other's GC marking; BUN_JSC_numberOfGCMarkers=1 halves 8-worker wall time](https://github.com/oven-sh/bun/issues/44156) | 2 |
 | [#44148 node:tls: a write to this.rejectUnauthorized in checkServerIdentity does not change the verdict](https://github.com/oven-sh/bun/issues/44148) | 0 |
 | [#44144 node:tls: the connect options lack minDHSize, singleUse and the http2 servername](https://github.com/oven-sh/bun/issues/44144) | 0 |
 | [#44143 ws: finishRequest gets no `this` and no WebSocket argument](https://github.com/oven-sh/bun/issues/44143) | 0 |
@@ -28,7 +38,7 @@ Most recently opened:
 | [#44134 Bun.WebView (webkit): navigate() sometimes never settles when the reply frame is over 8 KB (URL longer than ~8.15 KB)](https://github.com/oven-sh/bun/issues/44134) | 0 |
 | [#44132 node:stream/iter: a stateful transform that yields the null flush signal throws ERR_INVALID_ARG_TYPE](https://github.com/oven-sh/bun/issues/44132) | 0 |
 | [#44130 `Bun.file()` and in-memory `Blob` return the internal `INIT_TIMESTAMP` sentinel from `lastModified`](https://github.com/oven-sh/bun/issues/44130) | 1 |
-| [#44127 ws: req.setHeader() in finishRequest does not replace a header of options.headers with an uppercase name](https://github.com/oven-sh/bun/issues/44127) | 0 |
+| [#44127 ws: req.setHeader() in finishRequest does not replace a header of options.headers with an uppercase name](https://github.com/oven-sh/bun/issues/44127) | 1 |
 | [#44125 node:os: os.cpus() throws "Failed to get CPU information" on model/speed/times when /proc/stat and /proc/cpuinfo disagree](https://github.com/oven-sh/bun/issues/44125) | 1 |
 | [#44121 bun build: class renamed on name collision changes `.name`, even with `--keep-names`](https://github.com/oven-sh/bun/issues/44121) | 1 |
 | [#44120 emitDecoratorMetadata ignores strictNullChecks: `X | undefined` / `X | null` serialized as `X` instead of `Object`](https://github.com/oven-sh/bun/issues/44120) | 1 |
@@ -48,15 +58,3 @@ Most recently opened:
 | [#44084 node:sqlite StatementSync.get() ~1.5x slower than Node when returning table columns](https://github.com/oven-sh/bun/issues/44084) | 3 |
 | [#44077 --cpu-prof and --cpu-prof-md count event-loop idle time as JavaScript self time](https://github.com/oven-sh/bun/issues/44077) | 1 |
 | [#44075 macOS: dns.lookup/fetch ENOTFOUND for split-DNS names — DNSServiceGetAddrInfoEx ignores kDNSServiceAttrAllowFailover (follow-up to #40573)](https://github.com/oven-sh/bun/issues/44075) | 0 |
-| [#44068 bun build --compile: __dirname/__filename in an included CommonJS entrypoint are inlined as the build directory, not the $bunfs path](https://github.com/oven-sh/bun/issues/44068) | 1 |
-| [#44064 Bun.serve sends an empty body for a file on procfs or cgroupfs (st_size 0)](https://github.com/oven-sh/bun/issues/44064) | 0 |
-| [#44063 bun build --compile: an embedded native addon is extracted alone, so a shared library next to it is not found (Library not loaded: @rpath/...)](https://github.com/oven-sh/bun/issues/44063) | 1 |
-| [#44062 bun build --compile --asset keeps only the last path segment, but --help says it preserves the relative path](https://github.com/oven-sh/bun/issues/44062) | 1 |
-| [#44053 bun build --compile: an --external package is resolved from process.cwd(), not from the executable's directory](https://github.com/oven-sh/bun/issues/44053) | 1 |
-| [#44051 fs.watch on macOS stops reporting writes to a file that the writer keeps open (regression in 1.3.14)](https://github.com/oven-sh/bun/issues/44051) | 1 |
-| [#44048 docs: html-static.mdx links to a removed source file (src/runtime/api/bun/html-rewriter.ts 404s)](https://github.com/oven-sh/bun/issues/44048) | 1 |
-| [#44045 bun:test toMatchSnapshot() creates multi-megabyte files when snapshotting JSDOM nodes](https://github.com/oven-sh/bun/issues/44045) | 1 |
-| [#44044 Bun.markdown: a chain of autolink candidates that fail at their right boundary takes quadratic time](https://github.com/oven-sh/bun/issues/44044) | 0 |
-| [#44039 Bun.SQL: a graceful `close()` after `reserved.release()` does not wait for the queries of the reserved connection](https://github.com/oven-sh/bun/issues/44039) | 0 |
-| [#44038 Bun.SQL: the query of `sql.file()` is rejected when a graceful `close()` follows in the same tick](https://github.com/oven-sh/bun/issues/44038) | 0 |
-| [#44037 Bun.Image: decode HEIC/HEIF on Linux (dlopen system libheif)](https://github.com/oven-sh/bun/issues/44037) | 2 |

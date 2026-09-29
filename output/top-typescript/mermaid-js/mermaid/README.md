@@ -1,16 +1,15 @@
 # mermaid-js/mermaid
 
-Generated: 2026-09-28T16:04:44.001734+00:00
+Generated: 2026-09-29T10:27:34.881260+00:00
 
-- Unassigned: 23+
+- Unassigned: 21+
 - [View all unassigned issues](https://github.com/mermaid-js/mermaid/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#8340 Flowchart: a label that contains a math formula is never wrapped](https://github.com/mermaid-js/mermaid/issues/8340) | 0 |
-| [#8327 Swimlanes: Node position changes when label is added to link](https://github.com/mermaid-js/mermaid/issues/8327) | 0 |
+| [#8327 Swimlanes: Node position changes when label is added to link](https://github.com/mermaid-js/mermaid/issues/8327) | 2 |
 | [#8319 Title in multiple lines](https://github.com/mermaid-js/mermaid/issues/8319) | 0 |
 | [#8308 `viewBox` computed from un-settled `foreignObject` geometry when the host page has a CSS transition on `width`/`height` — diagram renders in a box ~2000 units square](https://github.com/mermaid-js/mermaid/issues/8308) | 1 |
 | [#8290 Proposal: optional frame IDs, no `tf` prefix, forward arrows](https://github.com/mermaid-js/mermaid/issues/8290) | 0 |
@@ -27,8 +26,7 @@ Most recently opened:
 | [#8187 Waveform Diagram Support](https://github.com/mermaid-js/mermaid/issues/8187) | 0 |
 | [#8184 Palette theme variables are interpolated into CSS without validation](https://github.com/mermaid-js/mermaid/issues/8184) | 1 |
 | [#8175 Colour the use case diagram by role, with numbered system boundaries](https://github.com/mermaid-js/mermaid/issues/8175) | 1 |
-| [#8172 ELK: `elk.cycleBreakingStrategy` is silently stripped from frontmatter/init config — missing from `defaultConfig.elk`](https://github.com/mermaid-js/mermaid/issues/8172) | 1 |
+| [#8172 ELK: `elk.cycleBreakingStrategy` is silently stripped from frontmatter/init config — missing from `defaultConfig.elk`](https://github.com/mermaid-js/mermaid/issues/8172) | 2 |
 | [#8170 Several theme variables across multiple diagram types are dropped by frontmatter sanitization](https://github.com/mermaid-js/mermaid/issues/8170) | 1 |
 | [#8159 Unify per-diagram-type default layout selection](https://github.com/mermaid-js/mermaid/issues/8159) | 1 |
 | [#8153 xychart-beta: a line series with one data point renders an empty plot, because the path is a zero-length subpath and no point marker is drawn](https://github.com/mermaid-js/mermaid/issues/8153) | 0 |
-| [#8141 Support Universal Variability Language (UVL)](https://github.com/mermaid-js/mermaid/issues/8141) | 0 |
