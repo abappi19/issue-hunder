@@ -1,8 +1,8 @@
 # docker/compose
 
-Generated: 2026-09-29T09:30:42.630529+00:00
+Generated: 2026-10-01T09:49:00.933060+00:00
 
-- Unassigned: 44
+- Unassigned: 41
 - [View all unassigned issues](https://github.com/docker/compose/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -12,12 +12,11 @@ Most recently opened:
 | [#14259 pre_start hooks: per_replica: true is accepted by the schema but always rejected at runtime](https://github.com/docker/compose/issues/14259) | 0 |
 | [#14250 Broken "contributing to docker" link in CONTRIBUTING.md](https://github.com/docker/compose/issues/14250) | 0 |
 | [#14232 Add opt-in ordered replica startup with health-based readiness](https://github.com/docker/compose/issues/14232) | 6 |
-| [#14219 [BUG] Unexpected output on already turned off service when running compose down](https://github.com/docker/compose/issues/14219) | 1 |
 | [#14163 Support Mounts and Secrets in Compose Provider Extensions](https://github.com/docker/compose/issues/14163) | 1 |
 | [#14050 Use annotations instead of labels for Compose-managed container runtime state](https://github.com/docker/compose/issues/14050) | 1 |
 | [#13814 [BUG] compose watch does not work with Enhanced Container Isolation on Docker Desktop MacOS Enterprise](https://github.com/docker/compose/issues/13814) | 3 |
 | [#13809 [BUG] `docker compose pull` does not update images that are used in volumes with `type=image`](https://github.com/docker/compose/issues/13809) | 2 |
-| [#13807 Add optional auto-confirm label on volumes](https://github.com/docker/compose/issues/13807) | 12 |
+| [#13807 Add optional auto-confirm label on volumes](https://github.com/docker/compose/issues/13807) | 13 |
 | [#13800 Question: Handling --exit-code-from premature teardown when dependency services exit](https://github.com/docker/compose/issues/13800) | 6 |
 | [#13757 [BUG] Per-layer pull progress restored by PR #13445 regressed](https://github.com/docker/compose/issues/13757) | 4 |
 | [#13743 [BUG] docker compose watch fails to sync file changes for Node.js app when using bind mounts on Linux](https://github.com/docker/compose/issues/13743) | 2 |
@@ -26,8 +25,6 @@ Most recently opened:
 | [#13719 allow optional env_file for include top level](https://github.com/docker/compose/issues/13719) | 1 |
 | [#13716 Detach pending during container health check](https://github.com/docker/compose/issues/13716) | 3 |
 | [#13704 [Feature] Long syntax for images names](https://github.com/docker/compose/issues/13704) | 0 |
-| [#13700 `docker compose events` only reports container events, and silently drops network/volume/image events](https://github.com/docker/compose/issues/13700) | 1 |
-| [#13695 [BUG] Confusing error messages when Bake mode requires BuildKit but it's not enabled](https://github.com/docker/compose/issues/13695) | 1 |
 | [#13672 [BUG] docker compose publish rejects short-form port mapping](https://github.com/docker/compose/issues/13672) | 1 |
 | [#13658 publish: parallelize image copy and add phase observability for --app](https://github.com/docker/compose/issues/13658) | 0 |
 | [#13611 [BUG] containerID prefixed on container name when upgrading manifest [compose v5.0.2]](https://github.com/docker/compose/issues/13611) | 1 |

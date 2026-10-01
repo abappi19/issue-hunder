@@ -1,15 +1,14 @@
 # software-mansion/react-native-executorch
 
-Generated: 2026-09-29T09:30:42.630529+00:00
+Generated: 2026-10-01T09:49:00.933060+00:00
 
-- Unassigned: 21
+- Unassigned: 20
 - [View all unassigned issues](https://github.com/software-mansion/react-native-executorch/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#1503 iOS: XNNPACK/Core ML backends not linked when another pod sets OTHER_LDFLAGS[sdk=…] (e.g. @sentry/react-native 8.x)](https://github.com/software-mansion/react-native-executorch/issues/1503) | 0 |
 | [#1488 Vulkan vs XNNPACK: per model divergences across devices](https://github.com/software-mansion/react-native-executorch/issues/1488) | 1 |
 | [#1456 Deprecate XNNPACK fp32 variants that have a faster, smaller quantized twin](https://github.com/software-mansion/react-native-executorch/issues/1456) | 1 |
 | [#1382 Try to export PrismML Bonsai models](https://github.com/software-mansion/react-native-executorch/issues/1382) | 4 |

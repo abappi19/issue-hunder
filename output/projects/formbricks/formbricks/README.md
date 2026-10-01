@@ -1,6 +1,6 @@
 # formbricks/formbricks
 
-Generated: 2026-09-29T09:30:42.630529+00:00
+Generated: 2026-10-01T09:49:00.933060+00:00
 
 - Unassigned: 81+
 - [View all unassigned issues](https://github.com/formbricks/formbricks/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,7 +9,9 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#8728 Add Zenith as a managed hosting option in the README](https://github.com/formbricks/formbricks/issues/8728) | 0 |
+| [#9455 [Docs] One-Click Setup: mention AAAA records and IPv6 firewall rules](https://github.com/formbricks/formbricks/issues/9455) | 0 |
+| [#9454 [BUG] One-click install script fails silently on Debian (adds Docker's Ubuntu apt repo)](https://github.com/formbricks/formbricks/issues/9454) | 0 |
+| [#8728 Add Zenith as a managed hosting option in the README](https://github.com/formbricks/formbricks/issues/8728) | 1 |
 | [#8715 Publishing an untouched survey rewrites its plain-text headline as rich-text HTML](https://github.com/formbricks/formbricks/issues/8715) | 3 |
 | [#8709 Add the option to specify a reason for single select or multi select questions similar to the "Other" field](https://github.com/formbricks/formbricks/issues/8709) | 2 |
 | [#8608 feat(i18n): Add Indonesian (id-ID) translation support](https://github.com/formbricks/formbricks/issues/8608) | 0 |
@@ -17,7 +19,6 @@ Most recently opened:
 | [#7933 Allow configuring scrollbar width in styling](https://github.com/formbricks/formbricks/issues/7933) | 4 |
 | [#7745 Docker container endless restart loop](https://github.com/formbricks/formbricks/issues/7745) | 3 |
 | [#7696 Feature Request: Native date arithmetic / age calculation from Date Input for survey logic](https://github.com/formbricks/formbricks/issues/7696) | 1 |
-| [#7653 Filter criteria are not marked as translatable](https://github.com/formbricks/formbricks/issues/7653) | 6 |
 | [#7629 HTML code in questions breaks the editor](https://github.com/formbricks/formbricks/issues/7629) | 11 |
 | [#7570 Cannot delete inserted table cell from survey editor](https://github.com/formbricks/formbricks/issues/7570) | 9 |
 | [#7562 Suggestion: automated API compatibility check across v1/v2/v3 specs](https://github.com/formbricks/formbricks/issues/7562) | 1 |
@@ -52,7 +53,7 @@ Most recently opened:
 | [#6674 Bug: Button to connect an integration is not working](https://github.com/formbricks/formbricks/issues/6674) | 3 |
 | [#6673 UI: Formbricks SDK "Re-check" button feedback](https://github.com/formbricks/formbricks/issues/6673) | 2 |
 | [#6661 Bug: An unknown Component is an async Client Component](https://github.com/formbricks/formbricks/issues/6661) | 1 |
-| [#6659 Bug: No-code action listener. Cannot read properties of null (reading 'addEventListener'). ](https://github.com/formbricks/formbricks/issues/6659) | 1 |
+| [#6659 Bug: No-code action listener. Cannot read properties of null (reading 'addEventListener'). ](https://github.com/formbricks/formbricks/issues/6659) | 2 |
 | [#6614 Add country dropdown in the phone number field](https://github.com/formbricks/formbricks/issues/6614) | 7 |
 | [#6606 Refactor: survey email verification status](https://github.com/formbricks/formbricks/issues/6606) | 2 |
 | [#6590 Bug: renderSurvey - Element with id formbricks-survey-container not found.](https://github.com/formbricks/formbricks/issues/6590) | 0 |
@@ -62,7 +63,7 @@ Most recently opened:
 | [#6582 Bug: window.formbricksSurveys.renderSurvey is not a function. (In 'window.formbricksSurveys.renderSurvey({...e,containerId:t,getRecaptchaToken:r,mode:"inline"})', 'window.formbricksSurveys.renderSurvey' is undefined)](https://github.com/formbricks/formbricks/issues/6582) | 0 |
 | [#6581 Bug: API data is not always validated in the surveys package](https://github.com/formbricks/formbricks/issues/6581) | 7 |
 | [#6580 Bug: environmentId is undefined in the route](https://github.com/formbricks/formbricks/issues/6580) | 1 |
-| [#6529 400 bad request with message "url" parameter is required on requests to <host>/_next/image?url=](https://github.com/formbricks/formbricks/issues/6529) | 0 |
+| [#6529 400 bad request with message "url" parameter is required on requests to <host>/_next/image?url=](https://github.com/formbricks/formbricks/issues/6529) | 1 |
 | [#6499 Add option to auto-submit and close surveys after timer or question limit](https://github.com/formbricks/formbricks/issues/6499) | 1 |
 | [#6497 Getting JSON typed Prisma fields inferred as `any`](https://github.com/formbricks/formbricks/issues/6497) | 0 |
 | [#6480 Ai compose feature similar to cursor](https://github.com/formbricks/formbricks/issues/6480) | 0 |
@@ -89,4 +90,3 @@ Most recently opened:
 | [#6080 Forward slash + backslash `/\` characters render as empty bold block almost in every question field](https://github.com/formbricks/formbricks/issues/6080) | 2 |
 | [#6075 Date question format has no effect on the Calendar UI and user response](https://github.com/formbricks/formbricks/issues/6075) | 2 |
 | [#6041 Project logo and branding update doesn't reflect in the preview in real-time](https://github.com/formbricks/formbricks/issues/6041) | 1 |
-| [#6030 Add some sort of `prefix` for all IDs](https://github.com/formbricks/formbricks/issues/6030) | 1 |

@@ -1,8 +1,8 @@
 # software-mansion/react-native-gesture-handler
 
-Generated: 2026-09-29T09:30:42.630529+00:00
+Generated: 2026-10-01T09:49:00.933060+00:00
 
-- Unassigned: 10
+- Unassigned: 9
 - [View all unassigned issues](https://github.com/software-mansion/react-native-gesture-handler/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -10,7 +10,6 @@ Most recently opened:
 | Issue | Comments |
 |---|---|
 | [#4551 SwipeLeftActions onpress on android still not working](https://github.com/software-mansion/react-native-gesture-handler/issues/4551) | 2 |
-| [#4547 [Android] Touchable inside Gesture Handler's ScrollView still fires onPress when the touch only stops a fling (3.3.0)](https://github.com/software-mansion/react-native-gesture-handler/issues/4547) | 6 |
 | [#4540 useMountReactions rescans relations that can never match, allocating 3 arrays per check](https://github.com/software-mansion/react-native-gesture-handler/issues/4540) | 0 |
 | [#4515 Expose native visual pressed state for custom animations inside scroll views](https://github.com/software-mansion/react-native-gesture-handler/issues/4515) | 1 |
 | [#4496 [iOS ≤ 18] RN Pressable inside RNGH FlatList/ScrollView never fires onPress when a Reanimated :active pseudo-selector is attached (touch is cancelled)](https://github.com/software-mansion/react-native-gesture-handler/issues/4496) | 1 |

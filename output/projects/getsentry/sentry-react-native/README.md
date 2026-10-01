@@ -1,8 +1,8 @@
 # getsentry/sentry-react-native
 
-Generated: 2026-09-29T09:30:42.630529+00:00
+Generated: 2026-10-01T09:49:00.933060+00:00
 
-- Unassigned: 91+
+- Unassigned: 93+
 - [View all unassigned issues](https://github.com/getsentry/sentry-react-native/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -64,6 +64,7 @@ Most recently opened:
 | [#5368 Log when OTA updates are incompatible with the installed Native SDKs](https://github.com/getsentry/sentry-react-native/issues/5368) | 2 |
 | [#5312 Create a sample app to measure performance and measure how embedding Sentry affects performance](https://github.com/getsentry/sentry-react-native/issues/5312) | 2 |
 | [#5096 Investigate performance issues with Session Replay on iOS](https://github.com/getsentry/sentry-react-native/issues/5096) | 27 |
+| [#5040 Attach custom data upon showFeedbackWidget](https://github.com/getsentry/sentry-react-native/issues/5040) | 22 |
 | [#4946 Align with new User Feedback API](https://github.com/getsentry/sentry-react-native/issues/4946) | 0 |
 | [#4915 Consider using the Global scope for static APIs (like setUser...)](https://github.com/getsentry/sentry-react-native/issues/4915) | 0 |
 | [#4898 Add log integration for Firebase Analytics](https://github.com/getsentry/sentry-react-native/issues/4898) | 0 |
@@ -100,3 +101,4 @@ Most recently opened:
 | [#3065 Persist user information across app launches](https://github.com/getsentry/sentry-react-native/issues/3065) | 0 |
 | [#2924 Support for gradle-play-publisher](https://github.com/getsentry/sentry-react-native/issues/2924) | 3 |
 | [#2789 Add Sentry.crashedLastRunEventId()](https://github.com/getsentry/sentry-react-native/issues/2789) | 4 |
+| [#2685 [OTEL] Support OpenTelemetry ](https://github.com/getsentry/sentry-react-native/issues/2685) | 0 |
