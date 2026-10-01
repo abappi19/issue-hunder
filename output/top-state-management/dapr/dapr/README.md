@@ -1,6 +1,6 @@
 # dapr/dapr
 
-Generated: 2026-09-29T10:28:23.494697+00:00
+Generated: 2026-10-01T10:47:01.521470+00:00
 
 - Unassigned: 30+
 - [View all unassigned issues](https://github.com/dapr/dapr/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -10,7 +10,7 @@ Most recently opened:
 | Issue | Comments |
 |---|---|
 | [#10575 ResponseWriter treats informational HTTP responses as final responses](https://github.com/dapr/dapr/issues/10575) | 0 |
-| [#10569 BulkPublishEventAsync hangs in DaprRuntimeCapabilities when daprd has no gRPC reflection service (regression in 1.18)](https://github.com/dapr/dapr/issues/10569) | 0 |
+| [#10569 BulkPublishEventAsync hangs in DaprRuntimeCapabilities when daprd has no gRPC reflection service (regression in 1.18)](https://github.com/dapr/dapr/issues/10569) | 2 |
 | [#10566 Workflow waits get CANCELLED "context canceled" when daprd's own runtime shuts down; return UNAVAILABLE instead](https://github.com/dapr/dapr/issues/10566) | 0 |
 | [#10564 Allow configuration of persistentVolumeClaimRetentionPolicy on Dapr Scheduler](https://github.com/dapr/dapr/issues/10564) | 0 |
 | [#10563 Recommended approach for OTel initiated from HTTP API to gRPC backend services](https://github.com/dapr/dapr/issues/10563) | 0 |

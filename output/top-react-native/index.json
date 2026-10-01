@@ -1,6 +1,6 @@
 {
   "title": "Top React Native Projects",
-  "generated_at": "2026-09-29T10:28:01.660019+00:00",
+  "generated_at": "2026-10-01T10:46:39.210798+00:00",
   "repos": [
     {
       "repo": "react/react-native",
@@ -16,15 +16,15 @@
     },
     {
       "repo": "appwrite/appwrite",
-      "unassigned": "15+"
+      "unassigned": "17+"
     },
     {
       "repo": "laurent22/joplin",
-      "unassigned": "86+"
+      "unassigned": "83+"
     },
     {
       "repo": "expo/expo",
-      "unassigned": "10+"
+      "unassigned": "14+"
     },
     {
       "repo": "dkhamsing/open-source-ios-apps",
@@ -32,7 +32,7 @@
     },
     {
       "repo": "react-hook-form/react-hook-form",
-      "unassigned": 1
+      "unassigned": 2
     },
     {
       "repo": "sudheerj/reactjs-interview-questions",
@@ -40,11 +40,11 @@
     },
     {
       "repo": "mattermost/mattermost",
-      "unassigned": "13+"
+      "unassigned": "11+"
     },
     {
       "repo": "NervJS/taro",
-      "unassigned": "81+"
+      "unassigned": "78+"
     },
     {
       "repo": "jondot/awesome-react-native",
@@ -56,7 +56,7 @@
     },
     {
       "repo": "vercel/swr",
-      "unassigned": "46+"
+      "unassigned": "48+"
     },
     {
       "repo": "karakeep-app/karakeep",
@@ -68,7 +68,7 @@
     },
     {
       "repo": "zulip/zulip",
-      "unassigned": "21+"
+      "unassigned": "23+"
     },
     {
       "repo": "react-native-elements/react-native-elements",
@@ -80,7 +80,7 @@
     },
     {
       "repo": "pubkey/rxdb",
-      "unassigned": 5
+      "unassigned": 4
     }
   ]
 }

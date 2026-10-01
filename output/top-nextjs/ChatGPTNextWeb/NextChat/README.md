@@ -1,8 +1,8 @@
 # ChatGPTNextWeb/NextChat
 
-Generated: 2026-09-29T10:27:49.162918+00:00
+Generated: 2026-10-01T10:46:26.221775+00:00
 
-- Unassigned: 37+
+- Unassigned: 38+
 - [View all unassigned issues](https://github.com/ChatGPTNextWeb/NextChat/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -46,3 +46,4 @@ Most recently opened:
 | [#6679 [Feature Request] Gemini 3 intergartion](https://github.com/ChatGPTNextWeb/NextChat/issues/6679) | 0 |
 | [#6678 使用deepseek api 无法发送图片](https://github.com/ChatGPTNextWeb/NextChat/issues/6678) | 2 |
 | [#6671 Is OpenAI the only available provider in custom api?](https://github.com/ChatGPTNextWeb/NextChat/issues/6671) | 0 |
+| [#6669 [Feature Request]针对模型自定义请求模版](https://github.com/ChatGPTNextWeb/NextChat/issues/6669) | 1 |

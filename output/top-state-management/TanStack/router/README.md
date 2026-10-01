@@ -1,8 +1,8 @@
 # TanStack/router
 
-Generated: 2026-09-29T10:28:23.494697+00:00
+Generated: 2026-10-01T10:47:01.521470+00:00
 
-- Unassigned: 26+
+- Unassigned: 24+
 - [View all unassigned issues](https://github.com/TanStack/router/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -10,7 +10,6 @@ Most recently opened:
 | Issue | Comments |
 |---|---|
 | [#8558 router-core: dehydrated match updatedAt (`u`) is the render's wall clock, so prerendered HTML is not reproducible (no SOURCE_DATE_EPOCH support)](https://github.com/TanStack/router/issues/8558) | 0 |
-| [#8554 dev: import-protection plugin reads `ModuleInfo.code`, which Vite does not support — throws and breaks the client entry](https://github.com/TanStack/router/issues/8554) | 2 |
 | [#8550 Inline scripts are duplicated after hydration when the CSP nonce is sent in a header](https://github.com/TanStack/router/issues/8550) | 0 |
 | [#8546 [Start] Generated route preloads should default to fetchPriority="low" (they delay first paint at High)](https://github.com/TanStack/router/issues/8546) | 1 |
 | [#8545 Start + Rsbuild: server-only routes are not pruned from the client route tree](https://github.com/TanStack/router/issues/8545) | 0 |
@@ -20,10 +19,10 @@ Most recently opened:
 | [#8516 Start prerender: in-page fragment links (`/#section`) are crawled as separate pages and listed in sitemap.xml](https://github.com/TanStack/router/issues/8516) | 0 |
 | [#8514 Start: symlinked route files skip the client-side `server.handlers` strip — server code and node-only imports ship in the client bundle](https://github.com/TanStack/router/issues/8514) | 0 |
 | [#8512 start-plugin-core: sitemap lastmod and pages.json lastBuilt are stamped with the build's wall clock (no SOURCE_DATE_EPOCH support)](https://github.com/TanStack/router/issues/8512) | 0 |
-| [#8511 [Start] With Vite 8 (Rolldown), route preloads only include direct chunk imports, so second-level chunks load as a request waterfall](https://github.com/TanStack/router/issues/8511) | 2 |
+| [#8511 [Start] With Vite 8 (Rolldown), route preloads only include direct chunk imports, so second-level chunks load as a request waterfall](https://github.com/TanStack/router/issues/8511) | 3 |
 | [#8505 Compiler correctness: split-route exports and distinct re-export aliases](https://github.com/TanStack/router/issues/8505) | 0 |
 | [#8491 Blocked Back/go() across a browser-created fragment entry is undone to the wrong entry](https://github.com/TanStack/router/issues/8491) | 0 |
-| [#8487 lazyRouteComponent skips use() after the import resolves, triggering React 19's "conditional use()" warning](https://github.com/TanStack/router/issues/8487) | 0 |
+| [#8487 lazyRouteComponent skips use() after the import resolves, triggering React 19's "conditional use()" warning](https://github.com/TanStack/router/issues/8487) | 1 |
 | [#8483 Start: prerender.concurrency has no effect on CPU-bound pages (all pages render one at a time in a single preview server)](https://github.com/TanStack/router/issues/8483) | 0 |
 | [#8480 Empty .ts route file is scaffolded with JSX, breaking all route generation](https://github.com/TanStack/router/issues/8480) | 0 |
 | [#8479 router.commitLocation is a no-op on 1.170.36 / router-core 1.171.30, so router.navigate() silently does nothing](https://github.com/TanStack/router/issues/8479) | 2 |
@@ -34,4 +33,3 @@ Most recently opened:
 | [#8446 If you pass createServerOnlyFn(...) directly as an argument to createServerFn().handler(), it will generate a broken server function.](https://github.com/TanStack/router/issues/8446) | 3 |
 | [#8437 Start: the Vite plugin and `tsr generate` write different routeTree.gen.ts (Start footer added, then stripped)](https://github.com/TanStack/router/issues/8437) | 1 |
 | [#8415 Start + Rsbuild: shared chunks cause CSS issues in the initial SSR response](https://github.com/TanStack/router/issues/8415) | 0 |
-| [#8407 start-compiler-plugin fails to lazy-load dependencies with Vite bundledDev](https://github.com/TanStack/router/issues/8407) | 0 |

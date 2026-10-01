@@ -1,18 +1,22 @@
 # callstack/agent-device
 
-Generated: 2026-09-29T10:28:12.612802+00:00
+Generated: 2026-10-01T10:46:50.482133+00:00
 
-- Unassigned: 86+
+- Unassigned: 82+
 - [View all unassigned issues](https://github.com/callstack/agent-device/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#3087 Daemon shutdown deletes another daemon's daemon.json](https://github.com/callstack/agent-device/issues/3087) | 0 |
+| [#3077 Readiness wait: nightly soak and keep-or-drop rule](https://github.com/callstack/agent-device/issues/3077) | 0 |
+| [#3076 `open --launch-url` should answer the iOS "Open in <app>?" confirmation](https://github.com/callstack/agent-device/issues/3076) | 0 |
+| [#3069 Reliability contract: every failed action says whether it ran, scripted taps wait for their target, every platform inherits both](https://github.com/callstack/agent-device/issues/3069) | 1 |
+| [#3062 README badge from Small Print (optional)](https://github.com/callstack/agent-device/issues/3062) | 0 |
+| [#3060 iOS: tapping a Flutter password field records an XCTest failure and restarts the runner, although the tap lands](https://github.com/callstack/agent-device/issues/3060) | 0 |
 | [#3052 Android test-IME fill commits into a stale InputConnection session after focus moves to a new field](https://github.com/callstack/agent-device/issues/3052) | 0 |
-| [#3047 Report the daemon host CPU architecture in /health](https://github.com/callstack/agent-device/issues/3047) | 0 |
 | [#3021 role= selector vocabulary diverges from snapshot kind](https://github.com/callstack/agent-device/issues/3021) | 0 |
-| [#3004 boot: the first boot of a new iOS simulator exceeds the fixed 90 s daemon timeout](https://github.com/callstack/agent-device/issues/3004) | 0 |
 | [#2997 Maestro `eraseText` fails on real Android devices: `test` and `replay` cannot opt in to the test IME](https://github.com/callstack/agent-device/issues/2997) | 0 |
 | [#2996 iOS: `_UIFloatingBarContainerView` counts as an occluder, so press/fill refuse everything above the tab bar](https://github.com/callstack/agent-device/issues/2996) | 1 |
 | [#2995 iOS: resolveRunnerWindow fails when an unused trailing window disappears](https://github.com/callstack/agent-device/issues/2995) | 0 |
@@ -87,11 +91,3 @@ Most recently opened:
 | [#1296 iOS: first-class widget and Live Activity testing through a system UI target](https://github.com/callstack/agent-device/issues/1296) | 1 |
 | [#1255 Test-fixture gaps for divergence chrome-filter over-filtering live evidence (short-form screen, native inputAccessoryView, runtime-permission action)](https://github.com/callstack/agent-device/issues/1255) | 0 |
 | [#1245 iOS Metro hint doesn't reach expo-dev-client apps (writes bare-RN RCT_jsLocation only)](https://github.com/callstack/agent-device/issues/1245) | 0 |
-| [#646 Improve iOS keyboard return reliability and perf without English label probing](https://github.com/callstack/agent-device/issues/646) | 0 |
-| [#567 Use native scroll telemetry to make scroll top and bottom more deterministic](https://github.com/callstack/agent-device/issues/567) | 0 |
-| [#536 Compact network dump output for long React Native flows](https://github.com/callstack/agent-device/issues/536) | 1 |
-| [#475 Add Apple frame-health sampling to perf](https://github.com/callstack/agent-device/issues/475) | 0 |
-| [#471 Investigate Android snapshot helper secondary-display support](https://github.com/callstack/agent-device/issues/471) | 0 |
-| [#320 test(ios): add live system permission-prompt accept/dismiss/recovery journey](https://github.com/callstack/agent-device/issues/320) | 3 |
-| [#100 [Lower priority] Multi-device orchestration (coordinated actions across two devices)](https://github.com/callstack/agent-device/issues/100) | 0 |
-| [#98 Expose media input simulation (camera roll, photo/video, mic)](https://github.com/callstack/agent-device/issues/98) | 0 |

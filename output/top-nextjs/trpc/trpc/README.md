@@ -1,8 +1,8 @@
 # trpc/trpc
 
-Generated: 2026-09-29T10:27:49.162918+00:00
+Generated: 2026-10-01T10:46:26.221775+00:00
 
-- Unassigned: 41+
+- Unassigned: 39+
 - [View all unassigned issues](https://github.com/trpc/trpc/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -48,5 +48,3 @@ Most recently opened:
 | [#6819 bug: `httpBatchStreamLink` responses use wrong `content-type` header (`application/json`)](https://github.com/trpc/trpc/issues/6819) | 4 |
 | [#6800 feat: Support defining type maps as an escape hatch](https://github.com/trpc/trpc/issues/6800) | 1 |
 | [#6779 feat: support tanstack solid query](https://github.com/trpc/trpc/issues/6779) | 2 |
-| [#6772 feat: Support enhancing the context](https://github.com/trpc/trpc/issues/6772) | 0 |
-| [#6771 docs: Disable error redaction on dehydration when using Next.js](https://github.com/trpc/trpc/issues/6771) | 1 |

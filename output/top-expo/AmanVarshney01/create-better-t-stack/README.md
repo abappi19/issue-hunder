@@ -1,6 +1,6 @@
 # AmanVarshney01/create-better-t-stack
 
-Generated: 2026-09-29T10:28:12.612802+00:00
+Generated: 2026-10-01T10:46:50.482133+00:00
 
 - Unassigned: 76+
 - [View all unassigned issues](https://github.com/AmanVarshney01/create-better-t-stack/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,6 +9,7 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#1265 Support Yarn Berry](https://github.com/AmanVarshney01/create-better-t-stack/issues/1265) | 0 |
 | [#1259 Add a full-stack SolidJS 2 template without TanStack Query](https://github.com/AmanVarshney01/create-better-t-stack/issues/1259) | 0 |
 | [#1258 integrate shadcn-ui/lint](https://github.com/AmanVarshney01/create-better-t-stack/issues/1258) | 0 |
 | [#1257 Let users pick the shadcn style at creation (like shadcn create)](https://github.com/AmanVarshney01/create-better-t-stack/issues/1257) | 1 |
@@ -51,7 +52,7 @@ Most recently opened:
 | [#886 FEATURE REQUEST: InstantDB](https://github.com/AmanVarshney01/create-better-t-stack/issues/886) | 0 |
 | [#885 Feature Request: Add spacetimedb](https://github.com/AmanVarshney01/create-better-t-stack/issues/885) | 0 |
 | [#873 Add Spec Kit](https://github.com/AmanVarshney01/create-better-t-stack/issues/873) | 0 |
-| [#872 Convex + better-auth missing configuration](https://github.com/AmanVarshney01/create-better-t-stack/issues/872) | 0 |
+| [#872 Convex + better-auth missing configuration](https://github.com/AmanVarshney01/create-better-t-stack/issues/872) | 1 |
 | [#861 Add Codemod](https://github.com/AmanVarshney01/create-better-t-stack/issues/861) | 0 |
 | [#856 add tanstack devtools](https://github.com/AmanVarshney01/create-better-t-stack/issues/856) | 0 |
 | [#855 Missing run scripts to generate better-auth](https://github.com/AmanVarshney01/create-better-t-stack/issues/855) | 1 |
@@ -84,4 +85,3 @@ Most recently opened:
 | [#708 feat(web) Add Japanese translation of documentation](https://github.com/AmanVarshney01/create-better-t-stack/issues/708) | 1 |
 | [#707 An error occurred when accessing the protected /dashboard page](https://github.com/AmanVarshney01/create-better-t-stack/issues/707) | 2 |
 | [#698 README instructions for starting local SQLite database are incorrect](https://github.com/AmanVarshney01/create-better-t-stack/issues/698) | 2 |
-| [#697 Alchemy + Better Auth not reading in env + minor type issue](https://github.com/AmanVarshney01/create-better-t-stack/issues/697) | 9 |

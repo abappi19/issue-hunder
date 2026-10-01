@@ -1,14 +1,15 @@
 # practical-tutorials/project-based-learning
 
-Generated: 2026-09-29T10:27:19.620529+00:00
+Generated: 2026-10-01T10:45:56.796561+00:00
 
-- Unassigned: 49+
+- Unassigned: 48+
 - [View all unassigned issues](https://github.com/practical-tutorials/project-based-learning/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#963 student attendance detection](https://github.com/practical-tutorials/project-based-learning/issues/963) | 0 |
 | [#937 BOMOYI](https://github.com/practical-tutorials/project-based-learning/issues/937) | 1 |
 | [#916 [Suggestion]: Build an app for beginners](https://github.com/practical-tutorials/project-based-learning/issues/916) | 0 |
 | [#899 🔗 Link rot report](https://github.com/practical-tutorials/project-based-learning/issues/899) | 1 |
@@ -56,5 +57,3 @@ Most recently opened:
 | [#677 Add Hands-On AI Projects like 'Build Your Own ChatGPT' to Enhance Learning](https://github.com/practical-tutorials/project-based-learning/issues/677) | 0 |
 | [#674 Usefull ](https://github.com/practical-tutorials/project-based-learning/issues/674) | 0 |
 | [#672 Complexity level of projects](https://github.com/practical-tutorials/project-based-learning/issues/672) | 0 |
-| [#667 Troubleshooting ](https://github.com/practical-tutorials/project-based-learning/issues/667) | 0 |
-| [#663 Projects ](https://github.com/practical-tutorials/project-based-learning/issues/663) | 0 |

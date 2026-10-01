@@ -1,14 +1,15 @@
 # felangel/bloc
 
-Generated: 2026-09-29T10:28:23.494697+00:00
+Generated: 2026-10-01T10:47:01.521470+00:00
 
-- Unassigned: 37
+- Unassigned: 38
 - [View all unassigned issues](https://github.com/felangel/bloc/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#4893 Issue: Flutter Web Debug Stack Overflow with Large MultiBlocProvider Configuration](https://github.com/felangel/bloc/issues/4893) | 0 |
 | [#4815 fix: Freezed requires abstract class or multiple factory constructors for non-abstract class with single factory](https://github.com/felangel/bloc/issues/4815) | 1 |
 | [#4718 restartable() executes all queued events after async delay instead of keeping only the latest one](https://github.com/felangel/bloc/issues/4718) | 0 |
 | [#4639 feat: HydratedBloc migration API](https://github.com/felangel/bloc/issues/4639) | 1 |
@@ -44,5 +45,5 @@ Most recently opened:
 | [#3040 docs: Adding DartPad live-coding for fluttercountertutorial](https://github.com/felangel/bloc/issues/3040) | 0 |
 | [#3025 feat: Possibility to create cubit class without the cubit suffix](https://github.com/felangel/bloc/issues/3025) | 0 |
 | [#2639 Synchronous fromJson and toJson causing jank issue while dealing with large state](https://github.com/felangel/bloc/issues/2639) | 3 |
-| [#1837 Docs: migrating from library X](https://github.com/felangel/bloc/issues/1837) | 0 |
+| [#1837 Docs: migrating from library X](https://github.com/felangel/bloc/issues/1837) | 1 |
 | [#139 Anyone using bloc in production?](https://github.com/felangel/bloc/issues/139) | 128 |

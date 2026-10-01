@@ -1,14 +1,16 @@
 # gitroomhq/postiz-app
 
-Generated: 2026-09-29T10:27:49.162918+00:00
+Generated: 2026-10-01T10:46:26.221775+00:00
 
-- Unassigned: 41+
+- Unassigned: 43+
 - [View all unassigned issues](https://github.com/gitroomhq/postiz-app/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#2187 Public API / MCP report 0 video credits while the web app shows credits (subscription.createdAt not loaded for API key & OAuth orgs)](https://github.com/gitroomhq/postiz-app/issues/2187) | 0 |
+| [#2181 Mention suggestion dropdown text is unreadable in dark theme](https://github.com/gitroomhq/postiz-app/issues/2181) | 1 |
 | [#2169 Agent doesnt load old convo](https://github.com/gitroomhq/postiz-app/issues/2169) | 0 |
 | [#2168 YouTube provider requests unused youtubepartner scope, blocks clean OAuth verification](https://github.com/gitroomhq/postiz-app/issues/2168) | 1 |
 | [#2157 stripe.js is loaded and makes fingerprinting requests when Stripe is disabled](https://github.com/gitroomhq/postiz-app/issues/2157) | 0 |
@@ -37,7 +39,6 @@ Most recently opened:
 | [#1958 Local media upload fails with NOT_SECURED=true: uploader uses cookie auth while the rest of the app uses header auth](https://github.com/gitroomhq/postiz-app/issues/1958) | 0 |
 | [#1954 Scheduled posts shift by 1h: main.ts sets TZ='UTC' which misresolves on minimal images (use 'Etc/UTC')](https://github.com/gitroomhq/postiz-app/issues/1954) | 0 |
 | [#1944 Comments/Messages inbox, combined analytics, and a Post for Me provider (running in production on a fork)](https://github.com/gitroomhq/postiz-app/issues/1944) | 1 |
-| [#1939 Hosted STRIP_LINKS_FROM_X_POSTS deletes all URLs from X posts — X removed its link penalty; please make this opt-in/opt-out](https://github.com/gitroomhq/postiz-app/issues/1939) | 2 |
 | [#1920 Facebook story: releaseURL is built from post_id and never resolves — Meta returns the real url on /{page-id}/stories](https://github.com/gitroomhq/postiz-app/issues/1920) | 0 |
 | [#1911 Analytics: percentageChange is hard-coded to 5 in the Facebook, Instagram, Threads and LinkedIn Page providers](https://github.com/gitroomhq/postiz-app/issues/1911) | 1 |
 | [#1910 Feature request: expose engagement plugs (add-comment, repost) via the public API](https://github.com/gitroomhq/postiz-app/issues/1910) | 0 |
@@ -50,3 +51,4 @@ Most recently opened:
 | [#1862 Public API `/public/v1/upload` always returns `originalName: null`, breaking display name in Media Library](https://github.com/gitroomhq/postiz-app/issues/1862) | 0 |
 | [#1861 Webhooks always fire with an empty body: sendWebhooks() receives the provider's post id instead of the internal post id](https://github.com/gitroomhq/postiz-app/issues/1861) | 0 |
 | [#1857 v2.22.1 has broken backend](https://github.com/gitroomhq/postiz-app/issues/1857) | 2 |
+| [#1854 Postiz Cloud TikTok Direct Post fails with reached_active_user_cap](https://github.com/gitroomhq/postiz-app/issues/1854) | 1 |

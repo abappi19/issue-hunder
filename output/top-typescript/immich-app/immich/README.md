@@ -1,17 +1,19 @@
 # immich-app/immich
 
-Generated: 2026-09-29T10:27:34.881260+00:00
+Generated: 2026-10-01T10:46:12.314177+00:00
 
-- Unassigned: 49+
+- Unassigned: 42+
 - [View all unassigned issues](https://github.com/immich-app/immich/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#31872 Different users of 'robot' and 'ro.bot' conflict over `user_storageLabel`.](https://github.com/immich-app/immich/issues/31872) | 0 |
+| [#31953 Workflow assetTagFilter with 'any' matching always continues when no tags match](https://github.com/immich-app/immich/issues/31953) | 0 |
+| [#31945 Two finger zoom on mobile jumps to more zoomed in when full image loads.](https://github.com/immich-app/immich/issues/31945) | 2 |
+| [#31872 Different users of `robot` and `ro.bot` conflict after code `sanitize(label.replaceAll('.', '')` over `user_storageLabel`.](https://github.com/immich-app/immich/issues/31872) | 0 |
 | [#31871 Race condition when merging two people together causing data loss of both people](https://github.com/immich-app/immich/issues/31871) | 0 |
-| [#31855 AssetExtractMetadata: asset_exif.rating overflows integer column (derived value, not corrupted input) - duration × 9,000,000 for one pattern](https://github.com/immich-app/immich/issues/31855) | 1 |
+| [#31855 AssetExtractMetadata: asset_exif.rating overflows integer column (derived value, not corrupted input) - duration × 9,000,000 for one pattern](https://github.com/immich-app/immich/issues/31855) | 2 |
 | [#31830 schema-check reports person_delete_audit missing even though function and trigger exist](https://github.com/immich-app/immich/issues/31830) | 0 |
 | [#31829 Samsung DNG 1.7 (JPEG XL) RAW previews render dark/green — PreviewJXL read as the finished preview](https://github.com/immich-app/immich/issues/31829) | 0 |
 | [#31827 [Documentation] PUT /assets is deprecated, long live PUT /assets](https://github.com/immich-app/immich/issues/31827) | 0 |
@@ -22,9 +24,9 @@ Most recently opened:
 | [#31807 `/api/search/metadata` with `withStacked: true` never includes `stack` field in asset response](https://github.com/immich-app/immich/issues/31807) | 0 |
 | [#31803 Face editor bounding box cannot be moved or resized using touch on iOS/iPadOS](https://github.com/immich-app/immich/issues/31803) | 4 |
 | [#31796 Search photo viewer stops at end of currently loaded results instead of loading additional search results](https://github.com/immich-app/immich/issues/31796) | 0 |
-| [#31789 "Shared links" loads much slower than any other page.](https://github.com/immich-app/immich/issues/31789) | 6 |
+| [#31789 "Shared links" loads much slower than any other page.](https://github.com/immich-app/immich/issues/31789) | 7 |
 | [#31773 Live photos (.mov+.jpg) downloads still image only](https://github.com/immich-app/immich/issues/31773) | 0 |
-| [#31761 Cannot delete People](https://github.com/immich-app/immich/issues/31761) | 0 |
+| [#31761 Cannot delete People](https://github.com/immich-app/immich/issues/31761) | 2 |
 | [#31757 iOS widget renders at too low resolution](https://github.com/immich-app/immich/issues/31757) | 0 |
 | [#31738 Upload through android app is slower than through mobile web UI](https://github.com/immich-app/immich/issues/31738) | 0 |
 | [#31678 Album syncing not working on iOS](https://github.com/immich-app/immich/issues/31678) | 4 |
@@ -34,7 +36,7 @@ Most recently opened:
 | [#31599 Sidecar Discover unnecessarily re-extracts metadata for every asset without an XMP](https://github.com/immich-app/immich/issues/31599) | 1 |
 | [#31595 Web: Switch CTRL+A for CMD+A when on a macOS.](https://github.com/immich-app/immich/issues/31595) | 0 |
 | [#31573 Keyboard scrolling (pgdown) does not work in people list](https://github.com/immich-app/immich/issues/31573) | 0 |
-| [#31571 Immich logs reports memory leak while syncing with mobile app](https://github.com/immich-app/immich/issues/31571) | 3 |
+| [#31571 Immich logs reports memory leak while syncing with mobile app](https://github.com/immich-app/immich/issues/31571) | 5 |
 | [#31559 Map asset points window loads pictures over other pictures](https://github.com/immich-app/immich/issues/31559) | 4 |
 | [#31522 Album asset order is inconsistent between Web and Mobile when photos have identical timestamps](https://github.com/immich-app/immich/issues/31522) | 0 |
 | [#31514 [Bug] Facial recognition data not correctly shared (some detected faces missing for shared user)](https://github.com/immich-app/immich/issues/31514) | 18 |
@@ -49,12 +51,3 @@ Most recently opened:
 | [#31397 Mobile album displays blank thumbnail when a Live Photo has only the .MOV component](https://github.com/immich-app/immich/issues/31397) | 0 |
 | [#31387 Mobile (Android): photo locations disappear when zooming out and reappear when zooming in](https://github.com/immich-app/immich/issues/31387) | 1 |
 | [#31347 On this day memories does not allow spam taps](https://github.com/immich-app/immich/issues/31347) | 0 |
-| [#31336 Folder View does not restore scroll position after returning from the asset viewer](https://github.com/immich-app/immich/issues/31336) | 0 |
-| [#31332 Edited assets are skipped by a full Smart Search re-index and never get an embedding](https://github.com/immich-app/immich/issues/31332) | 0 |
-| [#31330 XMP rating not detected on AVI video file](https://github.com/immich-app/immich/issues/31330) | 2 |
-| [#31312 Unhelpful error messages reported by CLI](https://github.com/immich-app/immich/issues/31312) | 0 |
-| [#31298 HEIC files downloaded on local device will not display a thumbnail](https://github.com/immich-app/immich/issues/31298) | 0 |
-| [#31291 Workflow album selector displays album description alongside album name](https://github.com/immich-app/immich/issues/31291) | 0 |
-| [#31289 Smart Switch-migrated Apple Live Photos (now Samsung Motion Photos) lack standard MicroVideo metadata and are not recognized by Immich](https://github.com/immich-app/immich/issues/31289) | 5 |
-| [#31267 UI: Favorite heart remains filled after removing favorite (first click shows toast but heart stays filled)](https://github.com/immich-app/immich/issues/31267) | 3 |
-| [#31203 Workflow “Add to Album” action displays stale album name after the album is renamed](https://github.com/immich-app/immich/issues/31203) | 2 |

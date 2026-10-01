@@ -1,18 +1,18 @@
 {
   "title": "Top TypeScript Projects",
-  "generated_at": "2026-09-29T10:27:34.881260+00:00",
+  "generated_at": "2026-10-01T10:46:12.314177+00:00",
   "repos": [
     {
       "repo": "n8n-io/n8n",
-      "unassigned": "9+"
+      "unassigned": "6+"
     },
     {
       "repo": "microsoft/vscode",
-      "unassigned": "61+"
+      "unassigned": "59+"
     },
     {
       "repo": "f/prompts.chat",
-      "unassigned": 27
+      "unassigned": 28
     },
     {
       "repo": "langchain-ai/langchain",
@@ -20,11 +20,11 @@
     },
     {
       "repo": "immich-app/immich",
-      "unassigned": "49+"
+      "unassigned": "42+"
     },
     {
       "repo": "microsoft/TypeScript",
-      "unassigned": "41+"
+      "unassigned": "38+"
     },
     {
       "repo": "denoland/deno",
@@ -32,19 +32,19 @@
     },
     {
       "repo": "angular/angular",
-      "unassigned": "32+"
+      "unassigned": "30+"
     },
     {
       "repo": "ant-design/ant-design",
-      "unassigned": "15+"
+      "unassigned": "11+"
     },
     {
       "repo": "oven-sh/bun",
-      "unassigned": "49+"
+      "unassigned": "32+"
     },
     {
       "repo": "ruvnet/RuView",
-      "unassigned": "17+"
+      "unassigned": "19+"
     },
     {
       "repo": "storybookjs/storybook",
@@ -52,7 +52,7 @@
     },
     {
       "repo": "mermaid-js/mermaid",
-      "unassigned": "21+"
+      "unassigned": "22+"
     },
     {
       "repo": "bytedance/deer-flow",
@@ -60,7 +60,7 @@
     },
     {
       "repo": "nestjs/nest",
-      "unassigned": 6
+      "unassigned": 7
     },
     {
       "repo": "enaqx/awesome-react",
@@ -68,19 +68,19 @@
     },
     {
       "repo": "headroomlabs-ai/headroom",
-      "unassigned": "42+"
+      "unassigned": "29+"
     },
     {
       "repo": "unionlabs/union",
-      "unassigned": "36+"
+      "unassigned": "35+"
     },
     {
       "repo": "ruvnet/ruflo",
-      "unassigned": "41+"
+      "unassigned": "44+"
     },
     {
       "repo": "strapi/strapi",
-      "unassigned": "17+"
+      "unassigned": "15+"
     }
   ]
 }

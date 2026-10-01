@@ -1,14 +1,15 @@
 # 47ng/nuqs
 
-Generated: 2026-09-29T10:28:23.494697+00:00
+Generated: 2026-10-01T10:47:01.521470+00:00
 
-- Unassigned: 18
+- Unassigned: 19
 - [View all unassigned issues](https://github.com/47ng/nuqs/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#1602 bug: TanStack Router adapter malforms other query parameters](https://github.com/47ng/nuqs/issues/1602) | 0 |
 | [#1590 bug: TanStack Router adapter adds a second query string on routes with a dynamic segment](https://github.com/47ng/nuqs/issues/1590) | 1 |
 | [#1572 Add an option for opting out of pretty encoding](https://github.com/47ng/nuqs/issues/1572) | 0 |
 | [#1563 react router: `history: 'push'` write with `shallow: false` does not advance the history index](https://github.com/47ng/nuqs/issues/1563) | 2 |

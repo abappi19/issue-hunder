@@ -1,14 +1,16 @@
 # jpudysz/react-native-unistyles
 
-Generated: 2026-09-29T10:28:12.612802+00:00
+Generated: 2026-10-01T10:46:50.482133+00:00
 
-- Unassigned: 28
+- Unassigned: 30
 - [View all unassigned issues](https://github.com/jpudysz/react-native-unistyles/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#1263 Web: Pressable and ScrollView never unregister from the shadow registry, so CSS rules and detached DOM accumulate](https://github.com/jpudysz/react-native-unistyles/issues/1263) | 0 |
+| [#1262 [3.3.0] Styles leak between unrelated components sharing one dynamic function after screen freeze/unfreeze](https://github.com/jpudysz/react-native-unistyles/issues/1262) | 0 |
 | [#1254 useUnistyles, withUnistyles, Display, and Hide all fail to react to orientation changes](https://github.com/jpudysz/react-native-unistyles/issues/1254) | 0 |
 | [#1252 [3.3.0] Unfreezing a screen blocks JS for seconds — link() of suspended nodes commits the shadow tree once per node (O(n²))](https://github.com/jpudysz/react-native-unistyles/issues/1252) | 0 |
 | [#1250 Dev reload within a few seconds of the previous bundle leaves the new runtime permanently "not configured" (RN 0.87 bridgeless, 3.3.0)](https://github.com/jpudysz/react-native-unistyles/issues/1250) | 0 |

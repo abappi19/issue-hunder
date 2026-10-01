@@ -1,6 +1,6 @@
 # codedogQBY/ReadAny
 
-Generated: 2026-09-29T10:28:12.612802+00:00
+Generated: 2026-10-01T10:46:50.482133+00:00
 
 - Unassigned: 68+
 - [View all unassigned issues](https://github.com/codedogQBY/ReadAny/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,6 +9,7 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#813 [Suggestion] 滑动阅读](https://github.com/codedogQBY/ReadAny/issues/813) | 0 |
 | [#812 [Bug] 设置里没有OLED选项](https://github.com/codedogQBY/ReadAny/issues/812) | 0 |
 | [#811 [Bug] 批量删除确认逻辑出错](https://github.com/codedogQBY/ReadAny/issues/811) | 0 |
 | [#808 [Bug] 索引了但是还不能使用](https://github.com/codedogQBY/ReadAny/issues/808) | 0 |
@@ -76,4 +77,3 @@ Most recently opened:
 | [#705 [Bug] 在搜索框输入时会有时好用有时不好用，语义搜索不可用](https://github.com/codedogQBY/ReadAny/issues/705) | 0 |
 | [#704 [Bug] 标注问题](https://github.com/codedogQBY/ReadAny/issues/704) | 0 |
 | [#703 v1.36 版本打开任意书籍报错 ReferenceError: makeBook is not defined](https://github.com/codedogQBY/ReadAny/issues/703) | 1 |
-| [#700 [Bug] 目录栏定位错误](https://github.com/codedogQBY/ReadAny/issues/700) | 0 |

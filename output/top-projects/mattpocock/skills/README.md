@@ -1,15 +1,22 @@
 # mattpocock/skills
 
-Generated: 2026-09-29T10:27:19.620529+00:00
+Generated: 2026-10-01T10:45:56.796561+00:00
 
-- Unassigned: 98+
+- Unassigned: 99+
 - [View all unassigned issues](https://github.com/mattpocock/skills/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#1137 Add Jira as a first-class issue tracker, via Atlassian's official CLI (`acli`)](https://github.com/mattpocock/skills/issues/1137) | 0 |
+| [#1146 Compatibility with OpenSpec](https://github.com/mattpocock/skills/issues/1146) | 0 |
+| [#1145 Anyone have an issue where the agent simply ignores grilling answers?](https://github.com/mattpocock/skills/issues/1145) | 0 |
+| [#1144 SkillOpt: Making skills better](https://github.com/mattpocock/skills/issues/1144) | 0 |
+| [#1143 GitLab issue-tracker template: `glab issue list -F json` prints a table, and "the map's children" has no command](https://github.com/mattpocock/skills/issues/1143) | 0 |
+| [#1142 wizard: editing the script while a wizard is running kills it (bash reads incrementally); patch parses the whole file before the first prompt](https://github.com/mattpocock/skills/issues/1142) | 0 |
+| [#1141 retro: include subagent sessions as primary sources after implement-spec](https://github.com/mattpocock/skills/issues/1141) | 0 |
+| [#1138 setup: fix GitHub issue-tracker template (read body + native gh sub-issue/dependency flags)](https://github.com/mattpocock/skills/issues/1138) | 2 |
+| [#1137 Add Jira as a first-class issue tracker, via Atlassian's official CLI (`acli`)](https://github.com/mattpocock/skills/issues/1137) | 1 |
 | [#1135 Star Graph](https://github.com/mattpocock/skills/issues/1135) | 0 |
 | [#1134 Proposal: /implement keeps a running implementation-notes file (design decisions, deviations, tradeoffs, open questions)](https://github.com/mattpocock/skills/issues/1134) | 0 |
 | [#1133 [contribution] to-intent skill — an entry point the to-spec family is missing](https://github.com/mattpocock/skills/issues/1133) | 0 |
@@ -73,7 +80,7 @@ Most recently opened:
 | [#1055 Skills with disable-model-invocation: true are invisible in Claude Code — users cannot invoke them](https://github.com/mattpocock/skills/issues/1055) | 1 |
 | [#1054 Contribution ready: ten focused fixes for open issues](https://github.com/mattpocock/skills/issues/1054) | 0 |
 | [#1053 Contribution ready: skill workflow refinements for GPT-6 Astra and Fable 5.1](https://github.com/mattpocock/skills/issues/1053) | 0 |
-| [#1052 grill-me: disable-model-invocation blocks the skill's own required Skill-tool call](https://github.com/mattpocock/skills/issues/1052) | 1 |
+| [#1052 grill-me: disable-model-invocation blocks the skill's own required Skill-tool call](https://github.com/mattpocock/skills/issues/1052) | 2 |
 | [#1051 Contribution ready: /red-team, the optional pre-implementation spec review from #633](https://github.com/mattpocock/skills/issues/1051) | 0 |
 | [#1047 Contribution ready: tickets carry Gherkin scenarios + QA checklist; implement verifies the run before committing](https://github.com/mattpocock/skills/issues/1047) | 0 |
 | [#1045 Proposal: add subtractive-review skill](https://github.com/mattpocock/skills/issues/1045) | 0 |
@@ -101,9 +108,3 @@ Most recently opened:
 | [#1012 The documented one-skill install installs all 37, and three delegating skills do not say what they need](https://github.com/mattpocock/skills/issues/1012) | 1 |
 | [#1011 implement-spec: make the goal an integration branch, not a PR](https://github.com/mattpocock/skills/issues/1011) | 0 |
 | [#1010 implement-spec: two text defects and four unnamed branches from a full run](https://github.com/mattpocock/skills/issues/1010) | 0 |
-| [#1009 wayfinder: the assignee cannot be the claim when parallel sessions share one account](https://github.com/mattpocock/skills/issues/1009) | 0 |
-| [#1008 improve-codebase-architecture: Mermaid guidance doesn't warn that class only assigns a classDef name (not inline styles)](https://github.com/mattpocock/skills/issues/1008) | 1 |
-| [#1007 Review children apply the review when they can write](https://github.com/mattpocock/skills/issues/1007) | 0 |
-| [#1006 `wayfinder: define behavior when all tickets are resolved but "Not yet specified" is still non-empty`](https://github.com/mattpocock/skills/issues/1006) | 0 |
-| [#1005 Add a documentation index under docs/](https://github.com/mattpocock/skills/issues/1005) | 1 |
-| [#1003 wizard generates an unused `RED` variable](https://github.com/mattpocock/skills/issues/1003) | 1 |

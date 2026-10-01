@@ -1,14 +1,18 @@
 # react/react
 
-Generated: 2026-09-29T10:27:19.620529+00:00
+Generated: 2026-10-01T10:45:56.796561+00:00
 
-- Unassigned: 35+
+- Unassigned: 38+
 - [View all unassigned issues](https://github.com/react/react/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#37718 Bug: o banco de dados do supabase está dando erro](https://github.com/react/react/issues/37718) | 0 |
+| [#37715 Bug:](https://github.com/react/react/issues/37715) | 3 |
+| [#37714 Bug:](https://github.com/react/react/issues/37714) | 0 |
+| [#37712 Bug: addTransitionType types are claimed by an unrelated commit while the transition is suspended](https://github.com/react/react/issues/37712) | 0 |
 | [#37709 Bug: Resuming a prerender that was aborted while a retried task was rendering drops part of the boundary](https://github.com/react/react/issues/37709) | 0 |
 | [#37707 Bug:](https://github.com/react/react/issues/37707) | 0 |
 | [#37706 [DevTools Bug] Cannot remove node "7321" because no matching node was found in the Store.](https://github.com/react/react/issues/37706) | 0 |
@@ -43,4 +47,3 @@ Most recently opened:
 | [#37602 Bug: DevTools facade returns non-serializable BigInt props and hook values](https://github.com/react/react/issues/37602) | 0 |
 | [#37600 Bug: Fragment dispatchEvent invokes listeners removed or aborted earlier in the same dispatch](https://github.com/react/react/issues/37600) | 0 |
 | [#37598 Bug: Mutating Fragment listener options breaks removal, once and abort cleanup](https://github.com/react/react/issues/37598) | 0 |
-| [#37596 Bug: Flight Node clients leave models pending when a readable closes without end or error](https://github.com/react/react/issues/37596) | 0 |

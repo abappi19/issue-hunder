@@ -1,17 +1,19 @@
 # microsoft/vscode
 
-Generated: 2026-09-29T10:27:34.881260+00:00
+Generated: 2026-10-01T10:46:12.314177+00:00
 
-- Unassigned: 61+
+- Unassigned: 59+
 - [View all unassigned issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#339061 [chat-perf] layoutDurationMs regressed 26–33% in text-only and tool-terminal scenarios](https://github.com/microsoft/vscode/issues/339061) | 0 |
+| [#338892 extens](https://github.com/microsoft/vscode/issues/338892) | 2 |
+| [#338859 [chat-perf] layoutDurationMs regressed ~26% in thinking-response scenario](https://github.com/microsoft/vscode/issues/338859) | 0 |
 | [#338444 Remote Agent Host fails GitHub issue creation by opening UI on the remote](https://github.com/microsoft/vscode/issues/338444) | 1 |
 | [#338307 [chat-perf] TTFT and layoutDurationMs regressed >20% in multi-turn-user and many-small-chunks scenarios (first run)](https://github.com/microsoft/vscode/issues/338307) | 0 |
-| [#338220 Test: Single-folder multi-chat regression coverage](https://github.com/microsoft/vscode/issues/338220) | 0 |
 | [#338106 [chat-perf] TTFT/layoutDurationMs regressed 29–45% in large-codeblock, long-prose, file-links, thinking-response scenarios](https://github.com/microsoft/vscode/issues/338106) | 0 |
 | [#338070 Don,t show at my code](https://github.com/microsoft/vscode/issues/338070) | 1 |
 | [#337903 [chat-perf] layoutDurationMs regressed ~20% in thinking-response scenario](https://github.com/microsoft/vscode/issues/337903) | 0 |
@@ -42,6 +44,7 @@ Most recently opened:
 | [#333447 Remote-SSH: Agent Session changed-file diff opens working-tree side as local Windows path, not vscode-remote:// URI](https://github.com/microsoft/vscode/issues/333447) | 3 |
 | [#333342 There's a regression in VS Code 1.135.0 (stable) that breaks Remote-SSH connections. VS Code Insiders has a fix that the stable release doesn't have yet.](https://github.com/microsoft/vscode/issues/333342) | 1 |
 | [#333337 [WSL] VS Code 1.135.0 causes wsl.exe to consume one full CPU core after connecting to WSL](https://github.com/microsoft/vscode/issues/333337) | 2 |
+| [#333315 0](https://github.com/microsoft/vscode/issues/333315) | 1 |
 | [#333145 [chat-perf] layoutDurationMs regressed ~23% in multi-turn-user scenario](https://github.com/microsoft/vscode/issues/333145) | 0 |
 | [#333100 Remote Tunnel Access keeps failing](https://github.com/microsoft/vscode/issues/333100) | 0 |
 | [#333009 Suggestion: Test coverage for Copilot chat in floating (auxiliary) windows](https://github.com/microsoft/vscode/issues/333009) | 0 |
@@ -65,8 +68,3 @@ Most recently opened:
 | [#331006 Opening editor Chat destroys standalone Agent session and creates phantom copilotcli session](https://github.com/microsoft/vscode/issues/331006) | 3 |
 | [#330979 Sessions are filtered out of the list in a remote window: working directories are compared without unwrapping their agent-host URIs](https://github.com/microsoft/vscode/issues/330979) | 4 |
 | [#330850 Option to download vscode server remote dev from host connected internet](https://github.com/microsoft/vscode/issues/330850) | 0 |
-| [#330572 Expose peer-chat discovery and stable chat identifiers for agent-host sessions](https://github.com/microsoft/vscode/issues/330572) | 0 |
-| [#330470 t](https://github.com/microsoft/vscode/issues/330470) | 0 |
-| [#330444 [flaky test] URI file#toString (src/vs/base/test/common/uri.test.ts)](https://github.com/microsoft/vscode/issues/330444) | 0 |
-| [#330110 No indication in Customizations window that `strictPluginOnlyCustomization` is preventing workspace plugins from being usable.](https://github.com/microsoft/vscode/issues/330110) | 0 |
-| [#330053 cannot install from allowed marketplace](https://github.com/microsoft/vscode/issues/330053) | 1 |

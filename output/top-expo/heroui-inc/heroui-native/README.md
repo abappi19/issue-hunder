@@ -1,14 +1,15 @@
 # heroui-inc/heroui-native
 
-Generated: 2026-09-29T10:28:12.612802+00:00
+Generated: 2026-10-01T10:46:50.482133+00:00
 
-- Unassigned: 10
+- Unassigned: 11
 - [View all unassigned issues](https://github.com/heroui-inc/heroui-native/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#512 Accessing element.ref was removed in React 19. ref is now a regular prop. It will be removed from the JSX Element type in a future release.](https://github.com/heroui-inc/heroui-native/issues/512) | 0 |
 | [#509 BottomSheet can remain invisible after a controlled reopen](https://github.com/heroui-inc/heroui-native/issues/509) | 0 |
 | [#507 HeroUI Native 1.0.10 pins Uniwind 1.12.0 with Tailwind 4.3.3, affected by cross-platform variant leakage](https://github.com/heroui-inc/heroui-native/issues/507) | 0 |
 | [#506 iOS UI freeze after bulk mounting list rows built on PressableFeedback (Reanimated wrapper) — repro + falsification matrix inside](https://github.com/heroui-inc/heroui-native/issues/506) | 2 |

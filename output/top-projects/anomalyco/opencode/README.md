@@ -1,18 +1,17 @@
 # anomalyco/opencode
 
-Generated: 2026-09-29T10:27:19.620529+00:00
+Generated: 2026-10-01T10:45:56.796561+00:00
 
-- Unassigned: 7+
+- Unassigned: 6+
 - [View all unassigned issues](https://github.com/anomalyco/opencode/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#52042 session: provider image rejection bricks session — generic 400 error, no recovery path](https://github.com/anomalyco/opencode/issues/52042) | 4 |
-| [#52031 OpenCode Go subscription no longer recognized + unable to access Console](https://github.com/anomalyco/opencode/issues/52031) | 1 |
-| [#51993 go: deepseek-v4.1-flash prompt cache regresses to the first image whenever a new image is added](https://github.com/anomalyco/opencode/issues/51993) | 1 |
-| [#51990 OpenCode Go DeepSeek V4.1 Flash intermittently returns HTTP 400 with only model name](https://github.com/anomalyco/opencode/issues/51990) | 1 |
-| [#51878 No Acess to API key yet I have a paid account](https://github.com/anomalyco/opencode/issues/51878) | 1 |
-| [#51789 [Billing] Paid $10 for OpenCode Go (invoice QIX5DFSW-0001) but no entitlement was created on any workspace](https://github.com/anomalyco/opencode/issues/51789) | 1 |
-| [#51697 [FEATURE]:Recommendation for an exception to "clear and concise" developer constraint](https://github.com/anomalyco/opencode/issues/51697) | 1 |
+| [#52408 quota to decrease rapidly](https://github.com/anomalyco/opencode/issues/52408) | 1 |
+| [#52367 gpt-6-luna usage reported although never used](https://github.com/anomalyco/opencode/issues/52367) | 4 |
+| [#52267 Go plan: 403 "An active OpenCode Go subscription is required" on every Go model — reproduced via API today, Zen models also 403](https://github.com/anomalyco/opencode/issues/52267) | 2 |
+| [#52215 Severe latency + aborted streams on opencode-go (Console Go) — streams hang for minutes and fail with "other side closed" / "Endpoint is unavailable"](https://github.com/anomalyco/opencode/issues/52215) | 2 |
+| [#52192 can't run agent creation command with Go subscription](https://github.com/anomalyco/opencode/issues/52192) | 1 |
+| [#52178 Zen API: CORS headers only served on /zen/v1/models, all inference endpoints fail preflight (404)](https://github.com/anomalyco/opencode/issues/52178) | 3 |

@@ -1,8 +1,8 @@
 # unionlabs/union
 
-Generated: 2026-09-29T10:27:34.881260+00:00
+Generated: 2026-10-01T10:46:12.314177+00:00
 
-- Unassigned: 36+
+- Unassigned: 35+
 - [View all unassigned issues](https://github.com/unionlabs/union/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -22,7 +22,7 @@ Most recently opened:
 | [#3485 Write handshake plugin](https://github.com/unionlabs/union/issues/3485) | 0 |
 | [#3438 Combinator for the ensure functions on the client module of Voyager](https://github.com/unionlabs/union/issues/3438) | 1 |
 | [#3396 Disallow unwrap throughout voyager plugins and modules](https://github.com/unionlabs/union/issues/3396) | 1 |
-| [#3393 Correctly check connection and channel states during handshakes](https://github.com/unionlabs/union/issues/3393) | 0 |
+| [#3393 Correctly check connection and channel states during handshakes](https://github.com/unionlabs/union/issues/3393) | 2 |
 | [#3336 Site Breaks in Development Mode Without Contentful API Credentials](https://github.com/unionlabs/union/issues/3336) | 1 |
 | [#3247 Docs Issues / Improvements](https://github.com/unionlabs/union/issues/3247) | 1 |
 | [#3066 specify cometbls light client as the zk light client](https://github.com/unionlabs/union/issues/3066) | 0 |
@@ -44,4 +44,3 @@ Most recently opened:
 | [#2199 Transfer details UI cuts off top of box](https://github.com/unionlabs/union/issues/2199) | 1 |
 | [#2185 Add "mine" filter in transfers table to show user's only](https://github.com/unionlabs/union/issues/2185) | 0 |
 | [#2088 use cosmwasm::StdError in custom query error](https://github.com/unionlabs/union/issues/2088) | 0 |
-| [#2067 Fix Ensure Blocks Workflow](https://github.com/unionlabs/union/issues/2067) | 0 |

@@ -1,8 +1,8 @@
 # NervJS/taro
 
-Generated: 2026-09-29T10:28:01.660019+00:00
+Generated: 2026-10-01T10:46:39.210798+00:00
 
-- Unassigned: 81+
+- Unassigned: 78+
 - [View all unassigned issues](https://github.com/NervJS/taro/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -87,6 +87,3 @@ Most recently opened:
 | [#18574 CI: nodejs.yml workflow 缺少 aarch64-apple-darwin target 映射](https://github.com/NervJS/taro/issues/18574) | 0 |
 | [#18571 模板选择为 react nutui, 使用 vite作为构建工具，在小程序开发模式启动时nutui引入的Button组件未显示，所有组件样式未按需引入](https://github.com/NervJS/taro/issues/18571) | 1 |
 | [#18566 官方提供的模版项目什么时候能够同步更新？](https://github.com/NervJS/taro/issues/18566) | 4 |
-| [#18564 官网的证书过期了也不续一下？？](https://github.com/NervJS/taro/issues/18564) | 0 |
-| [#18541 Taro哪个版本会支持ReactNative 0.81版本，升级bable和metro的配置，支持Android16KB](https://github.com/NervJS/taro/issues/18541) | 3 |
-| [#18539 Taro React native 适配Android 支持 16 KB 的页面大小](https://github.com/NervJS/taro/issues/18539) | 4 |

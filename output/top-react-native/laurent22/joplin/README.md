@@ -1,21 +1,23 @@
 # laurent22/joplin
 
-Generated: 2026-09-29T10:28:01.660019+00:00
+Generated: 2026-10-01T10:46:39.210798+00:00
 
-- Unassigned: 86+
+- Unassigned: 83+
 - [View all unassigned issues](https://github.com/laurent22/joplin/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#16691 Joplin becomes very laggy/sluggish after enabling the AI feature, while the rest of the system remains responsive.](https://github.com/laurent22/joplin/issues/16691) | 2 |
-| [#16690 All: Sync auto-merge adds a blank line when one device deletes lines the other device edited](https://github.com/laurent22/joplin/issues/16690) | 1 |
+| [#16716 Problem with the option descriptions in settings](https://github.com/laurent22/joplin/issues/16716) | 0 |
+| [#16697 Updating the Viewer font size does not reflect in the notes text](https://github.com/laurent22/joplin/issues/16697) | 0 |
+| [#16691 Joplin becomes very laggy/sluggish after enabling the AI feature, while the rest of the system remains responsive.](https://github.com/laurent22/joplin/issues/16691) | 3 |
+| [#16690 All: Sync auto-merge adds a blank line when one device deletes lines the other device edited](https://github.com/laurent22/joplin/issues/16690) | 3 |
 | [#16687 Rows with lines are not deleted](https://github.com/laurent22/joplin/issues/16687) | 0 |
 | [#16681 Mobile: hightligt text on RTE is bright yellow compared to markdown color](https://github.com/laurent22/joplin/issues/16681) | 1 |
-| [#16671 iOS: Editor scrolls while typing](https://github.com/laurent22/joplin/issues/16671) | 1 |
+| [#16671 iOS: Editor scrolls while typing](https://github.com/laurent22/joplin/issues/16671) | 3 |
 | [#16670 No Joplin icon in taskbar after update to 3.7.21 in Windows 11](https://github.com/laurent22/joplin/issues/16670) | 1 |
-| [#16668 Apostrophe in Android version replaces preceding word](https://github.com/laurent22/joplin/issues/16668) | 6 |
+| [#16668 Accents (' ‘ ` ^) in Android version replace preceding word](https://github.com/laurent22/joplin/issues/16668) | 9 |
 | [#16658 Plugin Review Ecosystem — Complete Feature Plan](https://github.com/laurent22/joplin/issues/16658) | 2 |
 | [#16654 Parent and child notebooks link is missing when restoring from trash](https://github.com/laurent22/joplin/issues/16654) | 2 |
 | [#16651 Mobile redesign: Slide up menus have inconsistent positioning on larger screens](https://github.com/laurent22/joplin/issues/16651) | 2 |
@@ -41,12 +43,11 @@ Most recently opened:
 | [#16559 The Android version of Joplin does not support viewing the heading outline.](https://github.com/laurent22/joplin/issues/16559) | 0 |
 | [#16553 Joplin don't let sync in Fedora](https://github.com/laurent22/joplin/issues/16553) | 3 |
 | [#16546 with render markup, the selection can miss the starting or ending markdown formatting characters](https://github.com/laurent22/joplin/issues/16546) | 0 |
-| [#16540 Suddenly Error when editing table with Chinese table header.](https://github.com/laurent22/joplin/issues/16540) | 15 |
+| [#16540 Suddenly Error when editing table with Chinese table header.](https://github.com/laurent22/joplin/issues/16540) | 16 |
 | [#16502 WebDav broken after upgrading from v3.6.16 / 409 conflict error](https://github.com/laurent22/joplin/issues/16502) | 12 |
 | [#16487 Desktop app build: Running `yarn dist` after switching branches creates a build with outdated version information](https://github.com/laurent22/joplin/issues/16487) | 0 |
 | [#16484 Wrong menu when open note in a new window](https://github.com/laurent22/joplin/issues/16484) | 0 |
 | [#16482 Selected published notes are not visually distinct from selected unpublished notes](https://github.com/laurent22/joplin/issues/16482) | 2 |
-| [#16469 Conflicts don't sync across devices (WebDAV)](https://github.com/laurent22/joplin/issues/16469) | 2 |
 | [#16462 iOS: "Dismiss keyboard" button does nothing while the search entry is focused](https://github.com/laurent22/joplin/issues/16462) | 1 |
 | [#16456 Note History: revision timestamp reflects capture time, not when the content was actually current](https://github.com/laurent22/joplin/issues/16456) | 3 |
 | [#16452 Issues with Korean input, cursor movement, and TO-DO list continuation](https://github.com/laurent22/joplin/issues/16452) | 1 |
@@ -78,7 +79,6 @@ Most recently opened:
 | [#16314 Web Clipper doesn't persist Notebook selection between sessions or expose a way to set a default](https://github.com/laurent22/joplin/issues/16314) | 1 |
 | [#16311 Rich Text editor: attachment links not clickable, and PDFs are not previewed inline (regression vs. embedded viewer in Markdown mode)](https://github.com/laurent22/joplin/issues/16311) | 2 |
 | [#16310 Fatal error on launch: "Invalid layout component: chatPanel"](https://github.com/laurent22/joplin/issues/16310) | 2 |
-| [#16297 Home Screen widget ](https://github.com/laurent22/joplin/issues/16297) | 1 |
 | [#16291 Long running SQL queries should not block execution of other SQL](https://github.com/laurent22/joplin/issues/16291) | 4 |
 | [#16290 Desktop: "Link to note" button inserts Markdown link syntax in HTML notes](https://github.com/laurent22/joplin/issues/16290) | 0 |
 | [#16288 Markdown codeblock (three backticks) removes enclosed text on final backtick](https://github.com/laurent22/joplin/issues/16288) | 1 |
@@ -92,6 +92,3 @@ Most recently opened:
 | [#16239 Desktop: Conflict Resolution  UI](https://github.com/laurent22/joplin/issues/16239) | 2 |
 | [#16233 Whiteboard: When a whiteboard note is trashed, the whiteboard is fully editable instead of being readonly](https://github.com/laurent22/joplin/issues/16233) | 1 |
 | [#16210 [Bug] macOS tray startup creates blank fullscreen Space](https://github.com/laurent22/joplin/issues/16210) | 2 |
-| [#16178 Desktop: Changing profile in the primary instance in Joplin kills the secondary instance](https://github.com/laurent22/joplin/issues/16178) | 0 |
-| [#16163 Mobile: Tapping attachments of a file type not associated with any app in the manage attachments screen does nothing](https://github.com/laurent22/joplin/issues/16163) | 2 |
-| [#16157 OneNote importer fails with WebAssembly.Instance(): Out of memory on Windows 10](https://github.com/laurent22/joplin/issues/16157) | 8 |

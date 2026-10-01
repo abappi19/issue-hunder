@@ -1,6 +1,6 @@
 # denoland/deno
 
-Generated: 2026-09-29T10:27:34.881260+00:00
+Generated: 2026-10-01T10:46:12.314177+00:00
 
 - Unassigned: 48+
 - [View all unassigned issues](https://github.com/denoland/deno/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,6 +9,14 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#36934 Incorrect operator in `Deno.lint.BinaryExpression` declaration](https://github.com/denoland/deno/issues/36934) | 0 |
+| [#36932 Deno desktop: options to turn off CEF background networking and to answer permission requests](https://github.com/denoland/deno/issues/36932) | 0 |
+| [#36931 `deno compile --bundle --minify --exclude-unused-npm` includes unused node native modules](https://github.com/denoland/deno/issues/36931) | 0 |
+| [#36930 Add "engine" to Deno.version](https://github.com/denoland/deno/issues/36930) | 0 |
+| [#36926 node:util: numericSeparator option is ignored by util.inspect and util.format](https://github.com/denoland/deno/issues/36926) | 0 |
+| [#36924 Deno npm resolution ignores deprecation tags and latest tag](https://github.com/denoland/deno/issues/36924) | 0 |
+| [#36923 node:sqlite truncates TEXT results at embedded NUL characters](https://github.com/denoland/deno/issues/36923) | 0 |
+| [#36921 deno pack --no-deno-shim is missing](https://github.com/denoland/deno/issues/36921) | 0 |
 | [#36917 `deno deploy` adds blank line to deno.json](https://github.com/denoland/deno/issues/36917) | 0 |
 | [#36913 deno desktop - delayed window closure broken](https://github.com/denoland/deno/issues/36913) | 0 |
 | [#36910 deno_core: snapshotting a JsRuntimeForSnapshot restored from a snapshot drops inherited extension sources; the next restore segfaults](https://github.com/denoland/deno/issues/36910) | 0 |
@@ -25,10 +33,9 @@ Most recently opened:
 | [#36876 Support for async `describe` body in `node:test`](https://github.com/denoland/deno/issues/36876) | 2 |
 | [#36874 deno fmt breaks "definition lists" in markdown](https://github.com/denoland/deno/issues/36874) | 1 |
 | [#36873 Deno Deploy: node:tls fails against MongoDB Atlas with ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR while Deno.connectTls succeeds](https://github.com/denoland/deno/issues/36873) | 1 |
-| [#36872 Add `--compress` option to `deno serve`](https://github.com/denoland/deno/issues/36872) | 0 |
 | [#36870 desktop HMR cannot resolve transitive npm dependencies in Vite config](https://github.com/denoland/deno/issues/36870) | 1 |
 | [#36868 cnylon.localhost getaddr failed, it should be 127.0.0.1](https://github.com/denoland/deno/issues/36868) | 0 |
-| [#36867 Desktop - app icon is never applied with the CEF backend on Linux/Wayland or Windows](https://github.com/denoland/deno/issues/36867) | 0 |
+| [#36867 Desktop - app icon is never applied with the CEF backend on Linux/Wayland or Windows](https://github.com/denoland/deno/issues/36867) | 1 |
 | [#36862 `WebSocket` over `wss:` can leave the end of a message unsent forever: `bufferedAmount` reaches 0 but the last ~64 KiB only arrive when the client sends something else](https://github.com/denoland/deno/issues/36862) | 0 |
 | [#36861 Desktop: Allow verifying sender of messages over desktop bindings for security](https://github.com/denoland/deno/issues/36861) | 0 |
 | [#36860 Desktop: Expose an equivielent of 'will-navigate' event with `preventDefault` support for security](https://github.com/denoland/deno/issues/36860) | 0 |
@@ -50,10 +57,3 @@ Most recently opened:
 | [#36809 Deno.serve: graceful shutdown() makes in-flight request bodies unreadable (BadResource) on 2.9](https://github.com/denoland/deno/issues/36809) | 0 |
 | [#36803 node:buffer UTF-16LE encoding is slower than a JavaScript DataView loop](https://github.com/denoland/deno/issues/36803) | 0 |
 | [#36802 Stabilize Cron, KV, Queues](https://github.com/denoland/deno/issues/36802) | 0 |
-| [#36793 [V8 perf] Loop callback changing is throttling](https://github.com/denoland/deno/issues/36793) | 0 |
-| [#36790 Web Streams: writer.write() never resolves after pipeThrough() into a TransformStream (regression in 2.9.2)](https://github.com/denoland/deno/issues/36790) | 0 |
-| [#36788 Deno crashes inside nghttp2 when a GOAWAY closes a long idle `node:http2` session](https://github.com/denoland/deno/issues/36788) | 0 |
-| [#36787 .ico ignored in all areas for Windows builds: CEF shows Chromium icon, webview2 shows no icon, installed app shortcut doesn't have the icon path set](https://github.com/denoland/deno/issues/36787) | 0 |
-| [#36786 node:http retries an explicitly destroyed POST on a reused connection](https://github.com/denoland/deno/issues/36786) | 0 |
-| [#36782 Deno global instalation does not work](https://github.com/denoland/deno/issues/36782) | 0 |
-| [#36781 deno desktop - MacOS - timer resets focus back to main window after c. 10 sec](https://github.com/denoland/deno/issues/36781) | 0 |

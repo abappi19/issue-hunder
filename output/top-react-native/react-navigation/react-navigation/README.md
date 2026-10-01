@@ -1,6 +1,6 @@
 # react-navigation/react-navigation
 
-Generated: 2026-09-29T10:28:01.660019+00:00
+Generated: 2026-10-01T10:46:39.210798+00:00
 
 - Unassigned: 59+
 - [View all unassigned issues](https://github.com/react-navigation/react-navigation/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -22,7 +22,7 @@ Most recently opened:
 | [#13128 Android: Header briefly flashes white when going back after overriding NavigationContainer theme colors.card](https://github.com/react-navigation/react-navigation/issues/13128) | 2 |
 | [#13095 Allow per-jump animation control for TabView / Material Top Tabs](https://github.com/react-navigation/react-navigation/issues/13095) | 3 |
 | [#13079 unmountOnBlur behavior regression in latest React Navigation (nested tab + stack): Home state no longer resets predictably](https://github.com/react-navigation/react-navigation/issues/13079) | 3 |
-| [#13072 usePreventRemove fails with swipe back in native-stack on Expo SDK 55, causes JS/native desync and touch block](https://github.com/react-navigation/react-navigation/issues/13072) | 4 |
+| [#13072 usePreventRemove fails with swipe back in native-stack on Expo SDK 55, causes JS/native desync and touch block](https://github.com/react-navigation/react-navigation/issues/13072) | 5 |
 | [#13069 `experimental_userInterfaceStyle` defaults to light causes issues with header and bottom tabs](https://github.com/react-navigation/react-navigation/issues/13069) | 14 |
 | [#13067 `headerTitle` width ignores `headerRight` on iOS 26](https://github.com/react-navigation/react-navigation/issues/13067) | 2 |
 | [#13051 UnhandledLinkingContext throws while linking is not ready (!isLinkingReady branch omits providers)](https://github.com/react-navigation/react-navigation/issues/13051) | 9 |

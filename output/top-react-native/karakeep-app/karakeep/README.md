@@ -1,6 +1,6 @@
 # karakeep-app/karakeep
 
-Generated: 2026-09-29T10:28:01.660019+00:00
+Generated: 2026-10-01T10:46:39.210798+00:00
 
 - Unassigned: 49+
 - [View all unassigned issues](https://github.com/karakeep-app/karakeep/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,7 +9,10 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#3117 CLI: `bookmarks add` exits 0 when some links fail, and `--json` output is followed by non-JSON lines](https://github.com/karakeep-app/karakeep/issues/3117) | 0 |
+| [#3134 [Substack] iOS share links capture referral overlay instead of article](https://github.com/karakeep-app/karakeep/issues/3134) | 0 |
+| [#3133 Screenshots render CJK (Chinese/Japanese/Korean) text as tofu boxes — karakeep-chrome image is missing CJK fonts](https://github.com/karakeep-app/karakeep/issues/3133) | 0 |
+| [#3131 Per-user (not instance-wide) cookie upload and storage for authenticated crawling](https://github.com/karakeep-app/karakeep/issues/3131) | 1 |
+| [#3117 CLI: `bookmarks add` exits 0 when some links fail, and `--json` output is followed by non-JSON lines](https://github.com/karakeep-app/karakeep/issues/3117) | 1 |
 | [#3107 BUG: AI tagging leaks prompt text into tags / produces run-away 90+ tag lists](https://github.com/karakeep-app/karakeep/issues/3107) | 0 |
 | [#3099 Add an action to disable/skip AI tagging in the Rule Engine](https://github.com/karakeep-app/karakeep/issues/3099) | 0 |
 | [#3098 [FR] Possibility to have multiple languages used for tags depending on content language](https://github.com/karakeep-app/karakeep/issues/3098) | 0 |
@@ -28,7 +31,7 @@ Most recently opened:
 | [#3039 Issue for non utf8 website](https://github.com/karakeep-app/karakeep/issues/3039) | 0 |
 | [#3038 Enrich bookmarks with outside discussions and mentions](https://github.com/karakeep-app/karakeep/issues/3038) | 2 |
 | [#3033 Back button in Mobile App broken](https://github.com/karakeep-app/karakeep/issues/3033) | 1 |
-| [#3032 FR: extended offline cache for reading](https://github.com/karakeep-app/karakeep/issues/3032) | 4 |
+| [#3032 FR: extended offline cache for reading](https://github.com/karakeep-app/karakeep/issues/3032) | 10 |
 | [#3031 -is:inlist smart list query does not exclude bookmarks added to another smart list (only works for manual lists)](https://github.com/karakeep-app/karakeep/issues/3031) | 0 |
 | [#3030 Bookmarks saved from mobile app don't appear in an open web session until manual refresh](https://github.com/karakeep-app/karakeep/issues/3030) | 0 |
 | [#3029 macOS web app: title bar renders white in dark mode (missing dark theme-color)](https://github.com/karakeep-app/karakeep/issues/3029) | 0 |
@@ -55,6 +58,3 @@ Most recently opened:
 | [#2923 Bookmarks generate duplicate attachments](https://github.com/karakeep-app/karakeep/issues/2923) | 0 |
 | [#2922 The ability to change user email](https://github.com/karakeep-app/karakeep/issues/2922) | 2 |
 | [#2920 OAuth Sign-In Bypasses Mandatory Email Verification](https://github.com/karakeep-app/karakeep/issues/2920) | 0 |
-| [#2908 Video asset opens as a black page from Manage Assets and cannot be played](https://github.com/karakeep-app/karakeep/issues/2908) | 0 |
-| [#2907 Add automation or API to initiate Meilisearch Reindexing](https://github.com/karakeep-app/karakeep/issues/2907) | 0 |
-| [#2906 Deleting a bookmark fails with ENOTEMPTY when assets (video) are stored on NFS](https://github.com/karakeep-app/karakeep/issues/2906) | 0 |

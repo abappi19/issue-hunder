@@ -1,16 +1,20 @@
 # coollabsio/coolify
 
-Generated: 2026-09-29T10:27:49.162918+00:00
+Generated: 2026-10-01T10:46:26.221775+00:00
 
-- Unassigned: 44+
+- Unassigned: 46+
 - [View all unassigned issues](https://github.com/coollabsio/coolify/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#12071 [Bug] MCP: initialize returns error for unsupported protocol version instead of negotiating (breaks Claude.ai custom connectors)](https://github.com/coollabsio/coolify/issues/12071) | 0 |
+| [#12067 [Bug]: Sentinel is restarted every minute on non-root SSH servers without Docker group access](https://github.com/coollabsio/coolify/issues/12067) | 0 |
+| [#12060 [Bug]: R2 backup uploads fail with "The S3 destination may not support streaming uploads."](https://github.com/coollabsio/coolify/issues/12060) | 0 |
+| [#12059 [Bug]: SSH retry replays database backup upload commands and causes Docker container-name conflicts](https://github.com/coollabsio/coolify/issues/12059) | 0 |
+| [#12057 Compose `${VAR:?error}` stores the error message as the value instead of failing](https://github.com/coollabsio/coolify/issues/12057) | 0 |
 | [#12055 [BUG] Application logs API ignores service_name for Docker Compose applications](https://github.com/coollabsio/coolify/issues/12055) | 1 |
-| [#12049 [Bug]: Coolify Cloud rejects Sentinel pushes with 429 for hours while the server sends nothing else to app.coolify.io](https://github.com/coollabsio/coolify/issues/12049) | 0 |
 | [#12036 Long-form bind mappings lose read_only and bind options during application parsing](https://github.com/coollabsio/coolify/issues/12036) | 0 |
 | [#12034 Server validation rejects Arch-derived distros: validateOS() reads ID and ignores ID_LIKE](https://github.com/coollabsio/coolify/issues/12034) | 1 |
 | [#12033 Server validation rejects Arch-derived distros: validateOS() reads ID and ignores ID_LIKE](https://github.com/coollabsio/coolify/issues/12033) | 0 |
@@ -34,7 +38,6 @@ Most recently opened:
 | [#11953 [Bug]: Sentinel restart loop on servers managed by a non-root SSH user (CheckAndStartSentinelJob checks run without sudo)](https://github.com/coollabsio/coolify/issues/11953) | 1 |
 | [#11947 [Bug]: Application status dropdown is cut off on the left below xl width](https://github.com/coollabsio/coolify/issues/11947) | 0 |
 | [#11946 [Bug]: Volume backup to S3 (Cloudflare R2) crashes mc (SIGSEGV); with "Stop container during backup" the container is left stopped → production downtime](https://github.com/coollabsio/coolify/issues/11946) | 0 |
-| [#11926 [Bug]: Redis SSL regeneration generates an invalid certificate and mounts server.pem while Redis expects server.crt/server.key](https://github.com/coollabsio/coolify/issues/11926) | 0 |
 | [#11924 [Bug]: SERVICE_FQDN_*/SERVICE_URL_* regenerated from the stale auto-generated value on every deploy](https://github.com/coollabsio/coolify/issues/11924) | 2 |
 | [#11892 [Bug]: Additional destination status without a health suffix shows as an unhealthy healthcheck](https://github.com/coollabsio/coolify/issues/11892) | 0 |
 | [#11890 [Bug]: Auto-update silently fails every night — ghcr.io rate limit at 00:00 UTC, upgrade.sh has no retry, and Coolify logs "update completed successfully"](https://github.com/coollabsio/coolify/issues/11890) | 0 |
@@ -52,4 +55,3 @@ Most recently opened:
 | [#11803 [Bug]: Local Sentinel hardcodes port 8000 and Sync reports false health](https://github.com/coollabsio/coolify/issues/11803) | 2 |
 | [#11802 [Bug]: Manually set instance public IPv4 is overwritten on every restart](https://github.com/coollabsio/coolify/issues/11802) | 0 |
 | [#11801 [Bug]: "Update available" badge overlaps the team selector in the top navigation](https://github.com/coollabsio/coolify/issues/11801) | 1 |
-| [#11770 [Bug]: Railpack ignores filtered `deploy.inputs` and slows deployments](https://github.com/coollabsio/coolify/issues/11770) | 0 |

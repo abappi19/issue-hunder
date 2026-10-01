@@ -1,14 +1,15 @@
 # codecrafters-io/build-your-own-x
 
-Generated: 2026-09-29T10:27:19.620529+00:00
+Generated: 2026-10-01T10:45:56.796561+00:00
 
-- Unassigned: 15+
+- Unassigned: 16+
 - [View all unassigned issues](https://github.com/codecrafters-io/build-your-own-x/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#2039 Inspire](https://github.com/codecrafters-io/build-your-own-x/issues/2039) | 0 |
 | [#2014 AI-assisted report on build-your-own-x published (score 67/100)](https://github.com/codecrafters-io/build-your-own-x/issues/2014) | 0 |
 | [#2009 write you a haskell link broken](https://github.com/codecrafters-io/build-your-own-x/issues/2009) | 0 |
 | [#2007 Add toturials for building a filesystm](https://github.com/codecrafters-io/build-your-own-x/issues/2007) | 1 |

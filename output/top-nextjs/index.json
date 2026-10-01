@@ -1,46 +1,46 @@
 {
   "title": "Top Next.js Projects",
-  "generated_at": "2026-09-29T10:27:49.162918+00:00",
+  "generated_at": "2026-10-01T10:46:26.221775+00:00",
   "repos": [
     {
       "repo": "f/prompts.chat",
-      "unassigned": 27
+      "unassigned": 28
     },
     {
       "repo": "langgenius/dify",
-      "unassigned": "9+"
-    },
-    {
-      "repo": "vercel/next.js",
       "unassigned": "21+"
     },
     {
+      "repo": "vercel/next.js",
+      "unassigned": "25+"
+    },
+    {
       "repo": "shadcn-ui/ui",
-      "unassigned": "10+"
+      "unassigned": "16+"
     },
     {
       "repo": "supabase/supabase",
-      "unassigned": "11+"
+      "unassigned": "12+"
     },
     {
       "repo": "ChatGPTNextWeb/NextChat",
-      "unassigned": "37+"
+      "unassigned": "38+"
     },
     {
       "repo": "coollabsio/coolify",
-      "unassigned": "44+"
+      "unassigned": "46+"
     },
     {
       "repo": "appwrite/appwrite",
-      "unassigned": "15+"
+      "unassigned": "17+"
     },
     {
       "repo": "calcom/cal.diy",
-      "unassigned": "15+"
+      "unassigned": "18+"
     },
     {
       "repo": "payloadcms/payload",
-      "unassigned": "32+"
+      "unassigned": "36+"
     },
     {
       "repo": "AykutSarac/jsoncrack.com",
@@ -48,15 +48,15 @@
     },
     {
       "repo": "trpc/trpc",
-      "unassigned": "41+"
+      "unassigned": "39+"
     },
     {
       "repo": "CopilotKit/CopilotKit",
-      "unassigned": "27+"
+      "unassigned": "30+"
     },
     {
       "repo": "Dokploy/dokploy",
-      "unassigned": "49+"
+      "unassigned": "53+"
     },
     {
       "repo": "LAION-AI/Open-Assistant",
@@ -64,7 +64,7 @@
     },
     {
       "repo": "gitroomhq/postiz-app",
-      "unassigned": "41+"
+      "unassigned": "43+"
     },
     {
       "repo": "refinedev/refine",
@@ -80,7 +80,7 @@
     },
     {
       "repo": "vercel/swr",
-      "unassigned": "46+"
+      "unassigned": "48+"
     }
   ]
 }

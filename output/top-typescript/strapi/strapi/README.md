@@ -1,14 +1,17 @@
 # strapi/strapi
 
-Generated: 2026-09-29T10:27:34.881260+00:00
+Generated: 2026-10-01T10:46:12.314177+00:00
 
-- Unassigned: 17+
+- Unassigned: 15+
 - [View all unassigned issues](https://github.com/strapi/strapi/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#27891 Relation shorthand treats documentIds that start with a digit as numeric ids (parseInt in isNumeric)](https://github.com/strapi/strapi/issues/27891) | 1 |
+| [#27882 DELETE /auth/sessions/:sessionId does not declare its path param, so strapi openapi generate emits an invalid spec](https://github.com/strapi/strapi/issues/27882) | 2 |
+| [#27878 New Media Library delete dialog discards the server error message](https://github.com/strapi/strapi/issues/27878) | 0 |
 | [#27836 Filter "in" with empty parameter returns all entries](https://github.com/strapi/strapi/issues/27836) | 1 |
 | [#27833 Dependency clarification/update request: react-router@6.30.6 and GHSA-337j-9hxr-rhxg](https://github.com/strapi/strapi/issues/27833) | 0 |
 | [#27832 Dependency update request: stream-json@1.9.1 affected by GHSA-528h-pc64-c93x](https://github.com/strapi/strapi/issues/27832) | 0 |
@@ -21,8 +24,3 @@ Most recently opened:
 | [#27749 aws s3 codemods should create s3Options key](https://github.com/strapi/strapi/issues/27749) | 1 |
 | [#27745 Published `.d.ts` files import undeclared modules, so consumer types silently become `any` on non-hoisted installs](https://github.com/strapi/strapi/issues/27745) | 3 |
 | [#27722 Content Release shows stale 'Blocked' status and still publishes despite it — isEntryValid cache is never revalidated at publish time](https://github.com/strapi/strapi/issues/27722) | 2 |
-| [#27694 Reset password validation errors (uppercase/lowercase/number) not displayed on admin Reset Password page](https://github.com/strapi/strapi/issues/27694) | 1 |
-| [#27678 typescript-utils/tsconfigs/server should have strict mode enabled](https://github.com/strapi/strapi/issues/27678) | 2 |
-| [#27672 @strapi/typescript-utils ships a relative tsBuildInfoFile, so every consuming project writes build info into node_modules](https://github.com/strapi/strapi/issues/27672) | 0 |
-| [#27670 Allow Strapi CLI commands to skip TypeScript compilation](https://github.com/strapi/strapi/issues/27670) | 1 |
-| [#27665 Upload Cloudinary folder ignored when replacing asset](https://github.com/strapi/strapi/issues/27665) | 6 |

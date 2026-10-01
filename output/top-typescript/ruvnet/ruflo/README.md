@@ -1,17 +1,30 @@
 # ruvnet/ruflo
 
-Generated: 2026-09-29T10:27:34.881260+00:00
+Generated: 2026-10-01T10:46:12.314177+00:00
 
-- Unassigned: 41+
+- Unassigned: 44+
 - [View all unassigned issues](https://github.com/ruvnet/ruflo/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#3602 policy ledger truncation detection can be disabled by deleting the anchor fields, and verify then re-establishes the anchor at the truncated state](https://github.com/ruvnet/ruflo/issues/3602) | 0 |
+| [#3598 [Dream Cycle 2026-10-01] security: MCP HTTP tool-authorization fail-open by default + intelligence,swarm scan](https://github.com/ruvnet/ruflo/issues/3598) | 0 |
+| [#3595 ConfigFileManager nested defaults leak between independent projects and resets](https://github.com/ruvnet/ruflo/issues/3595) | 0 |
+| [#3594 CLI parser coerces declared string options into numbers and booleans](https://github.com/ruvnet/ruflo/issues/3594) | 0 |
+| [#3593 WorkerQueue cancellation hides pending work behind the cancelled queue head](https://github.com/ruvnet/ruflo/issues/3593) | 0 |
+| [#3592 Bounded worker pool starts tasks when its input signal is already aborted](https://github.com/ruvnet/ruflo/issues/3592) | 0 |
+| [#3590 ConfigFileManager can overwrite another project's configuration after cwd changes](https://github.com/ruvnet/ruflo/issues/3590) | 0 |
+| [#3562 [Dream Cycle 2026-09-30] performance: MessageBus event-driven dispatch replaces unconditional 10ms poll + security,hive-mind scan](https://github.com/ruvnet/ruflo/issues/3562) | 0 |
+| [#3561 plugin-agent-federation: outbound sends use a session trust level that never changes, so task/memory/context messages are always rejected](https://github.com/ruvnet/ruflo/issues/3561) | 1 |
+| [#3560 swarm/consensus: ByzantineConsensus rejects unanimous votes for n ≤ 2 and stalls on one crash for n = 3](https://github.com/ruvnet/ruflo/issues/3560) | 1 |
+| [#3558 plugins: cost-tracker, adr and metaharness run `npx @claude-flow/cli@latest` instead of the installed ruflo when installed from the marketplace](https://github.com/ruvnet/ruflo/issues/3558) | 1 |
+| [#3548 hooks_intelligence_attention: mode "hyperbolic" has no implementation and returns a misleading "Install @ruvector/attention" stub note](https://github.com/ruvnet/ruflo/issues/3548) | 0 |
+| [#3547 daemon: `daemon start --workers` is ignored; the selection never reaches WorkerDaemon (#1968 follow-up)](https://github.com/ruvnet/ruflo/issues/3547) | 1 |
+| [#3542 npx init is generating error](https://github.com/ruvnet/ruflo/issues/3542) | 0 |
 | [#3538 [Dream Cycle 2026-09-29] swarm: spawnAgent() auto-domain branch skips pool.add() + ruview,ruvector-integration scan](https://github.com/ruvnet/ruflo/issues/3538) | 0 |
-| [#3532 🔄 Rollback Incident: [Brief Description]](https://github.com/ruvnet/ruflo/issues/3532) | 0 |
-| [#3531 security(plugins): gnn.ts interpolates node ids, depth and identifiers into executed SQL](https://github.com/ruvnet/ruflo/issues/3531) | 0 |
+| [#3532 🔄 Rollback Incident: [Brief Description]](https://github.com/ruvnet/ruflo/issues/3532) | 1 |
 | [#3529 test: init-memory-package-resolver-2545 fails whenever vitest runs through pnpm's bin shim (NODE_PATH exposes the workspace's own @claude-flow/memory)](https://github.com/ruvnet/ruflo/issues/3529) | 0 |
 | [#3527 init: every `ruflo init` pins "model": "claude-sonnet-5" in .claude/settings.json, overriding the user's own model (the repo's own settings.json does too)](https://github.com/ruvnet/ruflo/issues/3527) | 0 |
 | [#3518 feat: durable missions with typed waits and explicit side-effect reconciliation](https://github.com/ruvnet/ruflo/issues/3518) | 0 |
@@ -28,7 +41,7 @@ Most recently opened:
 | [#3418 Add ruflo doctor components for the MiniLM picker (CLAUDE_FLOW_ROUTER_EMBEDDER) and MCP governance (RUFLO_MCP_ENFORCE_POLICY)](https://github.com/ruvnet/ruflo/issues/3418) | 1 |
 | [#3417 Make the MCP tool-governance audit log path configurable and per-project, with rotation](https://github.com/ruvnet/ruflo/issues/3417) | 1 |
 | [#3416 Add --json output to ruflo doctor](https://github.com/ruvnet/ruflo/issues/3416) | 1 |
-| [#3411 Coordinated disclosure: github-safe.js helper interpolates argv into a shell string passed to execSync (AS-S001)](https://github.com/ruvnet/ruflo/issues/3411) | 3 |
+| [#3411 Coordinated disclosure: github-safe.js helper interpolates argv into a shell string passed to execSync (AS-S001)](https://github.com/ruvnet/ruflo/issues/3411) | 4 |
 | [#3408 Security research: reproduce A2M metadata attraction and adversarial MCP output steering](https://github.com/ruvnet/ruflo/issues/3408) | 0 |
 | [#3394 [Dream Cycle 2026-09-22] intelligence: EWCConsolidator.updateFisherFromConfidences() inverts its own EMA direction, defeating EWC++'s anti-forgetting purpose + capabilities,memory scan](https://github.com/ruvnet/ruflo/issues/3394) | 1 |
 | [#3384 [Dream Cycle 2026-09-21] security: validateEnv() denylist missing PATH/search-path family (CWE-427) + intelligence,swarm scan](https://github.com/ruvnet/ruflo/issues/3384) | 0 |
@@ -40,13 +53,3 @@ Most recently opened:
 | [#3356 [Dream Cycle 2026-09-19] swarm: queen/coordinator adjacency never populated for hierarchical/centralized/hybrid topologies + ruview,ruvector-integration scan](https://github.com/ruvnet/ruflo/issues/3356) | 1 |
 | [#3349 [Dream Cycle 2026-09-17] intelligence: wire CLAUDE_FLOW_PRIOR_DECAY env override for ModelRouter's dormant decay primitive + capabilities,memory scan](https://github.com/ruvnet/ruflo/issues/3349) | 0 |
 | [#3338 [Dream Cycle 2026-09-16] security: hive-mind_spawn/propose/broadcast/shutdown/memory still bypass #3291's Sybil-vote token gate + intelligence,swarm scan](https://github.com/ruvnet/ruflo/issues/3338) | 1 |
-| [#3327 reasoningBank/vectorBackend report enabled:true but never activate (bridge-fallback/substring only); smart:true reports an RRF score mislabeled as cosine similarity](https://github.com/ruvnet/ruflo/issues/3327) | 3 |
-| [#3315 graph-query: empty or partial native graph hides retained SQL relationships in k-hop mode](https://github.com/ruvnet/ruflo/issues/3315) | 3 |
-| [#3312 Update agent consensus protocol](https://github.com/ruvnet/ruflo/issues/3312) | 0 |
-| [#3306 ruflo@3.41.2 reports latest while executing cached @claude-flow/cli@3.33.0: wrapper dependency permits stale runtime](https://github.com/ruvnet/ruflo/issues/3306) | 2 |
-| [#3301 [Dream Cycle 2026-09-12] intelligence: findSimilar() conflates learned confidence with query-similarity, inverting distillLearning()'s reliability gate + capabilities,memory scan](https://github.com/ruvnet/ruflo/issues/3301) | 0 |
-| [#3294 security(mcp): eliminate singleton session aliasing and preserve request-local principal context](https://github.com/ruvnet/ruflo/issues/3294) | 1 |
-| [#3287 Feature Suggestion: Optional token metering & paid API key support via `neuforge-pay`](https://github.com/ruvnet/ruflo/issues/3287) | 0 |
-| [#3269 SOTA standards: reopen ADR-106 as a DAWN-aligned discovery plane, keep mDNS as an adapter](https://github.com/ruvnet/ruflo/issues/3269) | 0 |
-| [#3249 Encrypted (RFE1) memory: checkMemoryInitialization leaks one sql.js image per MCP tool call (3.38.3, Windows) -- decrypt-before-open + finally-close patch](https://github.com/ruvnet/ruflo/issues/3249) | 0 |
-| [#3246 Integrate MidStream reflex handoff with deliberative agent loop](https://github.com/ruvnet/ruflo/issues/3246) | 0 |

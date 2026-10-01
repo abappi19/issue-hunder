@@ -1,8 +1,8 @@
 # vercel/swr
 
-Generated: 2026-09-29T10:27:49.162918+00:00
+Generated: 2026-10-01T10:46:26.221775+00:00
 
-- Unassigned: 46+
+- Unassigned: 48+
 - [View all unassigned issues](https://github.com/vercel/swr/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -55,3 +55,5 @@ Most recently opened:
 | [#3040 onSuccess not called after upgrading from Expo 51 to 52](https://github.com/vercel/swr/issues/3040) | 3 |
 | [#3039 refreshWhenHidden not working properly](https://github.com/vercel/swr/issues/3039) | 2 |
 | [#3038 FetcherResponse not exported ](https://github.com/vercel/swr/issues/3038) | 0 |
+| [#3037 useSWRInfinite could not load new page correctly after `clear` and `refresh` ](https://github.com/vercel/swr/issues/3037) | 0 |
+| [#3034 useSWR not back to fallback data after switching key to fallback key when keepPreviousData is true](https://github.com/vercel/swr/issues/3034) | 5 |

@@ -1,18 +1,20 @@
 # appwrite/appwrite
 
-Generated: 2026-09-29T10:28:01.660019+00:00
+Generated: 2026-10-01T10:46:39.210798+00:00
 
-- Unassigned: 15+
+- Unassigned: 17+
 - [View all unassigned issues](https://github.com/appwrite/appwrite/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#14031 Why can't I find kotlin runtime from create functions](https://github.com/appwrite/appwrite/issues/14031) | 0 |
+| [#14007 Calling `flush()` on a cache backed by the `Filesystem` adapter leads runtime failures](https://github.com/appwrite/appwrite/issues/14007) | 1 |
+| [#13985 Favicon uses the original page URL to resolve relative icon links after a redirect](https://github.com/appwrite/appwrite/issues/13985) | 1 |
 | [#13920 Guvicorn/Hot Swap Issues in Local Functions Running Python](https://github.com/appwrite/appwrite/issues/13920) | 2 |
-| [#13911 detector: Framework detection can never return null for a repo with a package.json](https://github.com/appwrite/appwrite/issues/13911) | 1 |
 | [#13810 🚀 Enhancement: [Upload] button for Storage File View to update content](https://github.com/appwrite/appwrite/issues/13810) | 1 |
-| [#13808 🐛 Bug Report: Deleting a storage bucket leaves its files on S3-compatible storage](https://github.com/appwrite/appwrite/issues/13808) | 0 |
+| [#13808 🐛 Bug Report: Deleting a storage bucket leaves its files on S3-compatible storage](https://github.com/appwrite/appwrite/issues/13808) | 1 |
 | [#13768 Membership realtime delete event not properly firing on client sdks](https://github.com/appwrite/appwrite/issues/13768) | 0 |
 | [#13766 TablesDB: deleting a row with an empty two-way manyToOne (onDelete: setNull) returns 500 general_unknown](https://github.com/appwrite/appwrite/issues/13766) | 0 |
 | [#13733 Deny adding identity if the email differs from the current logged-in user email](https://github.com/appwrite/appwrite/issues/13733) | 2 |

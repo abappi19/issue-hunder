@@ -1,53 +1,40 @@
 # headroomlabs-ai/headroom
 
-Generated: 2026-09-29T10:27:34.881260+00:00
+Generated: 2026-10-01T10:46:12.314177+00:00
 
-- Unassigned: 42+
+- Unassigned: 29+
 - [View all unassigned issues](https://github.com/headroomlabs-ai/headroom/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#3894 [BUG] Chat Completions proxy replays stale message-level cache_control markers; Anthropic-backed gateways reject the request (>4 breakpoints)](https://github.com/headroomlabs-ai/headroom/issues/3894) | 1 |
+| [#3888 [BUG] Codex wrapper forces embedded mode and disables shared background server](https://github.com/headroomlabs-ai/headroom/issues/3888) | 0 |
+| [#3879 --intercept-tool-results is a no-op in the proxy: server.py bypasses _build_default_transforms()](https://github.com/headroomlabs-ai/headroom/issues/3879) | 0 |
+| [#3844 Claude code giving classifier requests warning while using headroom proxy](https://github.com/headroomlabs-ai/headroom/issues/3844) | 0 |
+| [#3842 [FEATURE] Support a verified newer tree-sitter-language-pack release](https://github.com/headroomlabs-ai/headroom/issues/3842) | 0 |
 | [#3840 [COPILOT-SUB] <OS> test report](https://github.com/headroomlabs-ai/headroom/issues/3840) | 2 |
 | [#3838 Add headroom to awesome-ai-plugins?](https://github.com/headroomlabs-ai/headroom/issues/3838) | 0 |
-| [#3837 Regression in 0.39.1: headroom_retrieve results re-compressed again despite the #1077 / #2654 exemption](https://github.com/headroomlabs-ai/headroom/issues/3837) | 0 |
-| [#3836 CCR continuation on the Anthropic path treats a non-2xx reply as the model's answer](https://github.com/headroomlabs-ai/headroom/issues/3836) | 0 |
-| [#3822 [BUG] JSONLStorage.query() pages before it sorts, so a jsonl store returns the OLDEST rows while sqlite returns the NEWEST](https://github.com/headroomlabs-ai/headroom/issues/3822) | 0 |
 | [#3818 [BUG] headroom-ai[proxy]/[all] unresolvable on Intel macOS with Python ≥3.11 (onnxruntime>=1.24.0 has no x86_64 macOS wheels)](https://github.com/headroomlabs-ai/headroom/issues/3818) | 0 |
 | [#3815 CCR retrieval is unavailable on OpenAI chat-completions streaming, and toggles the tools cache in mixed-mode sessions](https://github.com/headroomlabs-ai/headroom/issues/3815) | 1 |
 | [#3812 Per-session savings attribution (x-claude-code-session-id)](https://github.com/headroomlabs-ai/headroom/issues/3812) | 0 |
 | [#3809 openclaw plugin: assemble() rebuilds every history message when anything is compressed, invalidating the provider prompt cache](https://github.com/headroomlabs-ai/headroom/issues/3809) | 1 |
 | [#3798 [BUG] Vertex us multi-region is forwarded to incorrect upstream hostname](https://github.com/headroomlabs-ai/headroom/issues/3798) | 0 |
 | [#3777 HEADROOM_OFFLINE=1 does not prevent the HuggingFace tokenizer download](https://github.com/headroomlabs-ai/headroom/issues/3777) | 0 |
-| [#3775 HTMLExtractor replaces tool results with unrecoverable output: CompressionStrategy.HTML is missing from LOSSY_UNMARKED_STRATEGIES](https://github.com/headroomlabs-ai/headroom/issues/3775) | 0 |
 | [#3768 [FEATURE] Pass through `safeguards` request field and `safeguard_results` response field](https://github.com/headroomlabs-ai/headroom/issues/3768) | 0 |
 | [#3749 [BUG] Windows Codex proxy unavailability: sanitized 0.32.1 incident logs and limited 0.37.0 follow-up](https://github.com/headroomlabs-ai/headroom/issues/3749) | 0 |
 | [#3732 Unknown model silently priced at the GPT-4o tier, so cost tracking and budget enforcement act on fabricated numbers](https://github.com/headroomlabs-ai/headroom/issues/3732) | 1 |
 | [#3716 [BUG] VS Code Copilot requests are not routed through Headroom proxy despite successful wrap vscode setup](https://github.com/headroomlabs-ai/headroom/issues/3716) | 0 |
 | [#3711 [BUG] Kompress/ONNX stage takes ~70s on a mixed prose+JSON tool output, exhausting the 30s budget and quarantining all compression (0.38.0)](https://github.com/headroomlabs-ai/headroom/issues/3711) | 1 |
 | [#3702 [FEATURE] Support Github Copilot App](https://github.com/headroomlabs-ai/headroom/issues/3702) | 0 |
-| [#3698 learn/memory writers: LF pin has no regression guard, and the same bug is live in memory writers](https://github.com/headroomlabs-ai/headroom/issues/3698) | 0 |
 | [#3697 smart-crusher: remove dead crush_object clone; revisit the bundled whitespace guard from #3648](https://github.com/headroomlabs-ai/headroom/issues/3697) | 1 |
 | [#3690 [FEATURE] Optional Jev-backed semantic policy for ModelRouter](https://github.com/headroomlabs-ai/headroom/issues/3690) | 2 |
-| [#3686 plugin(opencode): wrapSpawn does not set windowsHide on Windows — visible cmd.exe windows pop up for every MCP server](https://github.com/headroomlabs-ai/headroom/issues/3686) | 0 |
-| [#3676 [BUG] Memory tools are injected into requests that declare no tools, turning text completions into unserviceable tool calls](https://github.com/headroomlabs-ai/headroom/issues/3676) | 0 |
-| [#3673 [BUG] Kompress deletes a whole record from single-line JSON, producing valid but incomplete JSON](https://github.com/headroomlabs-ai/headroom/issues/3673) | 1 |
 | [#3669 Opencode plugin: make a version that works with OpenCode v2](https://github.com/headroomlabs-ai/headroom/issues/3669) | 0 |
 | [#3667 Wire-contract guard relocates non-text blocks into top-level `system`, causing 400 on every affected request](https://github.com/headroomlabs-ai/headroom/issues/3667) | 2 |
 | [#3653 compression_executor leaks a worker thread + fd on every quarantine event; never released after timeout (persists in 0.37.0)](https://github.com/headroomlabs-ai/headroom/issues/3653) | 1 |
 | [#3652 [BUG] Columnar command output (ls -la, git status) classifies as PLAIN_TEXT and loses fields to Kompress — Bash missing from DEFAULT_EXCLUDE_TOOLS](https://github.com/headroomlabs-ai/headroom/issues/3652) | 1 |
 | [#3649 Docker image: ast-grep binary missing from runtime stage (whitelist COPY) — --intercept-tool-results fails to start](https://github.com/headroomlabs-ai/headroom/issues/3649) | 0 |
-| [#3633 [BUG] opencode plugin routes ALL HTTP traffic through the proxy — breaks built-in WebFetch and every Node child process (npx/npm/Node MCPs)](https://github.com/headroomlabs-ai/headroom/issues/3633) | 1 |
 | [#3608 [BUG] Mixed-content routing can lose the parent HTML type](https://github.com/headroomlabs-ai/headroom/issues/3608) | 0 |
 | [#3604 Persistent-service crash loop on macOS 26 (Darwin 27): PyTorch MPS backend aborts on IOGPUMetalCommandBuffer during embedder/kompress model load](https://github.com/headroomlabs-ai/headroom/issues/3604) | 0 |
 | [#3598 [FEATURE]](https://github.com/headroomlabs-ai/headroom/issues/3598) | 0 |
-| [#3597 headroom wrap sets X-Headroom-Project but the CCR resolver reads x-headroom-project-id/x-headroom-cwd — the supported launcher doesn't satisfy its own resolver](https://github.com/headroomlabs-ai/headroom/issues/3597) | 0 |
-| [#3591 headroom_retrieve reports item count in a field named original_tokens](https://github.com/headroomlabs-ai/headroom/issues/3591) | 2 |
-| [#3590 Compressing small tool results destroys structure silently; consider excluding shell/file reads by default](https://github.com/headroomlabs-ai/headroom/issues/3590) | 0 |
-| [#3589 [BUG] Codex Desktop voice chat fails with 403 when using Headroom persistent proxy](https://github.com/headroomlabs-ai/headroom/issues/3589) | 0 |
-| [#3588 Proxy daemon keeps stale env; no way to restart it from inside a session](https://github.com/headroomlabs-ai/headroom/issues/3588) | 0 |
-| [#3587 CCR buffered path (stream:false) fires on 71% of opus turns after #3071 and redeems zero retrievals — TTFT becomes the whole generation (0.37.0)](https://github.com/headroomlabs-ai/headroom/issues/3587) | 1 |
-| [#3573 [DOCS] --memory context injection is silently skipped in --mode cache](https://github.com/headroomlabs-ai/headroom/issues/3573) | 0 |
-| [#3571 [BUILD] Migrate Headroom local and CI Rust to 1.98.1](https://github.com/headroomlabs-ai/headroom/issues/3571) | 0 |
-| [#3569 [BUG] Image v0.37.0 switches to `USER root`; with `--userns=keep-id` all newly created files in bind mounts are owned by a subordinate UID](https://github.com/headroomlabs-ai/headroom/issues/3569) | 4 |

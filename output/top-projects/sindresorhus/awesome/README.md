@@ -1,6 +1,6 @@
 # sindresorhus/awesome
 
-Generated: 2026-09-29T10:27:19.620529+00:00
+Generated: 2026-10-01T10:45:56.796561+00:00
 
 - Unassigned: 10+
 - [View all unassigned issues](https://github.com/sindresorhus/awesome/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -13,7 +13,7 @@ Most recently opened:
 | [#3642 Differentiating Unmainatined Repos](https://github.com/sindresorhus/awesome/issues/3642) | 17 |
 | [#3606 "inline" table of contents and contribution guidelines seems more cleaner](https://github.com/sindresorhus/awesome/issues/3606) | 16 |
 | [#3538 Spam comments stay on the project for pretty long](https://github.com/sindresorhus/awesome/issues/3538) | 26 |
-| [#2242 Incubate](https://github.com/sindresorhus/awesome/issues/2242) | 291 |
+| [#2242 Incubate](https://github.com/sindresorhus/awesome/issues/2242) | 292 |
 | [#2097 Pull request template: badge placement rule contradicts the linter](https://github.com/sindresorhus/awesome/issues/2097) | 0 |
 | [#1972 Manifesto - Table of contents](https://github.com/sindresorhus/awesome/issues/1972) | 22 |
 | [#1810 Removing broken links from lists](https://github.com/sindresorhus/awesome/issues/1810) | 10 |
