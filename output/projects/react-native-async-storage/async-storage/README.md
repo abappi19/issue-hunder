@@ -1,6 +1,6 @@
 # react-native-async-storage/async-storage
 
-Generated: 2026-10-01T09:49:00.933060+00:00
+Generated: 2026-10-03T08:54:11.326706+00:00
 
 - Unassigned: 11
 - [View all unassigned issues](https://github.com/react-native-async-storage/async-storage/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,7 +9,7 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#1331 Reproducible batch-key, transaction and storage error-handling failures in v3.1.1](https://github.com/react-native-async-storage/async-storage/issues/1331) | 1 |
+| [#1331 Reproducible batch-key, transaction and storage error-handling failures in v3.1.1](https://github.com/react-native-async-storage/async-storage/issues/1331) | 2 |
 | [#1327 [Android] Your app could crash on 16 KB devices](https://github.com/react-native-async-storage/async-storage/issues/1327) | 4 |
 | [#840 Android: Detox cannot connect to emulator after upgrading to 0.68](https://github.com/react-native-async-storage/async-storage/issues/840) | 1 |
 | [#800 [Android] Cannot perform this operation because there is no current transaction](https://github.com/react-native-async-storage/async-storage/issues/800) | 27 |

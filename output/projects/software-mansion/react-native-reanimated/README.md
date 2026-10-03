@@ -1,20 +1,18 @@
 # software-mansion/react-native-reanimated
 
-Generated: 2026-10-01T09:49:00.933060+00:00
+Generated: 2026-10-03T08:54:11.326706+00:00
 
-- Unassigned: 17+
+- Unassigned: 20+
 - [View all unassigned issues](https://github.com/software-mansion/react-native-reanimated/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#10773 [Android] useAnimatedSensor crashes the app with "Unknown sensor type" on some devices](https://github.com/software-mansion/react-native-reanimated/issues/10773) | 3 |
 | [#10752 [Web] An animation started outside a frame takes its first step at a negative elapsed time, so springs flash past their target](https://github.com/software-mansion/react-native-reanimated/issues/10752) | 3 |
 | [#10750 Bundle Mode startup recurses when Uniwind remaps React Native](https://github.com/software-mansion/react-native-reanimated/issues/10750) | 0 |
 | [#10684 Worklets: propagateModuleUpdate is shipped but never called, so worklets do not hot-reload](https://github.com/software-mansion/react-native-reanimated/issues/10684) | 0 |
 | [#10668 useAnimatedSensor: learn availability before the first render](https://github.com/software-mansion/react-native-reanimated/issues/10668) | 2 |
-| [#10656 [Reanimated] [4.7.1] cherry-pick thread](https://github.com/software-mansion/react-native-reanimated/issues/10656) | 0 |
 | [#10646 [iOS][SET] Back swipe rejected by `usePreventRemove` hides the shared element and stops shared transitions](https://github.com/software-mansion/react-native-reanimated/issues/10646) | 2 |
 | [#10560 [4.6.0] Late animated props such as contentOffset are synced into style](https://github.com/software-mansion/react-native-reanimated/issues/10560) | 2 |
 | [#10535 [Fabric] AnimatedPropsRegistry::syncedTags_ grows when views unmount while their animation is still running](https://github.com/software-mansion/react-native-reanimated/issues/10535) | 0 |
@@ -26,3 +24,8 @@ Most recently opened:
 | [#10316 [Android] Regression in 4.4.x: synchronous mount flush during event dispatch re-enters FragmentManager mid-transaction ("FragmentManager is already executing transactions" via react-native-screens)](https://github.com/software-mansion/react-native-reanimated/issues/10316) | 1 |
 | [#10280 [Android] ANR: synchronouslyUpdateUIProps prints full stack traces on the UI thread when the view tag is unmounted (RN 0.86 reflection path)](https://github.com/software-mansion/react-native-reanimated/issues/10280) | 3 |
 | [#10206 [iOS] Animated transform survives Fabric view recycling — remounted views paint the previous occupant's transform when no shared value changes](https://github.com/software-mansion/react-native-reanimated/issues/10206) | 2 |
+| [#10121 `ANDROID_`/`IOS_SYNCHRONOUSLY_UPDATE_UI_PROPS` breaks Pressables from react-native inside animated views](https://github.com/software-mansion/react-native-reanimated/issues/10121) | 1 |
+| [#10094 `withTiming` never advances during a ~10-20s window after cold start in release builds (UI-runtime frame stepping stalled), while direct `.value` writes still render](https://github.com/software-mansion/react-native-reanimated/issues/10094) | 0 |
+| [#9913 Worklets Bundle Mode potential high memory consumption in development](https://github.com/software-mansion/react-native-reanimated/issues/9913) | 1 |
+| [#9907 SIGSEGV (null deref) in LayoutAnimationsProxy_Experimental::pullTransaction on launch with ENABLE_SHARED_ELEMENT_TRANSITIONS (RN 0.84, Android/Fabric)](https://github.com/software-mansion/react-native-reanimated/issues/9907) | 0 |
+| [#9810 `:focus` / `:focus-within` never fire on tvOS (focus engine not observed)](https://github.com/software-mansion/react-native-reanimated/issues/9810) | 1 |

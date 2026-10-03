@@ -1,8 +1,8 @@
 # getsentry/sentry-react-native
 
-Generated: 2026-10-01T09:49:00.933060+00:00
+Generated: 2026-10-03T08:54:11.326706+00:00
 
-- Unassigned: 93+
+- Unassigned: 90+
 - [View all unassigned issues](https://github.com/getsentry/sentry-react-native/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -79,7 +79,6 @@ Most recently opened:
 | [#4377 Support RN SDK use in libraries](https://github.com/getsentry/sentry-react-native/issues/4377) | 2 |
 | [#4372 Ensure Sentry is able to initialize without DSN if Spotlight is enabled](https://github.com/getsentry/sentry-react-native/issues/4372) | 1 |
 | [#4367 [Feature Request] View masking previews](https://github.com/getsentry/sentry-react-native/issues/4367) | 4 |
-| [#4256 Connection Type to include Cellular Network Technology (e.g. 3G, 4G LTE, 5G)](https://github.com/getsentry/sentry-react-native/issues/4256) | 0 |
 | [#4255 Consider using brotli compression instead of gzip](https://github.com/getsentry/sentry-react-native/issues/4255) | 0 |
 | [#4141 Mark unhandled promise rejections as `handled: false`](https://github.com/getsentry/sentry-react-native/issues/4141) | 0 |
 | [#4001 Support Source Maps Debugger Modal](https://github.com/getsentry/sentry-react-native/issues/4001) | 1 |
@@ -100,5 +99,3 @@ Most recently opened:
 | [#3189 Add before-capture-callback and debouncing for screenshots/view hierarchy](https://github.com/getsentry/sentry-react-native/issues/3189) | 2 |
 | [#3065 Persist user information across app launches](https://github.com/getsentry/sentry-react-native/issues/3065) | 0 |
 | [#2924 Support for gradle-play-publisher](https://github.com/getsentry/sentry-react-native/issues/2924) | 3 |
-| [#2789 Add Sentry.crashedLastRunEventId()](https://github.com/getsentry/sentry-react-native/issues/2789) | 4 |
-| [#2685 [OTEL] Support OpenTelemetry ](https://github.com/getsentry/sentry-react-native/issues/2685) | 0 |

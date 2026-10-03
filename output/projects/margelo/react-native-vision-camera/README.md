@@ -1,14 +1,18 @@
 # margelo/react-native-vision-camera
 
-Generated: 2026-10-01T09:49:00.933060+00:00
+Generated: 2026-10-03T08:54:11.326706+00:00
 
-- Unassigned: 25
+- Unassigned: 27+
 - [View all unassigned issues](https://github.com/margelo/react-native-vision-camera/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#4208 🐛 Android: rerendering `<Camera>` without a previously set `onPreviewStarted` throws "PreviewView.onPreviewStarted: Value is null, expected an Object"](https://github.com/margelo/react-native-vision-camera/issues/4208) | 0 |
+| [#4207 🐛 Android: `Frame.hasPixelBuffer` is true for PRIVATE frames but `getPixelBuffer()` throws "Unknown HardwareBuffer format"](https://github.com/margelo/react-native-vision-camera/issues/4207) | 0 |
+| [#4205 🐛 Android: `getSupportedResolutions('video')` advertises stream sizes the Recorder cannot record (2576x1932 -> 1920x1080)](https://github.com/margelo/react-native-vision-camera/issues/4205) | 0 |
+| [#4203 🐛 Android: `supportedPixelFormats` contains `'unknown'` (JPEG mapped to UNKNOWN), fails the #4047 harness test](https://github.com/margelo/react-native-vision-camera/issues/4203) | 0 |
 | [#4196 iOS 26: .mp4 recordings play silent in AVFoundation — QuickTime-branded file with an MPEG-4 audio sample entry (recommendedMovieMetadata path)](https://github.com/margelo/react-native-vision-camera/issues/4196) | 0 |
 | [#4194 🐛 Camera cannot focus at close range (~10cm) on iPhone 18 Pro — works on iPhone 12 Pro](https://github.com/margelo/react-native-vision-camera/issues/4194) | 1 |
 | [#4183 resizer: Vulkan shader is not packaged with AGP 9 (shader sourceSet compilation removed)](https://github.com/margelo/react-native-vision-camera/issues/4183) | 0 |
@@ -32,5 +36,3 @@ Most recently opened:
 | [#3688 ✨ Implement High-speed and Slow-motion Recording on Android](https://github.com/margelo/react-native-vision-camera/issues/3688) | 1 |
 | [#3528 ✨ Microphone selection for video](https://github.com/margelo/react-native-vision-camera/issues/3528) | 1 |
 | [#2581 ✨ More Customized Audio Control](https://github.com/margelo/react-native-vision-camera/issues/2581) | 1 |
-| [#1931 ✨ Basic web support  ](https://github.com/margelo/react-native-vision-camera/issues/1931) | 13 |
-| [#544 ✨  Allow audio processing similar to frame processing](https://github.com/margelo/react-native-vision-camera/issues/544) | 7 |

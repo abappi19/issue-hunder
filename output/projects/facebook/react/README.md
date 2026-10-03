@@ -1,18 +1,22 @@
 # facebook/react
 
-Generated: 2026-10-01T09:49:00.933060+00:00
+Generated: 2026-10-03T08:54:11.326706+00:00
 
-- Unassigned: 38+
+- Unassigned: 30+
 - [View all unassigned issues](https://github.com/facebook/react/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#37735 [Compiler Bug]: Literal destructuring defaults (`= []` / `= {}`) silently disable memoization when a hook call follows](https://github.com/react/react/issues/37735) | 0 |
+| [#37733 [DevTools Bug]: Profiler crashes for a controlled `memo(forwardRef(...))` component when recording render reasons](https://github.com/react/react/issues/37733) | 0 |
+| [#37728 Bug: [Flight] Client throws `object null is not iterable` reviving an AggregateError whose inner errors have no stack frames](https://github.com/react/react/issues/37728) | 0 |
+| [#37727 [Compiler Bug]: babel seems to not apply `babel-plugin-react-compiler`](https://github.com/react/react/issues/37727) | 0 |
 | [#37718 Bug: o banco de dados do supabase está dando erro](https://github.com/react/react/issues/37718) | 0 |
 | [#37715 Bug:](https://github.com/react/react/issues/37715) | 3 |
 | [#37714 Bug:](https://github.com/react/react/issues/37714) | 0 |
-| [#37712 Bug: addTransitionType types are claimed by an unrelated commit while the transition is suspended](https://github.com/react/react/issues/37712) | 0 |
+| [#37712 Bug: addTransitionType types are claimed by an unrelated commit while the transition is suspended](https://github.com/react/react/issues/37712) | 1 |
 | [#37709 Bug: Resuming a prerender that was aborted while a retried task was rendering drops part of the boundary](https://github.com/react/react/issues/37709) | 0 |
 | [#37707 Bug:](https://github.com/react/react/issues/37707) | 0 |
 | [#37706 [DevTools Bug] Cannot remove node "7321" because no matching node was found in the Store.](https://github.com/react/react/issues/37706) | 0 |
@@ -35,15 +39,3 @@ Most recently opened:
 | [#37647 [Compiler Bug]: Rust backend decodes user text that looks like `__SURROGATE_XXXX__` into a lone surrogate](https://github.com/react/react/issues/37647) | 0 |
 | [#37639 [DevTools Bug]: standalone bundle should be rebuilt with a patched ws 7.x release](https://github.com/react/react/issues/37639) | 1 |
 | [#37637 Bug: <ViewTransition> nested inside a portal-mounted parent never receives its own view-transition-name/class when both mount in the same commit](https://github.com/react/react/issues/37637) | 0 |
-| [#37623 Bug:](https://github.com/react/react/issues/37623) | 0 |
-| [#37620 Bug: Suspense fallback remounts on hydration after use(browser()) + client use(promise)](https://github.com/react/react/issues/37620) | 9 |
-| [#37619 [Flight] Cyclic references inside Map/Set values are silently corrupted to null on the client](https://github.com/react/react/issues/37619) | 1 |
-| [#37617 Bug:](https://github.com/react/react/issues/37617) | 0 |
-| [#37616 [Fizz]: An error thrown without a Suspense boundary rejects the shell w/ no recovery primitive](https://github.com/react/react/issues/37616) | 0 |
-| [#37614 Bug: ViewTransition enter/exit (class-based) pattern is never activated during Next.js 16 App Router client-side navigation — only name (morph) mode calls document.startViewTransition](https://github.com/react/react/issues/37614) | 4 |
-| [#37610 Bug: `FragmentInstance.compareDocumentPosition` alternates between `FOLLOWING` and `IMPLEMENTATION_SPECIFIC` on every other render](https://github.com/react/react/issues/37610) | 3 |
-| [#37606 Bug: Portaled Fragment refs report their children disconnected inside ShadowRoot or DocumentFragment](https://github.com/react/react/issues/37606) | 0 |
-| [#37604 Bug: DevTools DOM lookup cannot find React-managed title, meta and non-resource link elements](https://github.com/react/react/issues/37604) | 0 |
-| [#37602 Bug: DevTools facade returns non-serializable BigInt props and hook values](https://github.com/react/react/issues/37602) | 0 |
-| [#37600 Bug: Fragment dispatchEvent invokes listeners removed or aborted earlier in the same dispatch](https://github.com/react/react/issues/37600) | 0 |
-| [#37598 Bug: Mutating Fragment listener options breaks removal, once and abort cleanup](https://github.com/react/react/issues/37598) | 0 |

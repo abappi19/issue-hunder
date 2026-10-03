@@ -1,16 +1,17 @@
 # formbricks/formbricks
 
-Generated: 2026-10-01T09:49:00.933060+00:00
+Generated: 2026-10-03T08:54:11.326706+00:00
 
-- Unassigned: 81+
+- Unassigned: 72+
 - [View all unassigned issues](https://github.com/formbricks/formbricks/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#9493 Support pre-provisioned external PostgreSQL for SpiceDB in Docker Compose](https://github.com/formbricks/formbricks/issues/9493) | 0 |
 | [#9455 [Docs] One-Click Setup: mention AAAA records and IPv6 firewall rules](https://github.com/formbricks/formbricks/issues/9455) | 0 |
-| [#9454 [BUG] One-click install script fails silently on Debian (adds Docker's Ubuntu apt repo)](https://github.com/formbricks/formbricks/issues/9454) | 0 |
+| [#9454 Fix one-click Docker installation on Debian and report repository failures](https://github.com/formbricks/formbricks/issues/9454) | 0 |
 | [#8728 Add Zenith as a managed hosting option in the README](https://github.com/formbricks/formbricks/issues/8728) | 1 |
 | [#8715 Publishing an untouched survey rewrites its plain-text headline as rich-text HTML](https://github.com/formbricks/formbricks/issues/8715) | 3 |
 | [#8709 Add the option to specify a reason for single select or multi select questions similar to the "Other" field](https://github.com/formbricks/formbricks/issues/8709) | 2 |
@@ -80,13 +81,3 @@ Most recently opened:
 | [#6234 Org owner only receives acceptance email when invitee signs up, not when logging in](https://github.com/formbricks/formbricks/issues/6234) | 0 |
 | [#6204 Allow to configure OpenGraph description](https://github.com/formbricks/formbricks/issues/6204) | 2 |
 | [#6169 Enterprise Application not working behind a reverse proxy](https://github.com/formbricks/formbricks/issues/6169) | 0 |
-| [#6167 Support for PeerTube video embedding](https://github.com/formbricks/formbricks/issues/6167) | 1 |
-| [#6159 Extend API - Create Project endpoint & API management endpoint](https://github.com/formbricks/formbricks/issues/6159) | 1 |
-| [#6151 Conditional logic may be cached on the front end？](https://github.com/formbricks/formbricks/issues/6151) | 1 |
-| [#6145 Email protected surveys, link in email redirect to real survey](https://github.com/formbricks/formbricks/issues/6145) | 9 |
-| [#6140 Account deletion too easy](https://github.com/formbricks/formbricks/issues/6140) | 2 |
-| [#6128 Logic Issue in Response Creation API `/api/v1/management/responses` & response model](https://github.com/formbricks/formbricks/issues/6128) | 1 |
-| [#6090 Sorting of question selection in Notion integration](https://github.com/formbricks/formbricks/issues/6090) | 1 |
-| [#6080 Forward slash + backslash `/\` characters render as empty bold block almost in every question field](https://github.com/formbricks/formbricks/issues/6080) | 2 |
-| [#6075 Date question format has no effect on the Calendar UI and user response](https://github.com/formbricks/formbricks/issues/6075) | 2 |
-| [#6041 Project logo and branding update doesn't reflect in the preview in real-time](https://github.com/formbricks/formbricks/issues/6041) | 1 |
