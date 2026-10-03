@@ -1,17 +1,23 @@
 # mem0ai/mem0
 
-Generated: 2026-10-01T10:47:01.521470+00:00
+Generated: 2026-10-03T09:43:20.309717+00:00
 
-- Unassigned: 69+
+- Unassigned: 71+
 - [View all unassigned issues](https://github.com/mem0ai/mem0/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#7535 Search ranks an outdated memory above its update: `score_and_rank` has no recency term (follow-up to #4896)](https://github.com/mem0ai/mem0/issues/7535) | 2 |
+| [#7531 hermes-plugin-mem0: telemetry on by default, memory_id not path-encoded in self-hosted mode, mem0ai uninstallable on win-arm64](https://github.com/mem0ai/mem0/issues/7531) | 0 |
+| [#7529 bug(memory): AND condition silently overwrites a sibling top-level filter key](https://github.com/mem0ai/mem0/issues/7529) | 1 |
+| [#7527 bug(vector_stores/qdrant): "Payload indexes have no effect" warning on default config; entity store treats shared local client as remote](https://github.com/mem0ai/mem0/issues/7527) | 4 |
+| [#7526 OpenAI LLM: support custom default_headers (needed for OpenCode Go / session-header relays)](https://github.com/mem0ai/mem0/issues/7526) | 2 |
+| [#7523 bug(llms): o4-mini is not classified as a reasoning model, so temperature/top_p/max_tokens are sent on every call](https://github.com/mem0ai/mem0/issues/7523) | 2 |
 | [#7522 bug(llms): _get_supported_params silently drops every caller kwarg on reasoning models](https://github.com/mem0ai/mem0/issues/7522) | 2 |
 | [#7518 mem0-ts: fastembed ^2.1.0 downloads models from a Qdrant GCS bucket that is being shut down](https://github.com/mem0ai/mem0/issues/7518) | 0 |
-| [#7516 ElasticsearchDB.get() returns None for a backend failure, which already means "no such vector"](https://github.com/mem0ai/mem0/issues/7516) | 0 |
+| [#7516 ElasticsearchDB.get() returns None for a backend failure, which already means "no such vector"](https://github.com/mem0ai/mem0/issues/7516) | 2 |
 | [#7514 Controlled 3-arm experiment on mem0 write-time compression (full artifacts) + a DolphinBench recompute offer](https://github.com/mem0ai/mem0/issues/7514) | 0 |
 | [#7513 Memory export lacks a canonical JSON conformance path — strict profile v1 + cross-engine vectors ready (follow-up to #7497)](https://github.com/mem0ai/mem0/issues/7513) | 0 |
 | [#7504 _safe_deepcopy_config blanks credentials on clones that are then used to open a connection](https://github.com/mem0ai/mem0/issues/7504) | 2 |
@@ -23,7 +29,7 @@ Most recently opened:
 | [#7495 TS SDK: Qdrant search fails with @qdrant/js-client-rest 1.19 (client.search removed)](https://github.com/mem0ai/mem0/issues/7495) | 2 |
 | [#7492 http_client_proxies is silently dropped by every provider except the three Azure paths (docs promise All)](https://github.com/mem0ai/mem0/issues/7492) | 2 |
 | [#7490 Regression from #4805: _safe_deepcopy_config redacts the bool switch use_azure_credential, silently breaking config reconstruction](https://github.com/mem0ai/mem0/issues/7490) | 3 |
-| [#7488 TypeScript: Gemini Embedding 2 batches collapse to one vector and lose memories](https://github.com/mem0ai/mem0/issues/7488) | 2 |
+| [#7488 TypeScript: Gemini Embedding 2 batches collapse to one vector and lose memories](https://github.com/mem0ai/mem0/issues/7488) | 3 |
 | [#7483 bug(vector_stores/pinecone): OR / NOT filters are sent as {"$or": {"$eq": [...]}} and every such search fails with HTTP 400](https://github.com/mem0ai/mem0/issues/7483) | 2 |
 | [#7482 bug(vector_stores/pinecone): euclidean indexes return raw squared distance as the score, so Memory.search drops the nearest memories](https://github.com/mem0ai/mem0/issues/7482) | 1 |
 | [#7480 AWS Bedrock _parse_response: a valid empty content block list hits [0] and comes back as "Error parsing response"](https://github.com/mem0ai/mem0/issues/7480) | 0 |
@@ -45,12 +51,11 @@ Most recently opened:
 | [#7440 Memory.close() races in-flight writes: silent audit-history loss (db=None window)](https://github.com/mem0ai/mem0/issues/7440) | 3 |
 | [#7439 Langchain vector store: list() returns None for non-Chroma clients, crashing Memory.get_all() and Memory.delete_all()](https://github.com/mem0ai/mem0/issues/7439) | 5 |
 | [#7432 Pinecone: entity store uses "<collection>_entities" index name, which Pinecone rejects (TS + Python)](https://github.com/mem0ai/mem0/issues/7432) | 2 |
-| [#7428 AzureOpenAIStructuredLLM: constructor crashes on None/dict/BaseLlmConfig (AttributeError/TypeError) because azure_kwargs is accessed without AzureOpenAIConfig conversion](https://github.com/mem0ai/mem0/issues/7428) | 1 |
-| [#7426 LLMReranker scores reasoning models by numbers inside <think>, ranking relevant memories last](https://github.com/mem0ai/mem0/issues/7426) | 0 |
+| [#7428 AzureOpenAIStructuredLLM: constructor crashes on None/dict/BaseLlmConfig (AttributeError/TypeError) because azure_kwargs is accessed without AzureOpenAIConfig conversion](https://github.com/mem0ai/mem0/issues/7428) | 2 |
+| [#7426 LLMReranker scores reasoning models by numbers inside <think>, ranking relevant memories last](https://github.com/mem0ai/mem0/issues/7426) | 1 |
 | [#7421 AWS Bedrock: OpenAI GPT-6 Sol/Luna/Astra fail with "Unknown provider in model" (also GPT-5.6; gpt-oss gets a 400)](https://github.com/mem0ai/mem0/issues/7421) | 0 |
 | [#7418 docs: LLM config "Master List" table omits anthropic_base_url, minimax_base_url and vllm_base_url](https://github.com/mem0ai/mem0/issues/7418) | 0 |
 | [#7417 AWS Bedrock: Claude Opus 5.5 calls fail with 400 "`temperature` is deprecated for this model" (also Opus 4.7+/Sonnet 5/Fable)](https://github.com/mem0ai/mem0/issues/7417) | 0 |
-| [#7416 FAISS filtered search returns fewer than top_k results because over-fetched candidates are cut before filtering](https://github.com/mem0ai/mem0/issues/7416) | 0 |
 | [#7413 Weaviate vector store: identify Mem0 with the X-Weaviate-Client-Integration header](https://github.com/mem0ai/mem0/issues/7413) | 0 |
 | [#7399 docs: Gemini LLM examples still use retired gemini-2.0-flash IDs](https://github.com/mem0ai/mem0/issues/7399) | 1 |
 | [#7398 Bundle the ollama embedder in the self-hosted server image](https://github.com/mem0ai/mem0/issues/7398) | 1 |
@@ -75,6 +80,3 @@ Most recently opened:
 | [#7313 Docs: BaseEmbedderConfig says openai_base_url defaults to api.openai.com, but two env vars come first](https://github.com/mem0ai/mem0/issues/7313) | 2 |
 | [#7302 Deepseek Harness: canceled recall marks undelivered memories as seen](https://github.com/mem0ai/mem0/issues/7302) | 4 |
 | [#7294 [mem0-ts] PGVector store has no 'error' listener on its pg Client — server-side connection termination crashes the host process, and the client never reconnects](https://github.com/mem0ai/mem0/issues/7294) | 2 |
-| [#7284 DeepSeek Harness: fix first-turn recall and plugin activation for 0.3.1](https://github.com/mem0ai/mem0/issues/7284) | 0 |
-| [#7283 Faithfulness check before memory write , interested in contributing a pluggable verification hook](https://github.com/mem0ai/mem0/issues/7283) | 19 |
-| [#7277 spaCy model auto-download runs pip/uv inside the first add()/search(); SystemExit escapes `except Exception` and crashes the call on every retry](https://github.com/mem0ai/mem0/issues/7277) | 4 |

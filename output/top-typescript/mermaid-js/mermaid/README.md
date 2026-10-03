@@ -1,6 +1,6 @@
 # mermaid-js/mermaid
 
-Generated: 2026-10-01T10:46:12.314177+00:00
+Generated: 2026-10-03T09:42:38.239543+00:00
 
 - Unassigned: 22+
 - [View all unassigned issues](https://github.com/mermaid-js/mermaid/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -11,11 +11,11 @@ Most recently opened:
 |---|---|
 | [#8357 Website flickering as it tries to re-render images repeatedly](https://github.com/mermaid-js/mermaid/issues/8357) | 1 |
 | [#8355 Swimlanes: Nodes in single swimlane not displayed in order in which they appear in source code](https://github.com/mermaid-js/mermaid/issues/8355) | 0 |
-| [#8352 v12.0.0: Circle nodes are awkwardly large even with short content](https://github.com/mermaid-js/mermaid/issues/8352) | 1 |
+| [#8352 v12.0.0: Circle nodes are awkwardly large even with short content](https://github.com/mermaid-js/mermaid/issues/8352) | 3 |
 | [#8327 Swimlanes: Node position changes when label is added to link](https://github.com/mermaid-js/mermaid/issues/8327) | 2 |
 | [#8319 Title in multiple lines](https://github.com/mermaid-js/mermaid/issues/8319) | 0 |
 | [#8308 `viewBox` computed from un-settled `foreignObject` geometry when the host page has a CSS transition on `width`/`height` — diagram renders in a box ~2000 units square](https://github.com/mermaid-js/mermaid/issues/8308) | 1 |
-| [#8290 Proposal: optional frame IDs, no `tf` prefix, forward arrows](https://github.com/mermaid-js/mermaid/issues/8290) | 0 |
+| [#8290 Eventmodeling Proposal: optional frame IDs, no `tf` prefix, forward arrows](https://github.com/mermaid-js/mermaid/issues/8290) | 0 |
 | [#8289 Diagram documention should version availability](https://github.com/mermaid-js/mermaid/issues/8289) | 2 |
 | [#8272 Análisis normativo y jerarquía de las normas aplicables a las instalaciones eléctricas en BT en el Perú](https://github.com/mermaid-js/mermaid/issues/8272) | 0 |
 | [#8266 Can these commented-out code lines be deleted?](https://github.com/mermaid-js/mermaid/issues/8266) | 0 |

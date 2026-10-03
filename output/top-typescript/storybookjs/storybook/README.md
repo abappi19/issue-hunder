@@ -1,15 +1,17 @@
 # storybookjs/storybook
 
-Generated: 2026-10-01T10:46:12.314177+00:00
+Generated: 2026-10-03T09:42:38.239543+00:00
 
-- Unassigned: 28+
+- Unassigned: 27+
 - [View all unassigned issues](https://github.com/storybookjs/storybook/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#36530 [Bug]: excludeDecorators doesn't work inside the Source doc block](https://github.com/storybookjs/storybook/issues/36530) | 1 |
+| [#36570 Blanket /// <reference types="node" /> in node-logger types pollutes consumer typechecks](https://github.com/storybookjs/storybook/issues/36570) | 0 |
+| [#36555 [Bug]: Controls queries host docgen for stories from composed refs](https://github.com/storybookjs/storybook/issues/36555) | 2 |
+| [#36530 [Bug]: excludeDecorators doesn't work inside the Source doc block](https://github.com/storybookjs/storybook/issues/36530) | 3 |
 | [#36528 [Vulnerability - Severity: high]: @storybook/builder-webpack5  pins  webpack-dev-middleware@^6  which has a high-severity path traversal (GHSA-g84c-rxfj-3j2c)](https://github.com/storybookjs/storybook/issues/36528) | 1 |
 | [#36504 [Bug]: TooltipProvider does not add aria-describedby on generic tooltips](https://github.com/storybookjs/storybook/issues/36504) | 0 |
 | [#36471 [Bug]: Story index caches "Could not parse import/exports with acorn" for a story file that changes during indexing](https://github.com/storybookjs/storybook/issues/36471) | 1 |
@@ -34,6 +36,3 @@ Most recently opened:
 | [#36269 [Bug]: `importModule()` calling `register()`/`registerHooks()` crashes under Jest 30.5+ (e.g. via `@storybook/test-runner`) — #35337's fix doesn't cover this](https://github.com/storybookjs/storybook/issues/36269) | 2 |
 | [#36267 [Bug]: MCP does not include subcomponents in Vue](https://github.com/storybookjs/storybook/issues/36267) | 1 |
 | [#36266 [Bug]: Vue docgen server is missing slot support](https://github.com/storybookjs/storybook/issues/36266) | 2 |
-| [#36491 Svelte CSF: Support the Svelte config in vite.config.ts (SvelteKit 3)](https://github.com/storybookjs/storybook/issues/36491) | 1 |
-| [#36233 [Documentation]: Explain `QueryClient` isolation with parallel story tests with `Vitest`](https://github.com/storybookjs/storybook/issues/36233) | 1 |
-| [#36228 Builder Vite: `storybook/internal/preview/runtime` served with 1Mb inline source map when used with Vite 8](https://github.com/storybookjs/storybook/issues/36228) | 1 |

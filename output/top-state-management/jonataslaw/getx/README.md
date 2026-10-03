@@ -1,6 +1,6 @@
 # jonataslaw/getx
 
-Generated: 2026-10-01T10:47:01.521470+00:00
+Generated: 2026-10-03T09:43:20.309717+00:00
 
 - Unassigned: 63+
 - [View all unassigned issues](https://github.com/jonataslaw/getx/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,7 +9,6 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#3471 Haha, the author is just teasing you guys, right?](https://github.com/jonataslaw/getx/issues/3471) | 10 |
 | [#3470 any update on the next version??](https://github.com/jonataslaw/getx/issues/3470) | 2 |
 | [#3469 Support Flutter 3.47 standalone material_ui package in GetMaterialApp](https://github.com/jonataslaw/getx/issues/3469) | 25 |
 | [#3468 When will version 5.0 be officially released?](https://github.com/jonataslaw/getx/issues/3468) | 1 |
@@ -73,3 +72,4 @@ and Documentation Enhancement for GetX](https://github.com/jonataslaw/getx/issue
 | [#3027 Caching data from api with Getconnect](https://github.com/jonataslaw/getx/issues/3027) | 0 |
 | [#3025 Can you add a new folder name : "widgets" ](https://github.com/jonataslaw/getx/issues/3025) | 0 |
 | [#3023 How to print request data](https://github.com/jonataslaw/getx/issues/3023) | 1 |
+| [#3007 是否可以在  GetMiddleware 中拿到正确的  arguments 值](https://github.com/jonataslaw/getx/issues/3007) | 0 |

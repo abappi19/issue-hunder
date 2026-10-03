@@ -1,14 +1,15 @@
 # practical-tutorials/project-based-learning
 
-Generated: 2026-10-01T10:45:56.796561+00:00
+Generated: 2026-10-03T09:42:25.196854+00:00
 
-- Unassigned: 48+
+- Unassigned: 46+
 - [View all unassigned issues](https://github.com/practical-tutorials/project-based-learning/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#967 Tolangi ](https://github.com/practical-tutorials/project-based-learning/issues/967) | 0 |
 | [#963 student attendance detection](https://github.com/practical-tutorials/project-based-learning/issues/963) | 0 |
 | [#937 BOMOYI](https://github.com/practical-tutorials/project-based-learning/issues/937) | 1 |
 | [#916 [Suggestion]: Build an app for beginners](https://github.com/practical-tutorials/project-based-learning/issues/916) | 0 |
@@ -54,6 +55,3 @@ Most recently opened:
 | [#688 Lear](https://github.com/practical-tutorials/project-based-learning/issues/688) | 0 |
 | [#683 Dead website link to codewall.co.uk](https://github.com/practical-tutorials/project-based-learning/issues/683) | 1 |
 | [#681 Python learning ](https://github.com/practical-tutorials/project-based-learning/issues/681) | 1 |
-| [#677 Add Hands-On AI Projects like 'Build Your Own ChatGPT' to Enhance Learning](https://github.com/practical-tutorials/project-based-learning/issues/677) | 0 |
-| [#674 Usefull ](https://github.com/practical-tutorials/project-based-learning/issues/674) | 0 |
-| [#672 Complexity level of projects](https://github.com/practical-tutorials/project-based-learning/issues/672) | 0 |

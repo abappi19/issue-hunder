@@ -1,6 +1,6 @@
 # founded-labs/react-native-reusables
 
-Generated: 2026-10-01T10:46:50.482133+00:00
+Generated: 2026-10-03T09:43:11.075262+00:00
 
 - Unassigned: 15
 - [View all unassigned issues](https://github.com/founded-labs/react-native-reusables/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)

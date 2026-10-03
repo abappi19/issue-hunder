@@ -1,14 +1,15 @@
 # AmanVarshney01/create-better-t-stack
 
-Generated: 2026-10-01T10:46:50.482133+00:00
+Generated: 2026-10-03T09:43:11.075262+00:00
 
-- Unassigned: 76+
+- Unassigned: 75+
 - [View all unassigned issues](https://github.com/AmanVarshney01/create-better-t-stack/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#1266 [Feature] TDK CLI integration: an optional `tdk` add-on for Better-T-Stack](https://github.com/AmanVarshney01/create-better-t-stack/issues/1266) | 0 |
 | [#1265 Support Yarn Berry](https://github.com/AmanVarshney01/create-better-t-stack/issues/1265) | 0 |
 | [#1259 Add a full-stack SolidJS 2 template without TanStack Query](https://github.com/AmanVarshney01/create-better-t-stack/issues/1259) | 0 |
 | [#1258 integrate shadcn-ui/lint](https://github.com/AmanVarshney01/create-better-t-stack/issues/1258) | 0 |
@@ -83,5 +84,3 @@ Most recently opened:
 | [#717 Drizzle throws SQL type conflict  - Argument of type 'SQL' is not assignable to parameter of type 'SQL](https://github.com/AmanVarshney01/create-better-t-stack/issues/717) | 5 |
 | [#716 feat(cli): Add Commet as payments option](https://github.com/AmanVarshney01/create-better-t-stack/issues/716) | 1 |
 | [#708 feat(web) Add Japanese translation of documentation](https://github.com/AmanVarshney01/create-better-t-stack/issues/708) | 1 |
-| [#707 An error occurred when accessing the protected /dashboard page](https://github.com/AmanVarshney01/create-better-t-stack/issues/707) | 2 |
-| [#698 README instructions for starting local SQLite database are incorrect](https://github.com/AmanVarshney01/create-better-t-stack/issues/698) | 2 |

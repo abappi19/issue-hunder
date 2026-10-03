@@ -1,14 +1,14 @@
 {
   "title": "Top React Native Projects",
-  "generated_at": "2026-10-01T10:46:39.210798+00:00",
+  "generated_at": "2026-10-03T09:43:01.413532+00:00",
   "repos": [
     {
       "repo": "react/react-native",
-      "unassigned": "22+"
+      "unassigned": "26+"
     },
     {
       "repo": "storybookjs/storybook",
-      "unassigned": "28+"
+      "unassigned": "27+"
     },
     {
       "repo": "enaqx/awesome-react",
@@ -16,15 +16,15 @@
     },
     {
       "repo": "appwrite/appwrite",
-      "unassigned": "17+"
+      "unassigned": "16+"
     },
     {
       "repo": "laurent22/joplin",
-      "unassigned": "83+"
+      "unassigned": "84+"
     },
     {
       "repo": "expo/expo",
-      "unassigned": "14+"
+      "unassigned": "6+"
     },
     {
       "repo": "dkhamsing/open-source-ios-apps",
@@ -32,7 +32,7 @@
     },
     {
       "repo": "react-hook-form/react-hook-form",
-      "unassigned": 2
+      "unassigned": 1
     },
     {
       "repo": "sudheerj/reactjs-interview-questions",
@@ -56,11 +56,11 @@
     },
     {
       "repo": "vercel/swr",
-      "unassigned": "48+"
+      "unassigned": "44+"
     },
     {
       "repo": "karakeep-app/karakeep",
-      "unassigned": "49+"
+      "unassigned": "47+"
     },
     {
       "repo": "maotoumao/MusicFree",
@@ -68,7 +68,7 @@
     },
     {
       "repo": "zulip/zulip",
-      "unassigned": "23+"
+      "unassigned": "25+"
     },
     {
       "repo": "react-native-elements/react-native-elements",
@@ -76,7 +76,7 @@
     },
     {
       "repo": "react-navigation/react-navigation",
-      "unassigned": "59+"
+      "unassigned": "58+"
     },
     {
       "repo": "pubkey/rxdb",

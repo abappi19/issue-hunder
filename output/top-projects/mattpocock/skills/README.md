@@ -1,6 +1,6 @@
 # mattpocock/skills
 
-Generated: 2026-10-01T10:45:56.796561+00:00
+Generated: 2026-10-03T09:42:25.196854+00:00
 
 - Unassigned: 99+
 - [View all unassigned issues](https://github.com/mattpocock/skills/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,6 +9,11 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#1154 grilling: question numbers restart at Q1 in a later round, colliding with answers already given](https://github.com/mattpocock/skills/issues/1154) | 0 |
+| [#1153 v1.3: CONTEXT.md → GLOSSARY.md rename has no migration path for existing repos](https://github.com/mattpocock/skills/issues/1153) | 1 |
+| [#1152 Proposal: experimental HTML questionnaire mode for batch grilling](https://github.com/mattpocock/skills/issues/1152) | 1 |
+| [#1149 diagnosing-bugs: support operational regression probes and distinguish workarounds from repairs](https://github.com/mattpocock/skills/issues/1149) | 0 |
+| [#1148 setup-ts-deep-modules: package-only scan misses app deep imports](https://github.com/mattpocock/skills/issues/1148) | 0 |
 | [#1146 Compatibility with OpenSpec](https://github.com/mattpocock/skills/issues/1146) | 0 |
 | [#1145 Anyone have an issue where the agent simply ignores grilling answers?](https://github.com/mattpocock/skills/issues/1145) | 0 |
 | [#1144 SkillOpt: Making skills better](https://github.com/mattpocock/skills/issues/1144) | 0 |
@@ -103,8 +108,3 @@ Most recently opened:
 | [#1018 grilling: agent repeatedly slips into "quiz-grading" mode during HITL rounds and stalls waiting for the user to supply questions](https://github.com/mattpocock/skills/issues/1018) | 0 |
 | [#1016 implement: confusion about code review order](https://github.com/mattpocock/skills/issues/1016) | 0 |
 | [#1015 Grilling is not a spec generator — it should bound meaning](https://github.com/mattpocock/skills/issues/1015) | 0 |
-| [#1014 implement-spec: Step 7 lacks a bounded post-review closeout](https://github.com/mattpocock/skills/issues/1014) | 1 |
-| [#1013 Feature Request](https://github.com/mattpocock/skills/issues/1013) | 0 |
-| [#1012 The documented one-skill install installs all 37, and three delegating skills do not say what they need](https://github.com/mattpocock/skills/issues/1012) | 1 |
-| [#1011 implement-spec: make the goal an integration branch, not a PR](https://github.com/mattpocock/skills/issues/1011) | 0 |
-| [#1010 implement-spec: two text defects and four unnamed branches from a full run](https://github.com/mattpocock/skills/issues/1010) | 0 |

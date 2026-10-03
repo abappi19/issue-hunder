@@ -1,14 +1,17 @@
 # denoland/deno
 
-Generated: 2026-10-01T10:46:12.314177+00:00
+Generated: 2026-10-03T09:42:38.239543+00:00
 
-- Unassigned: 48+
+- Unassigned: 46+
 - [View all unassigned issues](https://github.com/denoland/deno/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#36943 Cross-process locking for DENO_DIR and build outputs (Cargo-style cache locks)](https://github.com/denoland/deno/issues/36943) | 0 |
+| [#36941 napi: crash when a callback throws and returns an invalid napi_value; napi_create_dataview returns napi_ok after throwing](https://github.com/denoland/deno/issues/36941) | 0 |
+| [#36937 node:fs.watch: watcher reopened right after its directory is recreated gets no events](https://github.com/denoland/deno/issues/36937) | 0 |
 | [#36934 Incorrect operator in `Deno.lint.BinaryExpression` declaration](https://github.com/denoland/deno/issues/36934) | 0 |
 | [#36932 Deno desktop: options to turn off CEF background networking and to answer permission requests](https://github.com/denoland/deno/issues/36932) | 0 |
 | [#36931 `deno compile --bundle --minify --exclude-unused-npm` includes unused node native modules](https://github.com/denoland/deno/issues/36931) | 0 |
@@ -28,14 +31,13 @@ Most recently opened:
 | [#36891 Install matching `@types/*` packages with `--save-types` flag and `saveTypes` option](https://github.com/denoland/deno/issues/36891) | 0 |
 | [#36889 Could not find standalone binary section in dylib](https://github.com/denoland/deno/issues/36889) | 0 |
 | [#36885 Feature request: Support OpenBSD in deno compile](https://github.com/denoland/deno/issues/36885) | 0 |
-| [#36880 Allow package based permission scoping](https://github.com/denoland/deno/issues/36880) | 1 |
 | [#36877 Setting target.on<event> = null does not remove listener from EventTarget (hangs AbortSignal.timeout)](https://github.com/denoland/deno/issues/36877) | 1 |
 | [#36876 Support for async `describe` body in `node:test`](https://github.com/denoland/deno/issues/36876) | 2 |
 | [#36874 deno fmt breaks "definition lists" in markdown](https://github.com/denoland/deno/issues/36874) | 1 |
 | [#36873 Deno Deploy: node:tls fails against MongoDB Atlas with ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR while Deno.connectTls succeeds](https://github.com/denoland/deno/issues/36873) | 1 |
 | [#36870 desktop HMR cannot resolve transitive npm dependencies in Vite config](https://github.com/denoland/deno/issues/36870) | 1 |
 | [#36868 cnylon.localhost getaddr failed, it should be 127.0.0.1](https://github.com/denoland/deno/issues/36868) | 0 |
-| [#36867 Desktop - app icon is never applied with the CEF backend on Linux/Wayland or Windows](https://github.com/denoland/deno/issues/36867) | 1 |
+| [#36867 Desktop - app icon is never applied with the CEF backend on Linux/Wayland or Windows](https://github.com/denoland/deno/issues/36867) | 2 |
 | [#36862 `WebSocket` over `wss:` can leave the end of a message unsent forever: `bufferedAmount` reaches 0 but the last ~64 KiB only arrive when the client sends something else](https://github.com/denoland/deno/issues/36862) | 0 |
 | [#36861 Desktop: Allow verifying sender of messages over desktop bindings for security](https://github.com/denoland/deno/issues/36861) | 0 |
 | [#36860 Desktop: Expose an equivielent of 'will-navigate' event with `preventDefault` support for security](https://github.com/denoland/deno/issues/36860) | 0 |
@@ -53,7 +55,3 @@ Most recently opened:
 | [#36821 node:http: unread POST body stalls keep-alive connection after an early response](https://github.com/denoland/deno/issues/36821) | 0 |
 | [#36813 console.table() Number coercion regression for signed radix strings](https://github.com/denoland/deno/issues/36813) | 0 |
 | [#36812 Support a FIPS 140-validated crypto provider (pluggable/build-time crypto backend)](https://github.com/denoland/deno/issues/36812) | 0 |
-| [#36810 node:fs writeFileSync writes without bound for buffers larger than 2^31 bytes](https://github.com/denoland/deno/issues/36810) | 0 |
-| [#36809 Deno.serve: graceful shutdown() makes in-flight request bodies unreadable (BadResource) on 2.9](https://github.com/denoland/deno/issues/36809) | 0 |
-| [#36803 node:buffer UTF-16LE encoding is slower than a JavaScript DataView loop](https://github.com/denoland/deno/issues/36803) | 0 |
-| [#36802 Stabilize Cron, KV, Queues](https://github.com/denoland/deno/issues/36802) | 0 |

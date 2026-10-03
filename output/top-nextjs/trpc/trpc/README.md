@@ -1,14 +1,15 @@
 # trpc/trpc
 
-Generated: 2026-10-01T10:46:26.221775+00:00
+Generated: 2026-10-03T09:42:50.069915+00:00
 
-- Unassigned: 39+
+- Unassigned: 36+
 - [View all unassigned issues](https://github.com/trpc/trpc/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#7626 feat: validate zod schemas on the synchronous path when they allow it](https://github.com/trpc/trpc/issues/7626) | 0 |
 | [#7596 bug: [Docs] Next.js Integration documentation references deprecated prefetch functions](https://github.com/trpc/trpc/issues/7596) | 1 |
 | [#7502 bug: PING sent twice when keepAlive is enabled in fastifyTRPCPlugin](https://github.com/trpc/trpc/issues/7502) | 2 |
 | [#7446 bug: multipart/form-data procedures fail behind express 5 body parsers ("Failed to parse body as FormData")](https://github.com/trpc/trpc/issues/7446) | 0 |
@@ -44,7 +45,3 @@ Most recently opened:
 | [#6867 feat: different transformers between queries and mutations](https://github.com/trpc/trpc/issues/6867) | 0 |
 | [#6864 docs: add upgrade path abortOnUnmount @trpc/tanstack-react-query](https://github.com/trpc/trpc/issues/6864) | 0 |
 | [#6862 Bug: useInfiniteQuery causes 400 Bad Request after .invalidate() due to auto-injected cursor: undefined](https://github.com/trpc/trpc/issues/6862) | 0 |
-| [#6835 feat: AppRouter Type Generation](https://github.com/trpc/trpc/issues/6835) | 3 |
-| [#6819 bug: `httpBatchStreamLink` responses use wrong `content-type` header (`application/json`)](https://github.com/trpc/trpc/issues/6819) | 4 |
-| [#6800 feat: Support defining type maps as an escape hatch](https://github.com/trpc/trpc/issues/6800) | 1 |
-| [#6779 feat: support tanstack solid query](https://github.com/trpc/trpc/issues/6779) | 2 |

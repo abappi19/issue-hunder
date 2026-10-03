@@ -1,21 +1,23 @@
 # TanStack/router
 
-Generated: 2026-10-01T10:47:01.521470+00:00
+Generated: 2026-10-03T09:43:20.309717+00:00
 
-- Unassigned: 24+
+- Unassigned: 25+
 - [View all unassigned issues](https://github.com/TanStack/router/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#8585 [router-core] Node warns about circular access to replaceRouteChunk](https://github.com/TanStack/router/issues/8585) | 0 |
+| [#8584 SSR crash on Vercel: "object is not iterable" in handleServerRoutes after upgrading to react-start@1.168.60 (start-server-core@1.169.39)](https://github.com/TanStack/router/issues/8584) | 2 |
 | [#8558 router-core: dehydrated match updatedAt (`u`) is the render's wall clock, so prerendered HTML is not reproducible (no SOURCE_DATE_EPOCH support)](https://github.com/TanStack/router/issues/8558) | 0 |
 | [#8550 Inline scripts are duplicated after hydration when the CSP nonce is sent in a header](https://github.com/TanStack/router/issues/8550) | 0 |
 | [#8546 [Start] Generated route preloads should default to fetchPriority="low" (they delay first paint at High)](https://github.com/TanStack/router/issues/8546) | 1 |
 | [#8545 Start + Rsbuild: server-only routes are not pruned from the client route tree](https://github.com/TanStack/router/issues/8545) | 0 |
 | [#8544 Start + Rsbuild: plugin forces `server.compress: false`, overriding user config](https://github.com/TanStack/router/issues/8544) | 1 |
 | [#8543 Start + Rsbuild: SPA mode dev server SSRs routes and runs loaders on the server](https://github.com/TanStack/router/issues/8543) | 0 |
-| [#8521 A request aborted by the client is logged as an unhandled 500](https://github.com/TanStack/router/issues/8521) | 0 |
+| [#8521 A request aborted by the client is logged as an unhandled 500](https://github.com/TanStack/router/issues/8521) | 1 |
 | [#8516 Start prerender: in-page fragment links (`/#section`) are crawled as separate pages and listed in sitemap.xml](https://github.com/TanStack/router/issues/8516) | 0 |
 | [#8514 Start: symlinked route files skip the client-side `server.handlers` strip — server code and node-only imports ship in the client bundle](https://github.com/TanStack/router/issues/8514) | 0 |
 | [#8512 start-plugin-core: sitemap lastmod and pages.json lastBuilt are stamped with the build's wall clock (no SOURCE_DATE_EPOCH support)](https://github.com/TanStack/router/issues/8512) | 0 |
@@ -32,4 +34,3 @@ Most recently opened:
 | [#8447 start-plugin-core: the dev server-fn id validator's recovery can never succeed — it transforms under the one flag that skips the compile](https://github.com/TanStack/router/issues/8447) | 1 |
 | [#8446 If you pass createServerOnlyFn(...) directly as an argument to createServerFn().handler(), it will generate a broken server function.](https://github.com/TanStack/router/issues/8446) | 3 |
 | [#8437 Start: the Vite plugin and `tsr generate` write different routeTree.gen.ts (Start footer added, then stripped)](https://github.com/TanStack/router/issues/8437) | 1 |
-| [#8415 Start + Rsbuild: shared chunks cause CSS issues in the initial SSR response](https://github.com/TanStack/router/issues/8415) | 0 |

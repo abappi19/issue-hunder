@@ -1,8 +1,8 @@
 # ossu/computer-science
 
-Generated: 2026-10-01T10:45:56.796561+00:00
+Generated: 2026-10-03T09:42:25.196854+00:00
 
-- Unassigned: 16
+- Unassigned: 17
 - [View all unassigned issues](https://github.com/ossu/computer-science/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -10,6 +10,7 @@ Most recently opened:
 | Issue | Comments |
 |---|---|
 | [#1458 Create computer-science-ja](https://github.com/ossu/computer-science/issues/1458) | 1 |
+| [#1454 _config.yml include: entries reference wrong file paths](https://github.com/ossu/computer-science/issues/1454) | 0 |
 | [#1441 2 errors in the class based programming course](https://github.com/ossu/computer-science/issues/1441) | 4 |
 | [#1427 RFC: Replace Software Architecture with Freely Available Alternative](https://github.com/ossu/computer-science/issues/1427) | 1 |
 | [#1411 RFC: Add modern AI literacy and safety resources to curriculum](https://github.com/ossu/computer-science/issues/1411) | 3 |

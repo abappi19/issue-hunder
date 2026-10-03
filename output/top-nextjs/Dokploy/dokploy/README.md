@@ -1,14 +1,15 @@
 # Dokploy/dokploy
 
-Generated: 2026-10-01T10:46:26.221775+00:00
+Generated: 2026-10-03T09:42:50.069915+00:00
 
-- Unassigned: 53+
+- Unassigned: 51+
 - [View all unassigned issues](https://github.com/Dokploy/dokploy/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#5565 Docker pull often fails with private registry Gitlab during a deployment (Docker compose)](https://github.com/Dokploy/dokploy/issues/5565) | 1 |
 | [#5557 Notification bug (Slack): Build error notification message is exposing SSH keys in notification payload](https://github.com/Dokploy/dokploy/issues/5557) | 2 |
 | [#5555 Permissions: ticking a project should grant access to its services, including future ones](https://github.com/Dokploy/dokploy/issues/5555) | 1 |
 | [#5554 Disabling domain also detaches dokploy-network](https://github.com/Dokploy/dokploy/issues/5554) | 1 |
@@ -22,7 +23,7 @@ Most recently opened:
 | [#5533 UI change : few changes to avoiding silly mistakes](https://github.com/Dokploy/dokploy/issues/5533) | 1 |
 | [#5530 Dokploy Cloud v0.30.7: application schedule on remote server never fires automatically (Cron Bug)](https://github.com/Dokploy/dokploy/issues/5530) | 1 |
 | [#5528 Login fails via Cloudflare Tunnel custom domain with “invalid email address or password” while server IP works — Dokploy v0.30.7](https://github.com/Dokploy/dokploy/issues/5528) | 2 |
-| [#5526 feat(env): renamable env file](https://github.com/Dokploy/dokploy/issues/5526) | 4 |
+| [#5526 feat(env): renamable env file](https://github.com/Dokploy/dokploy/issues/5526) | 5 |
 | [#5524 Database backups require gzip/shell inside the DB container, breaking hardened images (e.g. Docker Hardened Images)](https://github.com/Dokploy/dokploy/issues/5524) | 2 |
 | [#5514 Dokploy does not use HTTP_PROXY/HTTPS_PROXY for Node.js fetch requests](https://github.com/Dokploy/dokploy/issues/5514) | 1 |
 | [#5511 Phase vault provider: testConnection fails with "401: Token expired or deleted" using a valid Service Account token](https://github.com/Dokploy/dokploy/issues/5511) | 3 |
@@ -59,6 +60,3 @@ Most recently opened:
 | [#5403 Cron jobs never register on a fresh install: initCronJobs returns early because the owner does not exist yet](https://github.com/Dokploy/dokploy/issues/5403) | 3 |
 | [#5397 [BUG] : Container restart when using compose services](https://github.com/Dokploy/dokploy/issues/5397) | 2 |
 | [#5395 Feature Request: Comprehensive Enterprise & Whitelabeling UX Enhancements](https://github.com/Dokploy/dokploy/issues/5395) | 1 |
-| [#5392 Telegram build-error notifications are silently dropped: errorMessage is neither truncated nor HTML-escaped, and the API response is never checked](https://github.com/Dokploy/dokploy/issues/5392) | 2 |
-| [#5390 Support importing blueprint/templates with domain initially inactive](https://github.com/Dokploy/dokploy/issues/5390) | 1 |
-| [#5388 Support scheduled jobs for databases](https://github.com/Dokploy/dokploy/issues/5388) | 1 |

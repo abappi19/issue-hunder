@@ -1,14 +1,15 @@
 # ant-design/ant-design
 
-Generated: 2026-10-01T10:46:12.314177+00:00
+Generated: 2026-10-03T09:42:38.239543+00:00
 
-- Unassigned: 11+
+- Unassigned: 12+
 - [View all unassigned issues](https://github.com/ant-design/ant-design/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#59455 [Bug] Masonry: items are not rendered during SSR and cause blank initial render](https://github.com/ant-design/ant-design/issues/59455) | 1 |
 | [#59453 feat(Breadcrumb): Support default aria-label and aria-current="page" for WAI-ARIA compliance](https://github.com/ant-design/ant-design/issues/59453) | 0 |
 | [#59426 Make right sided menu expandable on the antd website](https://github.com/ant-design/ant-design/issues/59426) | 1 |
 | [#59350 DatePicker allow to select date before minDate](https://github.com/ant-design/ant-design/issues/59350) | 3 |

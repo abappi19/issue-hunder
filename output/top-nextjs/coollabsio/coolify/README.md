@@ -1,20 +1,24 @@
 # coollabsio/coolify
 
-Generated: 2026-10-01T10:46:26.221775+00:00
+Generated: 2026-10-03T09:42:50.069915+00:00
 
-- Unassigned: 46+
+- Unassigned: 50+
 - [View all unassigned issues](https://github.com/coollabsio/coolify/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#12079 [Bug]: Service Compose parser discards non-creating bind options and registers managed storage](https://github.com/coollabsio/coolify/issues/12079) | 0 |
+| [#12077 [Bug]: Railpack fails with Node.js v26 + pnpm v11](https://github.com/coollabsio/coolify/issues/12077) | 0 |
+| [#12076 [Bug]: S3 storage fails with cURL error 7 - custom DNS (1.1.1.1) drops A records on truncated UDP answer](https://github.com/coollabsio/coolify/issues/12076) | 1 |
+| [#12075 [Bug]: DNS entries modal copy buttons show success but copy nothing on http instances](https://github.com/coollabsio/coolify/issues/12075) | 1 |
+| [#12074 [Bug]: /settings/backup returns 500 "Attempt to read property "executions" on null" when coolify-db has no scheduled backup](https://github.com/coollabsio/coolify/issues/12074) | 0 |
 | [#12071 [Bug] MCP: initialize returns error for unsupported protocol version instead of negotiating (breaks Claude.ai custom connectors)](https://github.com/coollabsio/coolify/issues/12071) | 0 |
 | [#12067 [Bug]: Sentinel is restarted every minute on non-root SSH servers without Docker group access](https://github.com/coollabsio/coolify/issues/12067) | 0 |
-| [#12060 [Bug]: R2 backup uploads fail with "The S3 destination may not support streaming uploads."](https://github.com/coollabsio/coolify/issues/12060) | 0 |
+| [#12060 [Bug]: R2 backup uploads fail with "The S3 destination may not support streaming uploads."](https://github.com/coollabsio/coolify/issues/12060) | 1 |
 | [#12059 [Bug]: SSH retry replays database backup upload commands and causes Docker container-name conflicts](https://github.com/coollabsio/coolify/issues/12059) | 0 |
 | [#12057 Compose `${VAR:?error}` stores the error message as the value instead of failing](https://github.com/coollabsio/coolify/issues/12057) | 0 |
-| [#12055 [BUG] Application logs API ignores service_name for Docker Compose applications](https://github.com/coollabsio/coolify/issues/12055) | 1 |
 | [#12036 Long-form bind mappings lose read_only and bind options during application parsing](https://github.com/coollabsio/coolify/issues/12036) | 0 |
 | [#12034 Server validation rejects Arch-derived distros: validateOS() reads ID and ignores ID_LIKE](https://github.com/coollabsio/coolify/issues/12034) | 1 |
 | [#12033 Server validation rejects Arch-derived distros: validateOS() reads ID and ignores ID_LIKE](https://github.com/coollabsio/coolify/issues/12033) | 0 |
@@ -29,7 +33,7 @@ Most recently opened:
 | [#12005 [Bug]: Persistent storage records of Docker Compose PR previews are never deleted](https://github.com/coollabsio/coolify/issues/12005) | 0 |
 | [#11999 [Bug]: Supabase realtime starts with an empty SECRET_KEY_BASE](https://github.com/coollabsio/coolify/issues/11999) | 0 |
 | [#11998 [Bug]: Supabase realtime logs are never sent to analytics](https://github.com/coollabsio/coolify/issues/11998) | 0 |
-| [#11995 [Bug]: S3-only streaming backup fails with nil pointer dereference panic in minio mc](https://github.com/coollabsio/coolify/issues/11995) | 0 |
+| [#11995 [Bug]: S3-only streaming backup fails with nil pointer dereference panic in minio mc](https://github.com/coollabsio/coolify/issues/11995) | 1 |
 | [#11991 [Bug]: API GET /databases/{uuid}/logs can return another database's logs](https://github.com/coollabsio/coolify/issues/11991) | 0 |
 | [#11976 [Bug]: seafile template - wiki does not work](https://github.com/coollabsio/coolify/issues/11976) | 0 |
 | [#11975 [Bug]: Plane cannot start (MinIO removed)](https://github.com/coollabsio/coolify/issues/11975) | 0 |

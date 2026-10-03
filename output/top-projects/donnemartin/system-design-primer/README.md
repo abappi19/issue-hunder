@@ -1,8 +1,8 @@
 # donnemartin/system-design-primer
 
-Generated: 2026-10-01T10:45:56.796561+00:00
+Generated: 2026-10-03T09:42:25.196854+00:00
 
-- Unassigned: 36+
+- Unassigned: 35+
 - [View all unassigned issues](https://github.com/donnemartin/system-design-primer/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -44,4 +44,3 @@ Most recently opened:
 | [#1298 test](https://github.com/donnemartin/system-design-primer/issues/1298) | 1 |
 | [#1293 I built a dev tool that complements this project](https://github.com/donnemartin/system-design-primer/issues/1293) | 1 |
 | [#1268 Suggestion: Add a structured system design learning path companion](https://github.com/donnemartin/system-design-primer/issues/1268) | 3 |
-| [#1254 Suggestion: section on cost-aware system design (per-seat vs per-call tradeoffs)](https://github.com/donnemartin/system-design-primer/issues/1254) | 0 |

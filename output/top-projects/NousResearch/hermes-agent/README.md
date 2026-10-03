@@ -1,37 +1,38 @@
 # NousResearch/hermes-agent
 
-Generated: 2026-10-01T10:45:56.796561+00:00
+Generated: 2026-10-03T09:42:25.196854+00:00
 
-- Unassigned: 26+
+- Unassigned: 27+
 - [View all unassigned issues](https://github.com/NousResearch/hermes-agent/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#130295 MCP OAuth: `mcp add` cannot override the CIMD client-metadata URL for strict authorization servers](https://github.com/NousResearch/hermes-agent/issues/130295) | 0 |
-| [#130294 [Bug]: Windows install fails with "failed to remove directory *.data" (os error 2)](https://github.com/NousResearch/hermes-agent/issues/130294) | 1 |
-| [#130289 [Bug]: gemini-2.5-* returns empty content under a large tool schema — unbounded thinking starves the answer](https://github.com/NousResearch/hermes-agent/issues/130289) | 0 |
-| [#130287 [Bug]: google-workspace OAuth hangs — REDIRECT_URI uses port 1, which browsers refuse to navigate to](https://github.com/NousResearch/hermes-agent/issues/130287) | 0 |
-| [#130282 [Bug]: Desktop open tabs do not follow the backend across devices](https://github.com/NousResearch/hermes-agent/issues/130282) | 0 |
-| [#130277 [Bug]: Desktop can't connect to a remote gateway since #127201: loopback renderer origin fails /api/ws Origin check](https://github.com/NousResearch/hermes-agent/issues/130277) | 0 |
-| [#130272 [Bug]: approval timeout / missing approval channel is reported to the agent as "User denied this command"](https://github.com/NousResearch/hermes-agent/issues/130272) | 1 |
-| [#130261 [Bug]: `_LIVE_CACHE_BY_CREDENTIAL` in `plugins/image_gen/xai` is keyed by an api_key fingerprint and never evicted, so each rotated key leaves a permanent catalog entry](https://github.com/NousResearch/hermes-agent/issues/130261) | 0 |
-| [#130260 [Bug]: Desktop @mention gives a same-gateway bot a connection-qualified message_agent target the sender's own gateway can't resolve](https://github.com/NousResearch/hermes-agent/issues/130260) | 0 |
-| [#130257 [Bug]: TUI guide promises identical CLI behavior despite an explicit snapshot-restore restriction](https://github.com/NousResearch/hermes-agent/issues/130257) | 0 |
-| [#130256 [Bug]: copilot_auth `_jwt_cache` / `_exchange_failure_cache` / `_exchange_locks` are keyed by a token fingerprint and only ever popped on a repeat success, so rotated-away tokens are retained forever](https://github.com/NousResearch/hermes-agent/issues/130256) | 1 |
-| [#130249 [Bug]: `_codex_quota_probe_cache` in `hermes_cli/auth_codex.py` is keyed by a hash of the access token and never evicted, so every Codex token rotation leaves a permanent entry](https://github.com/NousResearch/hermes-agent/issues/130249) | 0 |
-| [#130246 [Bug]: `_codex_oauth_context_cache` / `_codex_oauth_max_context_cache` are keyed by a hash of the access token and never pruned, so every token rotation leaks two permanent entries](https://github.com/NousResearch/hermes-agent/issues/130246) | 0 |
-| [#130244 [Bug]: Profile delete still hits WinError 32 on logs/.__agent.lock when a multiplexed gateway holds the handlers (residual gap from #112538)](https://github.com/NousResearch/hermes-agent/issues/130244) | 0 |
-| [#130243 [Bug]: `_runtime_cache` in `agent/moa_loop.py` is never evicted, so every resolved (profile, provider, model) runtime — including its resolved api_key — is retained for the life of the process](https://github.com/NousResearch/hermes-agent/issues/130243) | 0 |
-| [#130242 Windows: PM file operations fail on paths over 260 characters (copy, walk, digest, delete)](https://github.com/NousResearch/hermes-agent/issues/130242) | 0 |
-| [#130241 [Bug]: `_endpoint_model_metadata_cache` is never pruned, so every rotated credential leaves a permanent entry](https://github.com/NousResearch/hermes-agent/issues/130241) | 0 |
-| [#130239 [Bug]: Kanban block-loop breaker can't tell a supervisor re-park from a claim loop — parks get poisoned, then lifted through park-blind paths](https://github.com/NousResearch/hermes-agent/issues/130239) | 0 |
-| [#130232 Windows: plugin enable fails when PM copies the bundled Python tree past MAX_PATH (WinError 3)](https://github.com/NousResearch/hermes-agent/issues/130232) | 0 |
-| [#130231 [Bug]: Rejected terminal/execute_code approval outcomes lost before async delegation summaries](https://github.com/NousResearch/hermes-agent/issues/130231) | 0 |
-| [#130227 [Bug]: Desktop preview replaces whole page with "Server nicht gefunden" when a blocked subframe (ad iframe) fails to load](https://github.com/NousResearch/hermes-agent/issues/130227) | 0 |
-| [#130226 Async-delegation completions never wake the parent on api_server sessions (personal gateway UX gap)](https://github.com/NousResearch/hermes-agent/issues/130226) | 1 |
-| [#130213 [Feature] Desktop image lightbox: optional warm viewing mode (Night Shift-like)](https://github.com/NousResearch/hermes-agent/issues/130213) | 0 |
-| [#130208 Plugin discovery races toolset registry iteration: 'dictionary changed size during iteration' aborts plugin registration (not just a false warning)](https://github.com/NousResearch/hermes-agent/issues/130208) | 0 |
-| [#130207 [Bug]: Terminal batch timeout self-aborts via a soft interrupt(message) — system stop is booked as interrupted_by_user and shown as "Operation interrupted."](https://github.com/NousResearch/hermes-agent/issues/130207) | 0 |
-| [#130197 [Feature]: Profile-level heartbeat that persists across sessions](https://github.com/NousResearch/hermes-agent/issues/130197) | 1 |
+| [#132096 pre_tool_call shell hook with fail_closed: false still blocks every tool for 60s after one timeout (dispatcher wrapper fails closed, ignores matcher)](https://github.com/NousResearch/hermes-agent/issues/132096) | 0 |
+| [#132094 [Feature]: Ship the new macOS icon precompiled so Desktop updates don’t require Xcode](https://github.com/NousResearch/hermes-agent/issues/132094) | 0 |
+| [#132089 update exits 1 after snapshot; receipt records no reason, index.lock left](https://github.com/NousResearch/hermes-agent/issues/132089) | 1 |
+| [#132088 update exits 141 after success (dashboard teardown kills stdout reader)](https://github.com/NousResearch/hermes-agent/issues/132088) | 0 |
+| [#132084 Bump pinned cua-driver past 0.22.2: 0.21.0 predates the macOS Retina backing-scale fix](https://github.com/NousResearch/hermes-agent/issues/132084) | 0 |
+| [#132078 Bug: Cron execution marked "failed: Interrupted by shutdown" when the delivery already landed — runner-tail death after a landed receipt is misclassified as never-completed](https://github.com/NousResearch/hermes-agent/issues/132078) | 0 |
+| [#132076 [Bug]: missing-HF-token message for trace upload points to `/upload-trace` and `hermes trace upload`, which do not exist](https://github.com/NousResearch/hermes-agent/issues/132076) | 2 |
+| [#132075 [Bug]: `agent.max_turns: .inf` in config.yaml crashes `hermes chat` at startup with OverflowError](https://github.com/NousResearch/hermes-agent/issues/132075) | 2 |
+| [#132074 [Bug]: Slack format_message does not escape &, < and > in converted markdown link labels](https://github.com/NousResearch/hermes-agent/issues/132074) | 2 |
+| [#132073 [Bug]: iteration-limit message tells users to raise `max_iterations`, but the real config key is `agent.max_turns`](https://github.com/NousResearch/hermes-agent/issues/132073) | 2 |
+| [#132069 Desktop leaves MCP child processes running after exit](https://github.com/NousResearch/hermes-agent/issues/132069) | 0 |
+| [#132068 Bot mention autocomplete only lists @default and @hermes (plugin candidates self-filtered via claimedHandles)](https://github.com/NousResearch/hermes-agent/issues/132068) | 2 |
+| [#132061 Feature: Session/Agent handover — migrate running subagents to a remote Hermes server](https://github.com/NousResearch/hermes-agent/issues/132061) | 0 |
+| [#132060 Feature: a remembered core-only install (no `all` extra, no JS workspace packages)](https://github.com/NousResearch/hermes-agent/issues/132060) | 0 |
+| [#132048 [Bug]: Relay-managed plain-generator stream close races blocked iterator after interrupt](https://github.com/NousResearch/hermes-agent/issues/132048) | 0 |
+| [#132042 MCP trust gate: readOnlyHint never detected with mcp 2.0.0 (read_only_hint), so read-only tools on untrusted servers are always blocked](https://github.com/NousResearch/hermes-agent/issues/132042) | 0 |
+| [#132037 Desktop: ordinary chats hidden from sidebar — title pipeline mints reserved 'Bot Chat' title, Bot Mode sweep hides the row before dedupe drops it](https://github.com/NousResearch/hermes-agent/issues/132037) | 0 |
+| [#132034 [Bug]: Desktop SSH reconnect storm leaks detached serve backends until the remote OOMs](https://github.com/NousResearch/hermes-agent/issues/132034) | 0 |
+| [#132033 [Bug]: Discord adapter WebSocket timeouts — platform_connect_timeout: 30 too tight](https://github.com/NousResearch/hermes-agent/issues/132033) | 5 |
+| [#132032 Desktop: last chat not reopened on launch — cold start falls back to fresh chat despite stored session (404 Session not found)](https://github.com/NousResearch/hermes-agent/issues/132032) | 0 |
+| [#132030 Plugin-declared pip_dependencies never reach uv.lock: sanctioned memory-provider install is undone by the next lock-driven launch (selection re-flip)](https://github.com/NousResearch/hermes-agent/issues/132030) | 0 |
+| [#132026 [Bug]: /queue subcommands (list/clear/rm/move/edit) are queued as messages on the TUI and desktop instead of executing](https://github.com/NousResearch/hermes-agent/issues/132026) | 3 |
+| [#132023 [Bug]: Deeply nested Slack Block Kit message crashes inbound normalization with RecursionError (no depth budget on Block Kit walkers)](https://github.com/NousResearch/hermes-agent/issues/132023) | 0 |
+| [#132016 [Bug]: Deeply nested tool-call arguments crash tool-argument coercion with RecursionError (no depth budget)](https://github.com/NousResearch/hermes-agent/issues/132016) | 4 |
+| [#132006 [Bug]: A 14-byte legal YAML alias cycle crashes locale flattening with RecursionError (`flatten` / `non_text_leaves` have no cycle guard)](https://github.com/NousResearch/hermes-agent/issues/132006) | 2 |
+| [#132005 [Bug]: Deeply nested external tool schema crashes provider schema normalization with RecursionError (no depth budget)](https://github.com/NousResearch/hermes-agent/issues/132005) | 2 |
+| [#132003 [Bug]: Deeply nested Feishu interactive-message content crashes inbound normalization with RecursionError (no depth budget on `_walk_nodes`)](https://github.com/NousResearch/hermes-agent/issues/132003) | 1 |

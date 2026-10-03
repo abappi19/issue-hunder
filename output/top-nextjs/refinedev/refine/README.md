@@ -1,6 +1,6 @@
 # refinedev/refine
 
-Generated: 2026-10-01T10:46:26.221775+00:00
+Generated: 2026-10-03T09:42:50.069915+00:00
 
 - Unassigned: 21
 - [View all unassigned issues](https://github.com/refinedev/refine/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -9,6 +9,7 @@ Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#7623 [FEAT] TDK CLI integration: run a refine app as a local TDK resource](https://github.com/refinedev/refine/issues/7623) | 0 |
 | [#7620 [FEAT] Add support to shadcn v4.x.x](https://github.com/refinedev/refine/issues/7620) | 3 |
 | [#7616 [BUG] hasura getList throws "v.toUpperCase is not a function" when sorting by a relation field with graphql-default](https://github.com/refinedev/refine/issues/7616) | 0 |
 | [#7615 [BUG] useImport imports an empty record when the csv file ends with a line break](https://github.com/refinedev/refine/issues/7615) | 1 |
@@ -25,8 +26,7 @@ Most recently opened:
 | [#7551 [DOC] NumberField docs incorrectly say Intl is used "to display date format"](https://github.com/refinedev/refine/issues/7551) | 2 |
 | [#7516 [DOC]](https://github.com/refinedev/refine/issues/7516) | 2 |
 | [#7510 [CHORE] Use maintained fork of `gray-matter`](https://github.com/refinedev/refine/issues/7510) | 3 |
-| [#7477 [BUG] notification type is not respected in @refinedev/antd and @refinedev/mantine](https://github.com/refinedev/refine/issues/7477) | 3 |
-| [#7462 [BUG] MUI Breadcrumb links lose all styling — sx/underline/color/variant spread onto a plain <span>](https://github.com/refinedev/refine/issues/7462) | 3 |
+| [#7477 [BUG] notification type is not respected in @refinedev/antd and @refinedev/mantine](https://github.com/refinedev/refine/issues/7477) | 5 |
 | [#7403 [BUG] BaseKey needs to support UUID](https://github.com/refinedev/refine/issues/7403) | 6 |
 | [#7140 [FEAT] Support Ant Design v6](https://github.com/refinedev/refine/issues/7140) | 12 |
 | [#6969 [Infra] Migrate to tsdown](https://github.com/refinedev/refine/issues/6969) | 21 |

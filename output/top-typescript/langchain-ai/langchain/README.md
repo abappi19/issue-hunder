@@ -1,20 +1,26 @@
 # langchain-ai/langchain
 
-Generated: 2026-10-01T10:46:12.314177+00:00
+Generated: 2026-10-03T09:42:38.239543+00:00
 
-- Unassigned: 82+
+- Unassigned: 81+
 - [View all unassigned issues](https://github.com/langchain-ai/langchain/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
-| [#40977 Two type contracts allow values that the implementations cannot handle or do not return as declared.](https://github.com/langchain-ai/langchain/issues/40977) | 0 |
-| [#40967 ExperimentalMarkdownSyntaxTextSplitter closes code blocks on shorter or mismatched fences](https://github.com/langchain-ai/langchain/issues/40967) | 0 |
-| [#40965 XMLOutputParser streaming drops valid Unicode root tags](https://github.com/langchain-ai/langchain/issues/40965) | 2 |
-| [#40936 langchain.mcp: support bounded same-call 401 recovery with externally managed credentials](https://github.com/langchain-ai/langchain/issues/40936) | 0 |
+| [#41016 feat(fireworks): surface LangSmith gateway metadata on successful responses](https://github.com/langchain-ai/langchain/issues/41016) | 0 |
+| [#41010 langchain-core: is_data_content_block recomputes the block types on every call, ~23ms per ChatOpenAI payload](https://github.com/langchain-ai/langchain/issues/41010) | 1 |
+| [#40999 v3 streaming: tool-call block-delta events are snapshots, so their size grows quadratically with the tool-call arguments](https://github.com/langchain-ai/langchain/issues/40999) | 2 |
+| [#40996 ModelFallbackMiddleware strips cache_control when falling back to ChatAnthropicMantle](https://github.com/langchain-ai/langchain/issues/40996) | 2 |
+| [#40995 langchain-openai: OpenAI() defaults to gpt-3.5-turbo-instruct (shut down Sep 28) and ChatOpenAI() to gpt-3.5-turbo (shuts down Oct 23)](https://github.com/langchain-ai/langchain/issues/40995) | 0 |
+| [#40984 feat(callbacks): In-memory Zero-Trust Data Sanitization (ZTDS) callback (IETF draft-02)](https://github.com/langchain-ai/langchain/issues/40984) | 0 |
+| [#40977 Two type contracts allow values that the implementations cannot handle or do not return as declared.](https://github.com/langchain-ai/langchain/issues/40977) | 1 |
+| [#40967 ExperimentalMarkdownSyntaxTextSplitter closes code blocks on shorter or mismatched fences](https://github.com/langchain-ai/langchain/issues/40967) | 3 |
+| [#40965 XMLOutputParser streaming drops valid Unicode root tags](https://github.com/langchain-ai/langchain/issues/40965) | 4 |
+| [#40936 langchain.mcp: support bounded same-call 401 recovery with externally managed credentials](https://github.com/langchain-ai/langchain/issues/40936) | 1 |
 | [#40935 core: Tee leaves its source open when a child is never started](https://github.com/langchain-ai/langchain/issues/40935) | 1 |
-| [#40934 langchain-typesafe: ClassifierResponse has no request id or cost when the classifier is routed through OpenRouter](https://github.com/langchain-ai/langchain/issues/40934) | 0 |
+| [#40934 langchain-typesafe: ClassifierResponse has no request id or cost when the classifier is routed through OpenRouter](https://github.com/langchain-ai/langchain/issues/40934) | 4 |
 | [#40926 ollama: `client_kwargs` is mutated in place, so URL credentials leak into the caller's dict and across model instances](https://github.com/langchain-ai/langchain/issues/40926) | 1 |
 | [#40918 core: postponed callable annotations break Runnable schemas and tool conversion](https://github.com/langchain-ai/langchain/issues/40918) | 2 |
 | [#40915 [langchain-openai] ChatOpenAI.stream() crashes on a mocked tool-call delta with a null function](https://github.com/langchain-ai/langchain/issues/40915) | 2 |
@@ -63,7 +69,7 @@ Most recently opened:
 | [#40729 langchain-typesafe: ModelRouterMiddleware exposes ignored model_route in input schema](https://github.com/langchain-ai/langchain/issues/40729) | 2 |
 | [#40727 langchain-typesafe: recursive `State` alias leaves input schema unresolvable](https://github.com/langchain-ai/langchain/issues/40727) | 2 |
 | [#40726 langchain-typesafe: allow supplying a classifier to experimental middleware](https://github.com/langchain-ai/langchain/issues/40726) | 2 |
-| [#40725 SummarizationMiddleware sends unredacted conversation history to the summary model, bypassing PIIMiddleware including strategy=block](https://github.com/langchain-ai/langchain/issues/40725) | 3 |
+| [#40725 SummarizationMiddleware sends unredacted conversation history to the summary model, bypassing PIIMiddleware including strategy=block](https://github.com/langchain-ai/langchain/issues/40725) | 4 |
 | [#40721 [langchain-anthropic] ChatAnthropic forwards deprecated top_k to Claude Opus 5, causing HTTP 400](https://github.com/langchain-ai/langchain/issues/40721) | 3 |
 | [#40709 LLMToolSelectorMiddleware ignores conversation history on follow-up queries](https://github.com/langchain-ai/langchain/issues/40709) | 2 |
 | [#40704 PIIMiddleware inspects only the newest message of each kind, so PII in supplied history reaches the model and block does not raise](https://github.com/langchain-ai/langchain/issues/40704) | 4 |
@@ -84,10 +90,3 @@ Most recently opened:
 | [#40588 [Bug] Two langchain unit tests read pyproject.toml without a UTF-8 encoding and fail on Windows with a non-UTF-8 locale](https://github.com/langchain-ai/langchain/issues/40588) | 5 |
 | [#40578 feat(typesafe): add `ModerationMiddleware` for input content moderation](https://github.com/langchain-ai/langchain/issues/40578) | 2 |
 | [#40563 ChatOpenAI silently drops provider-specific extra fields on tool calls (breaks multi-turn tool calling against OpenAI-compatible endpoints)](https://github.com/langchain-ai/langchain/issues/40563) | 2 |
-| [#40531 core: `finalize_tool_call_chunk` coerces `id=None` to `""`, collapsing parallel id-less tool calls](https://github.com/langchain-ai/langchain/issues/40531) | 10 |
-| [#40518 UsageMetadataCallbackHandler silently drops usage_metadata when model_name is missing](https://github.com/langchain-ai/langchain/issues/40518) | 3 |
-| [#40503 MCP ResourceLink/EmbeddedResource metadata dropped when converting to LangChain content blocks (langchain.mcp)](https://github.com/langchain-ai/langchain/issues/40503) | 3 |
-| [#40502 core: `InMemoryVectorStore` raises `NotImplementedError` for relevance-score search and the `similarity_score_threshold` retriever](https://github.com/langchain-ai/langchain/issues/40502) | 2 |
-| [#40501 core: `AsyncBaseTracer` drops `name` in `on_tool_start` and `response` in `on_llm_error`, diverging from `BaseTracer`](https://github.com/langchain-ai/langchain/issues/40501) | 2 |
-| [#40492 langchain 1.4.0: any after_model middleware using documented `jump_to="tools"` bypasses the HITL pending_tool_calls gate and re-executes rejected tool calls](https://github.com/langchain-ai/langchain/issues/40492) | 10 |
-| [#40470 langchain: preserve result-level MCP `_meta` in tool results](https://github.com/langchain-ai/langchain/issues/40470) | 3 |

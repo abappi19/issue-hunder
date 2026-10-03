@@ -1,6 +1,6 @@
 # mattermost/mattermost
 
-Generated: 2026-10-01T10:46:39.210798+00:00
+Generated: 2026-10-03T09:43:01.413532+00:00
 
 - Unassigned: 11+
 - [View all unassigned issues](https://github.com/mattermost/mattermost/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)

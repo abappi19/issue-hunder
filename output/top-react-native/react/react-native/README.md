@@ -1,19 +1,21 @@
 # react/react-native
 
-Generated: 2026-10-01T10:46:39.210798+00:00
+Generated: 2026-10-03T09:43:01.413532+00:00
 
-- Unassigned: 22+
+- Unassigned: 26+
 - [View all unassigned issues](https://github.com/react/react-native/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#58819 [Android] An ellipsized `<Text>` with a custom font is clipped at its far edge: `ReactTextView` reserves the «…» with a Roboto paint at the unscaled size](https://github.com/react/react-native/issues/58819) | 1 |
+| [#58807 [iOS] TextInput interrupts Japanese composition with the Simeji keyboard](https://github.com/react/react-native/issues/58807) | 0 |
+| [#58800 `<TouchableOpacity />` inside a hidden `<Activity>` reappears stuck at `activeOpacity` on iOS](https://github.com/react/react-native/issues/58800) | 1 |
 | [#58784 [iOS] <Text> draws a .notdef box for the Khmer two-part vowels ោ / ៅ in a custom font (TextKit 1 layout in RCTTextLayoutManager)](https://github.com/react/react-native/issues/58784) | 0 |
 | [#58776 WithRuntimeDecorator createArrayBuffer bypasses its runtime guard](https://github.com/react/react-native/issues/58776) | 0 |
 | [#58758 StatusBar does nothing on iOS 27](https://github.com/react/react-native/issues/58758) | 0 |
 | [#58754 React Native DevTools console displays JavaScript objects in JSON-style format when using Expo](https://github.com/react/react-native/issues/58754) | 1 |
-| [#58750 [Android] Unrecognized fontFamily silently falls back to the system font (no log, unlike iOS)](https://github.com/react/react-native/issues/58750) | 0 |
 | [#58739 [Android] TalkBack announces no state for unchecked checkbox and radio because stateDescription is never set](https://github.com/react/react-native/issues/58739) | 0 |
 | [#58659 [Android] Image drops `source.headers` for a single-object source since 0.86 (only array sources forward headers)](https://github.com/react/react-native/issues/58659) | 2 |
 | [#58652 Android: textAlign: "justify" is silently ignored on ColorOS 15 (Realme/OPPO) — RN sets JUSTIFICATION_MODE_INTER_WORD but the OEM discards it](https://github.com/react/react-native/issues/58652) | 0 |
@@ -31,3 +33,5 @@ Most recently opened:
 | [#58526 [Android][Fabric] addViewAt hard-crashes on a placeholder ViewState synthesised by updateEventEmitter](https://github.com/react/react-native/issues/58526) | 2 |
 | [#58517 ScrollView doesn't scroll up on new line in TextInput](https://github.com/react/react-native/issues/58517) | 0 |
 | [#58515 SPM autolinking hardcodes iOS 15, so libraries whose Package.swift requires iOS 16+ can't be autolinked](https://github.com/react/react-native/issues/58515) | 2 |
+| [#58499 [iOS][Fabric] Pinch-zoomed ScrollView breaks (position jumps, cannot zoom back out) after its size changes](https://github.com/react/react-native/issues/58499) | 0 |
+| [#58495 normalize-color accepts functional colors with surrounding junk](https://github.com/react/react-native/issues/58495) | 1 |

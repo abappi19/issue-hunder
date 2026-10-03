@@ -1,10 +1,10 @@
 {
   "title": "Top State Management Projects",
-  "generated_at": "2026-10-01T10:47:01.521470+00:00",
+  "generated_at": "2026-10-03T09:43:20.309717+00:00",
   "repos": [
     {
       "repo": "mem0ai/mem0",
-      "unassigned": "69+"
+      "unassigned": "71+"
     },
     {
       "repo": "pmndrs/zustand",
@@ -20,7 +20,7 @@
     },
     {
       "repo": "dapr/dapr",
-      "unassigned": "30+"
+      "unassigned": "29+"
     },
     {
       "repo": "MemoriLabs/Memori",
@@ -28,7 +28,7 @@
     },
     {
       "repo": "TanStack/router",
-      "unassigned": "24+"
+      "unassigned": "25+"
     },
     {
       "repo": "felangel/bloc",

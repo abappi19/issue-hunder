@@ -1,20 +1,33 @@
 # microsoft/TypeScript
 
-Generated: 2026-10-01T10:46:12.314177+00:00
+Generated: 2026-10-03T09:42:38.239543+00:00
 
-- Unassigned: 38+
+- Unassigned: 44+
 - [View all unassigned issues](https://github.com/microsoft/TypeScript/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#64618 Non-enum CLI options with multiple values separated by comma and space aren't whitespace trimmed](https://github.com/microsoft/TypeScript/issues/64618) | 0 |
+| [#64614 TS 7 declaration emit writes unbound type parameters (TOutputOut, $Output) into .d.ts where 6.0 emits any](https://github.com/microsoft/TypeScript/issues/64614) | 0 |
+| [#64613 [ServerErrors][TypeScript] main vs ](https://github.com/microsoft/TypeScript/issues/64613) | 17 |
+| [#64612 [ServerErrors][JavaScript] main vs ](https://github.com/microsoft/TypeScript/issues/64612) | 7 |
+| [#64611 In-memory virtual file overlay over LSP without faking `didOpen`](https://github.com/microsoft/TypeScript/issues/64611) | 0 |
+| [#64610 Associate companion files with `ProjectService` without Content Mappers](https://github.com/microsoft/TypeScript/issues/64610) | 0 |
+| [#64605 TS5115 in published Zod 4.5–4.6 types after #64372](https://github.com/microsoft/TypeScript/issues/64605) | 0 |
+| [#64602 Support deferred re-exports](https://github.com/microsoft/TypeScript/issues/64602) | 0 |
+| [#64593 Reverse-mapped inference exposes private members as public; since #63932 this rejects `f<T>() as C`](https://github.com/microsoft/TypeScript/issues/64593) | 0 |
+| [#64591 `tsc -b`: incremental build keeps a declaration that names a removed re-export, and passes a program a clean build rejects](https://github.com/microsoft/TypeScript/issues/64591) | 0 |
+| [#64590 Declaration emit writes an import the file cannot resolve when the package has `exports`; no TS2883](https://github.com/microsoft/TypeScript/issues/64590) | 0 |
+| [#64585 TS Symbol typing clashes with standard, idiomatic JS](https://github.com/microsoft/TypeScript/issues/64585) | 2 |
+| [#64582 Info missing when hover on a proptery compare to TS6](https://github.com/microsoft/TypeScript/issues/64582) | 0 |
+| [#64580 TypeScript 7 VS Code extension: let other extensions send requests to tsc --lsp, like typescript.tsserverRequest](https://github.com/microsoft/TypeScript/issues/64580) | 0 |
+| [#64579 Content mappers: let a mapper opt out of formatting, so tsc --lsp does not offer a formatter that returns no edits](https://github.com/microsoft/TypeScript/issues/64579) | 0 |
+| [#64576 TypeScript 7 VS Code extension: Go to Source Definition does not run in content-mapped files, although tsc --lsp answers for them](https://github.com/microsoft/TypeScript/issues/64576) | 0 |
 | [#64565 TypeScript 7 VS Code extension: a workspace "typescript" 7.x package is not detected, only "@typescript/native-preview", which is no longer published](https://github.com/microsoft/TypeScript/issues/64565) | 0 |
-| [#64564 TypeScript 7 VS Code extension: closing JSX tags are not inserted in content-mapped files, although tsc --lsp provides them](https://github.com/microsoft/TypeScript/issues/64564) | 0 |
 | [#64560 Content mappers: a `moduleSuffixes` list on a `contentMappers` entry](https://github.com/microsoft/TypeScript/issues/64560) | 0 |
 | [#64549 Content mappers: let registered extensions take part in extensionless module lookup](https://github.com/microsoft/TypeScript/issues/64549) | 1 |
-| [#64548 Content mappers: `moduleSuffixes` probes `card.foo.web` instead of `card.web.foo` for a registered extension](https://github.com/microsoft/TypeScript/issues/64548) | 2 |
-| [#64546 Content mappers: registered extensions are not probed for extensionless imports in bundler mode](https://github.com/microsoft/TypeScript/issues/64546) | 2 |
 | [#64534 Circular mapped property is treated as missing when selecting contextual type from intersections](https://github.com/microsoft/TypeScript/issues/64534) | 3 |
 | [#64531 Support spread in recursive object inference](https://github.com/microsoft/TypeScript/issues/64531) | 0 |
 | [#64497 Find all references on `from` of a default import drops results after an unsaved edit in another file](https://github.com/microsoft/TypeScript/issues/64497) | 1 |
@@ -40,10 +53,3 @@ Most recently opened:
 | [#64231 Parser misinterprets async() calls in conditional expressions as async arrow functions](https://github.com/microsoft/TypeScript/issues/64231) | 3 |
 | [#64228 Incorrect TS1111 when using private generator function in JS](https://github.com/microsoft/TypeScript/issues/64228) | 5 |
 | [#64213 The `strict` option is confusing since TypeScript 6](https://github.com/microsoft/TypeScript/issues/64213) | 2 |
-| [#64186 Narrowing of generic this is inconsistent with variable narrowing](https://github.com/microsoft/TypeScript/issues/64186) | 0 |
-| [#64171 [Auto-import] Quick Fix suggests invalid module specifiers that fail to resolve at runtime](https://github.com/microsoft/TypeScript/issues/64171) | 0 |
-| [#64129 Design Meeting Notes, 2026-09-01](https://github.com/microsoft/TypeScript/issues/64129) | 0 |
-| [#64118 dom.generated.d.ts is missing from this repo while still referenced in the docs](https://github.com/microsoft/TypeScript/issues/64118) | 1 |
-| [#64113 Design Meeting Notes, 2026-08-27](https://github.com/microsoft/TypeScript/issues/64113) | 6 |
-| [#64102 Proposal: Expose LSP/Language Service capabilities (e.g., rename) via a tsc subcommand](https://github.com/microsoft/TypeScript/issues/64102) | 3 |
-| [#64094 typescript-language-server does not work with @typescript/typescript6](https://github.com/microsoft/TypeScript/issues/64094) | 0 |

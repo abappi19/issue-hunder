@@ -1,6 +1,6 @@
 # toeverything/blocksuite
 
-Generated: 2026-10-01T10:47:01.521470+00:00
+Generated: 2026-10-03T09:43:20.309717+00:00
 
 - Unassigned: 87+
 - [View all unassigned issues](https://github.com/toeverything/blocksuite/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)

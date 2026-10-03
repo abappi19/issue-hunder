@@ -1,14 +1,14 @@
 {
   "title": "Top TypeScript Projects",
-  "generated_at": "2026-10-01T10:46:12.314177+00:00",
+  "generated_at": "2026-10-03T09:42:38.239543+00:00",
   "repos": [
     {
       "repo": "n8n-io/n8n",
-      "unassigned": "6+"
+      "unassigned": "4+"
     },
     {
       "repo": "microsoft/vscode",
-      "unassigned": "59+"
+      "unassigned": "63+"
     },
     {
       "repo": "f/prompts.chat",
@@ -16,31 +16,31 @@
     },
     {
       "repo": "langchain-ai/langchain",
-      "unassigned": "82+"
+      "unassigned": "81+"
     },
     {
       "repo": "immich-app/immich",
-      "unassigned": "42+"
+      "unassigned": "46+"
     },
     {
       "repo": "microsoft/TypeScript",
-      "unassigned": "38+"
+      "unassigned": "44+"
     },
     {
       "repo": "denoland/deno",
-      "unassigned": "48+"
+      "unassigned": "46+"
     },
     {
       "repo": "angular/angular",
-      "unassigned": "30+"
+      "unassigned": "31+"
     },
     {
       "repo": "ant-design/ant-design",
-      "unassigned": "11+"
+      "unassigned": "12+"
     },
     {
       "repo": "oven-sh/bun",
-      "unassigned": "32+"
+      "unassigned": "36+"
     },
     {
       "repo": "ruvnet/RuView",
@@ -48,7 +48,7 @@
     },
     {
       "repo": "storybookjs/storybook",
-      "unassigned": "28+"
+      "unassigned": "27+"
     },
     {
       "repo": "mermaid-js/mermaid",
@@ -56,11 +56,11 @@
     },
     {
       "repo": "bytedance/deer-flow",
-      "unassigned": "35+"
+      "unassigned": "34+"
     },
     {
       "repo": "nestjs/nest",
-      "unassigned": 7
+      "unassigned": 9
     },
     {
       "repo": "enaqx/awesome-react",
@@ -68,7 +68,7 @@
     },
     {
       "repo": "headroomlabs-ai/headroom",
-      "unassigned": "29+"
+      "unassigned": "34+"
     },
     {
       "repo": "unionlabs/union",
@@ -76,7 +76,7 @@
     },
     {
       "repo": "ruvnet/ruflo",
-      "unassigned": "44+"
+      "unassigned": "41+"
     },
     {
       "repo": "strapi/strapi",

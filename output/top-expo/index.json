@@ -1,10 +1,10 @@
 {
   "title": "Top Expo Projects",
-  "generated_at": "2026-10-01T10:46:50.482133+00:00",
+  "generated_at": "2026-10-03T09:43:11.075262+00:00",
   "repos": [
     {
       "repo": "expo/expo",
-      "unassigned": "14+"
+      "unassigned": "6+"
     },
     {
       "repo": "infinitered/ignite",
@@ -24,11 +24,11 @@
     },
     {
       "repo": "AmanVarshney01/create-better-t-stack",
-      "unassigned": "76+"
+      "unassigned": "75+"
     },
     {
       "repo": "callstack/agent-device",
-      "unassigned": "82+"
+      "unassigned": "62+"
     },
     {
       "repo": "obytes/react-native-template-obytes",
@@ -36,7 +36,7 @@
     },
     {
       "repo": "CherryHQ/cherry-studio-app",
-      "unassigned": 11
+      "unassigned": 12
     },
     {
       "repo": "expo/examples",
@@ -47,12 +47,12 @@
       "unassigned": 11
     },
     {
-      "repo": "galio-org/galio",
-      "unassigned": 35
+      "repo": "elie222/rakazo",
+      "unassigned": 11
     },
     {
-      "repo": "elie222/rakazo",
-      "unassigned": 13
+      "repo": "galio-org/galio",
+      "unassigned": 35
     },
     {
       "repo": "enzomanuelmangano/demos",
@@ -64,7 +64,7 @@
     },
     {
       "repo": "jpudysz/react-native-unistyles",
-      "unassigned": 30
+      "unassigned": 26
     },
     {
       "repo": "rnmapbox/maps",
@@ -80,7 +80,7 @@
     },
     {
       "repo": "codedogQBY/ReadAny",
-      "unassigned": "68+"
+      "unassigned": "70+"
     }
   ]
 }

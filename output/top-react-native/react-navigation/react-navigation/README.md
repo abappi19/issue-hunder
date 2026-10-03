@@ -1,8 +1,8 @@
 # react-navigation/react-navigation
 
-Generated: 2026-10-01T10:46:39.210798+00:00
+Generated: 2026-10-03T09:43:01.413532+00:00
 
-- Unassigned: 59+
+- Unassigned: 58+
 - [View all unassigned issues](https://github.com/react-navigation/react-navigation/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -25,7 +25,6 @@ Most recently opened:
 | [#13072 usePreventRemove fails with swipe back in native-stack on Expo SDK 55, causes JS/native desync and touch block](https://github.com/react-navigation/react-navigation/issues/13072) | 5 |
 | [#13069 `experimental_userInterfaceStyle` defaults to light causes issues with header and bottom tabs](https://github.com/react-navigation/react-navigation/issues/13069) | 14 |
 | [#13067 `headerTitle` width ignores `headerRight` on iOS 26](https://github.com/react-navigation/react-navigation/issues/13067) | 2 |
-| [#13051 UnhandledLinkingContext throws while linking is not ready (!isLinkingReady branch omits providers)](https://github.com/react-navigation/react-navigation/issues/13051) | 9 |
 | [#13044 [Android] Header fails to render when visibility is changed simultaneous with StatusBar](https://github.com/react-navigation/react-navigation/issues/13044) | 3 |
 | [#13028 (native-tab-navigator/experimental) - weird/unwanted bottom navigator animation on back when using deeplinks](https://github.com/react-navigation/react-navigation/issues/13028) | 2 |
 | [#12989 [Android] Unexpected bottom gap on Android 13 & 14 when using @react-navigation/native-stack](https://github.com/react-navigation/react-navigation/issues/12989) | 6 |

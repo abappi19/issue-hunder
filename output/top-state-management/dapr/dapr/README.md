@@ -1,8 +1,8 @@
 # dapr/dapr
 
-Generated: 2026-10-01T10:47:01.521470+00:00
+Generated: 2026-10-03T09:43:20.309717+00:00
 
-- Unassigned: 30+
+- Unassigned: 29+
 - [View all unassigned issues](https://github.com/dapr/dapr/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -13,7 +13,6 @@ Most recently opened:
 | [#10569 BulkPublishEventAsync hangs in DaprRuntimeCapabilities when daprd has no gRPC reflection service (regression in 1.18)](https://github.com/dapr/dapr/issues/10569) | 2 |
 | [#10566 Workflow waits get CANCELLED "context canceled" when daprd's own runtime shuts down; return UNAVAILABLE instead](https://github.com/dapr/dapr/issues/10566) | 0 |
 | [#10564 Allow configuration of persistentVolumeClaimRetentionPolicy on Dapr Scheduler](https://github.com/dapr/dapr/issues/10564) | 0 |
-| [#10563 Recommended approach for OTel initiated from HTTP API to gRPC backend services](https://github.com/dapr/dapr/issues/10563) | 0 |
 | [#10550 Hot reload kills the sidecar when a pub/sub handler outlasts the graceful shutdown window](https://github.com/dapr/dapr/issues/10550) | 0 |
 | [#10543 Bulk publish drops request-level metadata for entries without their own metadata](https://github.com/dapr/dapr/issues/10543) | 1 |
 | [#10524 resiliency: CodeError.retryScenario is set on every construction but never read](https://github.com/dapr/dapr/issues/10524) | 0 |

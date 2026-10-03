@@ -1,6 +1,6 @@
 # unionlabs/union
 
-Generated: 2026-10-01T10:46:12.314177+00:00
+Generated: 2026-10-03T09:42:38.239543+00:00
 
 - Unassigned: 35+
 - [View all unassigned issues](https://github.com/unionlabs/union/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
@@ -34,7 +34,7 @@ Most recently opened:
 | [#2782 change faucet to read secrets from file + store secrets in 1password](https://github.com/unionlabs/union/issues/2782) | 0 |
 | [#2702 remove support for ethereum versions < deneb](https://github.com/unionlabs/union/issues/2702) | 0 |
 | [#2647 handle packets that are too large more gracefully](https://github.com/unionlabs/union/issues/2647) | 1 |
-| [#2634 berachain light client stores timestamp incorrectly](https://github.com/unionlabs/union/issues/2634) | 0 |
+| [#2634 berachain light client stores timestamp incorrectly](https://github.com/unionlabs/union/issues/2634) | 1 |
 | [#2633 evm tx randomly dropped with 0x revert code](https://github.com/unionlabs/union/issues/2633) | 0 |
 | [#2592 supported chain connected](https://github.com/unionlabs/union/issues/2592) | 0 |
 | [#2513 handle insufficent funds properly on cosmos chains](https://github.com/unionlabs/union/issues/2513) | 0 |

@@ -1,6 +1,6 @@
 # microsoft/vscode-react-native
 
-Generated: 2026-10-01T10:46:50.482133+00:00
+Generated: 2026-10-03T09:43:11.075262+00:00
 
 - Unassigned: 12
 - [View all unassigned issues](https://github.com/microsoft/vscode-react-native/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)

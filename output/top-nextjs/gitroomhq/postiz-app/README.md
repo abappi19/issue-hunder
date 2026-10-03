@@ -1,14 +1,16 @@
 # gitroomhq/postiz-app
 
-Generated: 2026-10-01T10:46:26.221775+00:00
+Generated: 2026-10-03T09:42:50.069915+00:00
 
-- Unassigned: 43+
+- Unassigned: 44+
 - [View all unassigned issues](https://github.com/gitroomhq/postiz-app/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#2197 Feature: use a ChatGPT subscription for Postiz AI features (Sign in with ChatGPT plan usage)](https://github.com/gitroomhq/postiz-app/issues/2197) | 0 |
+| [#2196 Posts with images fail](https://github.com/gitroomhq/postiz-app/issues/2196) | 0 |
 | [#2187 Public API / MCP report 0 video credits while the web app shows credits (subscription.createdAt not loaded for API key & OAuth orgs)](https://github.com/gitroomhq/postiz-app/issues/2187) | 0 |
 | [#2181 Mention suggestion dropdown text is unreadable in dark theme](https://github.com/gitroomhq/postiz-app/issues/2181) | 1 |
 | [#2169 Agent doesnt load old convo](https://github.com/gitroomhq/postiz-app/issues/2169) | 0 |
@@ -26,7 +28,7 @@ Most recently opened:
 | [#2055 Postiz Cloud: TikTok analytics stuck on "Refresh Channel" after reconnect](https://github.com/gitroomhq/postiz-app/issues/2055) | 1 |
 | [#2036 [DOUBT] Can Meta ban accounts for using Postiz self-hosted?](https://github.com/gitroomhq/postiz-app/issues/2036) | 0 |
 | [#2035 Orchestrator's Temporal worker never retries a failed initial connection — silently stops polling forever, no crash, no log after the first attempt](https://github.com/gitroomhq/postiz-app/issues/2035) | 3 |
-| [#2026 Backend hangs on cold boot without binding its port when Temporal isn't ready yet (docker-compose)](https://github.com/gitroomhq/postiz-app/issues/2026) | 0 |
+| [#2026 Backend hangs on cold boot without binding its port when Temporal isn't ready yet (docker-compose)](https://github.com/gitroomhq/postiz-app/issues/2026) | 1 |
 | [#2019 [Bug] Slack integration persists posts to Postiz queue but never delivers to Slack workspace (missing bot `chat:write` scope)](https://github.com/gitroomhq/postiz-app/issues/2019) | 0 |
 | [#2018 X provider uploads GIF bytes labelled with the original file's mime type](https://github.com/gitroomhq/postiz-app/issues/2018) | 0 |
 | [#2017 Discord provider reports status: 'success' without checking the HTTP response](https://github.com/gitroomhq/postiz-app/issues/2017) | 0 |
@@ -51,4 +53,3 @@ Most recently opened:
 | [#1862 Public API `/public/v1/upload` always returns `originalName: null`, breaking display name in Media Library](https://github.com/gitroomhq/postiz-app/issues/1862) | 0 |
 | [#1861 Webhooks always fire with an empty body: sendWebhooks() receives the provider's post id instead of the internal post id](https://github.com/gitroomhq/postiz-app/issues/1861) | 0 |
 | [#1857 v2.22.1 has broken backend](https://github.com/gitroomhq/postiz-app/issues/1857) | 2 |
-| [#1854 Postiz Cloud TikTok Direct Post fails with reached_active_user_cap](https://github.com/gitroomhq/postiz-app/issues/1854) | 1 |

@@ -1,23 +1,26 @@
 # laurent22/joplin
 
-Generated: 2026-10-01T10:46:39.210798+00:00
+Generated: 2026-10-03T09:43:01.413532+00:00
 
-- Unassigned: 83+
+- Unassigned: 84+
 - [View all unassigned issues](https://github.com/laurent22/joplin/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#16734 iOS: Double selection in Markdown editor](https://github.com/laurent22/joplin/issues/16734) | 2 |
+| [#16733 iOS: Selection handles sometimes styled inconsistently or cut off near the start/end of notes](https://github.com/laurent22/joplin/issues/16733) | 0 |
+| [#16721 Desktop: Upgrade app banner shows the wrong minimum app version](https://github.com/laurent22/joplin/issues/16721) | 2 |
+| [#16720 Joplin editor will alway "eat" space between "##", "*" and non-English.](https://github.com/laurent22/joplin/issues/16720) | 1 |
 | [#16716 Problem with the option descriptions in settings](https://github.com/laurent22/joplin/issues/16716) | 0 |
 | [#16697 Updating the Viewer font size does not reflect in the notes text](https://github.com/laurent22/joplin/issues/16697) | 0 |
 | [#16691 Joplin becomes very laggy/sluggish after enabling the AI feature, while the rest of the system remains responsive.](https://github.com/laurent22/joplin/issues/16691) | 3 |
-| [#16690 All: Sync auto-merge adds a blank line when one device deletes lines the other device edited](https://github.com/laurent22/joplin/issues/16690) | 3 |
 | [#16687 Rows with lines are not deleted](https://github.com/laurent22/joplin/issues/16687) | 0 |
 | [#16681 Mobile: hightligt text on RTE is bright yellow compared to markdown color](https://github.com/laurent22/joplin/issues/16681) | 1 |
 | [#16671 iOS: Editor scrolls while typing](https://github.com/laurent22/joplin/issues/16671) | 3 |
 | [#16670 No Joplin icon in taskbar after update to 3.7.21 in Windows 11](https://github.com/laurent22/joplin/issues/16670) | 1 |
-| [#16668 Accents (' ‘ ` ^) in Android version replace preceding word](https://github.com/laurent22/joplin/issues/16668) | 9 |
+| [#16668 Accents (' ‘ ` ^) in Android version replace preceding word](https://github.com/laurent22/joplin/issues/16668) | 12 |
 | [#16658 Plugin Review Ecosystem — Complete Feature Plan](https://github.com/laurent22/joplin/issues/16658) | 2 |
 | [#16654 Parent and child notebooks link is missing when restoring from trash](https://github.com/laurent22/joplin/issues/16654) | 2 |
 | [#16651 Mobile redesign: Slide up menus have inconsistent positioning on larger screens](https://github.com/laurent22/joplin/issues/16651) | 2 |
@@ -41,7 +44,7 @@ Most recently opened:
 | [#16570 PDF Export: RTL list markers and some list text misaligned](https://github.com/laurent22/joplin/issues/16570) | 1 |
 | [#16561 Table editor - viewport scroll jumps unpredictably while editing long tables](https://github.com/laurent22/joplin/issues/16561) | 0 |
 | [#16559 The Android version of Joplin does not support viewing the heading outline.](https://github.com/laurent22/joplin/issues/16559) | 0 |
-| [#16553 Joplin don't let sync in Fedora](https://github.com/laurent22/joplin/issues/16553) | 3 |
+| [#16553 Joplin don't let sync in Fedora](https://github.com/laurent22/joplin/issues/16553) | 4 |
 | [#16546 with render markup, the selection can miss the starting or ending markdown formatting characters](https://github.com/laurent22/joplin/issues/16546) | 0 |
 | [#16540 Suddenly Error when editing table with Chinese table header.](https://github.com/laurent22/joplin/issues/16540) | 16 |
 | [#16502 WebDav broken after upgrading from v3.6.16 / 409 conflict error](https://github.com/laurent22/joplin/issues/16502) | 12 |
@@ -59,26 +62,24 @@ Most recently opened:
 | [#16428 Inconsistent AI behavior: local model test passes but chat returns 400 (v3.7.16)](https://github.com/laurent22/joplin/issues/16428) | 13 |
 | [#16423 Secure Notes Plugin Broken in Android after 3.7.8](https://github.com/laurent22/joplin/issues/16423) | 2 |
 | [#16421 Markdown interactive table rendering & editing problems](https://github.com/laurent22/joplin/issues/16421) | 2 |
-| [#16384 Joplin Flatpak sync issue (.md contains a null byte)](https://github.com/laurent22/joplin/issues/16384) | 7 |
-| [#16382 Note lock key is overwritten on first sync, making locked notes permanently unreadable](https://github.com/laurent22/joplin/issues/16382) | 0 |
+| [#16382 Note lock key is overwritten on first sync, making locked notes permanently unreadable](https://github.com/laurent22/joplin/issues/16382) | 2 |
 | [#16378 Web app: Safari: New note menu always shows a focus indicator](https://github.com/laurent22/joplin/issues/16378) | 3 |
 | [#16377 Android 8: Markdown and Rich Text editors fail to start with `t.flat() is not a function`](https://github.com/laurent22/joplin/issues/16377) | 3 |
-| [#16375 Joplin eating CPU cycles for no reason (100 percent on one core)](https://github.com/laurent22/joplin/issues/16375) | 1 |
-| [#16371 Error importing notes from format: one](https://github.com/laurent22/joplin/issues/16371) | 0 |
-| [#16370 install script doesent work](https://github.com/laurent22/joplin/issues/16370) | 2 |
+| [#16375 Joplin eating CPU cycles for no reason (100 percent on one core)](https://github.com/laurent22/joplin/issues/16375) | 2 |
+| [#16371 Error importing notes from format: one](https://github.com/laurent22/joplin/issues/16371) | 1 |
+| [#16370 install script doesent work](https://github.com/laurent22/joplin/issues/16370) | 3 |
 | [#16367 OCR text is not searched on Android](https://github.com/laurent22/joplin/issues/16367) | 1 |
 | [#16348 Markdown & HTML Exporters fail to convert joplin:// URI links to relative paths during export](https://github.com/laurent22/joplin/issues/16348) | 1 |
 | [#16346 Markdown interactive table editor should be horizontally scrollable instead of wrapped](https://github.com/laurent22/joplin/issues/16346) | 3 |
 | [#16344 Plugin updates blocked after repository URL change for com.dejoyf.inlineTodoGui](https://github.com/laurent22/joplin/issues/16344) | 1 |
-| [#16342 Joplin CLI NPM package release is 4+ months outdated and causing errors](https://github.com/laurent22/joplin/issues/16342) | 1 |
 | [#16336 Disallow locked notes in shared notebooks](https://github.com/laurent22/joplin/issues/16336) | 2 |
-| [#16328 Joplin's internal Backup Plugin, despite having a dedicated temp folder set, still uses the tmp folder located in the profile's directory](https://github.com/laurent22/joplin/issues/16328) | 2 |
+| [#16328 Joplin's internal Backup Plugin, despite having a dedicated temp folder set, still uses the tmp folder located in the profile's directory](https://github.com/laurent22/joplin/issues/16328) | 4 |
 | [#16327 Enable R8/app optimisation for Android (Google Play requirement Feb 2027)](https://github.com/laurent22/joplin/issues/16327) | 2 |
 | [#16323 Missing 🎯 emoji](https://github.com/laurent22/joplin/issues/16323) | 5 |
 | [#16316 Whiteboard: Accessibility: Cannot edit text card content from a screen reader/keyboard-only interface](https://github.com/laurent22/joplin/issues/16316) | 3 |
 | [#16314 Web Clipper doesn't persist Notebook selection between sessions or expose a way to set a default](https://github.com/laurent22/joplin/issues/16314) | 1 |
 | [#16311 Rich Text editor: attachment links not clickable, and PDFs are not previewed inline (regression vs. embedded viewer in Markdown mode)](https://github.com/laurent22/joplin/issues/16311) | 2 |
-| [#16310 Fatal error on launch: "Invalid layout component: chatPanel"](https://github.com/laurent22/joplin/issues/16310) | 2 |
+| [#16310 Fatal error on launch: "Invalid layout component: chatPanel"](https://github.com/laurent22/joplin/issues/16310) | 3 |
 | [#16291 Long running SQL queries should not block execution of other SQL](https://github.com/laurent22/joplin/issues/16291) | 4 |
 | [#16290 Desktop: "Link to note" button inserts Markdown link syntax in HTML notes](https://github.com/laurent22/joplin/issues/16290) | 0 |
 | [#16288 Markdown codeblock (three backticks) removes enclosed text on final backtick](https://github.com/laurent22/joplin/issues/16288) | 1 |

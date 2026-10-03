@@ -1,14 +1,15 @@
 # CherryHQ/cherry-studio-app
 
-Generated: 2026-10-01T10:46:50.482133+00:00
+Generated: 2026-10-03T09:43:11.075262+00:00
 
-- Unassigned: 11
+- Unassigned: 12
 - [View all unassigned issues](https://github.com/CherryHQ/cherry-studio-app/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
 
 | Issue | Comments |
 |---|---|
+| [#1164 移动端功能太少。](https://github.com/CherryHQ/cherry-studio-app/issues/1164) | 0 |
 | [#1093 [Feature]: Allow custom web search and web fetch providers](https://github.com/CherryHQ/cherry-studio-app/issues/1093) | 0 |
 | [#1076 Reanimated per-frame ShadowTree commits starve long JS commits (Fabric commit exhaustion)](https://github.com/CherryHQ/cherry-studio-app/issues/1076) | 0 |
 | [#1058 [Feature]: Design the mobile Skill lifecycle](https://github.com/CherryHQ/cherry-studio-app/issues/1058) | 0 |

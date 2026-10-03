@@ -1,8 +1,8 @@
 # karakeep-app/karakeep
 
-Generated: 2026-10-01T10:46:39.210798+00:00
+Generated: 2026-10-03T09:43:01.413532+00:00
 
-- Unassigned: 49+
+- Unassigned: 47+
 - [View all unassigned issues](https://github.com/karakeep-app/karakeep/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee)
 
 Most recently opened:
@@ -10,7 +10,7 @@ Most recently opened:
 | Issue | Comments |
 |---|---|
 | [#3134 [Substack] iOS share links capture referral overlay instead of article](https://github.com/karakeep-app/karakeep/issues/3134) | 0 |
-| [#3133 Screenshots render CJK (Chinese/Japanese/Korean) text as tofu boxes — karakeep-chrome image is missing CJK fonts](https://github.com/karakeep-app/karakeep/issues/3133) | 0 |
+| [#3133 Screenshots render CJK (Chinese/Japanese/Korean) text as tofu boxes — karakeep-chrome image is missing CJK fonts](https://github.com/karakeep-app/karakeep/issues/3133) | 2 |
 | [#3131 Per-user (not instance-wide) cookie upload and storage for authenticated crawling](https://github.com/karakeep-app/karakeep/issues/3131) | 1 |
 | [#3117 CLI: `bookmarks add` exits 0 when some links fail, and `--json` output is followed by non-JSON lines](https://github.com/karakeep-app/karakeep/issues/3117) | 1 |
 | [#3107 BUG: AI tagging leaks prompt text into tags / produces run-away 90+ tag lists](https://github.com/karakeep-app/karakeep/issues/3107) | 0 |
@@ -22,7 +22,6 @@ Most recently opened:
 | [#3084 Creating a list from direct bookmark preview causes nested preview/modal state](https://github.com/karakeep-app/karakeep/issues/3084) | 1 |
 | [#3082 Browser extension: show existing bookmark when current URL is already saved](https://github.com/karakeep-app/karakeep/issues/3082) | 0 |
 | [#3079 Summarization silently skips text and asset bookmarks](https://github.com/karakeep-app/karakeep/issues/3079) | 0 |
-| [#3074 Android Quick Settings tile for one-tap clipboard capture](https://github.com/karakeep-app/karakeep/issues/3074) | 2 |
 | [#3058 Mobile app swallows every upload error and gets stuck on "Hoarding…" instead of showing it](https://github.com/karakeep-app/karakeep/issues/3058) | 0 |
 | [#3050 Parser subprocess OOMs on large SingleFile archives with many inline images (proposal: strip/downscale large data: images before parsing, like inline videos)](https://github.com/karakeep-app/karakeep/issues/3050) | 1 |
 | [#3049 Select existing users in the Manage Collaborators dialog](https://github.com/karakeep-app/karakeep/issues/3049) | 3 |
@@ -37,7 +36,7 @@ Most recently opened:
 | [#3029 macOS web app: title bar renders white in dark mode (missing dark theme-color)](https://github.com/karakeep-app/karakeep/issues/3029) | 0 |
 | [#3028 PDF preview fails to render: iframe sandbox blocks script execution](https://github.com/karakeep-app/karakeep/issues/3028) | 0 |
 | [#3027 Settings > User Info page crashes with "NotFoundError: Failed to execute 'removeChild'" (v0.33.2)](https://github.com/karakeep-app/karakeep/issues/3027) | 1 |
-| [#3026 [Feature Request] Enable chromium crawler browser extensions](https://github.com/karakeep-app/karakeep/issues/3026) | 1 |
+| [#3026 [Feature Request] Enable chromium crawler browser extensions](https://github.com/karakeep-app/karakeep/issues/3026) | 2 |
 | [#3018 iOS Share Extension successfully saves bookmark but leaves originating app frozen/unresponsive](https://github.com/karakeep-app/karakeep/issues/3018) | 3 |
 | [#3011 Remember Cleanups](https://github.com/karakeep-app/karakeep/issues/3011) | 0 |
 | [#2994 Custom timeouts for OpenAI and Ollama based inference don't work at the moment](https://github.com/karakeep-app/karakeep/issues/2994) | 0 |
@@ -57,4 +56,3 @@ Most recently opened:
 | [#2927 feat: Split Tag rule settings from global to specific static lists](https://github.com/karakeep-app/karakeep/issues/2927) | 0 |
 | [#2923 Bookmarks generate duplicate attachments](https://github.com/karakeep-app/karakeep/issues/2923) | 0 |
 | [#2922 The ability to change user email](https://github.com/karakeep-app/karakeep/issues/2922) | 2 |
-| [#2920 OAuth Sign-In Bypasses Mandatory Email Verification](https://github.com/karakeep-app/karakeep/issues/2920) | 0 |
